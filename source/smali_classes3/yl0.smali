@@ -72,7 +72,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLkh8;Lj7c;Ldd3;Lf7c;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;)V
+.method public synthetic constructor <init>(ZLkh8;Lj7c;Ldd3;Lf7c;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;)V
     .locals 1
 
     .line 22
@@ -185,7 +185,7 @@
     move-object v14, v3
 
     .line 39
-    check-cast v14, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 40
     .line 41

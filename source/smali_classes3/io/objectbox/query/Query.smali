@@ -343,11 +343,11 @@
     .line 28
     .line 29
     .line 30
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 31
     .line 32
-    iget-object p0, p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->whoReadEntries:Lio/objectbox/relation/ToMany;
+    iget-object p0, p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->whoReadEntries:Lio/objectbox/relation/ToMany;
 
     .line 33
     .line 34
@@ -355,11 +355,11 @@
 
     .line 35
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 36
     .line 37
-    iget-object p0, p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->members:Lio/objectbox/relation/ToMany;
+    iget-object p0, p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->members:Lio/objectbox/relation/ToMany;
 
     .line 38
     .line 39

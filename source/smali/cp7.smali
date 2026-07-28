@@ -12,11 +12,11 @@
     .locals 4
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -24,7 +24,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/App;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/App;->getPackageName()Ljava/lang/String;
 
     .line 8
     .line 9

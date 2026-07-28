@@ -559,7 +559,7 @@
     .line 6
     .line 7
     .line 8
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 9
     .line 10
@@ -719,7 +719,7 @@
 
     .line 83
     :pswitch_4
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 84
     .line 85
@@ -1164,7 +1164,7 @@
 
     .line 292
     :pswitch_12
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 293
     .line 294
@@ -1249,7 +1249,7 @@
 
     .line 12
     .line 13
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 14
     .line 15
@@ -1258,7 +1258,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 19
     .line 20
@@ -1347,11 +1347,11 @@
     move-result-object p1
 
     .line 59
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 60
     .line 61
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 62
     .line 63
@@ -1442,11 +1442,11 @@
     move-result-object p1
 
     .line 103
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 104
     .line 105
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 106
     .line 107
@@ -1537,11 +1537,11 @@
     move-result-object p1
 
     .line 147
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 148
     .line 149
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 150
     .line 151
@@ -1632,11 +1632,11 @@
     move-result-object p1
 
     .line 191
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 192
     .line 193
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 194
     .line 195
@@ -1665,7 +1665,7 @@
 
     .line 205
     .line 206
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 207
     .line 208
@@ -1674,7 +1674,7 @@
     .line 209
     .line 210
     .line 211
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->x()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->x()Z
 
     .line 212
     .line 213
@@ -2221,7 +2221,7 @@
 
     .line 468
     .line 469
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 470
     .line 471
@@ -2234,7 +2234,7 @@
 
     .line 475
     .line 476
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->f()Lio/objectbox/relation/ToOne;
 
     .line 477
     .line 478
@@ -2250,11 +2250,11 @@
     move-result-object v0
 
     .line 484
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 485
     .line 486
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 487
     .line 488
@@ -2270,7 +2270,7 @@
 
     .line 493
     .line 494
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 495
     .line 496
@@ -2318,7 +2318,7 @@
 
     .line 517
     .line 518
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
 
     .line 519
     .line 520
@@ -2334,7 +2334,7 @@
     move-result-object v2
 
     .line 526
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 527
     .line 528
@@ -2346,7 +2346,7 @@
 
     .line 530
     :goto_4
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 531
     .line 532
@@ -2358,7 +2358,7 @@
 
     .line 535
     .line 536
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 537
     .line 538
@@ -2378,7 +2378,7 @@
 
     .line 545
     .line 546
-    iget-object v3, p0, Lcom/jnetai/kikx2/storage/box/chat/Chat;->activeVideoConference:Lio/objectbox/relation/ToOne;
+    iget-object v3, p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->activeVideoConference:Lio/objectbox/relation/ToOne;
 
     .line 547
     .line 548
@@ -2394,7 +2394,7 @@
     move-result-object v1
 
     .line 554
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 555
     .line 556
@@ -2416,7 +2416,7 @@
     .line 563
     :cond_17
     :goto_5
-    invoke-direct {p1, p0, v0, v2, v1}, Lej6;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;)V
+    invoke-direct {p1, p0, v0, v2, v1}, Lej6;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;)V
 
     .line 564
     .line 565

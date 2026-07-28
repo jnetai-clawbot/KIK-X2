@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.storage.preferences.live.LiveProfileSettings"
+    const-string v2, "com.jnetai.kikx2.kikx2.storage.preferences.live.LiveProfileSettings"
 
     .line 11
     .line 12

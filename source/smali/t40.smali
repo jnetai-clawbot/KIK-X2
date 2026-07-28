@@ -77,7 +77,7 @@
     .line 17
     .line 18
     .line 19
-    sget-object p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 20
     .line 21
@@ -86,7 +86,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-static {v8}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v8}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 25
     .line 26
@@ -186,7 +186,7 @@
 
     .line 73
     .line 74
-    sget-object v13, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 75
     .line 76
@@ -232,7 +232,7 @@
 
     .line 96
     .line 97
-    sget-object v13, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 98
     .line 99
@@ -306,7 +306,7 @@
 
     .line 131
     :pswitch_6
-    sget-object p0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
 
     .line 132
     .line 133
@@ -315,7 +315,7 @@
     .line 134
     .line 135
     .line 136
-    invoke-static {v8}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-static {v8}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 137
     .line 138
@@ -336,7 +336,7 @@
 
     .line 145
     :pswitch_8
-    sget-object p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 146
     .line 147
@@ -345,7 +345,7 @@
     .line 148
     .line 149
     .line 150
-    invoke-static {v8}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v8}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 151
     .line 152
@@ -357,7 +357,7 @@
 
     .line 155
     :pswitch_9
-    new-instance v0, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 156
     .line 157
@@ -393,7 +393,7 @@
 
     .line 170
     .line 171
-    invoke-direct/range {v0 .. v12}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
+    invoke-direct/range {v0 .. v12}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
 
     .line 172
     .line 173
@@ -491,7 +491,7 @@
 
     .line 220
     .line 221
-    sget-object v13, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 222
     .line 223
@@ -540,7 +540,7 @@
 
     .line 244
     .line 245
-    sget-object v6, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 246
     .line 247
@@ -648,7 +648,7 @@
 
     .line 298
     .line 299
-    sget-object v4, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 300
     .line 301
@@ -664,7 +664,7 @@
 
     .line 306
     :pswitch_f
-    new-instance v1, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    new-instance v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 307
     .line 308
@@ -693,7 +693,7 @@
 
     .line 318
     .line 319
-    invoke-direct/range {v1 .. v10}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
+    invoke-direct/range {v1 .. v10}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
 
     .line 320
     .line 321
@@ -702,7 +702,7 @@
 
     .line 323
     :pswitch_10
-    new-instance v2, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 324
     .line 325
@@ -737,7 +737,7 @@
 
     .line 337
     .line 338
-    invoke-direct/range {v2 .. v13}, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;-><init>(JLjava/lang/String;ZLjava/util/UUID;Lmeg;ZJILzw3;)V
+    invoke-direct/range {v2 .. v13}, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;-><init>(JLjava/lang/String;ZLjava/util/UUID;Lmeg;ZJILzw3;)V
 
     .line 339
     .line 340

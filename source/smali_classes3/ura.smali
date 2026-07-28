@@ -117,7 +117,7 @@
 
     .line 15
     .line 16
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 17
     .line 18
@@ -150,7 +150,7 @@
     move-result p2
 
     .line 33
-    invoke-virtual {p0, v3, p1, p2}, Lhwf;->k(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-virtual {p0, v3, p1, p2}, Lhwf;->k(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 34
     .line 35
@@ -159,11 +159,11 @@
 
     .line 37
     :pswitch_0
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 38
     .line 39
-    check-cast v3, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 40
     .line 41
@@ -183,7 +183,7 @@
     move-result p2
 
     .line 49
-    invoke-static {p0, v3, v2, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->s(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;ILgx2;I)Lsbf;
+    invoke-static {p0, v3, v2, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->s(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;ILgx2;I)Lsbf;
 
     .line 50
     .line 51
@@ -195,7 +195,7 @@
 
     .line 54
     :pswitch_1
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 55
     .line 56
@@ -219,7 +219,7 @@
     move-result p2
 
     .line 66
-    invoke-static {p0, v3, v2, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->i(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lf91;ILgx2;I)Lsbf;
+    invoke-static {p0, v3, v2, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->i(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lf91;ILgx2;I)Lsbf;
 
     .line 67
     .line 68

@@ -232,7 +232,7 @@
 
     .line 69
     .line 70
-    sget-object v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 71
     .line 72
@@ -254,7 +254,7 @@
     .line 80
     .line 81
     .line 82
-    invoke-static {v2}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v2}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 83
     .line 84
@@ -2669,11 +2669,11 @@
 
     .line 1252
     .line 1253
-    iget-object v5, v5, Lad6;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v5, v5, Lad6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1254
     .line 1255
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1256
     .line 1257
@@ -2693,11 +2693,11 @@
 
     .line 1264
     .line 1265
-    iget-object v7, v7, Lad6;->c:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v7, v7, Lad6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1266
     .line 1267
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 1268
     .line 1269

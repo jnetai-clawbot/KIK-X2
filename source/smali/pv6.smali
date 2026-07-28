@@ -112,7 +112,7 @@
     move-result-object v0
 
     .line 36
-    check-cast v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
     .line 37
     .line 38
@@ -120,7 +120,7 @@
 
     .line 39
     .line 40
-    iget-object v2, v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->X:Ls9a;
+    iget-object v2, v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->X:Ls9a;
 
     .line 41
     .line 42
@@ -191,7 +191,7 @@
     move-result-object v1
 
     .line 73
-    iget-object v0, v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->X:Ls9a;
+    iget-object v0, v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->X:Ls9a;
 
     .line 74
     .line 75
@@ -953,7 +953,7 @@
 
     .line 443
     .line 444
-    invoke-static/range {v10 .. v22}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v10 .. v22}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 445
     .line 446

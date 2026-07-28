@@ -2402,11 +2402,11 @@
     .line 383
     .line 384
     .line 385
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 386
     .line 387
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 388
     .line 389

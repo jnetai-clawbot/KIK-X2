@@ -183,11 +183,11 @@
 
     .line 10
     .line 11
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 12
     .line 13
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 14
     .line 15

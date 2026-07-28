@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
 .field public final synthetic R0:Lkotlin/jvm/functions/Function0;
 
@@ -25,7 +25,7 @@
 
 .field public final synthetic X0:Lkotlin/jvm/functions/Function0;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Y0:Lkotlin/jvm/functions/Function0;
 
@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 1
@@ -52,7 +52,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lqf2;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p2, p0, Lqf2;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 7
     .line 8
@@ -60,7 +60,7 @@
 
     .line 9
     .line 10
-    iput-object p4, p0, Lqf2;->Q0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iput-object p4, p0, Lqf2;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 11
     .line 12
@@ -165,7 +165,7 @@
     move-object v2, v1
 
     .line 25
-    iget-object v1, v0, Lqf2;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, v0, Lqf2;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 26
     .line 27
@@ -179,7 +179,7 @@
     move-object v4, v3
 
     .line 31
-    iget-object v3, v0, Lqf2;->Q0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iget-object v3, v0, Lqf2;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 32
     .line 33
@@ -261,7 +261,7 @@
 
     .line 66
     .line 67
-    invoke-static/range {v0 .. v15}, Lgbh;->a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v0 .. v15}, Lgbh;->a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 68
     .line 69

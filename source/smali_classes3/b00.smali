@@ -5021,7 +5021,7 @@
     move-result v1
 
     .line 1784
-    invoke-static {v3, v0, v1}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->d(Lk0a;Lgx2;I)Lsbf;
+    invoke-static {v3, v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->d(Lk0a;Lgx2;I)Lsbf;
 
     .line 1785
     .line 1786

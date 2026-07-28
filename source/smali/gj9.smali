@@ -136,11 +136,11 @@
 
     .line 42
     .line 43
-    iget-object p0, p0, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 44
     .line 45
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 46
     .line 47
@@ -223,11 +223,11 @@
 
     .line 84
     .line 85
-    iget-object p0, p0, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 86
     .line 87
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 88
     .line 89

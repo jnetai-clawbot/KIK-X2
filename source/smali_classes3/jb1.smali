@@ -118,7 +118,7 @@
     .end annotation
 .end field
 
-.field private final r:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field private final r:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .annotation runtime Lt8d;
         value = "userDetails"
     .end annotation
@@ -142,7 +142,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
 
     .line 2
     .line 3
@@ -572,11 +572,11 @@
 
     .line 160
     :cond_12
-    iget-object v1, p0, Ljb1;->r:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Ljb1;->r:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 161
     .line 162
-    iget-object v3, p1, Ljb1;->r:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v3, p1, Ljb1;->r:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 163
     .line 164
@@ -1103,7 +1103,7 @@
     mul-int/2addr v0, v1
 
     .line 169
-    iget-object v2, p0, Ljb1;->r:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v2, p0, Ljb1;->r:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 170
     .line 171
@@ -1115,7 +1115,7 @@
 
     .line 174
     :cond_f
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
 
     .line 175
     .line 176
@@ -1336,7 +1336,7 @@
 
     .line 42
     .line 43
-    iget-object v15, v0, Ljb1;->r:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v15, v0, Ljb1;->r:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 44
     .line 45

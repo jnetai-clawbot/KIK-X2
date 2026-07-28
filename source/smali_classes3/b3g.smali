@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 0
 
     .line 1

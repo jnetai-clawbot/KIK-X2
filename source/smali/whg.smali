@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.apis.externalmedia.youtube.models.YouTubeVideo.Localization"
+    const-string v2, "com.jnetai.kikx2.kikx2.apis.externalmedia.youtube.models.YouTubeVideo.Localization"
 
     .line 11
     .line 12

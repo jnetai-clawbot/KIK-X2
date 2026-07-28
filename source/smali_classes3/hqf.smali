@@ -527,7 +527,7 @@
             "Lea3<",
             "-",
             "Lkotlin/Result<",
-            "Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;",
             ">;>;)",
             "Ljava/lang/Object;"
         }

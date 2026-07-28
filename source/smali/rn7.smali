@@ -259,11 +259,11 @@
 
     .line 65
     .line 66
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 67
     .line 68
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
 
     .line 69
     .line 70
@@ -403,11 +403,11 @@
 
     .line 138
     .line 139
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 140
     .line 141
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -1006,7 +1006,7 @@
 
     .line 52
     .line 53
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 54
     .line 55
@@ -1588,7 +1588,7 @@
 
     .line 329
     .line 330
-    new-instance v8, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    new-instance v8, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 331
     .line 332
@@ -1653,7 +1653,7 @@
 
     .line 362
     .line 363
-    invoke-direct/range {v8 .. v27}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
+    invoke-direct/range {v8 .. v27}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
 
     .line 364
     .line 365
@@ -1723,7 +1723,7 @@
 
     .line 397
     .line 398
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 399
     .line 400
@@ -1745,7 +1745,7 @@
     .line 408
     .line 409
     .line 410
-    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 411
     .line 412
@@ -1803,7 +1803,7 @@
 
     .line 437
     .line 438
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 439
     .line 440
@@ -1825,7 +1825,7 @@
     .line 448
     .line 449
     .line 450
-    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 451
     .line 452
@@ -2037,7 +2037,7 @@
 
     .line 553
     .line 554
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 555
     .line 556
@@ -2051,7 +2051,7 @@
     .line 560
     .line 561
     .line 562
-    invoke-static {v4}, Lut7;->b(Lyt4;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v4}, Lut7;->b(Lyt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 563
     .line 564
@@ -2109,7 +2109,7 @@
 
     .line 589
     .line 590
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 591
     .line 592
@@ -2131,7 +2131,7 @@
     .line 600
     .line 601
     .line 602
-    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 603
     .line 604
@@ -2189,7 +2189,7 @@
 
     .line 629
     .line 630
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 631
     .line 632
@@ -2211,7 +2211,7 @@
     .line 640
     .line 641
     .line 642
-    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v4}, Lut7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 643
     .line 644

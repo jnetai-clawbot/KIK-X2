@@ -73,11 +73,11 @@
 
     .line 17
     .line 18
-    iget-object p0, p0, Lv36;->b:Lcom/jnetai/kikx2/App;
+    iget-object p0, p0, Lv36;->b:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Lpy4;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, p0}, Lpy4;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 21
     .line 22

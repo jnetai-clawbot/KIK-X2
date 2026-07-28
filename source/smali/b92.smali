@@ -235,7 +235,7 @@
 
     .line 97
     :pswitch_7
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 98
     .line 99
@@ -349,7 +349,7 @@
 
     .line 154
     :pswitch_c
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 155
     .line 156
@@ -1080,7 +1080,7 @@
 
     .line 511
     :pswitch_1b
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 512
     .line 513

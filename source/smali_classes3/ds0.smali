@@ -1105,7 +1105,7 @@
     move-object v10, v7
 
     .line 496
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 497
     .line 498
@@ -1160,7 +1160,7 @@
 
     .line 522
     .line 523
-    invoke-static/range {v10 .. v15}, Lb1i;->a(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
+    invoke-static/range {v10 .. v15}, Lb1i;->a(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
 
     .line 524
     .line 525

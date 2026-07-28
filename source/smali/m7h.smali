@@ -1457,11 +1457,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatusCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatusCursor;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatusCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatusCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 9
     .line 10
@@ -1470,11 +1470,11 @@
 
     .line 12
     :sswitch_0
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModelCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModelCursor;
 
     .line 13
     .line 14
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModelCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModelCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 15
     .line 16
@@ -1483,11 +1483,11 @@
 
     .line 18
     :sswitch_1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfoCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfoCursor;
 
     .line 19
     .line 20
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfoCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfoCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 21
     .line 22
@@ -2454,11 +2454,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->a()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->a()J
 
     .line 4
     .line 5

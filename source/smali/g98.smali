@@ -38,7 +38,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/apis/tenor/GifApi;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;)V
     .locals 1
 
     const/4 v0, 0x2
@@ -2864,7 +2864,7 @@
     .line 1009
     .line 1010
     .line 1011
-    check-cast v10, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 1012
     .line 1013
@@ -2888,7 +2888,7 @@
 
     .line 1022
     .line 1023
-    invoke-interface {v10, v1, v11, v3}, Lcom/jnetai/kikx2/apis/tenor/GifApi;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {v10, v1, v11, v3}, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 1024
     .line 1025

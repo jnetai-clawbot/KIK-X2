@@ -778,7 +778,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {v1, v6}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {v1, v6}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 89
     .line 90
@@ -812,7 +812,7 @@
     .line 103
     :cond_6
     :goto_4
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 104
     .line 105
@@ -972,7 +972,7 @@
     return-void
 .end method
 
-.method public final v(Lu38;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lj7;)V
+.method public final v(Lu38;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lj7;)V
     .locals 2
 
     .line 1

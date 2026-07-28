@@ -11,13 +11,13 @@
 
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic Z:Lszd;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
     .locals 0
 
     .line 1
@@ -25,7 +25,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lu2b;->Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p1, p0, Lu2b;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 4
     .line 5
@@ -67,7 +67,7 @@
 
     .line 8
     .line 9
-    iget-object p0, p0, Lu2b;->Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object p0, p0, Lu2b;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 10
     .line 11
@@ -101,7 +101,7 @@
     move-result p2
 
     .line 27
-    invoke-static {p0, v3, p1, p2}, Laxh;->e(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
+    invoke-static {p0, v3, p1, p2}, Laxh;->e(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
 
     .line 28
     .line 29
@@ -122,7 +122,7 @@
     move-result p2
 
     .line 37
-    invoke-static {p0, v3, p1, p2}, Laxh;->e(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
+    invoke-static {p0, v3, p1, p2}, Laxh;->e(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
 
     .line 38
     .line 39

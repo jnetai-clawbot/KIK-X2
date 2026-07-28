@@ -562,7 +562,7 @@
 
     .line 242
     :pswitch_3
-    check-cast v0, Lcom/jnetai/kikx2/ui/videochat/model/E2EEState;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/E2EEState;
 
     .line 243
     .line 244
@@ -586,7 +586,7 @@
     move-result v1
 
     .line 254
-    invoke-static {v0, v2, v1}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->f(Lcom/jnetai/kikx2/ui/videochat/model/E2EEState;Lgx2;I)Lsbf;
+    invoke-static {v0, v2, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->f(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/E2EEState;Lgx2;I)Lsbf;
 
     .line 255
     .line 256
@@ -910,7 +910,7 @@
 
     .line 408
     .line 409
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 410
     .line 411

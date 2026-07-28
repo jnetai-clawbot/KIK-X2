@@ -291,7 +291,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v3, v5, v6}, Lfd2;->m(J)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v3, v5, v6}, Lfd2;->m(J)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 76
     .line 77
@@ -307,7 +307,7 @@
 
     .line 82
     :cond_1
-    invoke-virtual {v3, v4}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->u(I)V
+    invoke-virtual {v3, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->u(I)V
 
     .line 83
     .line 84
@@ -460,7 +460,7 @@
 
     .line 155
     .line 156
-    invoke-virtual {v3, v5, v6}, Lfd2;->m(J)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v3, v5, v6}, Lfd2;->m(J)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 157
     .line 158
@@ -476,7 +476,7 @@
 
     .line 163
     :cond_4
-    invoke-virtual {v3, v4}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->q(Z)V
+    invoke-virtual {v3, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->q(Z)V
 
     .line 164
     .line 165

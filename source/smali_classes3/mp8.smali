@@ -543,7 +543,7 @@
 
     .line 231
     .line 232
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 233
     .line 234
@@ -599,7 +599,7 @@
 
     .line 259
     .line 260
-    iget-object v0, v1, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v0, v1, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 261
     .line 262
@@ -621,7 +621,7 @@
     .line 270
     .line 271
     .line 272
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 273
     .line 274
@@ -637,7 +637,7 @@
     move-result-object v17
 
     .line 280
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 281
     .line 282
@@ -716,7 +716,7 @@
 
     .line 318
     .line 319
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 320
     .line 321
@@ -817,7 +817,7 @@
     move-result-object v2
 
     .line 371
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 372
     .line 373
@@ -829,7 +829,7 @@
     move-result-object v5
 
     .line 377
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 378
     .line 379
@@ -837,7 +837,7 @@
 
     .line 380
     .line 381
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 382
     .line 383
@@ -870,7 +870,7 @@
     move-result-object v5
 
     .line 396
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 397
     .line 398
@@ -878,7 +878,7 @@
 
     .line 399
     .line 400
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 401
     .line 402
@@ -916,11 +916,11 @@
     move-result-object v13
 
     .line 416
-    iget-object v1, v1, Lbb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v1, v1, Lbb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 417
     .line 418
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 419
     .line 420
@@ -948,7 +948,7 @@
     move-result-object v1
 
     .line 432
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 433
     .line 434
@@ -956,7 +956,7 @@
 
     .line 435
     .line 436
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 437
     .line 438
@@ -998,7 +998,7 @@
     move-result-object v0
 
     .line 454
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 455
     .line 456
@@ -1006,7 +1006,7 @@
 
     .line 457
     .line 458
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 459
     .line 460
@@ -1027,7 +1027,7 @@
 
     .line 467
     .line 468
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 469
     .line 470
@@ -1070,7 +1070,7 @@
 
     .line 488
     .line 489
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 490
     .line 491
@@ -1134,7 +1134,7 @@
     move-result-object v19
 
     .line 522
-    check-cast v19, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v19, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 523
     .line 524
@@ -1146,7 +1146,7 @@
     move-result-object v20
 
     .line 528
-    check-cast v20, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v20, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 529
     .line 530
@@ -1154,7 +1154,7 @@
 
     .line 531
     .line 532
-    invoke-virtual/range {v20 .. v20}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual/range {v20 .. v20}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 533
     .line 534
@@ -1199,7 +1199,7 @@
     move-result-object v6
 
     .line 552
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 553
     .line 554
@@ -1207,7 +1207,7 @@
 
     .line 555
     .line 556
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 557
     .line 558
@@ -1245,7 +1245,7 @@
     move-result-object v6
 
     .line 572
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 573
     .line 574
@@ -1253,7 +1253,7 @@
 
     .line 575
     .line 576
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 577
     .line 578
@@ -1281,7 +1281,7 @@
     move-result-object v6
 
     .line 589
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 590
     .line 591
@@ -1289,7 +1289,7 @@
 
     .line 592
     .line 593
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
 
     .line 594
     .line 595
@@ -1317,7 +1317,7 @@
     move-result-object v6
 
     .line 606
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 607
     .line 608
@@ -1325,7 +1325,7 @@
 
     .line 609
     .line 610
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->s()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->s()Z
 
     .line 611
     .line 612
@@ -1353,7 +1353,7 @@
     move-result-object v6
 
     .line 623
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 624
     .line 625
@@ -1361,7 +1361,7 @@
 
     .line 626
     .line 627
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
 
     .line 628
     .line 629
@@ -1398,7 +1398,7 @@
     move-result-object v6
 
     .line 644
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 645
     .line 646
@@ -1406,7 +1406,7 @@
 
     .line 647
     .line 648
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
 
     .line 649
     .line 650
@@ -1450,11 +1450,11 @@
 
     .line 668
     :cond_17
-    iget-object v0, v1, Leb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v0, v1, Leb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 669
     .line 670
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 671
     .line 672
@@ -1474,7 +1474,7 @@
     move-result-object v0
 
     .line 679
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 680
     .line 681
@@ -1482,7 +1482,7 @@
 
     .line 682
     .line 683
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
 
     .line 684
     .line 685
@@ -1510,7 +1510,7 @@
     move-result-object v0
 
     .line 696
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 697
     .line 698
@@ -1518,7 +1518,7 @@
 
     .line 699
     .line 700
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
 
     .line 701
     .line 702
@@ -1555,7 +1555,7 @@
     move-result-object v1
 
     .line 717
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 718
     .line 719
@@ -1563,7 +1563,7 @@
 
     .line 720
     .line 721
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->p()Z
 
     .line 722
     .line 723
@@ -1604,7 +1604,7 @@
     move-result-object v1
 
     .line 740
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 741
     .line 742
@@ -1612,7 +1612,7 @@
 
     .line 743
     .line 744
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 745
     .line 746
@@ -1654,7 +1654,7 @@
     move-result-object v1
 
     .line 762
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 763
     .line 764
@@ -1662,7 +1662,7 @@
 
     .line 765
     .line 766
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 767
     .line 768
@@ -1724,7 +1724,7 @@
     move-result-object v1
 
     .line 794
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 795
     .line 796
@@ -1732,7 +1732,7 @@
 
     .line 797
     .line 798
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
 
     .line 799
     .line 800
@@ -1769,7 +1769,7 @@
     move-result-object v2
 
     .line 814
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 815
     .line 816
@@ -1777,7 +1777,7 @@
 
     .line 817
     .line 818
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
 
     .line 819
     .line 820
@@ -1946,7 +1946,7 @@
 
     .line 902
     .line 903
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 904
     .line 905
@@ -1981,7 +1981,7 @@
 
     .line 919
     .line 920
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 921
     .line 922
@@ -2036,7 +2036,7 @@
 
     .line 951
     .line 952
-    iget-object v0, v1, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v0, v1, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 953
     .line 954
@@ -2068,7 +2068,7 @@
     move-result-object v23
 
     .line 968
-    check-cast v23, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v23, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 969
     .line 970
@@ -2080,7 +2080,7 @@
     move-result-object v24
 
     .line 974
-    check-cast v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 975
     .line 976
@@ -2088,7 +2088,7 @@
 
     .line 977
     .line 978
-    invoke-virtual/range {v24 .. v24}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual/range {v24 .. v24}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 979
     .line 980
@@ -2125,7 +2125,7 @@
     move-result-object v6
 
     .line 995
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 996
     .line 997
@@ -2133,7 +2133,7 @@
 
     .line 998
     .line 999
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 1000
     .line 1001
@@ -2167,7 +2167,7 @@
     move-result-object v8
 
     .line 1014
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1015
     .line 1016
@@ -2175,7 +2175,7 @@
 
     .line 1017
     .line 1018
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 1019
     .line 1020
@@ -2203,7 +2203,7 @@
     move-result-object v8
 
     .line 1031
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1032
     .line 1033
@@ -2211,7 +2211,7 @@
 
     .line 1034
     .line 1035
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
 
     .line 1036
     .line 1037
@@ -2387,7 +2387,7 @@
     .line 1121
     .line 1122
     :goto_1f
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
 
     .line 1123
     .line 1124
@@ -2514,7 +2514,7 @@
     move-result-object v8
 
     .line 1184
-    invoke-virtual/range {v26 .. v26}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
+    invoke-virtual/range {v26 .. v26}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
 
     .line 1185
     .line 1186
@@ -2634,7 +2634,7 @@
     move-result-object v0
 
     .line 1243
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1244
     .line 1245
@@ -2642,7 +2642,7 @@
 
     .line 1246
     .line 1247
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
 
     .line 1248
     .line 1249
@@ -2683,7 +2683,7 @@
     move-result-object v1
 
     .line 1266
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1267
     .line 1268
@@ -2691,7 +2691,7 @@
 
     .line 1269
     .line 1270
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 1271
     .line 1272
@@ -2725,7 +2725,7 @@
     move-result-object v8
 
     .line 1285
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1286
     .line 1287
@@ -2733,7 +2733,7 @@
 
     .line 1288
     .line 1289
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 1290
     .line 1291
@@ -2825,7 +2825,7 @@
     move-result-object v7
 
     .line 1331
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1332
     .line 1333
@@ -2833,7 +2833,7 @@
 
     .line 1334
     .line 1335
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
 
     .line 1336
     .line 1337
@@ -2874,7 +2874,7 @@
     move-result-object v7
 
     .line 1353
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1354
     .line 1355
@@ -2882,7 +2882,7 @@
 
     .line 1356
     .line 1357
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->i()Ljava/lang/String;
 
     .line 1358
     .line 1359
@@ -3107,7 +3107,7 @@
     move-result-object v5
 
     .line 1463
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1464
     .line 1465
@@ -3115,7 +3115,7 @@
 
     .line 1466
     .line 1467
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 1468
     .line 1469
@@ -3231,7 +3231,7 @@
     .line 1522
     .line 1523
     :goto_2b
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 1524
     .line 1525
@@ -3281,7 +3281,7 @@
 
     .line 1546
     .line 1547
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 1548
     .line 1549
@@ -3351,7 +3351,7 @@
     move-object v11, v2
 
     .line 1581
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1582
     .line 1583
@@ -3363,7 +3363,7 @@
     move-result-object v2
 
     .line 1587
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1588
     .line 1589
@@ -3371,7 +3371,7 @@
 
     .line 1590
     .line 1591
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 1592
     .line 1593
@@ -3404,7 +3404,7 @@
     move-result-object v4
 
     .line 1606
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1607
     .line 1608
@@ -3412,7 +3412,7 @@
 
     .line 1609
     .line 1610
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 1611
     .line 1612
@@ -3453,7 +3453,7 @@
     move-result-object v4
 
     .line 1627
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1628
     .line 1629
@@ -3461,7 +3461,7 @@
 
     .line 1630
     .line 1631
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
 
     .line 1632
     .line 1633
@@ -3496,7 +3496,7 @@
     move-result-object v4
 
     .line 1646
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1647
     .line 1648
@@ -3504,7 +3504,7 @@
 
     .line 1649
     .line 1650
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 1651
     .line 1652
@@ -3537,11 +3537,11 @@
     move-result-object v13
 
     .line 1665
-    iget-object v1, v1, Lfb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v1, v1, Lfb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 1666
     .line 1667
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 1668
     .line 1669
@@ -3569,7 +3569,7 @@
     move-result-object v1
 
     .line 1681
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1682
     .line 1683
@@ -3577,7 +3577,7 @@
 
     .line 1684
     .line 1685
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 1686
     .line 1687
@@ -3619,7 +3619,7 @@
     move-result-object v0
 
     .line 1703
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1704
     .line 1705
@@ -3627,7 +3627,7 @@
 
     .line 1706
     .line 1707
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 1708
     .line 1709
@@ -3648,7 +3648,7 @@
 
     .line 1716
     .line 1717
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 1718
     .line 1719
@@ -3684,7 +3684,7 @@
 
     .line 1734
     .line 1735
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 1736
     .line 1737
@@ -3747,7 +3747,7 @@
     move-object v11, v2
 
     .line 1767
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1768
     .line 1769
@@ -3759,7 +3759,7 @@
     move-result-object v2
 
     .line 1773
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1774
     .line 1775
@@ -3767,7 +3767,7 @@
 
     .line 1776
     .line 1777
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 1778
     .line 1779
@@ -3800,7 +3800,7 @@
     move-result-object v4
 
     .line 1792
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1793
     .line 1794
@@ -3808,7 +3808,7 @@
 
     .line 1795
     .line 1796
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->k()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->k()Ljava/lang/String;
 
     .line 1797
     .line 1798
@@ -3849,7 +3849,7 @@
     move-result-object v4
 
     .line 1813
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1814
     .line 1815
@@ -3857,7 +3857,7 @@
 
     .line 1816
     .line 1817
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
 
     .line 1818
     .line 1819
@@ -3892,7 +3892,7 @@
     move-result-object v4
 
     .line 1832
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1833
     .line 1834
@@ -3900,7 +3900,7 @@
 
     .line 1835
     .line 1836
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 1837
     .line 1838
@@ -3933,11 +3933,11 @@
     move-result-object v13
 
     .line 1851
-    iget-object v1, v1, Lhb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v1, v1, Lhb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 1852
     .line 1853
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 1854
     .line 1855
@@ -3965,7 +3965,7 @@
     move-result-object v1
 
     .line 1867
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1868
     .line 1869
@@ -3973,7 +3973,7 @@
 
     .line 1870
     .line 1871
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 1872
     .line 1873
@@ -4015,7 +4015,7 @@
     move-result-object v0
 
     .line 1889
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1890
     .line 1891
@@ -4023,7 +4023,7 @@
 
     .line 1892
     .line 1893
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 1894
     .line 1895
@@ -4044,7 +4044,7 @@
 
     .line 1902
     .line 1903
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 1904
     .line 1905
@@ -4080,7 +4080,7 @@
 
     .line 1920
     .line 1921
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 1922
     .line 1923
@@ -4143,7 +4143,7 @@
     move-object v11, v2
 
     .line 1953
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1954
     .line 1955
@@ -4155,7 +4155,7 @@
     move-result-object v2
 
     .line 1959
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1960
     .line 1961
@@ -4163,7 +4163,7 @@
 
     .line 1962
     .line 1963
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 1964
     .line 1965
@@ -4188,11 +4188,11 @@
     move-result-object v2
 
     .line 1974
-    iget-object v1, v1, Lgb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v1, v1, Lgb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 1975
     .line 1976
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 1977
     .line 1978
@@ -4220,7 +4220,7 @@
     move-result-object v1
 
     .line 1990
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 1991
     .line 1992
@@ -4228,7 +4228,7 @@
 
     .line 1993
     .line 1994
-    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v1}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 1995
     .line 1996
@@ -4270,7 +4270,7 @@
     move-result-object v0
 
     .line 2012
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 2013
     .line 2014
@@ -4278,7 +4278,7 @@
 
     .line 2015
     .line 2016
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->o()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->o()I
 
     .line 2017
     .line 2018
@@ -4299,7 +4299,7 @@
 
     .line 2025
     .line 2026
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 2027
     .line 2028
@@ -4341,7 +4341,7 @@
 
     .line 2045
     .line 2046
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 2047
     .line 2048
@@ -4404,7 +4404,7 @@
     move-object v11, v2
 
     .line 2078
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 2079
     .line 2080
@@ -4416,7 +4416,7 @@
     move-result-object v2
 
     .line 2084
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 2085
     .line 2086
@@ -4424,7 +4424,7 @@
 
     .line 2087
     .line 2088
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->m()Lum8;
 
     .line 2089
     .line 2090
@@ -4457,7 +4457,7 @@
     move-result-object v4
 
     .line 2103
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 2104
     .line 2105
@@ -4465,7 +4465,7 @@
 
     .line 2106
     .line 2107
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 2108
     .line 2109
@@ -4510,11 +4510,11 @@
     move-result-object v13
 
     .line 2126
-    iget-object v1, v1, Lcb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v1, v1, Lcb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 2127
     .line 2128
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 2129
     .line 2130
@@ -4542,7 +4542,7 @@
     move-result-object v0
 
     .line 2142
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 2143
     .line 2144
@@ -4550,7 +4550,7 @@
 
     .line 2145
     .line 2146
-    invoke-static {v0}, Lnp8;->f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+    invoke-static {v0}, Lnp8;->f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
 
     .line 2147
     .line 2148
@@ -4663,7 +4663,7 @@
     move-result-object v21
 
     .line 2201
-    sget v24, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
+    sget v24, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->$stable:I
 
     .line 2202
     .line 2203
@@ -4703,7 +4703,7 @@
 
     .line 2220
     .line 2221
-    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v11 .. v26}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 2222
     .line 2223

@@ -9180,7 +9180,7 @@
     move-result-object p1
 
     .line 87
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 88
     .line 89
@@ -9225,7 +9225,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 112
     .line 113
@@ -9247,11 +9247,11 @@
     .line 121
     .line 122
     .line 123
-    sget v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 124
     .line 125
-    invoke-virtual {v3, p1, v10, v1}, Lhwf;->k(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-virtual {v3, p1, v10, v1}, Lhwf;->k(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 126
     .line 127
@@ -9321,7 +9321,7 @@
 
     .line 159
     .line 160
-    invoke-direct {v5, v3, p1, v12}, Lsvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {v5, v3, p1, v12}, Lsvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 161
     .line 162
@@ -9409,7 +9409,7 @@
 
     .line 203
     .line 204
-    invoke-direct {v2, p1, v7}, Lsn7;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {v2, p1, v7}, Lsn7;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 205
     .line 206
@@ -9505,7 +9505,7 @@
 
     .line 250
     .line 251
-    invoke-direct {v2, v3, p1, v12}, Ltvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {v2, v3, p1, v12}, Ltvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 252
     .line 253
@@ -9523,7 +9523,7 @@
 
     .line 259
     .line 260
-    sget v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 261
     .line 262
@@ -9534,7 +9534,7 @@
     move-object v4, p1
 
     .line 265
-    invoke-virtual/range {v3 .. v11}, Lhwf;->h(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
+    invoke-virtual/range {v3 .. v11}, Lhwf;->h(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
 
     .line 266
     .line 267
@@ -14926,7 +14926,7 @@
 
     .line 2546
     .line 2547
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2548
     .line 2549
@@ -14938,7 +14938,7 @@
 
     .line 2552
     .line 2553
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2554
     .line 2555
@@ -15104,7 +15104,7 @@
     const/4 v8, 0x0
 
     .line 2631
-    invoke-direct {v2, v4, v10, v6, v8}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v4, v10, v6, v8}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2632
     .line 2633
@@ -15222,7 +15222,7 @@
     const/4 v0, 0x1
 
     .line 2689
-    invoke-direct {v2, v4, v10, v6, v0}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v4, v10, v6, v0}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2690
     .line 2691
@@ -15340,7 +15340,7 @@
     const/4 v0, 0x2
 
     .line 2747
-    invoke-direct {v2, v15, v10, v6, v0}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v15, v10, v6, v0}, Lf05;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2748
     .line 2749
@@ -15404,7 +15404,7 @@
     .line 2778
     .line 2779
     .line 2780
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 2781
     .line 2782
@@ -15424,7 +15424,7 @@
 
     .line 2789
     .line 2790
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->n()Lfob;
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->n()Lfob;
 
     .line 2791
     .line 2792
@@ -15500,7 +15500,7 @@
     const/4 v0, 0x3
 
     .line 2827
-    invoke-direct {v2, v10, v14, v6, v0}, Lf05;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v10, v14, v6, v0}, Lf05;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2828
     .line 2829
@@ -15618,7 +15618,7 @@
     const/4 v3, 0x4
 
     .line 2885
-    invoke-direct {v2, v10, v14, v6, v3}, Lf05;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v10, v14, v6, v3}, Lf05;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2886
     .line 2887
@@ -15736,7 +15736,7 @@
     const/4 v8, 0x5
 
     .line 2943
-    invoke-direct {v2, v10, v14, v6, v8}, Lf05;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v10, v14, v6, v8}, Lf05;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
 
     .line 2944
     .line 2945
@@ -15874,7 +15874,7 @@
     const/4 v8, 0x0
 
     .line 3011
-    invoke-direct {v2, v10, v6, v8}, Lg05;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v2, v10, v6, v8}, Lg05;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 3012
     .line 3013

@@ -241,7 +241,7 @@
 
     .line 15
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 16
     .line 17

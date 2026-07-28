@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lx18;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+.method public static final a(Lx18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
     .locals 18
 
     .line 1
@@ -383,7 +383,7 @@
 
     .line 164
     .line 165
-    invoke-direct {v10, v2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v10, v2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 166
     .line 167
@@ -542,11 +542,11 @@
 
     .line 235
     .line 236
-    check-cast v17, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v17, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 237
     .line 238
-    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 239
     .line 240
@@ -554,7 +554,7 @@
     move-result-object v14
 
     .line 242
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 243
     .line 244
@@ -723,7 +723,7 @@
 
     .line 315
     .line 316
-    invoke-direct/range {v0 .. v7}, Lv40;-><init>(Lx18;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;I)V
+    invoke-direct/range {v0 .. v7}, Lv40;-><init>(Lx18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;I)V
 
     .line 317
     .line 318
@@ -736,7 +736,7 @@
     return-void
 .end method
 
-.method public static final b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+.method public static final b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
     .locals 16
 
     .line 1
@@ -1074,7 +1074,7 @@
 
     .line 146
     .line 147
-    invoke-direct {v5, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v5, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 148
     .line 149
@@ -1175,7 +1175,7 @@
 
     .line 190
     .line 191
-    invoke-static/range {p0 .. p1}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static/range {p0 .. p1}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 192
     .line 193
@@ -1728,11 +1728,11 @@
     move-result-object v2
 
     .line 168
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 169
     .line 170
-    invoke-static {v2, v12}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {v2, v12}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 171
     .line 172

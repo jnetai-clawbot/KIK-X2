@@ -25,13 +25,13 @@
 
 .field public final i:Lboe;
 
-.field public final j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final k:Lnoc;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
+.method public synthetic constructor <init>(Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
     .locals 12
 
     const/4 v5, 0x0
@@ -60,12 +60,12 @@
     move-object/from16 v11, p5
 
     .line 37
-    invoke-direct/range {v0 .. v11}, Looc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
+    invoke-direct/range {v0 .. v11}, Looc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
+.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
     .locals 0
 
     .line 1
@@ -125,7 +125,7 @@
 
     .line 30
     .line 31
-    iput-object p10, p0, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p10, p0, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 32
     .line 33
@@ -335,7 +335,7 @@
     .line 82
     .line 83
     :goto_6
-    iget-object v10, p0, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v10, p0, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 84
     .line 85
@@ -382,7 +382,7 @@
 
     .line 109
     .line 110
-    invoke-direct/range {v0 .. v11}, Looc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
+    invoke-direct/range {v0 .. v11}, Looc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZLio/agora/rtc2/Constants$VideoStreamType;Lgue;Lboe;Lboe;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnoc;)V
 
     .line 111
     .line 112
@@ -628,11 +628,11 @@
 
     .line 96
     :cond_a
-    iget-object v0, p0, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v0, p0, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 97
     .line 98
-    iget-object v1, p1, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p1, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 99
     .line 100
@@ -904,11 +904,11 @@
 
     .line 96
     .line 97
-    iget-object v0, p0, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v0, p0, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 98
     .line 99
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->hashCode()I
 
     .line 100
     .line 101
@@ -1105,7 +1105,7 @@
     .line 87
     .line 88
     .line 89
-    iget-object v1, p0, Looc;->j:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Looc;->j:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 90
     .line 91

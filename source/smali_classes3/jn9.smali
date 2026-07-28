@@ -279,7 +279,7 @@
 
     .line 55
     .line 56
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 57
     .line 58
@@ -342,7 +342,7 @@
 
     .line 84
     .line 85
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 86
     .line 87
@@ -391,7 +391,7 @@
 
     .line 107
     .line 108
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 109
     .line 110
@@ -1066,7 +1066,7 @@
     move-result-object v5
 
     .line 416
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 417
     .line 418
@@ -1171,7 +1171,7 @@
 
     .line 464
     .line 465
-    invoke-virtual {v5, v0, v13, v15}, Lxla;->d(Lga3;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v5, v0, v13, v15}, Lxla;->d(Lga3;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 466
     .line 467

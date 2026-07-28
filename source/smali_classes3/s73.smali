@@ -132,7 +132,7 @@
 
     .line 34
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 35
     .line 36
@@ -306,7 +306,7 @@
 
     .line 28
     .line 29
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 30
     .line 31

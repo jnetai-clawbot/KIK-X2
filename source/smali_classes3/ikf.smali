@@ -397,11 +397,11 @@
 
     .line 158
     .line 159
-    iget-object v0, p2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, p2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 160
     .line 161
-    invoke-static {v0, p1}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {v0, p1}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 162
     .line 163
@@ -423,7 +423,7 @@
     .line 171
     .line 172
     .line 173
-    iget-object p1, p2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p1, p2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 174
     .line 175
@@ -493,7 +493,7 @@
 
     .line 206
     .line 207
-    sget v9, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v9, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 208
     .line 209
@@ -517,7 +517,7 @@
     move-object v6, v1
 
     .line 217
-    invoke-static/range {v3 .. v9}, Leuh;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v3 .. v9}, Leuh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 218
     .line 219

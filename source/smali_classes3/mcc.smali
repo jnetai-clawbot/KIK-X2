@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field public final b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)V
     .locals 0
 
     .line 1
@@ -20,7 +20,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lmcc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, p0, Lmcc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 5
     .line 6
@@ -29,11 +29,11 @@
 
 
 # virtual methods
-.method public final b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.method public final b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lmcc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lmcc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2
     .line 3

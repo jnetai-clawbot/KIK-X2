@@ -582,11 +582,11 @@
     .line 215
     .line 216
     :try_start_1
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 217
     .line 218
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 219
     .line 220
@@ -594,7 +594,7 @@
     move-result-object v5
 
     .line 222
-    invoke-virtual {v2, v5}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-virtual {v2, v5}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 223
     .line 224
@@ -602,7 +602,7 @@
     move-result-object v5
 
     .line 226
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->g()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->g()Z
 
     .line 227
     .line 228
@@ -634,7 +634,7 @@
     move-result-object v0
 
     .line 242
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 243
     .line 244
@@ -643,7 +643,7 @@
     .line 245
     .line 246
     .line 247
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 248
     .line 249
@@ -651,7 +651,7 @@
     move-result-object v7
 
     .line 251
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 252
     .line 253
@@ -668,7 +668,7 @@
 
     .line 259
     .line 260
-    invoke-direct {v1, v0, v5}, Lkp5;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-direct {v1, v0, v5}, Lkp5;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 261
     .line 262
@@ -732,7 +732,7 @@
     .line 286
     .line 287
     .line 288
-    sget-object v0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 289
     .line 290
@@ -741,7 +741,7 @@
     .line 291
     .line 292
     .line 293
-    invoke-static {v1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {v1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 294
     .line 295
@@ -753,7 +753,7 @@
 
     .line 298
     .line 299
-    iget-object v7, v0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Y:Ljava/lang/Object;
+    iget-object v7, v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Y:Ljava/lang/Object;
 
     .line 300
     .line 301

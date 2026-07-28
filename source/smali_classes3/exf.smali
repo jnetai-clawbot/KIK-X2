@@ -9,7 +9,7 @@
 # instance fields
 .field public final synthetic Q0:Loxf;
 
-.field public final synthetic R0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic R0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic X:I
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;I)V
+.method public synthetic constructor <init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;I)V
     .locals 0
 
     .line 1
@@ -31,7 +31,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lexf;->R0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lexf;->R0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 6
     .line 7
@@ -56,7 +56,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lexf;->R0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v1, p0, Lexf;->R0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 4
     .line 5
@@ -76,7 +76,7 @@
     const/4 v2, 0x1
 
     .line 13
-    invoke-direct {v0, p0, v1, p2, v2}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;I)V
+    invoke-direct {v0, p0, v1, p2, v2}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;I)V
 
     .line 14
     .line 15
@@ -96,7 +96,7 @@
     const/4 v0, 0x0
 
     .line 22
-    invoke-direct {p1, p0, v1, p2, v0}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;I)V
+    invoke-direct {p1, p0, v1, p2, v0}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;I)V
 
     .line 23
     .line 24
@@ -221,7 +221,7 @@
     const/4 v5, 0x1
 
     .line 12
-    iget-object v6, p0, Lexf;->R0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v6, p0, Lexf;->R0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 13
     .line 14
@@ -322,7 +322,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 63
     .line 64
@@ -566,7 +566,7 @@
 
     .line 178
     .line 179
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 180
     .line 181
@@ -614,7 +614,7 @@
 
     .line 200
     .line 201
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 202
     .line 203

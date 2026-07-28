@@ -1859,7 +1859,7 @@
 
     .line 2
     .line 3
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 4
     .line 5
@@ -1875,7 +1875,7 @@
 
     .line 10
     .line 11
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 12
     .line 13
@@ -2013,7 +2013,7 @@
     .line 70
     .line 71
     :try_start_2
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->c()Lyza;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->c()Lyza;
 
     .line 72
     .line 73
@@ -2062,7 +2062,7 @@
 
     .line 95
     .line 96
-    invoke-static {v1, v0, v2, p1, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p1, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
 
     .line 97
     .line 98
@@ -2083,7 +2083,7 @@
 
     .line 104
     .line 105
-    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
 
     .line 106
     .line 107
@@ -2128,7 +2128,7 @@
 
     .line 125
     .line 126
-    invoke-static {v1, v0, v2, p1, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p1, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
 
     .line 127
     .line 128
@@ -2149,7 +2149,7 @@
 
     .line 134
     .line 135
-    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
 
     .line 136
     .line 137
@@ -2219,7 +2219,7 @@
 
     .line 167
     .line 168
-    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
+    invoke-static {v1, v0, v2, p0}, Lxza;->q(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
 
     .line 169
     .line 170
@@ -4636,7 +4636,7 @@
     move-object v4, p1
 
     .line 136
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 137
     .line 138
@@ -4654,7 +4654,7 @@
     move-object v6, v1
 
     .line 144
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 145
     .line 146
@@ -8429,11 +8429,11 @@
 
     .line 882
     .line 883
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 884
     .line 885
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 886
     .line 887
@@ -8918,11 +8918,11 @@
 
     .line 1120
     .line 1121
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1122
     .line 1123
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1124
     .line 1125
@@ -10884,11 +10884,11 @@
 
     .line 2041
     .line 2042
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2043
     .line 2044
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2045
     .line 2046

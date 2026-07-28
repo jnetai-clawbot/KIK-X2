@@ -529,7 +529,7 @@
 
     .line 161
     .line 162
-    check-cast v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 163
     .line 164

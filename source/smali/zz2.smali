@@ -1103,7 +1103,7 @@
 
     .line 39
     .line 40
-    sget p0, Lcom/jnetai/kikx2/core/power/PushService;->X:I
+    sget p0, Lcom/jnetai/kikx2/kikx2/core/power/PushService;->X:I
 
     .line 41
     .line 42
@@ -1112,11 +1112,11 @@
     .line 43
     .line 44
     .line 45
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 46
     .line 47
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 48
     .line 49
@@ -1141,11 +1141,11 @@
 
     .line 59
     :cond_0
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 60
     .line 61
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 62
     .line 63
@@ -1165,7 +1165,7 @@
 
     .line 70
     .line 71
-    const-class v2, Lcom/jnetai/kikx2/core/power/KikConnectionWorker;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;
 
     .line 72
     .line 73

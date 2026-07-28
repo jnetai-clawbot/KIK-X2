@@ -43,7 +43,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhif;Lhud;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;Lhud;Lwg6;)V
+.method public synthetic constructor <init>(Lhif;Lhud;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;Lhud;Lwg6;)V
     .locals 1
 
     .line 44
@@ -1100,7 +1100,7 @@
 
     .line 478
     .line 479
-    check-cast v22, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v22, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 480
     .line 481
@@ -1258,7 +1258,7 @@
 
     .line 558
     .line 559
-    invoke-direct/range {v19 .. v33}, Lg82;-><init>(Lhud;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
+    invoke-direct/range {v19 .. v33}, Lg82;-><init>(Lhud;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
 
     .line 560
     .line 561

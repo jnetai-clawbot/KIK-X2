@@ -33,7 +33,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;->c:Ljava/lang/String;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;->c:Ljava/lang/String;
 
     .line 2
     .line 3

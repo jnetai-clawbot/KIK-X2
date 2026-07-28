@@ -98,7 +98,7 @@
     return p0
 .end method
 
-.method public final getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.method public final getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
     .locals 0
 
     .line 1
@@ -115,7 +115,7 @@
     .line 6
     .line 7
     .line 8
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 9
     .line 10
@@ -157,7 +157,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 2
     .line 3
@@ -165,7 +165,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 6
     .line 7
@@ -230,7 +230,7 @@
 
     .line 16
     .line 17
-    const-string v1, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v1, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 18
     .line 19
@@ -250,7 +250,7 @@
 
     .line 25
     :goto_0
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 26
     .line 27
@@ -505,7 +505,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -513,7 +513,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0, p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->l(Landroidx/fragment/app/m;)V
+    invoke-virtual {v0, p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->l(Landroidx/fragment/app/m;)V
 
     .line 9
     .line 10
@@ -563,7 +563,7 @@
     move-result-object p1
 
     .line 15
-    const-string p2, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string p2, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 16
     .line 17

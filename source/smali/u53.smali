@@ -153,7 +153,7 @@
     .line 32
     .line 33
     .line 34
-    sget-object v8, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 35
     .line 36

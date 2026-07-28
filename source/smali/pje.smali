@@ -755,7 +755,7 @@
     move-result-object v2
 
     .line 298
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -770,12 +770,12 @@
 
     .line 304
     .line 305
-    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->C(Z)V
+    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->C(Z)V
 
     .line 306
     .line 307
     .line 308
-    invoke-virtual {v0, v2}, Lblf;->k(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-virtual {v0, v2}, Lblf;->k(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 309
     .line 310
@@ -947,11 +947,11 @@
     move-result-object v3
 
     .line 387
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 388
     .line 389
-    invoke-virtual {v3, v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->C(Z)V
+    invoke-virtual {v3, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->C(Z)V
 
     .line 390
     .line 391

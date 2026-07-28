@@ -150,7 +150,7 @@
 
     .line 56
     :cond_3
-    sget-object v6, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 57
     .line 58
@@ -406,7 +406,7 @@
 
     .line 177
     .line 178
-    new-instance v9, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    new-instance v9, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 179
     .line 180
@@ -441,7 +441,7 @@
 
     .line 194
     .line 195
-    invoke-direct/range {v9 .. v26}, Lcom/jnetai/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
+    invoke-direct/range {v9 .. v26}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
 
     .line 196
     .line 197
@@ -463,7 +463,7 @@
 
     .line 205
     :cond_9
-    sget-object v6, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 206
     .line 207
@@ -485,7 +485,7 @@
     .line 215
     .line 216
     .line 217
-    invoke-static {v7}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v7}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 218
     .line 219
@@ -498,7 +498,7 @@
 
     .line 222
     .line 223
-    invoke-direct {v6, v9}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v6, v9}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 224
     .line 225
@@ -723,11 +723,11 @@
 
     .line 341
     .line 342
-    sget-object v6, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 343
     .line 344
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 345
     .line 346
@@ -825,11 +825,11 @@
     .line 389
     .line 390
     .line 391
-    sget-object v9, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v9, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 392
     .line 393
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 394
     .line 395

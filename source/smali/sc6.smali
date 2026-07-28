@@ -45,7 +45,7 @@
 
     .line 11
     .line 12
-    const-class p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    const-class p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 13
     .line 14
@@ -61,7 +61,7 @@
 
     .line 19
     .line 20
-    const-class p2, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    const-class p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 21
     .line 22
@@ -77,7 +77,7 @@
 
     .line 27
     .line 28
-    const-class p2, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    const-class p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 29
     .line 30
@@ -327,7 +327,7 @@
     .line 79
     :cond_3
     :goto_1
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 80
     .line 81
@@ -335,7 +335,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 84
     .line 85
@@ -424,7 +424,7 @@
     throw v0
 .end method
 
-.method public final c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.method public final c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
     .locals 1
 
     .line 1
@@ -474,7 +474,7 @@
     move-result-object v0
 
     .line 24
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -489,7 +489,7 @@
 
     .line 30
     .line 31
-    sget-object p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 32
     .line 33
@@ -498,7 +498,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {p1}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {p1}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 37
     .line 38
@@ -916,11 +916,11 @@
     throw v0
 .end method
 
-.method public final g(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+.method public final g(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 2
     .line 3
@@ -932,7 +932,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 8
     .line 9
@@ -944,7 +944,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 14
     .line 15
@@ -968,7 +968,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 26
     .line 27

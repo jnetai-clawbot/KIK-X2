@@ -26,7 +26,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;Lb3g;)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;Lb3g;)V
     .locals 0
 
     .line 1
@@ -125,7 +125,7 @@
 
     .line 34
     :pswitch_1
-    sget v0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 35
     .line 36
@@ -143,7 +143,7 @@
 
     .line 43
     :pswitch_2
-    sget v0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 44
     .line 45

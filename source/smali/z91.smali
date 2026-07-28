@@ -148,7 +148,7 @@
     move-object v11, v3
 
     .line 30
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 31
     .line 32
@@ -249,7 +249,7 @@
     move-object v10, v6
 
     .line 75
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 76
     .line 77
@@ -705,14 +705,14 @@
     move-object v12, v7
 
     .line 37
-    check-cast v12, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 38
     .line 39
     const/4 v13, 0x0
 
     .line 40
-    invoke-direct/range {v8 .. v13}, Lhh8;-><init>(Lkh8;Lf7c;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;)V
+    invoke-direct/range {v8 .. v13}, Lhh8;-><init>(Lkh8;Lf7c;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;)V
 
     .line 41
     .line 42
@@ -726,11 +726,11 @@
 
     .line 47
     .line 48
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 49
     .line 50
-    invoke-direct {p1, v9, v7, v2}, Lih8;-><init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;)V
+    invoke-direct {p1, v9, v7, v2}, Lih8;-><init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;)V
 
     .line 51
     .line 52
@@ -881,11 +881,11 @@
 
     .line 123
     .line 124
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 125
     .line 126
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 127
     .line 128

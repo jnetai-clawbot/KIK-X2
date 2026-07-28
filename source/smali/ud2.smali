@@ -4,11 +4,11 @@
 
 
 # direct methods
-.method public static a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+.method public static a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
     .locals 10
 
     .line 1
-    new-instance v0, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 2
     .line 3
@@ -41,7 +41,7 @@
 
     .line 15
     .line 16
-    invoke-direct/range {v0 .. v9}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
+    invoke-direct/range {v0 .. v9}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
 
     .line 17
     .line 18

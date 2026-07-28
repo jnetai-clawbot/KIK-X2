@@ -135,7 +135,7 @@
     return-void
 .end method
 
-.method public static a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.method public static a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
     .locals 20
 
     .line 1
@@ -364,7 +364,7 @@
     .line 98
     .line 99
     .line 100
-    sget-object v2, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->APP_NAME_MAP:Ljava/util/Map;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->APP_NAME_MAP:Ljava/util/Map;
 
     .line 101
     .line 102
@@ -410,7 +410,7 @@
     .line 121
     .line 122
     :goto_8
-    new-instance v2, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 123
     .line 124
@@ -465,7 +465,7 @@
 
     .line 144
     .line 145
-    invoke-direct/range {v2 .. v16}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;IILzw3;)V
+    invoke-direct/range {v2 .. v16}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;IILzw3;)V
 
     .line 146
     .line 147
@@ -474,7 +474,7 @@
 
     .line 149
     .line 150
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 151
     .line 152
@@ -486,7 +486,7 @@
 
     .line 155
     .line 156
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 157
     .line 158
@@ -605,7 +605,7 @@
     .line 214
     .line 215
     :goto_9
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->z()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->z()Lio/objectbox/relation/ToOne;
 
     .line 216
     .line 217
@@ -626,7 +626,7 @@
     .line 224
     .line 225
     .line 226
-    invoke-virtual {v0, v3}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->k(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->k(Ljava/lang/String;)V
 
     .line 227
     .line 228
@@ -652,7 +652,7 @@
     move-result-object v1
 
     .line 239
-    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->U(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->U(Ljava/lang/String;)V
 
     .line 240
     .line 241
@@ -669,7 +669,7 @@
     move-result-object v1
 
     .line 248
-    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->X(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->X(Ljava/lang/String;)V
 
     .line 249
     .line 250
@@ -686,7 +686,7 @@
     move-result-object v0
 
     .line 257
-    invoke-virtual {v2, v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->W(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->W(Ljava/lang/String;)V
 
     .line 258
     .line 259
@@ -1055,7 +1055,7 @@
 
 
 # virtual methods
-.method public final b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.method public final b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
     .locals 12
 
     .line 1
@@ -1373,7 +1373,7 @@
 
     .line 155
     .line 156
-    invoke-static/range {v0 .. v11}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v0 .. v11}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 157
     .line 158
@@ -1384,15 +1384,15 @@
     return-object p0
 .end method
 
-.method public final c()Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.method public final c()Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
     .locals 9
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -1417,7 +1417,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 17
     .line 18
@@ -1437,7 +1437,7 @@
     move-result-object v4
 
     .line 26
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 27
     .line 28
@@ -1505,7 +1505,7 @@
     move-object v2, p0
 
     .line 58
-    invoke-virtual/range {v2 .. v8}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual/range {v2 .. v8}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 59
     .line 60
@@ -1516,7 +1516,7 @@
     return-object p0
 .end method
 
-.method public final d(Lzfg;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.method public final d(Lzfg;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
     .locals 7
 
     .line 1
@@ -1533,11 +1533,11 @@
     .line 6
     .line 7
     .line 8
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 9
     .line 10
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
@@ -1557,7 +1557,7 @@
     move-result-object v2
 
     .line 20
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 21
     .line 22
@@ -1642,7 +1642,7 @@
     move-object v0, p0
 
     .line 61
-    invoke-virtual/range {v0 .. v6}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual/range {v0 .. v6}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 62
     .line 63
@@ -1653,7 +1653,7 @@
     return-object p0
 .end method
 
-.method public final e(Lrdg;[B)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.method public final e(Lrdg;[B)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
     .locals 14
 
     .line 1
@@ -2183,7 +2183,7 @@
 
     .line 266
     .line 267
-    invoke-static/range {v2 .. v13}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v2 .. v13}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 268
     .line 269
@@ -2480,7 +2480,7 @@
     .line 141
     :cond_3
     :goto_2
-    new-instance v15, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    new-instance v15, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 142
     .line 143
@@ -2524,7 +2524,7 @@
     move-object v2, v15
 
     .line 161
-    invoke-direct/range {v2 .. v12}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
+    invoke-direct/range {v2 .. v12}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
 
     .line 162
     .line 163
@@ -2562,7 +2562,7 @@
 
     .line 176
     .line 177
-    invoke-static/range {v5 .. v16}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v5 .. v16}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 178
     .line 179
@@ -3161,7 +3161,7 @@
     .line 280
     .line 281
     .line 282
-    new-instance v0, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 283
     .line 284
@@ -3202,7 +3202,7 @@
     const/4 v8, 0x0
 
     .line 301
-    invoke-direct/range {v0 .. v10}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
+    invoke-direct/range {v0 .. v10}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
 
     .line 302
     .line 303
@@ -3246,7 +3246,7 @@
     move-object v11, v0
 
     .line 319
-    invoke-static/range {v1 .. v12}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v1 .. v12}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 320
     .line 321
@@ -3257,7 +3257,7 @@
     const/4 v1, 0x0
 
     .line 324
-    invoke-virtual {v13, v0, v1, v1}, Ls50;->a(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;ZZ)V
+    invoke-virtual {v13, v0, v1, v1}, Ls50;->a(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;ZZ)V
 
     .line 325
     .line 326
@@ -3894,7 +3894,7 @@
     .line 199
     .line 200
     :goto_1
-    new-instance v14, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    new-instance v14, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 201
     .line 202
@@ -3943,7 +3943,7 @@
 
     .line 224
     .line 225
-    invoke-direct/range {v14 .. v24}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
+    invoke-direct/range {v14 .. v24}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;-><init>(JLjava/lang/String;Ljava/lang/String;IILyza;Lyza;ILzw3;)V
 
     .line 226
     .line 227
@@ -3980,7 +3980,7 @@
 
     .line 239
     .line 240
-    invoke-static/range {v0 .. v11}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v0 .. v11}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 241
     .line 242
@@ -3994,7 +3994,7 @@
     const/4 v2, 0x1
 
     .line 246
-    invoke-virtual {v12, v0, v2, v1}, Ls50;->a(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;ZZ)V
+    invoke-virtual {v12, v0, v2, v1}, Ls50;->a(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;ZZ)V
 
     .line 247
     .line 248
@@ -5470,7 +5470,7 @@
 
     .line 648
     .line 649
-    invoke-static/range {p1 .. p12}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {p1 .. p12}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 650
     .line 651

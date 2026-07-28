@@ -602,7 +602,7 @@
 
     .line 46
     .line 47
-    instance-of v9, v5, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    instance-of v9, v5, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 48
     .line 49
@@ -610,7 +610,7 @@
 
     .line 50
     .line 51
-    check-cast v5, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 52
     .line 53
@@ -647,7 +647,7 @@
 
     .line 66
     .line 67
-    iget-object v5, v5, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->Y0:Llud;
+    iget-object v5, v5, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->Y0:Llud;
 
     .line 68
     .line 69
@@ -961,7 +961,7 @@
     move-result-object v7
 
     .line 219
-    const-string v8, "com.jnetai.kikx2.OPEN_KIK_BROWSER"
+    const-string v8, "com.jnetai.kikx2.kikx2.OPEN_KIK_BROWSER"
 
     .line 220
     .line 221
@@ -1495,7 +1495,7 @@
     return p0
 .end method
 
-.method public static final i(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public static final i(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 5
 
     .line 1

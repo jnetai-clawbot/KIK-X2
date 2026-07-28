@@ -129,7 +129,7 @@
 
     .line 54
     .line 55
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
 
     .line 56
     .line 57
@@ -257,7 +257,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 2
     .line 3

@@ -460,11 +460,11 @@
 
     .line 194
     .line 195
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 196
     .line 197
-    sget-object v1, Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;->c:Ljava/lang/String;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;->c:Ljava/lang/String;
 
     .line 198
     .line 199
@@ -472,7 +472,7 @@
 
     .line 200
     .line 201
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 202
     .line 203
@@ -1824,11 +1824,11 @@
 
     .line 863
     .line 864
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 865
     .line 866
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 867
     .line 868

@@ -2905,7 +2905,7 @@
     move-result v1
 
     .line 1363
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/components/ComposableSingletons$E2EEStatePillKt;->a(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/ComposableSingletons$E2EEStatePillKt;->a(Lgx2;I)Lsbf;
 
     .line 1364
     .line 1365

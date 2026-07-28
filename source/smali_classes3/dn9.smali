@@ -66,7 +66,7 @@
     .line 15
     .line 16
     .line 17
-    iget-object v6, v3, Ll1d;->a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v6, v3, Ll1d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 18
     .line 19
@@ -493,7 +493,7 @@
     .line 209
     :cond_d
     :goto_8
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
 
     .line 210
     .line 211
@@ -1164,7 +1164,7 @@
 
     .line 523
     .line 524
-    invoke-interface {v2}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {v2}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 525
     .line 526
@@ -1177,7 +1177,7 @@
     .line 529
     .line 530
     .line 531
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 532
     .line 533
@@ -1211,7 +1211,7 @@
     const/4 v11, 0x1
 
     .line 546
-    invoke-virtual {v2, v11}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
+    invoke-virtual {v2, v11}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
 
     .line 547
     .line 548
@@ -1240,7 +1240,7 @@
 
     .line 559
     .line 560
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 561
     .line 562
@@ -1315,7 +1315,7 @@
 
     .line 594
     .line 595
-    iget-object v5, v5, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v5, v5, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 596
     .line 597
@@ -1323,7 +1323,7 @@
 
     .line 598
     .line 599
-    invoke-virtual {v5, v11}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v5, v11}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 600
     .line 601
@@ -1389,7 +1389,7 @@
 
     .line 630
     .line 631
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 632
     .line 633

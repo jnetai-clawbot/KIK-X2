@@ -126,7 +126,7 @@
 
     .line 59
     .line 60
-    new-instance v13, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    new-instance v13, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 61
     .line 62
@@ -252,7 +252,7 @@
 
     .line 119
     .line 120
-    invoke-direct/range {v13 .. v20}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
+    invoke-direct/range {v13 .. v20}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
 
     .line 121
     .line 122
@@ -277,7 +277,7 @@
 
     .line 131
     .line 132
-    new-instance v8, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    new-instance v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 133
     .line 134
@@ -307,7 +307,7 @@
     const/4 v13, 0x0
 
     .line 146
-    invoke-direct/range {v8 .. v15}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
+    invoke-direct/range {v8 .. v15}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
 
     .line 147
     .line 148
@@ -335,7 +335,7 @@
 
     .line 158
     .line 159
-    new-instance v7, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    new-instance v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 160
     .line 161
@@ -369,7 +369,7 @@
     const/4 v12, 0x0
 
     .line 175
-    invoke-direct/range {v7 .. v14}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
+    invoke-direct/range {v7 .. v14}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;-><init>(JLjava/lang/String;Ljo7;ZILzw3;)V
 
     .line 176
     .line 177

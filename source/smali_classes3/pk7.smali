@@ -901,7 +901,7 @@
     move-result-object v5
 
     .line 283
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 284
     .line 285
@@ -1351,7 +1351,7 @@
 
     .line 500
     .line 501
-    sget v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 502
     .line 503
@@ -1392,7 +1392,7 @@
 
     .line 519
     .line 520
-    invoke-static/range {v2 .. v17}, Ljk7;->c(IZLgs7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v2 .. v17}, Ljk7;->c(IZLgs7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 521
     .line 522

@@ -214,7 +214,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 18
     .line 19
@@ -246,7 +246,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0, v0, p1}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->m(IZ)V
+    invoke-virtual {p0, v0, p1}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->m(IZ)V
 
     .line 34
     .line 35

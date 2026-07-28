@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;)Ljava/lang/Object;
+.method public a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;)Ljava/lang/Object;
     .locals 5
 
     .line 1
@@ -148,7 +148,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -278,7 +278,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 11
     .line 12
@@ -295,7 +295,7 @@
 
     .line 18
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 19
     .line 20
@@ -329,7 +329,7 @@
 
     .line 34
     :pswitch_2
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 35
     .line 36
@@ -346,11 +346,11 @@
 
     .line 42
     :pswitch_3
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 43
     .line 44
-    invoke-virtual {p0, p1, p2}, Lczf;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lczf;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;)Ljava/lang/Object;
 
     .line 45
     .line 46

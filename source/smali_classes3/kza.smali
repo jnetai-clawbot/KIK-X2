@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final b:Lhif;
 
@@ -18,7 +18,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 2
     .line 3
@@ -29,7 +29,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;)V
     .locals 0
 
     .line 1
@@ -43,7 +43,7 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p1, p0, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 8
     .line 9
@@ -90,11 +90,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p0, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 14
     .line 15
-    iget-object v3, p1, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v3, p1, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 16
     .line 17
@@ -145,7 +145,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, p0, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2
     .line 3
@@ -160,7 +160,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->hashCode()I
 
     .line 8
     .line 9
@@ -208,7 +208,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p0, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10

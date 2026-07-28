@@ -353,11 +353,11 @@
     move-result-object v3
 
     .line 136
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 137
     .line 138
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 139
     .line 140

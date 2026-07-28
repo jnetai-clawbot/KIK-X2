@@ -1186,7 +1186,7 @@
 
     .line 236
     .line 237
-    invoke-interface {p1}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {p1}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 238
     .line 239
@@ -1228,7 +1228,7 @@
 
     .line 257
     .line 258
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 259
     .line 260

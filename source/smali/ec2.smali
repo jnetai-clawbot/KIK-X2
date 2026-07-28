@@ -145,7 +145,7 @@
 
     .line 62
     .line 63
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
 
     .line 64
     .line 65
@@ -180,7 +180,7 @@
 
     .line 79
     .line 80
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$ChatCommandConfigConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$ChatCommandConfigConverter;
 
     .line 81
     .line 82
@@ -315,7 +315,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 2
     .line 3

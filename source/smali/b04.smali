@@ -7,13 +7,13 @@
 
 
 # instance fields
-.field public final X:Lcom/jnetai/kikx2/App;
+.field public final X:Lcom/jnetai/kikx2/kikx2/App;
 
 .field public final Y:Lv3e;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/App;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 2
 
     .line 1
@@ -22,7 +22,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lb04;->X:Lcom/jnetai/kikx2/App;
+    iput-object p1, p0, Lb04;->X:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 5
     .line 6
@@ -33,7 +33,7 @@
     const/4 v1, 0x2
 
     .line 9
-    invoke-direct {v0, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/App;I)V
+    invoke-direct {v0, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;I)V
 
     .line 10
     .line 11
@@ -79,7 +79,7 @@
 
     .line 10
     .line 11
-    iget-object p0, p0, Lb04;->X:Lcom/jnetai/kikx2/App;
+    iget-object p0, p0, Lb04;->X:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 12
     .line 13

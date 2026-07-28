@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lk0a;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lk0a;Lk0a;Lk0a;Lk0a;)V
     .locals 1
 
     .line 24
@@ -56,7 +56,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lco7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;Lcq5;Lcq5;Lcq5;Lcq5;Lk0a;)V
+.method public synthetic constructor <init>(Lco7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;Lcq5;Lcq5;Lcq5;Lcq5;Lk0a;)V
     .locals 1
 
     .line 26
@@ -266,7 +266,7 @@
 
     .line 34
     .line 35
-    check-cast v19, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v19, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 36
     .line 37
@@ -358,7 +358,7 @@
 
     .line 80
     .line 81
-    invoke-static/range {v19 .. v29}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->S(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;Lob9;Landroid/content/Context;Lhud;Lk0a;Lhud;Lhud;Ljo2;Lgx2;I)Lsbf;
+    invoke-static/range {v19 .. v29}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->S(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;Lob9;Landroid/content/Context;Lhud;Lk0a;Lhud;Lhud;Ljo2;Lgx2;I)Lsbf;
 
     .line 82
     .line 83
@@ -1997,7 +1997,7 @@
 
     .line 885
     .line 886
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 887
     .line 888
@@ -2238,7 +2238,7 @@
     move-object v14, v0
 
     .line 994
-    invoke-direct/range {v7 .. v15}, Lzf2;-><init>(Lco7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lhud;Lk0a;)V
+    invoke-direct/range {v7 .. v15}, Lzf2;-><init>(Lco7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lhud;Lk0a;)V
 
     .line 995
     .line 996
@@ -3135,7 +3135,7 @@
 
     .line 1429
     .line 1430
-    sget v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 1431
     .line 1432
@@ -3192,7 +3192,7 @@
 
     .line 1455
     .line 1456
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1457
     .line 1458
@@ -3416,7 +3416,7 @@
 
     .line 1564
     .line 1565
-    sget v3, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 1566
     .line 1567
@@ -3450,7 +3450,7 @@
     move-object v11, v0
 
     .line 1579
-    invoke-virtual/range {v7 .. v15}, Laa2;->q(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-virtual/range {v7 .. v15}, Laa2;->q(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 1580
     .line 1581

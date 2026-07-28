@@ -875,7 +875,7 @@
     .line 28
     .line 29
     :goto_1
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 30
     .line 31
@@ -1133,7 +1133,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 112
     .line 113
@@ -1151,7 +1151,7 @@
 
     .line 119
     .line 120
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 121
     .line 122
@@ -1159,7 +1159,7 @@
     move-result-object v2
 
     .line 124
-    invoke-direct {v0, v2}, Lb3g;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-direct {v0, v2}, Lb3g;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 125
     .line 126

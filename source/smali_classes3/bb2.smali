@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;I)V
     .locals 1
 
     .line 28
@@ -220,7 +220,7 @@
     move-object v12, v0
 
     .line 31
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 32
     .line 33
@@ -318,7 +318,7 @@
     move-result v22
 
     .line 79
-    invoke-static/range {v12 .. v22}, Lajf;->e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v12 .. v22}, Lajf;->e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 80
     .line 81
@@ -555,14 +555,14 @@
     move-object v14, v0
 
     .line 191
-    check-cast v14, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 192
     .line 193
     move-object v15, v11
 
     .line 194
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 195
     .line 196
@@ -570,7 +570,7 @@
 
     .line 197
     .line 198
-    check-cast v16, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v16, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 199
     .line 200
@@ -578,7 +578,7 @@
 
     .line 201
     .line 202
-    check-cast v17, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v17, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 203
     .line 204
@@ -594,7 +594,7 @@
 
     .line 209
     .line 210
-    check-cast v19, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v19, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 211
     .line 212
@@ -655,7 +655,7 @@
     move-result v24
 
     .line 241
-    invoke-static/range {v14 .. v24}, Lb68;->b(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v14 .. v24}, Lb68;->b(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 242
     .line 243

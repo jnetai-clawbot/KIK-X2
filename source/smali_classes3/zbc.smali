@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field public final b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)V
     .locals 0
 
     .line 1
@@ -20,14 +20,14 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 5
     .line 6
     return-void
 .end method
 
-.method public static h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+.method public static h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
     .locals 9
 
     .line 1
@@ -115,7 +115,7 @@
 
     .line 36
     .line 37
-    sget v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 38
     .line 39
@@ -141,7 +141,7 @@
     const/4 v0, 0x0
 
     .line 49
-    invoke-static {p0, v0, v5, p1}, Lzbc;->j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
+    invoke-static {p0, v0, v5, p1}, Lzbc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
 
     .line 50
     .line 51
@@ -201,7 +201,7 @@
 
     .line 76
     .line 77
-    invoke-direct {v0, p0, p2, v8}, Lybc;-><init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;II)V
+    invoke-direct {v0, p0, p2, v8}, Lybc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;II)V
 
     .line 78
     .line 79
@@ -214,7 +214,7 @@
     return-void
 .end method
 
-.method public static i(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;ILgx2;I)V
+.method public static i(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;ILgx2;I)V
     .locals 16
 
     .line 1
@@ -642,7 +642,7 @@
     or-int/2addr v8, v7
 
     .line 187
-    sget v12, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v12, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 188
     .line 189
@@ -664,7 +664,7 @@
     or-int/2addr v8, v12
 
     .line 197
-    invoke-static {v1, v2, v11, v8}, Lzbc;->j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
+    invoke-static {v1, v2, v11, v8}, Lzbc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
 
     .line 198
     .line 199
@@ -672,7 +672,7 @@
     move-result-object v8
 
     .line 201
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 202
     .line 203
@@ -700,7 +700,7 @@
 
     .line 213
     :goto_c
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 214
     .line 215
@@ -865,7 +865,7 @@
     move v8, v13
 
     .line 290
-    invoke-direct/range {v0 .. v9}, Lxbc;-><init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;III)V
+    invoke-direct/range {v0 .. v9}, Lxbc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;III)V
 
     .line 291
     .line 292
@@ -878,7 +878,7 @@
     return-void
 .end method
 
-.method public static final j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
+.method public static final j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lgx2;I)Lis;
     .locals 27
 
     .line 1
@@ -912,7 +912,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
 
     .line 18
     .line 19
@@ -933,11 +933,11 @@
     .line 26
     .line 27
     .line 28
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 29
     .line 30
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;->c()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;->c()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -954,7 +954,7 @@
     .line 37
     .line 38
     :cond_0
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
 
     .line 39
     .line 40
@@ -975,11 +975,11 @@
     .line 47
     .line 48
     .line 49
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 50
     .line 51
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;->a()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;->a()Ljava/lang/String;
 
     .line 52
     .line 53
@@ -1147,7 +1147,7 @@
 
     .line 132
     .line 133
-    invoke-interface {v3}, Lhif;->n()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-interface {v3}, Lhif;->n()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 134
     .line 135
@@ -1160,7 +1160,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 140
     .line 141
@@ -1497,7 +1497,7 @@
 
     .line 301
     :try_start_1
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 302
     .line 303
@@ -1509,7 +1509,7 @@
 
     .line 306
     .line 307
-    invoke-virtual {v3, v6}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v3, v6}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 308
     .line 309
@@ -1581,7 +1581,7 @@
 
     .line 334
     :cond_9
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 335
     .line 336
@@ -1593,7 +1593,7 @@
 
     .line 339
     .line 340
-    invoke-virtual {v3, v6}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v3, v6}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 341
     .line 342
@@ -1691,7 +1691,7 @@
     .line 388
     .line 389
     .line 390
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
 
     .line 391
     .line 392
@@ -1712,11 +1712,11 @@
     .line 399
     .line 400
     .line 401
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 402
     .line 403
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;->g()Ljava/lang/String;
 
     .line 404
     .line 405
@@ -1749,7 +1749,7 @@
     .line 418
     .line 419
     :cond_e
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
 
     .line 420
     .line 421
@@ -1770,15 +1770,15 @@
     .line 428
     .line 429
     .line 430
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 431
     .line 432
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 433
     .line 434
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 435
     .line 436
@@ -1786,7 +1786,7 @@
     move-result-object v3
 
     .line 438
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;->g()Ljava/lang/String;
 
     .line 439
     .line 440
@@ -2347,11 +2347,11 @@
 
 
 # virtual methods
-.method public final b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.method public final b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2
     .line 3
@@ -2372,11 +2372,11 @@
     .line 5
     .line 6
     .line 7
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 8
     .line 9
-    invoke-static/range {p0 .. p8}, Lzbc;->i(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;ILgx2;I)V
+    invoke-static/range {p0 .. p8}, Lzbc;->i(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lhif;Lcq5;Lfv2;Lfv2;ILgx2;I)V
 
     .line 10
     .line 11
@@ -2414,15 +2414,15 @@
 
     .line 7
     .line 8
-    iget-object p1, p1, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p1, p1, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 9
     .line 10
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 11
     .line 12
-    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -2465,11 +2465,11 @@
     const/4 p2, 0x0
 
     .line 2
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 3
     .line 4
-    invoke-static {p0, p1, p2}, Lzbc;->h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Lzbc;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 5
     .line 6
@@ -2481,11 +2481,11 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->hashCode()I
 
     .line 4
     .line 5
@@ -2513,7 +2513,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lzbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 9
     .line 10

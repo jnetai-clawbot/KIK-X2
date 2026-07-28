@@ -334,7 +334,7 @@
 
     .line 107
     :pswitch_3
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 108
     .line 109
@@ -367,7 +367,7 @@
     move-result p0
 
     .line 124
-    invoke-static {v5, v4, v2, p1, p0}, Lsnh;->b(Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lcq5;ZLgx2;I)V
+    invoke-static {v5, v4, v2, p1, p0}, Lsnh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lcq5;ZLgx2;I)V
 
     .line 125
     .line 126

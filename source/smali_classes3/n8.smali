@@ -97,7 +97,7 @@
     .line 14
     .line 15
     .line 16
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 17
     .line 18
@@ -117,7 +117,7 @@
     move-result p2
 
     .line 26
-    invoke-static {p0, v6, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->L(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;ILgx2;I)Lsbf;
+    invoke-static {p0, v6, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->L(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;ILgx2;I)Lsbf;
 
     .line 27
     .line 28
@@ -1451,7 +1451,7 @@
 
     .line 675
     :pswitch_18
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 676
     .line 677
@@ -1480,7 +1480,7 @@
     move-result p2
 
     .line 690
-    invoke-static {p0, p1, p2}, Lqyh;->a(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Lqyh;->a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lgx2;I)V
 
     .line 691
     .line 692
@@ -1489,7 +1489,7 @@
 
     .line 694
     :pswitch_19
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 695
     .line 696
@@ -1518,7 +1518,7 @@
     move-result p2
 
     .line 709
-    invoke-static {p0, p1, p2}, Lsvh;->a(Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Lsvh;->a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;Lgx2;I)V
 
     .line 710
     .line 711

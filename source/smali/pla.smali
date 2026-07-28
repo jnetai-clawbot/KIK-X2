@@ -1761,7 +1761,7 @@
 
     .line 394
     .line 395
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 396
     .line 397
@@ -2967,7 +2967,7 @@
     move-result-object p1
 
     .line 109
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -4124,11 +4124,11 @@
 
     .line 676
     .line 677
-    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 678
     .line 679
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 680
     .line 681
@@ -4291,7 +4291,7 @@
 
     .line 758
     .line 759
-    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 760
     .line 761
@@ -4300,7 +4300,7 @@
     .line 762
     .line 763
     .line 764
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->A()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->A()Ljava/lang/String;
 
     .line 765
     .line 766
@@ -4408,11 +4408,11 @@
 
     .line 817
     .line 818
-    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 819
     .line 820
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 821
     .line 822
@@ -4470,11 +4470,11 @@
 
     .line 848
     .line 849
-    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p0, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 850
     .line 851
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 852
     .line 853
@@ -6197,7 +6197,7 @@
 
     .line 1670
     .line 1671
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 1672
     .line 1673
@@ -6219,7 +6219,7 @@
 
     .line 1682
     .line 1683
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->b()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->b()Ljava/lang/String;
 
     .line 1684
     .line 1685
@@ -6270,7 +6270,7 @@
 
     .line 1708
     .line 1709
-    invoke-virtual {p1, p0, v0}, Lxza;->k0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
+    invoke-virtual {p1, p0, v0}, Lxza;->k0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
 
     .line 1710
     .line 1711

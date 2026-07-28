@@ -343,7 +343,7 @@
 
     .line 141
     :pswitch_4
-    check-cast v0, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 142
     .line 143
@@ -359,7 +359,7 @@
 
     .line 148
     .line 149
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->A(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Ln88;Lw78;)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->A(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Ln88;Lw78;)Lsbf;
 
     .line 150
     .line 151
@@ -1315,11 +1315,11 @@
     .line 610
     :cond_b
     :goto_6
-    sget-object v7, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 611
     .line 612
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 613
     .line 614

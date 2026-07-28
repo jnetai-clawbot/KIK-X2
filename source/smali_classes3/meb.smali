@@ -461,7 +461,7 @@
     move-result-object v8
 
     .line 153
-    invoke-virtual {v7, v8}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {v7, v8}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 154
     .line 155
@@ -469,7 +469,7 @@
     move-result-object v7
 
     .line 157
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 158
     .line 159

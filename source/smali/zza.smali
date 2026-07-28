@@ -184,7 +184,7 @@
 
     .line 81
     .line 82
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$PendingUploadStateConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$PendingUploadStateConverter;
 
     .line 83
     .line 84
@@ -216,7 +216,7 @@
 
     .line 97
     .line 98
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$PendingUploadStateConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$PendingUploadStateConverter;
 
     .line 99
     .line 100
@@ -315,7 +315,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 2
     .line 3

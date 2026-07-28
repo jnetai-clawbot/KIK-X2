@@ -22,7 +22,7 @@
 
 .field public synthetic X0:Ljava/lang/Object;
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final synthetic Y0:Lgba;
 

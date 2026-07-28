@@ -25,7 +25,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p1}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 7
     .line 8

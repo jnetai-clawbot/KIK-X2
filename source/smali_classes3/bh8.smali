@@ -70,7 +70,7 @@
 
     .line 19
     .line 20
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/SnsDiamond;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsDiamond;
 
     .line 21
     .line 22
@@ -101,7 +101,7 @@
 
     .line 33
     .line 34
-    iget-object v5, v3, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v5, v3, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 35
     .line 36
@@ -120,7 +120,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/SnsDiamond;->i()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsDiamond;->i()J
 
     .line 42
     .line 43
@@ -128,7 +128,7 @@
     move-result-wide v20
 
     .line 45
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/SnsDiamond;->h()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsDiamond;->h()J
 
     .line 46
     .line 47
@@ -186,7 +186,7 @@
 
     .line 70
     .line 71
-    invoke-static/range {v6 .. v29}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->h(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;ZIJJJJJJJLcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;I)Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    invoke-static/range {v6 .. v29}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->h(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;ZIJJJJJJJLcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;I)Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 72
     .line 73
@@ -296,7 +296,7 @@
     const/4 v13, 0x0
 
     .line 121
-    invoke-static/range {v3 .. v15}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v3 .. v15}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 122
     .line 123

@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/App;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/App;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/App;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/App;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lzz3;->Y:Lcom/jnetai/kikx2/App;
+    iput-object p1, p0, Lzz3;->Y:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lzz3;->Y:Lcom/jnetai/kikx2/App;
+    iget-object p0, p0, Lzz3;->Y:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -56,7 +56,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, p0}, Lnz3;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, p0}, Lnz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 11
     .line 12

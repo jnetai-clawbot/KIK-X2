@@ -187,11 +187,11 @@
 
     .line 45
     .line 46
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 49
     .line 50

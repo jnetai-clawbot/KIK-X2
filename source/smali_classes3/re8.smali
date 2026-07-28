@@ -237,7 +237,7 @@
 
     .line 58
     .line 59
-    invoke-interface {v1}, Lyq8;->a()Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    invoke-interface {v1}, Lyq8;->a()Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 60
     .line 61
@@ -249,7 +249,7 @@
 
     .line 64
     .line 65
-    invoke-static {v1}, Lqeh;->g(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;)Lcyd;
+    invoke-static {v1}, Lqeh;->g(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;)Lcyd;
 
     .line 66
     .line 67
@@ -1294,7 +1294,7 @@
 
     .line 577
     .line 578
-    const-string v18, "reportBroadcasterStep2SelectReason(Lcom/jnetai/kikx2/client/live/storage/config/LiveStreamReportConfig;)V"
+    const-string v18, "reportBroadcasterStep2SelectReason(Lcom/jnetai/kikx2/kikx2/client/live/storage/config/LiveStreamReportConfig;)V"
 
     .line 579
     .line 580
@@ -1379,7 +1379,7 @@
 
     .line 618
     .line 619
-    const-string v18, "reportBroadcasterStep3Compose(Lcom/jnetai/kikx2/client/live/storage/config/LiveStreamReportConfig;Ljava/lang/String;)V"
+    const-string v18, "reportBroadcasterStep3Compose(Lcom/jnetai/kikx2/kikx2/client/live/storage/config/LiveStreamReportConfig;Ljava/lang/String;)V"
 
     .line 620
     .line 621

@@ -10,7 +10,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/App;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 5
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/App;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/App;->b()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -35,7 +35,7 @@
     move-result-object v0
 
     .line 12
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/App;->a()Landroid/content/pm/PackageManager;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/App;->a()Landroid/content/pm/PackageManager;
 
     .line 13
     .line 14

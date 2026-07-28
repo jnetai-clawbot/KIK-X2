@@ -289,11 +289,11 @@
 
     .line 15
     .line 16
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 17
     .line 18
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 19
     .line 20
@@ -919,11 +919,11 @@
     .line 131
     .line 132
     :try_start_1
-    sget-object v13, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 133
     .line 134
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 135
     .line 136
@@ -1385,11 +1385,11 @@
     .line 348
     :goto_3
     :try_start_c
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 349
     .line 350
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 351
     .line 352
@@ -1582,11 +1582,11 @@
 
     .line 439
     .line 440
-    sget-object v13, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 441
     .line 442
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 443
     .line 444
@@ -1853,11 +1853,11 @@
     .line 574
     .line 575
     :try_start_10
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 576
     .line 577
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 578
     .line 579
@@ -2741,11 +2741,11 @@
     .line 76
     .line 77
     .line 78
-    iget-object p3, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p3, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 79
     .line 80
-    invoke-virtual {p3}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 81
     .line 82
@@ -2911,11 +2911,11 @@
 
     .line 156
     .line 157
-    iget-object v0, p0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v0, p0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 158
     .line 159
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 160
     .line 161
@@ -2984,11 +2984,11 @@
 
     .line 192
     .line 193
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 194
     .line 195
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 196
     .line 197
@@ -3089,7 +3089,7 @@
     .line 246
     .line 247
     .line 248
-    invoke-virtual/range {v1 .. v7}, Lrb0;->d(Lcom/jnetai/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
+    invoke-virtual/range {v1 .. v7}, Lrb0;->d(Lcom/jnetai/kikx2/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
 
     .line 249
     .line 250
@@ -4799,11 +4799,11 @@
     .locals 0
 
     .line 1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModelCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModelCursor;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModelCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModelCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 4
     .line 5

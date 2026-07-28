@@ -615,7 +615,7 @@
     move-result-object v1
 
     .line 231
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 232
     .line 233

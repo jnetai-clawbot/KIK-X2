@@ -142,7 +142,7 @@
     move-result-object v0
 
     .line 53
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 54
     .line 55
@@ -150,7 +150,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->d()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->d()J
 
     .line 58
     .line 59
@@ -344,7 +344,7 @@
     move-result-object v0
 
     .line 149
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 150
     .line 151
@@ -352,7 +352,7 @@
 
     .line 152
     .line 153
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 154
     .line 155

@@ -125,7 +125,7 @@
 
     .line 52
     .line 53
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$UUIDConverter;
 
     .line 54
     .line 55
@@ -252,7 +252,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 2
     .line 3

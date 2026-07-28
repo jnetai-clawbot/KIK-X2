@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.client.live.storage.config.LiveConfig"
+    const-string v2, "com.jnetai.kikx2.kikx2.client.live.storage.config.LiveConfig"
 
     .line 11
     .line 12

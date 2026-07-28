@@ -583,7 +583,7 @@
 
     .line 31
     :pswitch_0
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 32
     .line 33
@@ -605,7 +605,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -617,7 +617,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -665,7 +665,7 @@
 
     .line 73
     :pswitch_1
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 74
     .line 75
@@ -682,7 +682,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v0, v1}, Lihf;->j(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-virtual {v0, v1}, Lihf;->j(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 83
     .line 84
@@ -803,7 +803,7 @@
     .line 142
     .line 143
     .line 144
-    invoke-static {v1}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v1}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 145
     .line 146
@@ -853,15 +853,15 @@
     move-result v1
 
     .line 169
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 170
     .line 171
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 172
     .line 173
-    const-string v10, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v10, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 174
     .line 175
@@ -2487,7 +2487,7 @@
     const/4 v15, 0x0
 
     .line 954
-    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 955
     .line 956

@@ -141,7 +141,7 @@
 
     .line 49
     .line 50
-    const-string v1, "com.jnetai.kikx2.storage.preferences.backupcodes.BackupCode.Token"
+    const-string v1, "com.jnetai.kikx2.kikx2.storage.preferences.backupcodes.BackupCode.Token"
 
     .line 51
     .line 52

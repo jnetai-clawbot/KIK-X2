@@ -77,7 +77,7 @@
 
     .line 16
     .line 17
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 18
     .line 19
@@ -152,7 +152,7 @@
     const/4 v9, 0x0
 
     .line 53
-    invoke-direct/range {v5 .. v10}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;I)V
+    invoke-direct/range {v5 .. v10}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;I)V
 
     .line 54
     .line 55
@@ -171,7 +171,7 @@
 
     .line 61
     .line 62
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 63
     .line 64

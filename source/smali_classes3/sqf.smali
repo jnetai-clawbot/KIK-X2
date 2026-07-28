@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lsqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iput-object p1, p0, Lsqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lsqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iget-object p0, p0, Lsqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 4
     .line 5
@@ -60,7 +60,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->K(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Ljava/lang/String;Ljava/util/List;)Lsbf;
+    invoke-static {p0, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->K(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Ljava/lang/String;Ljava/util/List;)Lsbf;
 
     .line 13
     .line 14
@@ -88,7 +88,7 @@
     move-result p2
 
     .line 25
-    invoke-static {p0, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->J(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lgx2;I)Lsbf;
+    invoke-static {p0, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->J(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lgx2;I)Lsbf;
 
     .line 26
     .line 27

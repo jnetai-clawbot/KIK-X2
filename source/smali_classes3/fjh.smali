@@ -565,7 +565,7 @@
     return-void
 .end method
 
-.method public static final b(Lrqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcq5;Lgx2;I)V
+.method public static final b(Lrqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcq5;Lgx2;I)V
     .locals 33
 
     .line 1
@@ -1820,7 +1820,7 @@
 
     .line 603
     .line 604
-    invoke-direct/range {v0 .. v8}, Lao8;-><init>(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lf48;Ljava/util/List;Lf48;Ljava/util/List;)V
+    invoke-direct/range {v0 .. v8}, Lao8;-><init>(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lf48;Ljava/util/List;Lf48;Ljava/util/List;)V
 
     .line 605
     .line 606
@@ -1971,7 +1971,7 @@
     return-void
 .end method
 
-.method public static final c(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
+.method public static final c(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
     .locals 21
 
     .line 1

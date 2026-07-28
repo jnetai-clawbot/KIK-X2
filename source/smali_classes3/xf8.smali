@@ -1105,11 +1105,11 @@
     .line 402
     .line 403
     .line 404
-    sget-object v2, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;
 
     .line 405
     .line 406
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
 
     .line 407
     .line 408

@@ -5799,7 +5799,7 @@
     move-result-object v3
 
     .line 1807
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1808
     .line 1809
@@ -5811,7 +5811,7 @@
 
     .line 1812
     .line 1813
-    invoke-direct {v4, v5, v3}, Lj1d;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v4, v5, v3}, Lj1d;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 1814
     .line 1815

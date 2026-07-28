@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 
 # direct methods
@@ -16,7 +16,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 2
     .line 3
@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 0
 
     .line 1
@@ -40,7 +40,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -165,7 +165,7 @@
     .line 55
     .line 56
     .line 57
-    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 58
     .line 59
@@ -240,7 +240,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 91
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 92
     .line 93
@@ -283,7 +283,7 @@
 
     .line 110
     :cond_6
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 111
     .line 112
@@ -611,7 +611,7 @@
 
     .line 56
     .line 57
-    iget-object v9, v0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v9, v0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 58
     .line 59
@@ -935,7 +935,7 @@
 
     .line 210
     .line 211
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 212
     .line 213
@@ -1795,7 +1795,7 @@
     .line 620
     .line 621
     :cond_20
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 622
     .line 623
@@ -1945,7 +1945,7 @@
 
     .line 684
     .line 685
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 686
     .line 687
@@ -2304,7 +2304,7 @@
 
     .line 855
     :cond_29
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 856
     .line 857
@@ -2353,7 +2353,7 @@
     .line 877
     .line 878
     :cond_2a
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 879
     .line 880
@@ -2515,7 +2515,7 @@
     .line 955
     :cond_2f
     :goto_9
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 956
     .line 957
@@ -2563,7 +2563,7 @@
 
     .line 977
     :cond_31
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 978
     .line 979
@@ -2906,7 +2906,7 @@
     move-result p2
 
     .line 5
-    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 6
     .line 7
@@ -2914,7 +2914,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 10
     .line 11
@@ -2938,7 +2938,7 @@
 
     .line 20
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 21
     .line 22
@@ -3117,7 +3117,7 @@
     move-result p3
 
     .line 5
-    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 6
     .line 7
@@ -3125,7 +3125,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 10
     .line 11
@@ -3149,7 +3149,7 @@
 
     .line 20
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 21
     .line 22

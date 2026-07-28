@@ -17,11 +17,11 @@
 
 .field public final synthetic Y:Z
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
 
 # direct methods
-.method public constructor <init>(Lkh8;ZLcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Lfpd;Lfpd$b;Z)V
+.method public constructor <init>(Lkh8;ZLcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Lfpd;Lfpd$b;Z)V
     .locals 0
 
     .line 1
@@ -38,7 +38,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lig8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iput-object p3, p0, Lig8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 9
     .line 10
@@ -101,11 +101,11 @@
 
     .line 20
     .line 21
-    iget-object v2, p0, Lig8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v2, p0, Lig8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 22
     .line 23
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -137,7 +137,7 @@
 
     .line 38
     .line 39
-    invoke-direct/range {v1 .. v6}, Lya1;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
+    invoke-direct/range {v1 .. v6}, Lya1;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
 
     .line 40
     .line 41
@@ -197,11 +197,11 @@
 
     .line 22
     .line 23
-    iget-object v2, p0, Lig8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v2, p0, Lig8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 24
     .line 25
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -233,7 +233,7 @@
 
     .line 40
     .line 41
-    invoke-direct/range {v1 .. v6}, Lya1;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
+    invoke-direct/range {v1 .. v6}, Lya1;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
 
     .line 42
     .line 43

@@ -12,7 +12,7 @@
 
 .field public T0:I
 
-.field public X:Lcom/jnetai/kikx2/App;
+.field public X:Lcom/jnetai/kikx2/kikx2/App;
 
 .field public Y:Lrza;
 
@@ -80,7 +80,7 @@
     move-object v5, p0
 
     .line 17
-    invoke-virtual/range {v0 .. v5}, Lrb0;->b(Lcom/jnetai/kikx2/App;Ls1f;Ljava/io/File;Lrza;Lga3;)Ljava/lang/Object;
+    invoke-virtual/range {v0 .. v5}, Lrb0;->b(Lcom/jnetai/kikx2/kikx2/App;Ls1f;Ljava/io/File;Lrza;Lga3;)Ljava/lang/Object;
 
     .line 18
     .line 19

@@ -11,7 +11,7 @@
 
 .field public final synthetic Q0:Ljava/util/List;
 
-.field public final synthetic R0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+.field public final synthetic R0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
 .field public final synthetic S0:Z
 
@@ -27,11 +27,11 @@
 
 .field public final synthetic X0:Lcq5;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic Y0:Lcq5;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
 .field public final synthetic Z0:Lcq5;
 
@@ -89,7 +89,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lnoa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Ljava/util/List;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLhd2;ZLcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lqq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lxj7;Lcq5;Lcq5;Lqb2;Lcq5;Lcq5;Lcq5;Lcq5;ZLcq5;I)V
+.method public synthetic constructor <init>(Lnoa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Ljava/util/List;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLhd2;ZLcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lqq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lxj7;Lcq5;Lcq5;Lqb2;Lcq5;Lcq5;Lcq5;Lcq5;ZLcq5;I)V
     .locals 0
 
     .line 1
@@ -97,13 +97,13 @@
 
     iput-object p1, p0, Lrwf;->X:Lnoa;
 
-    iput-object p2, p0, Lrwf;->Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lrwf;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
-    iput-object p3, p0, Lrwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    iput-object p3, p0, Lrwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     iput-object p4, p0, Lrwf;->Q0:Ljava/util/List;
 
-    iput-object p5, p0, Lrwf;->R0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iput-object p5, p0, Lrwf;->R0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     iput-boolean p6, p0, Lrwf;->S0:Z
 
@@ -282,14 +282,14 @@
     move-object v2, v1
 
     .line 25
-    iget-object v1, v0, Lrwf;->Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v1, v0, Lrwf;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 26
     .line 27
     move-object v3, v2
 
     .line 28
-    iget-object v2, v0, Lrwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    iget-object v2, v0, Lrwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 29
     .line 30
@@ -303,7 +303,7 @@
     move-object v5, v4
 
     .line 34
-    iget-object v4, v0, Lrwf;->R0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iget-object v4, v0, Lrwf;->R0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 35
     .line 36
@@ -673,7 +673,7 @@
 
     .line 213
     .line 214
-    invoke-static/range {v0 .. v40}, Luvh;->g(Lnoa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Ljava/util/List;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLhd2;ZLcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lqq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lxj7;Lcq5;Lcq5;Lqb2;Lcq5;Lcq5;Lcq5;Lcq5;ZLcq5;Lgx2;I)V
+    invoke-static/range {v0 .. v40}, Luvh;->g(Lnoa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Ljava/util/List;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLhd2;ZLcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lqq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lxj7;Lcq5;Lcq5;Lqb2;Lcq5;Lcq5;Lcq5;Lcq5;ZLcq5;Lgx2;I)V
 
     .line 215
     .line 216

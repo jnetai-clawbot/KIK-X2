@@ -51,11 +51,11 @@
     .line 7
     .line 8
     .line 9
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 10
     .line 11
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 12
     .line 13
@@ -135,7 +135,7 @@
 
     .line 48
     .line 49
-    const-string v0, "com.jnetai.kikx2.apis.blue.unblock.BlueUnblockConfig.Domain.Type"
+    const-string v0, "com.jnetai.kikx2.kikx2.apis.blue.unblock.BlueUnblockConfig.Domain.Type"
 
     .line 50
     .line 51
@@ -267,11 +267,11 @@
 
     .line 109
     .line 110
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 111
     .line 112
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 113
     .line 114
@@ -279,7 +279,7 @@
     move-result-object v0
 
     .line 116
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/App;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/App;->b()Ljava/lang/String;
 
     .line 117
     .line 118
@@ -711,11 +711,11 @@
     .line 314
     .line 315
     :try_start_0
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 316
     .line 317
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 318
     .line 319
@@ -974,11 +974,11 @@
 
     .line 423
     :pswitch_19
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 424
     .line 425
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 426
     .line 427

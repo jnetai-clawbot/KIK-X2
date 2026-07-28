@@ -62,7 +62,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, v0, p0}, Lgxf;->a(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, p0}, Lgxf;->a(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;)Ljava/lang/Object;
 
     .line 14
     .line 15

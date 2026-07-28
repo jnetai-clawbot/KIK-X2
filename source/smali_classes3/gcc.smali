@@ -25,7 +25,7 @@
 
 
 # virtual methods
-.method public abstract b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.method public abstract b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 .end method
 
 .method public abstract d(Lhd2;Lhif;Lcq5;Lfv2;Lfv2;ILgx2;I)V

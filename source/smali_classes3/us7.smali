@@ -534,7 +534,7 @@
 
     .line 181
     .line 182
-    const-string v20, "toggleSelection(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V"
+    const-string v20, "toggleSelection(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V"
 
     .line 183
     .line 184

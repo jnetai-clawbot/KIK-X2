@@ -491,11 +491,11 @@
 
     .line 104
     .line 105
-    iget-object v5, v1, Ljza;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v5, v1, Ljza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 106
     .line 107
-    invoke-virtual {v5, v8}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
+    invoke-virtual {v5, v8}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
 
     .line 108
     .line 109

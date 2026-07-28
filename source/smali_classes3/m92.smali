@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic R0:Lhif;
 
@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public constructor <init>(Laa2;Lhud;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lf48;Lhud;Lk0a;Lk0a;Lea3;)V
+.method public constructor <init>(Laa2;Lhud;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lf48;Lhud;Lk0a;Lk0a;Lea3;)V
     .locals 0
 
     .line 1
@@ -39,7 +39,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Lm92;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p3, p0, Lm92;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 6
     .line 7
@@ -100,7 +100,7 @@
 
     .line 10
     .line 11
-    iget-object v3, p0, Lm92;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v3, p0, Lm92;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 12
     .line 13
@@ -119,7 +119,7 @@
     move-object v9, p2
 
     .line 20
-    invoke-direct/range {v0 .. v9}, Lm92;-><init>(Laa2;Lhud;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lf48;Lhud;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v0 .. v9}, Lm92;-><init>(Laa2;Lhud;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lf48;Lhud;Lk0a;Lk0a;Lea3;)V
 
     .line 21
     .line 22
@@ -207,7 +207,7 @@
 
     .line 18
     .line 19
-    iget-object v14, v0, Lm92;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v14, v0, Lm92;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 20
     .line 21

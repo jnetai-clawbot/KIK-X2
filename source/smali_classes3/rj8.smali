@@ -961,7 +961,7 @@
 
     .line 377
     .line 378
-    const-string v27, "setActiveLeaderboardParams(Lcom/jnetai/kikx2/ui/fragments/live/home/LiveHomeViewModel$ActiveLeaderboardParams;)V"
+    const-string v27, "setActiveLeaderboardParams(Lcom/jnetai/kikx2/kikx2/ui/fragments/live/home/LiveHomeViewModel$ActiveLeaderboardParams;)V"
 
     .line 379
     .line 380

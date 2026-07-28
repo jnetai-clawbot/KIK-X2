@@ -112,7 +112,7 @@
     move-result v2
 
     .line 36
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->u(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->u(Lhud;Lgx2;I)Lsbf;
 
     .line 37
     .line 38
@@ -148,7 +148,7 @@
     move-result v2
 
     .line 53
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->g(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->g(Lhud;Lgx2;I)Lsbf;
 
     .line 54
     .line 55
@@ -184,7 +184,7 @@
     move-result v2
 
     .line 70
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->F(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->F(Lhud;Lgx2;I)Lsbf;
 
     .line 71
     .line 72
@@ -220,7 +220,7 @@
     move-result v2
 
     .line 87
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->T(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->T(Lhud;Lgx2;I)Lsbf;
 
     .line 88
     .line 89
@@ -256,7 +256,7 @@
     move-result v2
 
     .line 104
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->B(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->B(Lhud;Lgx2;I)Lsbf;
 
     .line 105
     .line 106
@@ -292,7 +292,7 @@
     move-result v2
 
     .line 121
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->E(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->E(Lhud;Lgx2;I)Lsbf;
 
     .line 122
     .line 123
@@ -328,7 +328,7 @@
     move-result v2
 
     .line 138
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->P(Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->P(Lhud;Lgx2;I)Lsbf;
 
     .line 139
     .line 140

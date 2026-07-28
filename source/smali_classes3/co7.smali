@@ -253,7 +253,7 @@
     move-result-object v1
 
     .line 50
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 51
     .line 52
@@ -291,7 +291,7 @@
     .line 68
     .line 69
     .line 70
-    sget v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 71
     .line 72
@@ -306,7 +306,7 @@
     or-int/2addr v0, v2
 
     .line 77
-    invoke-virtual {p0, v1, p1, v0}, Lco7;->g(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-virtual {p0, v1, p1, v0}, Lco7;->g(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 78
     .line 79
@@ -354,7 +354,7 @@
     return-void
 .end method
 
-.method public final g(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+.method public final g(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
     .locals 40
 
     .line 1
@@ -1162,7 +1162,7 @@
 
     .line 389
     .line 390
-    const-string v29, "submitReport(Lcom/jnetai/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
+    const-string v29, "submitReport(Lcom/jnetai/kikx2/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
 
     .line 391
     .line 392
@@ -1587,11 +1587,11 @@
 
     .line 608
     .line 609
-    iget-object v5, v10, Lrp5;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v5, v10, Lrp5;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 610
     .line 611
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 612
     .line 613
@@ -2036,7 +2036,7 @@
 
     .line 832
     .line 833
-    invoke-direct/range {v0 .. v8}, Lx82;-><init>(Lco7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;Lcq5;Lcq5;Lcq5;Lcq5;Lk0a;)V
+    invoke-direct/range {v0 .. v8}, Lx82;-><init>(Lco7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;Lcq5;Lcq5;Lcq5;Lcq5;Lk0a;)V
 
     .line 834
     .line 835
@@ -2239,7 +2239,7 @@
     return-object p0
 .end method
 
-.method public final h(Lu38;ILcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
+.method public final h(Lu38;ILcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
     .locals 17
 
     .line 1
@@ -2386,7 +2386,7 @@
 
     .line 69
     .line 70
-    invoke-direct/range {v6 .. v16}, Lao7;-><init>(Lcq5;Lfk9;ILjava/util/List;Lfk9;Lco7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;)V
+    invoke-direct/range {v6 .. v16}, Lao7;-><init>(Lcq5;Lfk9;ILjava/util/List;Lfk9;Lco7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;)V
 
     .line 71
     .line 72

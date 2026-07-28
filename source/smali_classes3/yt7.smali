@@ -9,7 +9,7 @@
         "Lcgc<",
         "Ljava/util/Set<",
         "+",
-        "Lcom/jnetai/kikx2/storage/box/user/KikUser;",
+        "Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;",
         ">;>;"
     }
 .end annotation
@@ -1090,11 +1090,11 @@
 
     .line 471
     .line 472
-    iget-object v6, v6, Lfb;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object v6, v6, Lfb;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 473
     .line 474
-    sget v7, Lcom/jnetai/kikx2/client/stanzas/c;->T0:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->T0:I
 
     .line 475
     .line 476
@@ -1102,7 +1102,7 @@
 
     .line 477
     .line 478
-    invoke-static {v9, v6, p1, v7}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/client/stanzas/c;Lgx2;I)V
+    invoke-static {v9, v6, p1, v7}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/kikx2/client/stanzas/c;Lgx2;I)V
 
     .line 479
     .line 480
@@ -1796,11 +1796,11 @@
 
     .line 31
     .line 32
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 33
     .line 34
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 35
     .line 36

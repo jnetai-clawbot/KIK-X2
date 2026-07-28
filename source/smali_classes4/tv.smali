@@ -1164,7 +1164,7 @@
 
     .line 42
     .line 43
-    const-string v8, "update(Lcom/jnetai/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
+    const-string v8, "update(Lcom/jnetai/kikx2/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
 
     .line 44
     .line 45
@@ -1458,7 +1458,7 @@
 
     .line 164
     .line 165
-    const-string v17, "update(Lcom/jnetai/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
+    const-string v17, "update(Lcom/jnetai/kikx2/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
 
     .line 166
     .line 167
@@ -1541,7 +1541,7 @@
 
     .line 201
     .line 202
-    const-string v17, "update(Lcom/jnetai/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
+    const-string v17, "update(Lcom/jnetai/kikx2/kikx2/apis/blue/unblock/BlueUnblockConfig;)V"
 
     .line 203
     .line 204

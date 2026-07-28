@@ -21,11 +21,11 @@
 
 .field public final synthetic Y:Z
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;I)V
+.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;I)V
     .locals 0
 
     .line 1
@@ -37,7 +37,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lcy6;->Z:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iput-object p2, p0, Lcy6;->Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 6
     .line 7
@@ -107,7 +107,7 @@
 
     .line 16
     .line 17
-    iget-object v2, p0, Lcy6;->Z:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iget-object v2, p0, Lcy6;->Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 18
     .line 19
@@ -131,7 +131,7 @@
 
     .line 28
     .line 29
-    invoke-static/range {v1 .. v9}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->n(ZLcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;Lgx2;I)Lsbf;
+    invoke-static/range {v1 .. v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->n(ZLcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;Lgx2;I)Lsbf;
 
     .line 30
     .line 31
@@ -166,7 +166,7 @@
 
     .line 44
     .line 45
-    iget-object v1, p0, Lcy6;->Z:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iget-object v1, p0, Lcy6;->Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 46
     .line 47
@@ -190,7 +190,7 @@
 
     .line 56
     .line 57
-    invoke-static/range {v0 .. v8}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->l(ZLcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;Lgx2;I)Lsbf;
+    invoke-static/range {v0 .. v8}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->l(ZLcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Ljava/util/UUID;Lca2;Lhud;Lhud;Lgx2;I)Lsbf;
 
     .line 58
     .line 59

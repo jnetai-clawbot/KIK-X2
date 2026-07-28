@@ -12,7 +12,7 @@
 
 .field public X:Ljava/lang/String;
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
 .field public Z:Z
 

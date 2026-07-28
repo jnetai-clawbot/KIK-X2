@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+.method public synthetic constructor <init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 6
     .line 7
-    iput-object p4, p0, Lfi3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p4, p0, Lfi3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 8
     .line 9
@@ -79,7 +79,7 @@
     const/4 v7, 0x0
 
     .line 13
-    iget-object v8, p0, Lfi3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v8, p0, Lfi3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 14
     .line 15
@@ -454,7 +454,7 @@
 
     .line 183
     .line 184
-    invoke-direct {v3, v9, v8, p1}, Lgi3;-><init>(Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lkotlin/jvm/functions/Function0;)V
+    invoke-direct {v3, v9, v8, p1}, Lgi3;-><init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lkotlin/jvm/functions/Function0;)V
 
     .line 185
     .line 186

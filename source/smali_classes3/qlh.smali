@@ -3329,9 +3329,9 @@
 
     .line 52
     :goto_38
-    sget-object v4, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;
 
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
 
     move-result-object v4
 

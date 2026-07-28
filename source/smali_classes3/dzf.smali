@@ -1031,7 +1031,7 @@
 
     .line 262
     .line 263
-    invoke-virtual {p1, p0}, Ll1a;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-virtual {p1, p0}, Ll1a;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 264
     .line 265

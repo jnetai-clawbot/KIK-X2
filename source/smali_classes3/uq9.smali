@@ -46,7 +46,7 @@
     const/4 v1, 0x0
 
     .line 4
-    const-class v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 5
     .line 6
@@ -356,11 +356,11 @@
     move-object v3, v2
 
     .line 149
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 150
     .line 151
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 152
     .line 153

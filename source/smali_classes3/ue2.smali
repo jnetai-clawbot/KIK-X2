@@ -13,11 +13,11 @@
 
 .field public Y:I
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
     .locals 0
 
     .line 1
@@ -25,7 +25,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lue2;->Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iput-object p1, p0, Lue2;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 4
     .line 5
@@ -58,7 +58,7 @@
 
     .line 4
     .line 5
-    iget-object p0, p0, Lue2;->Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object p0, p0, Lue2;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 6
     .line 7
@@ -74,7 +74,7 @@
     const/4 v1, 0x1
 
     .line 13
-    invoke-direct {p1, p0, v0, p2, v1}, Lue2;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lue2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
 
     .line 14
     .line 15
@@ -90,7 +90,7 @@
     const/4 v1, 0x0
 
     .line 20
-    invoke-direct {p1, p0, v0, p2, v1}, Lue2;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lue2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
 
     .line 21
     .line 22
@@ -211,7 +211,7 @@
     const/4 v4, 0x1
 
     .line 10
-    iget-object v5, p0, Lue2;->Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v5, p0, Lue2;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 11
     .line 12
@@ -278,7 +278,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->b()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->b()Z
 
     .line 44
     .line 45
@@ -344,7 +344,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->d()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->d()Ljava/lang/String;
 
     .line 77
     .line 78
@@ -448,7 +448,7 @@
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 125
     .line 126
@@ -514,7 +514,7 @@
 
     .line 156
     .line 157
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->d()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->d()Ljava/lang/String;
 
     .line 158
     .line 159

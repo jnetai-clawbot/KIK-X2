@@ -10,7 +10,7 @@
 # instance fields
 .field public final a:Z
 
-.field public final b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 .field public final c:Lnp4;
 
@@ -26,7 +26,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 2
     .line 3
@@ -37,7 +37,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
+.method public constructor <init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
     .locals 0
 
     .line 1
@@ -55,7 +55,7 @@
 
     .line 8
     .line 9
-    iput-object p2, p0, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 10
     .line 11
@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method public static a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+.method public static a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
     .locals 7
 
     .line 1
@@ -106,7 +106,7 @@
 
     .line 11
     .line 12
-    iget-object p2, p0, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p2, p0, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 13
     .line 14
@@ -192,7 +192,7 @@
 
     .line 50
     .line 51
-    invoke-direct/range {v0 .. v6}, Lop4;-><init>(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
+    invoke-direct/range {v0 .. v6}, Lop4;-><init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
 
     .line 52
     .line 53
@@ -252,11 +252,11 @@
 
     .line 20
     :cond_2
-    iget-object v1, p0, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, p0, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 21
     .line 22
-    iget-object v3, p1, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v3, p1, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 23
     .line 24
@@ -392,7 +392,7 @@
     const/4 v4, 0x0
 
     .line 16
-    iget-object v5, p0, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v5, p0, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 17
     .line 18
@@ -407,7 +407,7 @@
 
     .line 22
     :cond_1
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->hashCode()I
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->hashCode()I
 
     .line 23
     .line 24
@@ -544,7 +544,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, p0, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 19
     .line 20

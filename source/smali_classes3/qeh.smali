@@ -488,7 +488,7 @@
     return-void
 .end method
 
-.method public static final g(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;)Lcyd;
+.method public static final g(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;)Lcyd;
     .locals 5
 
     .line 1
@@ -509,7 +509,7 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -517,7 +517,7 @@
     move-result-object v2
 
     .line 14
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 15
     .line 16
@@ -525,7 +525,7 @@
     move-result-object v3
 
     .line 18
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -533,7 +533,7 @@
     move-result-object v3
 
     .line 22
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 23
     .line 24
@@ -541,7 +541,7 @@
     move-result-object v4
 
     .line 26
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 27
     .line 28
@@ -566,7 +566,7 @@
     .line 37
     .line 38
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 39
     .line 40
@@ -574,7 +574,7 @@
     move-result-object p0
 
     .line 42
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 43
     .line 44

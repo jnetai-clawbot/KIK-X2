@@ -106,7 +106,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ZLcom/jnetai/kikx2/storage/box/message/KikMessage;ILk0a;Lk0a;Lk0a;Lea3;)V
+.method public constructor <init>(ZLcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;ILk0a;Lk0a;Lk0a;Lea3;)V
     .locals 1
 
     const/4 v0, 0x2
@@ -173,7 +173,7 @@
     move-object v8, v5
 
     .line 19
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 20
     .line 21
@@ -210,7 +210,7 @@
 
     .line 35
     .line 36
-    invoke-direct/range {v6 .. v13}, Llp8;-><init>(ZLcom/jnetai/kikx2/storage/box/message/KikMessage;ILk0a;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v6 .. v13}, Llp8;-><init>(ZLcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;ILk0a;Lk0a;Lk0a;Lea3;)V
 
     .line 37
     .line 38
@@ -575,11 +575,11 @@
 
     .line 54
     .line 55
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 56
     .line 57
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 58
     .line 59

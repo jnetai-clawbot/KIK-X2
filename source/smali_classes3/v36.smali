@@ -6,7 +6,7 @@
 # instance fields
 .field public final a:Lmk2;
 
-.field public final b:Lcom/jnetai/kikx2/App;
+.field public final b:Lcom/jnetai/kikx2/kikx2/App;
 
 .field public final c:Lfo6;
 
@@ -37,11 +37,11 @@
 
     .line 5
     .line 6
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 7
     .line 8
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 9
     .line 10
@@ -49,7 +49,7 @@
     move-result-object p1
 
     .line 12
-    iput-object p1, p0, Lv36;->b:Lcom/jnetai/kikx2/App;
+    iput-object p1, p0, Lv36;->b:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 13
     .line 14

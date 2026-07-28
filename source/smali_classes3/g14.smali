@@ -2660,7 +2660,7 @@
 
     .line 1246
     .line 1247
-    check-cast v11, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1248
     .line 1249
@@ -2771,7 +2771,7 @@
 
     .line 1299
     .line 1300
-    invoke-direct {v5, v11, v9}, Lu15;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v5, v11, v9}, Lu15;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 1301
     .line 1302
@@ -3128,7 +3128,7 @@
     move-result-object v7
 
     .line 1476
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 1477
     .line 1478
@@ -3148,7 +3148,7 @@
 
     .line 1485
     .line 1486
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->c()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->c()Ljava/lang/String;
 
     .line 1487
     .line 1488
@@ -3176,7 +3176,7 @@
     move-result-object v12
 
     .line 1500
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 1501
     .line 1502
@@ -3233,7 +3233,7 @@
 
     .line 1527
     .line 1528
-    invoke-direct {v1, v11, v7, v9}, Lyz4;-><init>(Lmo9;Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;I)V
+    invoke-direct {v1, v11, v7, v9}, Lyz4;-><init>(Lmo9;Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;I)V
 
     .line 1529
     .line 1530

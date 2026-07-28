@@ -125,11 +125,11 @@
     move-result-object p0
 
     .line 34
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 35
     .line 36
-    invoke-virtual {v1, p0, v3}, Lyif;->i(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {v1, p0, v3}, Lyif;->i(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 37
     .line 38
@@ -154,14 +154,14 @@
     move-result-object p0
 
     .line 48
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 49
     .line 50
     const/4 p1, 0x0
 
     .line 51
-    invoke-virtual {v1, p0, p1}, Lyif;->i(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {v1, p0, p1}, Lyif;->i(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 52
     .line 53

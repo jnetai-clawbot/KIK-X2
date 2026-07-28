@@ -1389,7 +1389,7 @@
 
     .line 623
     .line 624
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 625
     .line 626
@@ -1414,7 +1414,7 @@
 
     .line 636
     .line 637
-    invoke-virtual {v3, v12, v1}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v3, v12, v1}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 638
     .line 639
@@ -1422,7 +1422,7 @@
     move-result-object v1
 
     .line 641
-    invoke-virtual {v0, v4, v1}, Lnf2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {v0, v4, v1}, Lnf2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 642
     .line 643
@@ -2960,7 +2960,7 @@
 
     .line 1382
     :pswitch_11
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1383
     .line 1384
@@ -3004,7 +3004,7 @@
     .line 1402
     .line 1403
     .line 1404
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->x()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->x()Z
 
     .line 1405
     .line 1406
@@ -3139,7 +3139,7 @@
 
     .line 1477
     .line 1478
-    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lj7;)V
+    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lj7;)V
 
     .line 1479
     .line 1480
@@ -3157,7 +3157,7 @@
 
     .line 1487
     .line 1488
-    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lj7;)V
+    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lj7;)V
 
     .line 1489
     .line 1490
@@ -3166,7 +3166,7 @@
 
     .line 1492
     .line 1493
-    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lj7;)V
+    invoke-virtual {v4, v1, v0, v3}, Lh12;->v(Lu38;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lj7;)V
 
     .line 1494
     .line 1495
@@ -5156,11 +5156,11 @@
     move-result-object v1
 
     .line 2452
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2453
     .line 2454
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2455
     .line 2456
@@ -5203,7 +5203,7 @@
     .line 2475
     .line 2476
     :cond_33
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2477
     .line 2478
@@ -5287,7 +5287,7 @@
     move-object v8, v4
 
     .line 2516
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2517
     .line 2518

@@ -251,7 +251,7 @@
 
     .line 13
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 14
     .line 15

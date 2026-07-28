@@ -935,7 +935,7 @@
     .line 154
     .line 155
     .line 156
-    iget-object v2, v2, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v2, v2, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 157
     .line 158
@@ -1460,7 +1460,7 @@
     return-void
 .end method
 
-.method public final h(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lwbc;)V
+.method public final h(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lwbc;)V
     .locals 7
 
     .line 1

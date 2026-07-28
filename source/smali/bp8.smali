@@ -180,11 +180,11 @@
 
     .line 63
     .line 64
-    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 65
     .line 66
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 67
     .line 68
@@ -192,7 +192,7 @@
     move-result-object v6
 
     .line 70
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 71
     .line 72
@@ -290,11 +290,11 @@
 
     .line 117
     .line 118
-    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 119
     .line 120
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->k()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->k()Z
 
     .line 121
     .line 122
@@ -353,11 +353,11 @@
 
     .line 148
     .line 149
-    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 150
     .line 151
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 152
     .line 153
@@ -365,7 +365,7 @@
     move-result-object v6
 
     .line 155
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 156
     .line 157
@@ -463,11 +463,11 @@
 
     .line 202
     .line 203
-    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 204
     .line 205
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->k()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->k()Z
 
     .line 206
     .line 207
@@ -526,11 +526,11 @@
 
     .line 233
     .line 234
-    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v6, v6, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 235
     .line 236
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 237
     .line 238
@@ -538,7 +538,7 @@
     move-result-object v6
 
     .line 240
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 241
     .line 242
@@ -632,11 +632,11 @@
 
     .line 286
     .line 287
-    iget-object v1, v1, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v1, v1, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 288
     .line 289
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 290
     .line 291
@@ -644,7 +644,7 @@
     move-result-object v1
 
     .line 293
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 294
     .line 295

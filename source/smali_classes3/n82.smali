@@ -15,7 +15,7 @@
 
 .field public final synthetic T0:Lcq5;
 
-.field public final synthetic U0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic U0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic V0:Lcq5;
 
@@ -25,7 +25,7 @@
 
 .field public final synthetic X0:Lk0a;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final synthetic Y0:Lk0a;
 
@@ -33,7 +33,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lhif;Lgcc;ZLcq5;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcq5;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lhif;Lgcc;ZLcq5;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcq5;Lk0a;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -46,7 +46,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Ln82;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p2, p0, Ln82;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 7
     .line 8
@@ -70,7 +70,7 @@
 
     .line 17
     .line 18
-    iput-object p8, p0, Ln82;->U0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p8, p0, Ln82;->U0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 19
     .line 20
@@ -114,7 +114,7 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Ln82;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p0, Ln82;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 9
     .line 10
@@ -138,7 +138,7 @@
 
     .line 19
     .line 20
-    iget-object v7, p0, Ln82;->U0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v7, p0, Ln82;->U0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 21
     .line 22
@@ -154,7 +154,7 @@
 
     .line 27
     .line 28
-    invoke-static/range {v0 .. v12}, Laa2;->i(Laa2;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lhif;Lgcc;ZLcq5;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcq5;Lk0a;Lk0a;Lk0a;Lsa8;)V
+    invoke-static/range {v0 .. v12}, Laa2;->i(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lhif;Lgcc;ZLcq5;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcq5;Lk0a;Lk0a;Lk0a;Lsa8;)V
 
     .line 29
     .line 30

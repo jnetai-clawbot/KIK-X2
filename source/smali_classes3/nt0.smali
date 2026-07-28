@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field public final synthetic X:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final synthetic X:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 0
 
     .line 1
@@ -20,7 +20,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lnt0;->X:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Lnt0;->X:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -37,7 +37,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lnt0;->X:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lnt0;->X:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -134,7 +134,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0, v0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->l(Landroidx/fragment/app/m;)V
+    invoke-virtual {p0, v0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->l(Landroidx/fragment/app/m;)V
 
     .line 50
     .line 51

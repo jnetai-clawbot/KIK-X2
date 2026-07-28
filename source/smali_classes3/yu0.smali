@@ -1602,7 +1602,7 @@
 
     .line 736
     .line 737
-    const-string v5, "getUserDetails(Lcom/jnetai/kikx2/ui/fragments/live/uimodels/OpenProfileArgs;)Lkotlinx/coroutines/flow/StateFlow;"
+    const-string v5, "getUserDetails(Lcom/jnetai/kikx2/kikx2/ui/fragments/live/uimodels/OpenProfileArgs;)Lkotlinx/coroutines/flow/StateFlow;"
 
     .line 738
     .line 739

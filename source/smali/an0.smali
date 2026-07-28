@@ -1493,11 +1493,11 @@
 
     .line 696
     .line 697
-    sget-object v4, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 698
     .line 699
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 700
     .line 701
@@ -4004,7 +4004,7 @@
 
     .line 1918
     .line 1919
-    iget-object v7, v1, Lu4d;->a:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v7, v1, Lu4d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1920
     .line 1921
@@ -4017,7 +4017,7 @@
     .line 1924
     .line 1925
     .line 1926
-    invoke-static {v7}, Lfcc;->j(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)Lgcc;
+    invoke-static {v7}, Lfcc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)Lgcc;
 
     .line 1927
     .line 1928
@@ -4199,7 +4199,7 @@
 
     .line 2019
     .line 2020
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 2021
     .line 2022
@@ -4208,7 +4208,7 @@
     .line 2023
     .line 2024
     .line 2025
-    invoke-static {v7}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v7}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2026
     .line 2027
@@ -4220,7 +4220,7 @@
 
     .line 2030
     .line 2031
-    invoke-direct {v8, v7}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v8, v7}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 2032
     .line 2033
@@ -4234,7 +4234,7 @@
 
     .line 2037
     :cond_36
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 2038
     .line 2039
@@ -4243,7 +4243,7 @@
     .line 2040
     .line 2041
     .line 2042
-    invoke-static {v7}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v7}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2043
     .line 2044
@@ -4255,7 +4255,7 @@
 
     .line 2047
     .line 2048
-    invoke-direct {v8, v7}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v8, v7}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 2049
     .line 2050

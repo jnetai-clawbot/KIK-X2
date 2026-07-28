@@ -442,7 +442,7 @@
 
     .line 184
     :pswitch_8
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->b(Lhud;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->b(Lhud;)Ljava/lang/String;
 
     .line 185
     .line 186

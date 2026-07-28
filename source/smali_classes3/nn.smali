@@ -92,11 +92,11 @@
     .line 29
     .line 30
     .line 31
-    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 32
     .line 33
-    invoke-virtual {p0, p1, v0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
+    invoke-virtual {p0, p1, v0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
 
     .line 34
     .line 35

@@ -631,7 +631,7 @@
 
     .line 279
     .line 280
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 281
     .line 282
@@ -639,7 +639,7 @@
 
     .line 283
     .line 284
-    invoke-virtual {v0, p0, v4}, Lj7d;->o(Lcom/jnetai/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
+    invoke-virtual {v0, p0, v4}, Lj7d;->o(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
 
     .line 285
     .line 286

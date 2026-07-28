@@ -41,7 +41,7 @@
             "Lkotlin/Result<",
             "+",
             "Ljava/util/List<",
-            "Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;",
             ">;>;>;)",
             "Ljava/lang/Object;"
         }
@@ -64,7 +64,7 @@
             "Lea3<",
             "-",
             "Lkotlin/Result<",
-            "Lcom/jnetai/kikx2/client/live/models/message/SnsChat;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChat;",
             ">;>;)",
             "Ljava/lang/Object;"
         }
@@ -87,7 +87,7 @@
             "Lea3<",
             "-",
             "Lkotlin/Result<",
-            "Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;",
             ">;>;)",
             "Ljava/lang/Object;"
         }

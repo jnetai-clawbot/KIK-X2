@@ -445,7 +445,7 @@
     move-result-object v0
 
     .line 193
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 194
     .line 195
@@ -488,7 +488,7 @@
     add-long/2addr v6, v2
 
     .line 215
-    sget v1, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->$stable:I
 
     .line 216
     .line 217
@@ -496,7 +496,7 @@
 
     .line 218
     .line 219
-    invoke-static {v6, v7, v0, v15, v1}, Ltlh;->q(JLcom/jnetai/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
+    invoke-static {v6, v7, v0, v15, v1}, Ltlh;->q(JLcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
 
     .line 220
     .line 221

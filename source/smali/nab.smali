@@ -1576,7 +1576,7 @@
     const/4 v8, 0x0
 
     .line 75
-    sget-object v7, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 76
     .line 77
@@ -1770,7 +1770,7 @@
     const/4 v8, 0x0
 
     .line 75
-    sget-object v7, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 76
     .line 77
@@ -1964,7 +1964,7 @@
     const/4 v8, 0x0
 
     .line 75
-    sget-object v7, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 76
     .line 77
@@ -2282,7 +2282,7 @@
 
     .line 128
     :cond_4
-    new-instance p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 129
     .line 130
@@ -2297,7 +2297,7 @@
 
     .line 134
     .line 135
-    invoke-direct {p0, v0, p1, p2}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {p0, v0, p1, p2}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 136
     .line 137

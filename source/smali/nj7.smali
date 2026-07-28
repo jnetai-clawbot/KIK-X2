@@ -160,7 +160,7 @@
     move-result-object p0
 
     .line 61
-    invoke-virtual {v1, p0}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-virtual {v1, p0}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 62
     .line 63
@@ -168,7 +168,7 @@
     move-result-object p0
 
     .line 65
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
 
     .line 66
     .line 67
@@ -184,7 +184,7 @@
     move-result-object p0
 
     .line 73
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 74
     .line 75
@@ -192,7 +192,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
 
     .line 78
     .line 79

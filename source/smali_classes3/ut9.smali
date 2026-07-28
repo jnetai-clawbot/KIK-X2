@@ -6008,11 +6008,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 4
     .line 5

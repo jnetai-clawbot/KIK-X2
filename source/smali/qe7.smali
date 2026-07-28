@@ -2008,7 +2008,7 @@
     return-object p0
 .end method
 
-.method public static final i(Lkrf;Lxj7;)Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+.method public static final i(Lkrf;Lxj7;)Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
     .locals 10
 
     .line 1
@@ -2017,7 +2017,7 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 5
     .line 6
@@ -2193,7 +2193,7 @@
     const/4 v9, 0x1
 
     .line 94
-    invoke-direct/range {v0 .. v9}, Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;JLjava/lang/String;Ljava/lang/String;ZZ)V
+    invoke-direct/range {v0 .. v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;JLjava/lang/String;Ljava/lang/String;ZZ)V
 
     .line 95
     .line 96

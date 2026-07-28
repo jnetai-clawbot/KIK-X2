@@ -28,7 +28,7 @@
     return-void
 .end method
 
-.method public static final a(Lnoa;Ldn7;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
+.method public static final a(Lnoa;Ldn7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
     .locals 21
 
     .line 1
@@ -845,7 +845,7 @@
 
     .line 366
     .line 367
-    invoke-direct/range {v0 .. v9}, Lnr3;-><init>(Lnoa;Ldn7;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;I)V
+    invoke-direct/range {v0 .. v9}, Lnr3;-><init>(Lnoa;Ldn7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;I)V
 
     .line 368
     .line 369

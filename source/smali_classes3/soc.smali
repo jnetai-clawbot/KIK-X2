@@ -25,13 +25,13 @@
 
 .field public final g:Lio/agora/rtc2/Constants$VideoStreamType;
 
-.field public final h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final i:Ljava/util/List;
 
 .field public final j:Lxve;
 
-.field public final k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+.field public final k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
 .field public final l:Lwve;
 
@@ -51,7 +51,7 @@
 
     .line 2
     .line 3
-    sget v1, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->$stable:I
 
     .line 4
     .line 5
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
+.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
     .locals 0
 
     invoke-virtual {p7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -95,7 +95,7 @@
     iput-object p7, p0, Lsoc;->g:Lio/agora/rtc2/Constants$VideoStreamType;
 
     .line 89
-    iput-object p8, p0, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p8, p0, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 90
     iput-object p9, p0, Lsoc;->i:Ljava/util/List;
@@ -104,7 +104,7 @@
     iput-object p10, p0, Lsoc;->j:Lxve;
 
     .line 92
-    iput-object p11, p0, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iput-object p11, p0, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 93
     iput-object p12, p0, Lsoc;->l:Lwve;
@@ -121,7 +121,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/Integer;ZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lxve;Lwve;Lkue;Looc;I)V
+.method public synthetic constructor <init>(Ljava/lang/Integer;ZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lxve;Lwve;Lkue;Looc;I)V
     .locals 18
 
     .line 1
@@ -311,7 +311,7 @@
 
     .line 76
     .line 77
-    invoke-direct/range {v2 .. v17}, Lsoc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
+    invoke-direct/range {v2 .. v17}, Lsoc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
 
     .line 78
     .line 79
@@ -319,7 +319,7 @@
     return-void
 .end method
 
-.method public static c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+.method public static c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
     .locals 19
 
     .line 1
@@ -467,7 +467,7 @@
 
     .line 62
     .line 63
-    iget-object v2, v0, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v2, v0, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 64
     .line 65
@@ -539,7 +539,7 @@
 
     .line 92
     .line 93
-    iget-object v2, v0, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iget-object v2, v0, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 94
     .line 95
@@ -636,7 +636,7 @@
 
     .line 137
     .line 138
-    invoke-direct/range {v3 .. v18}, Lsoc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
+    invoke-direct/range {v3 .. v18}, Lsoc;-><init>(Ljava/lang/Integer;Ljava/lang/String;ZZZZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lwve;Lkue;Lroc;Z)V
 
     .line 139
     .line 140
@@ -841,11 +841,11 @@
 
     .line 70
     :cond_8
-    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 71
     .line 72
-    iget-object v3, p1, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p1, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 73
     .line 74
@@ -913,11 +913,11 @@
 
     .line 103
     :cond_b
-    iget-object v1, p0, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iget-object v1, p0, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 104
     .line 105
-    iget-object v3, p1, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iget-object v3, p1, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 106
     .line 107
@@ -1222,7 +1222,7 @@
     mul-int/2addr v3, v2
 
     .line 75
-    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 76
     .line 77
@@ -1237,7 +1237,7 @@
 
     .line 81
     :cond_6
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->hashCode()I
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->hashCode()I
 
     .line 82
     .line 83
@@ -1294,7 +1294,7 @@
     mul-int/2addr v1, v2
 
     .line 105
-    iget-object v3, p0, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iget-object v3, p0, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 106
     .line 107
@@ -1309,7 +1309,7 @@
 
     .line 111
     :cond_8
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;->hashCode()I
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;->hashCode()I
 
     .line 112
     .line 113
@@ -1542,7 +1542,7 @@
     .line 58
     .line 59
     .line 60
-    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 61
     .line 62
@@ -1596,7 +1596,7 @@
     .line 88
     .line 89
     .line 90
-    iget-object v1, p0, Lsoc;->k:Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;
+    iget-object v1, p0, Lsoc;->k:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;
 
     .line 91
     .line 92

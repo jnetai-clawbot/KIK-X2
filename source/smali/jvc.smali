@@ -785,11 +785,11 @@
     .locals 0
 
     .line 1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntryCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntryCursor;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntryCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntryCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 4
     .line 5
@@ -1243,7 +1243,7 @@
 
     .line 187
     .line 188
-    invoke-virtual {p0, v9, p3}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {p0, v9, p3}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 189
     .line 190
@@ -1438,7 +1438,7 @@
     .line 286
     .line 287
     .line 288
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 289
     .line 290
@@ -1494,7 +1494,7 @@
     move-object v0, p0
 
     .line 311
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 312
     .line 313
@@ -1618,7 +1618,7 @@
     const/4 v2, 0x0
 
     .line 371
-    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->e(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/Map;II)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->e(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/Map;II)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 372
     .line 373

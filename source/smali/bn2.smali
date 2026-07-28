@@ -99,7 +99,7 @@
 
     .line 30
     .line 31
-    sget-object v5, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 32
     .line 33
@@ -151,7 +151,7 @@
 
     .line 55
     .line 56
-    sget-object v5, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 57
     .line 58
@@ -261,7 +261,7 @@
 
     .line 107
     .line 108
-    sget-object v6, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 109
     .line 110
@@ -311,7 +311,7 @@
 
     .line 132
     .line 133
-    sget-object v7, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 134
     .line 135

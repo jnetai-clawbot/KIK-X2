@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;Lhud;Lk0a;Lhud;)V
+.method public synthetic constructor <init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;Lhud;Lk0a;Lhud;)V
     .locals 1
 
     .line 24
@@ -864,7 +864,7 @@
 
     .line 365
     .line 366
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 367
     .line 368
@@ -2296,7 +2296,7 @@
 
     .line 1107
     .line 1108
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->b()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->b()Z
 
     .line 1109
     .line 1110
@@ -2328,7 +2328,7 @@
     .line 1121
     .line 1122
     :goto_c
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->b()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->b()Z
 
     .line 1123
     .line 1124
@@ -2419,7 +2419,7 @@
     .line 1168
     .line 1169
     :goto_d
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->b()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->b()Z
 
     .line 1170
     .line 1171
@@ -2601,7 +2601,7 @@
 
     .line 1258
     .line 1259
-    invoke-direct {v2, v7, v0, v5, v6}, Lft;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZJ)V
+    invoke-direct {v2, v7, v0, v5, v6}, Lft;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZJ)V
 
     .line 1260
     .line 1261

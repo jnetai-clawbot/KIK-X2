@@ -43,7 +43,7 @@
 # virtual methods
 .method public final addItemsToCache(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -148,7 +148,7 @@
 
 .method public final deleteAlternateSmileys(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -170,7 +170,7 @@
 
 .method public final getAlternateSmileys(Lr7b;)Ls7b;
     .locals 8
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -568,7 +568,7 @@
 
 .method public final getInstalledStickerPacks(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -607,7 +607,7 @@
 
 .method public final installAlternateSmileys(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -629,7 +629,7 @@
 
 .method public final installStickerPack(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -651,7 +651,7 @@
 
 .method public final openStickerSettings(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -664,7 +664,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 7
     .line 8
@@ -672,7 +672,7 @@
     move-result-object p0
 
     .line 10
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 11
     .line 12
@@ -695,7 +695,7 @@
 
 .method public final preloadAlternateSmileys(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -717,7 +717,7 @@
 
 .method public final setActiveSmiley(Lr7b;)Ls7b;
     .locals 8
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1

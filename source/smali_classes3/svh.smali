@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;Lgx2;I)V
+.method public static final a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;Lgx2;I)V
     .locals 18
 
     .line 1
@@ -149,7 +149,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->e()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->e()J
 
     .line 63
     .line 64

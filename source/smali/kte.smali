@@ -107,7 +107,7 @@
             "Lea3<",
             "-",
             "Lkotlin/Result<",
-            "Lcom/jnetai/kikx2/client/live/models/stream/features/LiveBroadcastMetadataResponse;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/LiveBroadcastMetadataResponse;",
             ">;>;)",
             "Ljava/lang/Object;"
         }

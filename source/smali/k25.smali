@@ -1141,7 +1141,7 @@
     move-result-object v0
 
     .line 551
-    sget-object v2, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
 
     .line 552
     .line 553
@@ -1187,11 +1187,11 @@
 
     .line 573
     .line 574
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 575
     .line 576
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
 
     .line 577
     .line 578
@@ -1262,7 +1262,7 @@
 
     .line 610
     .line 611
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
 
     .line 612
     .line 613
@@ -1271,7 +1271,7 @@
     .line 614
     .line 615
     .line 616
-    invoke-static {v4}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-static {v4}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 617
     .line 618

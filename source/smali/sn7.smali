@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lsn7;->Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p1, p0, Lsn7;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lsn7;->Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lsn7;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 4
     .line 5
@@ -56,7 +56,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -83,7 +83,7 @@
 
     .line 22
     :pswitch_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->k()Lio/objectbox/relation/ToMany;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->k()Lio/objectbox/relation/ToMany;
 
     .line 23
     .line 24
@@ -164,11 +164,11 @@
     move-object v2, v0
 
     .line 61
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 62
     .line 63
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->b()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->b()Ljava/lang/String;
 
     .line 64
     .line 65

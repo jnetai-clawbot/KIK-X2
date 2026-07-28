@@ -4,15 +4,15 @@
 
 
 # instance fields
-.field public final synthetic e:Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+.field public final synthetic e:Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/core/fgs/LongRunningService;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Ln79;->e:Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+    iput-object p1, p0, Ln79;->e:Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
     .line 2
     .line 3

@@ -90,7 +90,7 @@
 
     .line 30
     .line 31
-    const-string v5, "com.jnetai.kikx2"
+    const-string v5, "com.jnetai.kikx2.kikx2"
 
     .line 32
     .line 33
@@ -289,11 +289,11 @@
 
     .line 130
     .line 131
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 132
     .line 133
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 134
     .line 135
@@ -301,7 +301,7 @@
     move-result-object v3
 
     .line 137
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/App;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/App;->getPackageName()Ljava/lang/String;
 
     .line 138
     .line 139

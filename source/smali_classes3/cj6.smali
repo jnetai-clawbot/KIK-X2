@@ -3151,7 +3151,7 @@
     .line 755
     .line 756
     .line 757
-    invoke-interface {v14}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {v14}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 758
     .line 759
@@ -3163,7 +3163,7 @@
 
     .line 762
     .line 763
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 764
     .line 765
@@ -6828,7 +6828,7 @@
 
     .line 2563
     .line 2564
-    const-string v9, "setGlobalSearchRankType(Lcom/jnetai/kikx2/ui/components/preference/models/GlobalSearchRankType;)V"
+    const-string v9, "setGlobalSearchRankType(Lcom/jnetai/kikx2/kikx2/ui/components/preference/models/GlobalSearchRankType;)V"
 
     .line 2565
     .line 2566
@@ -7610,7 +7610,7 @@
 
     .line 2947
     .line 2948
-    const-string v18, "navigateToBlueKikXSettings(Lcom/jnetai/kikx2/ui/fragments/settings/PreferenceSection;Ljava/lang/String;)V"
+    const-string v18, "navigateToBlueKikXSettings(Lcom/jnetai/kikx2/kikx2/ui/fragments/settings/PreferenceSection;Ljava/lang/String;)V"
 
     .line 2949
     .line 2950
@@ -7716,7 +7716,7 @@
 
     .line 3000
     .line 3001
-    const-string v18, "navigateToBlueKikXSettings(Lcom/jnetai/kikx2/ui/fragments/settings/PreferenceSection;Ljava/lang/String;)V"
+    const-string v18, "navigateToBlueKikXSettings(Lcom/jnetai/kikx2/kikx2/ui/fragments/settings/PreferenceSection;Ljava/lang/String;)V"
 
     .line 3002
     .line 3003

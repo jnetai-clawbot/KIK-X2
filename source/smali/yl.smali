@@ -1420,15 +1420,15 @@
 
     .line 648
     :pswitch_15
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 649
     .line 650
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 651
     .line 652
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->x()Z
 
     .line 653
     .line 654
@@ -1436,7 +1436,7 @@
     move-result p0
 
     .line 656
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->x()Z
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->x()Z
 
     .line 657
     .line 658
@@ -1463,7 +1463,7 @@
 
     .line 668
     .line 669
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
 
     .line 670
     .line 671
@@ -1471,7 +1471,7 @@
     move-result-object p0
 
     .line 673
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
 
     .line 674
     .line 675
@@ -1512,7 +1512,7 @@
 
     .line 690
     .line 691
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 692
     .line 693
@@ -1520,7 +1520,7 @@
     move-result-object p0
 
     .line 695
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 696
     .line 697
@@ -1565,15 +1565,15 @@
 
     .line 713
     :pswitch_16
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 714
     .line 715
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 716
     .line 717
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
 
     .line 718
     .line 719
@@ -1581,7 +1581,7 @@
     move-result-object p0
 
     .line 721
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
 
     .line 722
     .line 723

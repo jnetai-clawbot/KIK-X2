@@ -5313,7 +5313,7 @@
     .line 1653
     :cond_61
     :goto_32
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1654
     .line 1655
@@ -5364,11 +5364,11 @@
 
     .line 1674
     .line 1675
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1676
     .line 1677
-    invoke-virtual {v1, v0}, Liv7;->t(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {v1, v0}, Liv7;->t(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 1678
     .line 1679

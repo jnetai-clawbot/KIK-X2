@@ -12,7 +12,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/apis/tenor/GifApi;->Companion:Lw16;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;->Companion:Lw16;
 
     .line 2
     .line 3

@@ -1420,7 +1420,7 @@
     move-result-object v2
 
     .line 468
-    iget-object v0, v0, Lp92;->c:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, v0, Lp92;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 469
     .line 470
@@ -1439,7 +1439,7 @@
     move-object v3, v2
 
     .line 477
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 478
     .line 479
@@ -1451,7 +1451,7 @@
     move-result-object v4
 
     .line 483
-    invoke-virtual {v4, v0, v3}, Lnf2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {v4, v0, v3}, Lnf2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 484
     .line 485

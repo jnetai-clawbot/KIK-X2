@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLhwf;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(ZLhwf;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;Lk0a;)V
     .locals 1
 
     .line 20
@@ -141,7 +141,7 @@
 
     .line 22
     .line 23
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 24
     .line 25
@@ -185,11 +185,11 @@
     move-result-object p0
 
     .line 45
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 46
     .line 47
-    invoke-virtual {v7, v5, p0, v2}, Lhwf;->m(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
+    invoke-virtual {v7, v5, p0, v2}, Lhwf;->m(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
 
     .line 48
     .line 49
@@ -214,14 +214,14 @@
     move-result-object p0
 
     .line 59
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 60
     .line 61
     const/4 p1, 0x0
 
     .line 62
-    invoke-virtual {v7, v5, p0, p1}, Lhwf;->m(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
+    invoke-virtual {v7, v5, p0, p1}, Lhwf;->m(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
 
     .line 63
     .line 64

@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 1
@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
     .locals 1
 
     .line 29
@@ -165,7 +165,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
+.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
     .locals 1
 
     .line 27
@@ -320,7 +320,7 @@
     move-object v12, v10
 
     .line 31
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 32
     .line 33
@@ -398,7 +398,7 @@
     move-result v19
 
     .line 69
-    invoke-virtual/range {v11 .. v19}, Lhwf;->h(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
+    invoke-virtual/range {v11 .. v19}, Lhwf;->h(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
 
     .line 70
     .line 71
@@ -411,7 +411,7 @@
 
     .line 74
     .line 75
-    check-cast v20, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v20, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 76
     .line 77
@@ -496,7 +496,7 @@
     move-result v28
 
     .line 118
-    invoke-static/range {v20 .. v28}, Lajf;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
+    invoke-static/range {v20 .. v28}, Lajf;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
 
     .line 119
     .line 120
@@ -2909,7 +2909,7 @@
 
     .line 1229
     .line 1230
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1231
     .line 1232
@@ -2995,7 +2995,7 @@
     move-object v10, v0
 
     .line 1270
-    invoke-virtual/range {v3 .. v11}, Laa2;->q(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-virtual/range {v3 .. v11}, Laa2;->q(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lhd2;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 1271
     .line 1272

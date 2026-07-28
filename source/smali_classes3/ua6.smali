@@ -1888,7 +1888,7 @@
 
     .line 942
     .line 943
-    check-cast v12, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 944
     .line 945
@@ -2395,7 +2395,7 @@
 
     .line 1176
     .line 1177
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1178
     .line 1179
@@ -2404,7 +2404,7 @@
     .line 1180
     .line 1181
     .line 1182
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->l()Z
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->l()Z
 
     .line 1183
     .line 1184
@@ -2421,7 +2421,7 @@
     .line 1189
     .line 1190
     :cond_16
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 1191
     .line 1192
@@ -2449,7 +2449,7 @@
 
     .line 1203
     .line 1204
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 1205
     .line 1206
@@ -2499,7 +2499,7 @@
 
     .line 1228
     :cond_18
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 1229
     .line 1230
@@ -2515,7 +2515,7 @@
     move-result v0
 
     .line 1236
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 1237
     .line 1238
@@ -2523,7 +2523,7 @@
     move-result-object v3
 
     .line 1240
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
 
     .line 1241
     .line 1242
@@ -2588,7 +2588,7 @@
     .line 1273
     .line 1274
     .line 1275
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 1276
     .line 1277
@@ -2596,7 +2596,7 @@
     move-result-object v6
 
     .line 1279
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
 
     .line 1280
     .line 1281
@@ -2623,7 +2623,7 @@
 
     .line 1292
     .line 1293
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->i()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->i()Ljava/lang/String;
 
     .line 1294
     .line 1295
@@ -2644,7 +2644,7 @@
 
     .line 1303
     .line 1304
-    invoke-virtual {v1, v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->J(I)Z
+    invoke-virtual {v1, v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->J(I)Z
 
     .line 1305
     .line 1306
@@ -2664,7 +2664,7 @@
 
     .line 1313
     .line 1314
-    invoke-virtual {v0, v1}, Llo9;->g(Lcom/jnetai/kikx2/storage/box/message/KikMessage;)J
+    invoke-virtual {v0, v1}, Llo9;->g(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)J
 
     .line 1315
     .line 1316
@@ -4014,7 +4014,7 @@
 
     .line 1973
     .line 1974
-    check-cast v12, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 1975
     .line 1976
@@ -4022,7 +4022,7 @@
 
     .line 1977
     .line 1978
-    sget v2, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 1979
     .line 1980
@@ -4704,7 +4704,7 @@
     move-result-object v2
 
     .line 2330
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2331
     .line 2332
@@ -4712,7 +4712,7 @@
 
     .line 2333
     .line 2334
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 2335
     .line 2336
@@ -4805,7 +4805,7 @@
 
     .line 2381
     .line 2382
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 2383
     .line 2384

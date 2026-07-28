@@ -1927,7 +1927,7 @@
     return v0
 .end method
 
-.method public static final c(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
+.method public static final c(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
     .locals 17
 
     .line 1
@@ -2029,11 +2029,11 @@
 
     .line 46
     .line 47
-    iget-object v10, v2, Ltza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v10, v2, Ltza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 48
     .line 49
-    iget-object v2, v2, Ltza;->X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v2, v2, Ltza;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 50
     .line 51
@@ -2074,7 +2074,7 @@
 
     .line 69
     .line 70
-    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 71
     .line 72
@@ -2111,7 +2111,7 @@
 
     .line 88
     .line 89
-    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -2162,7 +2162,7 @@
     move-result-wide v12
 
     .line 115
-    sget-object v1, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 116
     .line 117
@@ -2192,7 +2192,7 @@
 
     .line 128
     .line 129
-    iput-object v6, v2, Ltza;->X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iput-object v6, v2, Ltza;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 130
     .line 131
@@ -2200,7 +2200,7 @@
 
     .line 132
     .line 133
-    iput-object v10, v2, Ltza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object v10, v2, Ltza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 134
     .line 135
@@ -2333,7 +2333,7 @@
 
     .line 195
     .line 196
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 197
     .line 198
@@ -2384,7 +2384,7 @@
     const/4 v2, 0x0
 
     .line 223
-    invoke-virtual {v0, v10, v2, v2, v1}, Lxza;->j0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
+    invoke-virtual {v0, v10, v2, v2, v1}, Lxza;->j0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
 
     .line 224
     .line 225
@@ -2423,7 +2423,7 @@
 
     .line 242
     .line 243
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 244
     .line 245
@@ -2568,7 +2568,7 @@
     return v0
 .end method
 
-.method public static final q(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
+.method public static final q(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lga3;)Ljava/lang/Object;
     .locals 39
 
     .line 1
@@ -2681,7 +2681,7 @@
 
     .line 51
     .line 52
-    iget-object v3, v5, Luza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v3, v5, Luza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 53
     .line 54
@@ -2795,7 +2795,7 @@
 
     .line 106
     .line 107
-    iget-object v0, v5, Luza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v0, v5, Luza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 108
     .line 109
@@ -2803,7 +2803,7 @@
 
     .line 110
     .line 111
-    iget-object v0, v5, Luza;->X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v0, v5, Luza;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 112
     .line 113
@@ -2896,7 +2896,7 @@
 
     .line 151
     .line 152
-    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 153
     .line 154
@@ -2925,7 +2925,7 @@
 
     .line 166
     .line 167
-    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
+    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->d()Ljava/lang/String;
 
     .line 168
     .line 169
@@ -3009,7 +3009,7 @@
 
     .line 209
     .line 210
-    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 211
     .line 212
@@ -3017,7 +3017,7 @@
     move-result-object v6
 
     .line 214
-    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->g()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->g()Ljava/lang/String;
 
     .line 215
     .line 216
@@ -3091,7 +3091,7 @@
     .line 246
     .line 247
     .line 248
-    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->a()I
+    invoke-virtual/range {p2 .. p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->a()I
 
     .line 249
     .line 250
@@ -3820,7 +3820,7 @@
     .line 602
     .line 603
     .line 604
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
 
     .line 605
     .line 606
@@ -3858,7 +3858,7 @@
     .line 622
     .line 623
     :cond_9
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
 
     .line 624
     .line 625
@@ -3896,7 +3896,7 @@
     .line 641
     .line 642
     :cond_a
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->v()Ljava/util/Map;
 
     .line 643
     .line 644
@@ -4085,7 +4085,7 @@
 
     .line 727
     .line 728
-    invoke-direct/range {v24 .. v31}, Lvza;-><init>(JJLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lxza;Lh7c;)V
+    invoke-direct/range {v24 .. v31}, Lvza;-><init>(JJLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lxza;Lh7c;)V
 
     .line 729
     .line 730
@@ -4140,7 +4140,7 @@
 
     .line 756
     .line 757
-    invoke-direct/range {v24 .. v32}, Lwza;-><init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
+    invoke-direct/range {v24 .. v32}, Lwza;-><init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
 
     .line 758
     .line 759
@@ -4169,11 +4169,11 @@
 
     .line 771
     .line 772
-    iput-object v0, v5, Luza;->X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iput-object v0, v5, Luza;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 773
     .line 774
-    iput-object v9, v5, Luza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object v9, v5, Luza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 775
     .line 776
@@ -4553,11 +4553,11 @@
 
     .line 941
     :goto_d
-    iput-object v8, v5, Luza;->X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iput-object v8, v5, Luza;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 942
     .line 943
-    iput-object v9, v5, Luza;->Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object v9, v5, Luza;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 944
     .line 945
@@ -4651,7 +4651,7 @@
 
     .line 985
     .line 986
-    invoke-virtual {v0, v3, v1}, Lxza;->k0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
+    invoke-virtual {v0, v3, v1}, Lxza;->k0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
 
     .line 987
     .line 988
@@ -6997,7 +6997,7 @@
     .line 15
     .line 16
     :try_start_0
-    new-instance v2, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 17
     .line 18
@@ -7009,7 +7009,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v2, v4, v3, p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;Ljava/lang/Throwable;)V
+    invoke-direct {v2, v4, v3, p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;Ljava/lang/Throwable;)V
 
     .line 23
     .line 24
@@ -10524,7 +10524,7 @@
     .locals 3
 
     .line 1
-    new-instance v0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 2
     .line 3
@@ -10547,12 +10547,12 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, v2, p2, v1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {v0, v2, p2, v1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0, p1, v0}, Lxza;->y(Ljava/lang/String;Lcom/jnetai/kikx2/client/stanzas/StanzaException;)V
+    invoke-virtual {p0, p1, v0}, Lxza;->y(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;)V
 
     .line 16
     .line 17
@@ -13300,7 +13300,7 @@
     throw v0
 .end method
 
-.method public j0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
+.method public j0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
     .locals 6
 
     .line 1
@@ -13324,17 +13324,17 @@
     move-result p2
 
     .line 11
-    invoke-virtual {p1, p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->n(I)V
+    invoke-virtual {p1, p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->n(I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p1, p3}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->i(I)V
+    invoke-virtual {p1, p3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->i(I)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1, p4}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->j(Lyza;)V
+    invoke-virtual {p1, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->j(Lyza;)V
 
     .line 18
     .line 19
@@ -13358,7 +13358,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
 
     .line 30
     .line 31
@@ -13373,7 +13373,7 @@
     const/4 p0, 0x1
 
     .line 36
-    invoke-direct {v4, p1, p0}, Lpza;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)V
+    invoke-direct {v4, p1, p0}, Lpza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)V
 
     .line 37
     .line 38
@@ -13425,7 +13425,7 @@
     return-void
 .end method
 
-.method public k0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
+.method public k0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
     .locals 6
 
     .line 1
@@ -13434,7 +13434,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1, p2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->j(Lyza;)V
+    invoke-virtual {p1, p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->j(Lyza;)V
 
     .line 5
     .line 6
@@ -13458,7 +13458,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
 
     .line 17
     .line 18
@@ -13473,7 +13473,7 @@
     const/4 p0, 0x0
 
     .line 23
-    invoke-direct {v4, p1, p0}, Lpza;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)V
+    invoke-direct {v4, p1, p0}, Lpza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)V
 
     .line 24
     .line 25
@@ -14456,11 +14456,11 @@
     .line 93
     .line 94
     .line 95
-    new-instance p1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 96
     .line 97
-    invoke-direct {p1, v4, p0, v3}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {p1, v4, p0, v3}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 98
     .line 99
@@ -14531,7 +14531,7 @@
     move-result-object p0
 
     .line 129
-    check-cast p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -14563,11 +14563,11 @@
     .line 142
     .line 143
     .line 144
-    new-instance p1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 145
     .line 146
-    invoke-direct {p1, v4, p0, v3}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {p1, v4, p0, v3}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 147
     .line 148
@@ -14585,7 +14585,7 @@
 
     .line 154
     :cond_4
-    new-instance p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 155
     .line 156
@@ -14605,7 +14605,7 @@
     move-result-object p1
 
     .line 164
-    invoke-direct {p0, v4, p1, v3}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {p0, v4, p1, v3}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 165
     .line 166
@@ -14838,7 +14838,7 @@
     throw p0
 .end method
 
-.method public y(Ljava/lang/String;Lcom/jnetai/kikx2/client/stanzas/StanzaException;)V
+.method public y(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;)V
     .locals 2
 
     .line 1

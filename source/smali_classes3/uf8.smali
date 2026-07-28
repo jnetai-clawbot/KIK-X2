@@ -651,7 +651,7 @@
     move-result-object v2
 
     .line 65
-    check-cast v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 66
     .line 67
@@ -851,7 +851,7 @@
     const/4 v1, 0x0
 
     .line 164
-    invoke-direct {v4, v2, v1}, Loe8;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v4, v2, v1}, Loe8;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 165
     .line 166
@@ -866,7 +866,7 @@
 
     .line 171
     .line 172
-    sget v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 173
     .line 174
@@ -1025,7 +1025,7 @@
     move-object v4, v13
 
     .line 240
-    invoke-direct/range {v0 .. v6}, Lra2;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v0 .. v6}, Lra2;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
 
     .line 241
     .line 242
@@ -9489,7 +9489,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -9517,7 +9517,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6

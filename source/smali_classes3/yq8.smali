@@ -4,7 +4,7 @@
 
 
 # virtual methods
-.method public abstract a()Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.method public abstract a()Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 .end method
 
 .method public abstract b()Lnb1;
@@ -16,7 +16,7 @@
 .method public abstract d()Ljava/lang/String;
 .end method
 
-.method public abstract e()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.method public abstract e()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 .end method
 
 .method public abstract f()Ljava/lang/String;

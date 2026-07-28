@@ -1343,7 +1343,7 @@
 
     .line 447
     .line 448
-    new-instance v2, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 449
     .line 450
@@ -1354,12 +1354,12 @@
     const/4 v5, 0x6
 
     .line 453
-    invoke-direct {v2, v3, v8, v5}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {v2, v3, v8, v5}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 454
     .line 455
     .line 456
-    invoke-virtual {v0, v1, v2}, Lxza;->y(Ljava/lang/String;Lcom/jnetai/kikx2/client/stanzas/StanzaException;)V
+    invoke-virtual {v0, v1, v2}, Lxza;->y(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;)V
 
     .line 457
     .line 458

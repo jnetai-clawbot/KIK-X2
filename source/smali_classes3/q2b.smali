@@ -15,13 +15,13 @@
 
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic Z:Lnb1;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lq2b;->Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p1, p0, Lq2b;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 4
     .line 5
@@ -117,7 +117,7 @@
     move-result v9
 
     .line 29
-    iget-object v4, v0, Lq2b;->Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v4, v0, Lq2b;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 30
     .line 31
@@ -133,7 +133,7 @@
 
     .line 36
     .line 37
-    invoke-static/range {v4 .. v9}, Lwwh;->c(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+    invoke-static/range {v4 .. v9}, Lwwh;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
 
     .line 38
     .line 39
@@ -175,7 +175,7 @@
     move-result v15
 
     .line 58
-    iget-object v10, v0, Lq2b;->Y:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v10, v0, Lq2b;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 59
     .line 60
@@ -191,7 +191,7 @@
 
     .line 65
     .line 66
-    invoke-static/range {v10 .. v15}, Lwwh;->d(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+    invoke-static/range {v10 .. v15}, Lwwh;->d(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
 
     .line 67
     .line 68

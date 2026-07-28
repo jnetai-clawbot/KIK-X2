@@ -397,7 +397,7 @@
 
     .line 172
     .line 173
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 174
     .line 175
@@ -430,7 +430,7 @@
 
     .line 189
     .line 190
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 191
     .line 192
@@ -451,7 +451,7 @@
 
     .line 200
     .line 201
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 202
     .line 203

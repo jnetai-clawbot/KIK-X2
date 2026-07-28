@@ -928,7 +928,7 @@
     move-object v7, v1
 
     .line 368
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 369
     .line 370
@@ -2645,7 +2645,7 @@
     .line 530
     .line 531
     .line 532
-    iget-object v0, v10, Llu9;->a:Lcom/jnetai/kikx2/App;
+    iget-object v0, v10, Llu9;->a:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 533
     .line 534
@@ -2978,7 +2978,7 @@
     .line 702
     .line 703
     .line 704
-    iget-object v2, v0, Llu9;->a:Lcom/jnetai/kikx2/App;
+    iget-object v2, v0, Llu9;->a:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 705
     .line 706
@@ -4517,7 +4517,7 @@
     move-object v12, v10
 
     .line 1465
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1466
     .line 1467

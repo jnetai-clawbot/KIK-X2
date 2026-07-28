@@ -17,7 +17,7 @@
 
 .field public final synthetic U0:Lsoc;
 
-.field public final synthetic V0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic V0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic W0:Lk0a;
 
@@ -33,7 +33,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
+.method public constructor <init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
     .locals 0
 
     .line 1
@@ -45,7 +45,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Ldp8;->V0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p3, p0, Ldp8;->V0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -98,7 +98,7 @@
 
     .line 10
     .line 11
-    iget-object v3, p0, Ldp8;->V0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Ldp8;->V0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 12
     .line 13
@@ -109,7 +109,7 @@
     move-object v7, p2
 
     .line 16
-    invoke-direct/range {v0 .. v7}, Ldp8;-><init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v0 .. v7}, Ldp8;-><init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
 
     .line 17
     .line 18
@@ -465,7 +465,7 @@
 
     .line 141
     .line 142
-    iget-object v10, p0, Ldp8;->V0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v10, p0, Ldp8;->V0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 143
     .line 144

@@ -498,7 +498,7 @@
 
     .line 215
     .line 216
-    iget-object p1, p1, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object p1, p1, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 217
     .line 218
@@ -506,7 +506,7 @@
 
     .line 219
     .line 220
-    iget-object p2, p2, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object p2, p2, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 221
     .line 222
@@ -526,7 +526,7 @@
 
     .line 229
     .line 230
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->k()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->k()Z
 
     .line 231
     .line 232
@@ -534,7 +534,7 @@
     move-result p0
 
     .line 234
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->k()Z
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->k()Z
 
     .line 235
     .line 236
@@ -559,7 +559,7 @@
 
     .line 245
     .line 246
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 247
     .line 248
@@ -567,7 +567,7 @@
     move-result-object p0
 
     .line 250
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 251
     .line 252
@@ -575,7 +575,7 @@
     move-result-object p0
 
     .line 254
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 255
     .line 256
@@ -583,7 +583,7 @@
     move-result-object p1
 
     .line 258
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 259
     .line 260

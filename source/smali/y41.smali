@@ -75,7 +75,7 @@
     .line 7
     .line 8
     .line 9
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 10
     .line 11
@@ -339,7 +339,7 @@
 
     .line 137
     :pswitch_5
-    check-cast p1, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 138
     .line 139
@@ -424,7 +424,7 @@
 
     .line 178
     :pswitch_7
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 179
     .line 180
@@ -590,7 +590,7 @@
 
     .line 8
     .line 9
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 10
     .line 11
@@ -1579,7 +1579,7 @@
 
     .line 501
     .line 502
-    check-cast v0, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 503
     .line 504
@@ -1647,7 +1647,7 @@
 
     .line 535
     .line 536
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 537
     .line 538

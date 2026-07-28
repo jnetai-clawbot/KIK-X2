@@ -502,7 +502,7 @@
     move-result-object v9
 
     .line 150
-    invoke-virtual {v9, v7, v8}, Lfd2;->m(J)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v9, v7, v8}, Lfd2;->m(J)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 151
     .line 152
@@ -514,7 +514,7 @@
 
     .line 155
     .line 156
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 157
     .line 158

@@ -904,7 +904,7 @@
     .line 385
     .line 386
     .line 387
-    sget-object v15, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->LAUNCHABLE_URI_SCHEMES:Ljava/util/Set;
+    sget-object v15, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->LAUNCHABLE_URI_SCHEMES:Ljava/util/Set;
 
     .line 388
     .line 389

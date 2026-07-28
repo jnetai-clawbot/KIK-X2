@@ -13,13 +13,13 @@
 
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
 .field public final synthetic Z:Lxj7;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Ldy6;->Y:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iput-object p1, p0, Ldy6;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 4
     .line 5
@@ -74,7 +74,7 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Ldy6;->Y:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iget-object v2, p0, Ldy6;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 11
     .line 12
@@ -82,7 +82,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, p0, v0, v1}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->j(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;)Lsbf;
+    invoke-static {v2, p0, v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->j(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;)Lsbf;
 
     .line 15
     .line 16
@@ -102,7 +102,7 @@
 
     .line 22
     .line 23
-    iget-object v2, p0, Ldy6;->Y:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    iget-object v2, p0, Ldy6;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 24
     .line 25
@@ -110,7 +110,7 @@
 
     .line 26
     .line 27
-    invoke-static {v2, p0, v0, v1}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->k(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;)Lsbf;
+    invoke-static {v2, p0, v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->k(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lxj7;Lca2;Ljava/util/UUID;)Lsbf;
 
     .line 28
     .line 29

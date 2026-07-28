@@ -2792,11 +2792,11 @@
     .line 960
     .line 961
     .line 962
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 963
     .line 964
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->c()Ljava/util/UUID;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->c()Ljava/util/UUID;
 
     .line 965
     .line 966

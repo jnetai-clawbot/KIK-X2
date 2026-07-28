@@ -1082,7 +1082,7 @@
 
     .line 414
     .line 415
-    sget-object v10, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v10, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 416
     .line 417
@@ -1096,7 +1096,7 @@
     .line 421
     .line 422
     .line 423
-    invoke-static {v8, v9}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v8, v9}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 424
     .line 425
@@ -1174,7 +1174,7 @@
 
     .line 460
     .line 461
-    sget-object v10, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v10, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 462
     .line 463
@@ -1188,7 +1188,7 @@
     .line 467
     .line 468
     .line 469
-    invoke-static {v9, v2}, Ltn7;->c(Lz7a;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v9, v2}, Ltn7;->c(Lz7a;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 470
     .line 471
@@ -2262,7 +2262,7 @@
 
     .line 997
     .line 998
-    check-cast v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 999
     .line 1000

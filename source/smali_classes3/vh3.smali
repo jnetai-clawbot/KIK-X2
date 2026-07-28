@@ -706,11 +706,11 @@
 
     .line 321
     :pswitch_14
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 322
     .line 323
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 324
     .line 325
@@ -722,11 +722,11 @@
 
     .line 328
     :pswitch_15
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 329
     .line 330
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 331
     .line 332
@@ -738,7 +738,7 @@
 
     .line 335
     :pswitch_16
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 336
     .line 337
@@ -747,7 +747,7 @@
     .line 338
     .line 339
     .line 340
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 341
     .line 342
@@ -759,7 +759,7 @@
 
     .line 345
     .line 346
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->x()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->x()Z
 
     .line 347
     .line 348
@@ -771,7 +771,7 @@
 
     .line 351
     .line 352
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 353
     .line 354
@@ -811,7 +811,7 @@
 
     .line 369
     :pswitch_17
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 370
     .line 371
@@ -820,7 +820,7 @@
     .line 372
     .line 373
     .line 374
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 375
     .line 376
@@ -848,7 +848,7 @@
 
     .line 387
     :pswitch_18
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 388
     .line 389
@@ -857,7 +857,7 @@
     .line 390
     .line 391
     .line 392
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 393
     .line 394
@@ -885,7 +885,7 @@
 
     .line 405
     :pswitch_19
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 406
     .line 407
@@ -894,7 +894,7 @@
     .line 408
     .line 409
     .line 410
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 411
     .line 412
@@ -922,7 +922,7 @@
 
     .line 423
     :pswitch_1a
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 424
     .line 425
@@ -931,7 +931,7 @@
     .line 426
     .line 427
     .line 428
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 429
     .line 430
@@ -959,7 +959,7 @@
 
     .line 441
     :pswitch_1b
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 442
     .line 443
@@ -968,7 +968,7 @@
     .line 444
     .line 445
     .line 446
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 447
     .line 448
@@ -996,7 +996,7 @@
 
     .line 459
     :pswitch_1c
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 460
     .line 461
@@ -1005,7 +1005,7 @@
     .line 462
     .line 463
     .line 464
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 465
     .line 466

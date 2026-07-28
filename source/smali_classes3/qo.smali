@@ -541,7 +541,7 @@
 
     .line 70
     .line 71
-    check-cast v24, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v24, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 72
     .line 73
@@ -606,7 +606,7 @@
 
     .line 103
     .line 104
-    invoke-direct/range {v20 .. v26}, Lt70;-><init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;)V
+    invoke-direct/range {v20 .. v26}, Lt70;-><init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;)V
 
     .line 105
     .line 106
@@ -3132,11 +3132,11 @@
 
     .line 1323
     .line 1324
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1325
     .line 1326
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1327
     .line 1328
@@ -3161,7 +3161,7 @@
 
     .line 1338
     .line 1339
-    invoke-direct {v1, v2, v11, v0}, Lgza;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lvb;)V
+    invoke-direct {v1, v2, v11, v0}, Lgza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lvb;)V
 
     .line 1340
     .line 1341

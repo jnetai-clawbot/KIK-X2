@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public Q0:Lcom/jnetai/kikx2/App;
+.field public Q0:Lcom/jnetai/kikx2/kikx2/App;
 
 .field public R0:Z
 

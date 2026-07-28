@@ -10,7 +10,7 @@
 # virtual methods
 .method public final startIntercepting(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -44,7 +44,7 @@
 
 .method public final stopIntercepting(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1

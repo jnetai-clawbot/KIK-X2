@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.client.live.storage.config.LiveStreamReportConfig.I18n"
+    const-string v2, "com.jnetai.kikx2.kikx2.client.live.storage.config.LiveStreamReportConfig.I18n"
 
     .line 11
     .line 12

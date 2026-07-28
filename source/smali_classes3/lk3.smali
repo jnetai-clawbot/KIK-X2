@@ -285,7 +285,7 @@
 
     .line 113
     .line 114
-    const-string v19, "setViewType(Lcom/jnetai/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
+    const-string v19, "setViewType(Lcom/jnetai/kikx2/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
 
     .line 115
     .line 116

@@ -129,7 +129,7 @@
 
 
 # virtual methods
-.method public final a()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.method public final a()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
     .locals 19
 
     .line 1
@@ -137,7 +137,7 @@
 
     .line 2
     .line 3
-    new-instance v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    new-instance v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 4
     .line 5
@@ -224,7 +224,7 @@
 
     .line 39
     .line 40
-    invoke-direct/range {v0 .. v18}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;ZLjava/lang/String;JZZLjo7;ZJILzw3;)V
+    invoke-direct/range {v0 .. v18}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;ZLjava/lang/String;JZZLjo7;ZJILzw3;)V
 
     .line 41
     .line 42

@@ -16,7 +16,7 @@
 
 .field public synthetic V0:Ljava/lang/Object;
 
-.field public final synthetic W0:Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;
+.field public final synthetic W0:Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;
 
 .field public X:Lxj7;
 
@@ -28,11 +28,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;Lga3;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;Lga3;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lwdc;->W0:Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;
+    iput-object p1, p0, Lwdc;->W0:Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;
 
     .line 2
     .line 3
@@ -75,7 +75,7 @@
     const/4 v4, 0x0
 
     .line 12
-    iget-object v0, p0, Lwdc;->W0:Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;
+    iget-object v0, p0, Lwdc;->W0:Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;
 
     .line 13
     .line 14
@@ -88,7 +88,7 @@
     move-object v5, p0
 
     .line 17
-    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;->a(Lcom/jnetai/kikx2/core/notifications/messages/ReplyButton;Lxj7;Landroid/content/Context;Lcom/jnetai/kikx2/storage/box/chat/Chat;Ljava/lang/CharSequence;Lga3;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;->a(Lcom/jnetai/kikx2/kikx2/core/notifications/messages/ReplyButton;Lxj7;Landroid/content/Context;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ljava/lang/CharSequence;Lga3;)Ljava/lang/Object;
 
     .line 18
     .line 19

@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lqq5;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lqq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;I)V
+.method public synthetic constructor <init>(Lqq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lzyf;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Lzyf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7
@@ -53,7 +53,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lzyf;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v2, p0, Lzyf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7

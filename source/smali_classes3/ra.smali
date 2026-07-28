@@ -2481,7 +2481,7 @@
 
     .line 37
     .line 38
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 39
     .line 40
@@ -3563,7 +3563,7 @@
 
     .line 554
     .line 555
-    const-string v9, "executeAdminAction(Lcom/jnetai/kikx2/ui/fragments/groups/profile/PendingAdminAction;)V"
+    const-string v9, "executeAdminAction(Lcom/jnetai/kikx2/kikx2/ui/fragments/groups/profile/PendingAdminAction;)V"
 
     .line 556
     .line 557
@@ -3612,7 +3612,7 @@
 
     .line 577
     .line 578
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 579
     .line 580
@@ -3752,7 +3752,7 @@
     move-result-object v4
 
     .line 644
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 645
     .line 646
@@ -3857,7 +3857,7 @@
 
     .line 695
     .line 696
-    check-cast v15, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 697
     .line 698
@@ -3997,7 +3997,7 @@
     move-result-object v4
 
     .line 762
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 763
     .line 764
@@ -8410,7 +8410,7 @@
     move-result-object v2
 
     .line 2918
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2919
     .line 2920
@@ -8418,7 +8418,7 @@
 
     .line 2921
     .line 2922
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 2923
     .line 2924

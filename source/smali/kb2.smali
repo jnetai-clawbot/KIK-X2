@@ -209,7 +209,7 @@
 
     .line 37
     :pswitch_1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 38
     .line 39
@@ -516,7 +516,7 @@
 
     .line 125
     .line 126
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 127
     .line 128
@@ -525,7 +525,7 @@
     .line 129
     .line 130
     .line 131
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
 
     .line 132
     .line 133

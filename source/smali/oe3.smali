@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
@@ -18,7 +18,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p1, p0, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 5
     .line 6
@@ -64,15 +64,15 @@
 
     .line 10
     .line 11
-    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 12
     .line 13
-    iget-object p1, p1, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p1, p1, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -103,11 +103,11 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->hashCode()I
 
     .line 4
     .line 5
@@ -135,7 +135,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 9
     .line 10

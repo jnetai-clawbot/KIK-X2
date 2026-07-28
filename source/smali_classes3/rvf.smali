@@ -253,7 +253,7 @@
     move-result-object v0
 
     .line 84
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 85
     .line 86
@@ -274,7 +274,7 @@
 
     .line 94
     .line 95
-    invoke-direct {v3, p1, v0, v2, p2}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;I)V
+    invoke-direct {v3, p1, v0, v2, p2}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;I)V
 
     .line 96
     .line 97
@@ -305,7 +305,7 @@
     move-result-object p1
 
     .line 110
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 111
     .line 112
@@ -321,11 +321,11 @@
     move-result-object p0
 
     .line 118
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 119
     .line 120
-    invoke-virtual {v1, p1, p0, v0}, Lhwf;->m(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
+    invoke-virtual {v1, p1, p0, v0}, Lhwf;->m(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Z)V
 
     .line 121
     .line 122

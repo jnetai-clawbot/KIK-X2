@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lct;->Y:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iput-object p1, p0, Lct;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lct;->Y:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object p0, p0, Lct;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 4
     .line 5
@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->h()J
 
     .line 9
     .line 10
@@ -73,7 +73,7 @@
 
     .line 18
     :pswitch_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->h()J
 
     .line 19
     .line 20

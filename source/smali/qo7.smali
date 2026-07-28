@@ -356,7 +356,7 @@
 
     .line 161
     .line 162
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$KikGroupMemberTypeConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$KikGroupMemberTypeConverter;
 
     .line 163
     .line 164
@@ -584,7 +584,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2
     .line 3

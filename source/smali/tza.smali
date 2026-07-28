@@ -16,9 +16,9 @@
 
 .field public V0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
 .field public Z:Ljava/io/File;
 
@@ -72,7 +72,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-static {p1, v0, v0, v0, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
+    invoke-static {p1, v0, v0, v0, p0}, Lxza;->c(Lxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Ltq5;Lga3;)Ljava/lang/Object;
 
     .line 14
     .line 15

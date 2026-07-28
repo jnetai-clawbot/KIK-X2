@@ -10,7 +10,7 @@
 
 .field public S0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
 .field public Y:Lb2a;
 
@@ -66,7 +66,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, v0, v0, v0, p0}, Lph6;->y(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lb2a;Ljava/lang/String;Lga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, v0, v0, p0}, Lph6;->y(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lb2a;Ljava/lang/String;Lga3;)Ljava/lang/Object;
 
     .line 14
     .line 15

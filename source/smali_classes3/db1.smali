@@ -8,7 +8,7 @@
 
 .field public final c:I
 
-.field public final d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field public final d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
 .field public final e:Ljava/lang/String;
 
@@ -21,7 +21,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ZILcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Ljava/lang/String;)V
+.method public constructor <init>(ZILcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Ljava/lang/String;)V
     .locals 2
 
     .line 1
@@ -69,7 +69,7 @@
 
     .line 24
     .line 25
-    iput-object p3, p0, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iput-object p3, p0, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 26
     .line 27
@@ -142,11 +142,11 @@
 
     .line 25
     :cond_3
-    iget-object v0, p0, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v0, p0, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 26
     .line 27
-    iget-object v1, p1, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p1, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 28
     .line 29
@@ -241,11 +241,11 @@
 
     .line 16
     .line 17
-    iget-object v1, p0, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
 
     .line 20
     .line 21
@@ -343,7 +343,7 @@
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Ldb1;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Ldb1;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 29
     .line 30

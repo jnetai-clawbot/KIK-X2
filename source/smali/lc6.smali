@@ -61,7 +61,7 @@
     .line 11
     .line 12
     .line 13
-    iget-object p1, p1, Lwq8;->a:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object p1, p1, Lwq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 14
     .line 15
@@ -102,7 +102,7 @@
     .line 31
     .line 32
     .line 33
-    iget-object p1, p1, Lwq8;->a:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object p1, p1, Lwq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 34
     .line 35
@@ -189,11 +189,11 @@
     move-result-object v1
 
     .line 76
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 77
     .line 78
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 79
     .line 80
@@ -247,7 +247,7 @@
 
     .line 104
     .line 105
-    sget-object v4, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 106
     .line 107
@@ -269,7 +269,7 @@
 
     .line 114
     .line 115
-    const-string v7, "createStub(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;"
+    const-string v7, "createStub(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;"
 
     .line 116
     .line 117

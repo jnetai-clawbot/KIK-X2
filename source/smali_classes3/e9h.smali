@@ -408,11 +408,11 @@
 
     .line 58
     .line 59
-    iget-object p1, p2, Llcc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p1, p2, Llcc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 60
     .line 61
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->c()Ljava/lang/String;
 
     .line 62
     .line 63

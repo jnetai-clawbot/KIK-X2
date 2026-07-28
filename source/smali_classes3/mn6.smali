@@ -575,7 +575,7 @@
 
     .line 254
     .line 255
-    invoke-static/range {v7 .. v19}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v7 .. v19}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 256
     .line 257
@@ -687,11 +687,11 @@
 
     .line 305
     .line 306
-    check-cast v0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 307
     .line 308
-    sget v2, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 309
     .line 310
@@ -1108,11 +1108,11 @@
 
     .line 513
     .line 514
-    check-cast v0, Lcom/jnetai/kikx2/client/stanzas/c;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 515
     .line 516
-    iget-object v0, v0, Lcom/jnetai/kikx2/client/stanzas/c;->S0:Lh9d;
+    iget-object v0, v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->S0:Lh9d;
 
     .line 517
     .line 518
@@ -1439,7 +1439,7 @@
 
     .line 677
     .line 678
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 679
     .line 680
@@ -1459,7 +1459,7 @@
 
     .line 687
     .line 688
-    invoke-virtual {v1, v0}, Lz4a;->d(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)Lft2;
+    invoke-virtual {v1, v0}, Lz4a;->d(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)Lft2;
 
     .line 689
     .line 690

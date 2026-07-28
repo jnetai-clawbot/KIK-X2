@@ -398,7 +398,7 @@
     return-void
 .end method
 
-.method public static d(Lwi3;Lgb8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lqq5;I)V
+.method public static d(Lwi3;Lgb8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lqq5;I)V
     .locals 1
 
     .line 1
@@ -749,11 +749,11 @@
     .locals 7
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -1028,11 +1028,11 @@
 
     .line 139
     .line 140
-    sget-object v6, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 141
     .line 142
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 143
     .line 144

@@ -57,15 +57,15 @@
     const/4 v5, 0x3
 
     .line 9
-    const-string v6, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v6, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 10
     .line 11
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 12
     .line 13
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 14
     .line 15

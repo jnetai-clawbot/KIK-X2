@@ -8,7 +8,7 @@
 
 .field public R0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public Y:Llud;
 
@@ -64,7 +64,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, v0, p0}, Li9f;->a(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, p0}, Li9f;->a(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;)Ljava/lang/Object;
 
     .line 14
     .line 15

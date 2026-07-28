@@ -321,7 +321,7 @@
 
     .line 133
     :pswitch_11
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->x(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->x(Lk0a;)Lsbf;
 
     .line 134
     .line 135
@@ -333,7 +333,7 @@
 
     .line 138
     :pswitch_12
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->M(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->M(Lk0a;)Lsbf;
 
     .line 139
     .line 140
@@ -345,7 +345,7 @@
 
     .line 143
     :pswitch_13
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->U(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->U(Lk0a;)Lsbf;
 
     .line 144
     .line 145
@@ -357,7 +357,7 @@
 
     .line 148
     :pswitch_14
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->D(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->D(Lk0a;)Lsbf;
 
     .line 149
     .line 150
@@ -369,7 +369,7 @@
 
     .line 153
     :pswitch_15
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->Q(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->Q(Lk0a;)Lsbf;
 
     .line 154
     .line 155
@@ -381,7 +381,7 @@
 
     .line 158
     :pswitch_16
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->o(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->o(Lk0a;)Lsbf;
 
     .line 159
     .line 160

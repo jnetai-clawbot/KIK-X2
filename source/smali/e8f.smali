@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method public static final a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+.method public static final a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
     .locals 14
 
     .line 1
@@ -439,7 +439,7 @@
     move-result-object v0
 
     .line 181
-    invoke-static {v0, v1}, Lph6;->v(Lxj7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;)Ljava/util/List;
+    invoke-static {v0, v1}, Lph6;->v(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)Ljava/util/List;
 
     .line 182
     .line 183
@@ -570,7 +570,7 @@
     move v4, v6
 
     .line 241
-    invoke-direct/range {v0 .. v5}, Lc61;-><init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;II)V
+    invoke-direct/range {v0 .. v5}, Lc61;-><init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;II)V
 
     .line 242
     .line 243

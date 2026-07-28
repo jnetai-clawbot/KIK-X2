@@ -320,7 +320,7 @@
 
     .line 40
     .line 41
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 42
     .line 43
@@ -368,7 +368,7 @@
 
     .line 66
     .line 67
-    invoke-direct {v2, v0}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v2, v0}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 68
     .line 69
@@ -378,7 +378,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 74
     .line 75

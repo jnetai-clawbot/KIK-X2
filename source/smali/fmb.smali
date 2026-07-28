@@ -453,7 +453,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {p0}, Liz5;->a()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Liz5;->a()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 86
     .line 87

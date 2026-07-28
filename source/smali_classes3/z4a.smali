@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 .field public final b:Z
 
@@ -25,7 +25,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 2
     .line 3
@@ -40,7 +40,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;ZLen5;Lfad;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;ZLen5;Lfad;)V
     .locals 0
 
     .line 1
@@ -49,7 +49,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -119,7 +119,7 @@
     move-result v3
 
     .line 23
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 24
     .line 25
@@ -219,7 +219,7 @@
 
     .line 72
     .line 73
-    const-string p3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string p3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 74
     .line 75
@@ -257,7 +257,7 @@
 
     .line 92
     .line 93
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 94
     .line 95
@@ -937,7 +937,7 @@
 
     .line 224
     .line 225
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 226
     .line 227
@@ -970,7 +970,7 @@
 
     .line 241
     .line 242
-    const-string v9, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v9, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 243
     .line 244
@@ -991,7 +991,7 @@
 
     .line 252
     .line 253
-    const-string v9, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v9, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 254
     .line 255
@@ -1472,7 +1472,7 @@
 
     .line 202
     .line 203
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 204
     .line 205
@@ -1505,7 +1505,7 @@
 
     .line 219
     .line 220
-    const-string v6, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v6, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 221
     .line 222
@@ -1526,7 +1526,7 @@
 
     .line 230
     .line 231
-    const-string v6, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v6, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 232
     .line 233
@@ -1770,7 +1770,7 @@
 
     .line 90
     .line 91
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 92
     .line 93
@@ -1803,7 +1803,7 @@
 
     .line 107
     .line 108
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 109
     .line 110
@@ -1824,7 +1824,7 @@
 
     .line 118
     .line 119
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 120
     .line 121
@@ -1882,7 +1882,7 @@
     return-void
 .end method
 
-.method public final E(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;ZJ)Lft2;
+.method public final E(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;ZJ)Lft2;
     .locals 3
 
     .line 1
@@ -1895,7 +1895,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -1916,7 +1916,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 18
     .line 19
@@ -2561,14 +2561,14 @@
 
     .line 10
     .line 11
-    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 12
     .line 13
     const/4 v3, 0x1
 
     .line 14
-    invoke-direct {v0, p0, v3, v1, v2}, Lz4a;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;ZLen5;Lfad;)V
+    invoke-direct {v0, p0, v3, v1, v2}, Lz4a;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;ZLen5;Lfad;)V
 
     .line 15
     .line 16
@@ -2702,7 +2702,7 @@
     return-void
 .end method
 
-.method public final d(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)Lft2;
+.method public final d(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)Lft2;
     .locals 3
 
     .line 1
@@ -2724,7 +2724,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -3014,7 +3014,7 @@
 
     .line 103
     .line 104
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 105
     .line 106
@@ -3047,7 +3047,7 @@
 
     .line 120
     .line 121
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 122
     .line 123
@@ -3068,7 +3068,7 @@
 
     .line 131
     .line 132
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 133
     .line 134
@@ -3356,7 +3356,7 @@
 
     .line 110
     .line 111
-    const-string p2, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string p2, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 112
     .line 113
@@ -3389,7 +3389,7 @@
 
     .line 127
     .line 128
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 129
     .line 130
@@ -3410,7 +3410,7 @@
 
     .line 138
     .line 139
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 140
     .line 141
@@ -3719,7 +3719,7 @@
 
     .line 117
     .line 118
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 119
     .line 120
@@ -3752,7 +3752,7 @@
 
     .line 134
     .line 135
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 136
     .line 137
@@ -3773,7 +3773,7 @@
 
     .line 145
     .line 146
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 147
     .line 148
@@ -4040,7 +4040,7 @@
 
     .line 100
     .line 101
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 102
     .line 103
@@ -4073,7 +4073,7 @@
 
     .line 117
     .line 118
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 119
     .line 120
@@ -4094,7 +4094,7 @@
 
     .line 128
     .line 129
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 130
     .line 131
@@ -4409,7 +4409,7 @@
 
     .line 121
     .line 122
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 123
     .line 124
@@ -4442,7 +4442,7 @@
 
     .line 138
     .line 139
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 140
     .line 141
@@ -4463,7 +4463,7 @@
 
     .line 149
     .line 150
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 151
     .line 152
@@ -4710,7 +4710,7 @@
 
     .line 90
     .line 91
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 92
     .line 93
@@ -4743,7 +4743,7 @@
 
     .line 107
     .line 108
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 109
     .line 110
@@ -4764,7 +4764,7 @@
 
     .line 118
     .line 119
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 120
     .line 121
@@ -5050,7 +5050,7 @@
 
     .line 108
     .line 109
-    const-string p2, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string p2, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 110
     .line 111
@@ -5083,7 +5083,7 @@
 
     .line 125
     .line 126
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 127
     .line 128
@@ -5104,7 +5104,7 @@
 
     .line 136
     .line 137
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 138
     .line 139
@@ -5418,7 +5418,7 @@
 
     .line 120
     .line 121
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 122
     .line 123
@@ -5451,7 +5451,7 @@
 
     .line 137
     .line 138
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 139
     .line 140
@@ -5472,7 +5472,7 @@
 
     .line 148
     .line 149
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 150
     .line 151
@@ -5582,7 +5582,7 @@
 
     .line 26
     .line 27
-    const-string v6, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v6, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 28
     .line 29
@@ -5615,7 +5615,7 @@
 
     .line 43
     .line 44
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 45
     .line 46
@@ -5636,7 +5636,7 @@
 
     .line 54
     .line 55
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 56
     .line 57
@@ -6022,7 +6022,7 @@
 
     .line 148
     .line 149
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 150
     .line 151
@@ -6055,7 +6055,7 @@
 
     .line 165
     .line 166
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 167
     .line 168
@@ -6076,7 +6076,7 @@
 
     .line 176
     .line 177
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 178
     .line 179
@@ -6375,7 +6375,7 @@
 
     .line 113
     .line 114
-    const-string v1, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v1, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 115
     .line 116
@@ -6408,7 +6408,7 @@
 
     .line 130
     .line 131
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 132
     .line 133
@@ -6429,7 +6429,7 @@
 
     .line 141
     .line 142
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 143
     .line 144
@@ -6685,7 +6685,7 @@
 
     .line 90
     .line 91
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 92
     .line 93
@@ -6718,7 +6718,7 @@
 
     .line 107
     .line 108
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 109
     .line 110
@@ -6739,7 +6739,7 @@
 
     .line 118
     .line 119
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 120
     .line 121
@@ -7012,7 +7012,7 @@
 
     .line 100
     .line 101
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 102
     .line 103
@@ -7045,7 +7045,7 @@
 
     .line 117
     .line 118
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 119
     .line 120
@@ -7066,7 +7066,7 @@
 
     .line 128
     .line 129
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 130
     .line 131
@@ -7316,7 +7316,7 @@
 
     .line 90
     .line 91
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 92
     .line 93
@@ -7349,7 +7349,7 @@
 
     .line 107
     .line 108
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 109
     .line 110
@@ -7370,7 +7370,7 @@
 
     .line 118
     .line 119
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 120
     .line 121
@@ -7538,7 +7538,7 @@
 
     .line 52
     .line 53
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 54
     .line 55
@@ -7571,7 +7571,7 @@
 
     .line 69
     .line 70
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 71
     .line 72
@@ -7592,7 +7592,7 @@
 
     .line 80
     .line 81
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 82
     .line 83
@@ -7867,7 +7867,7 @@
 
     .line 97
     .line 98
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 99
     .line 100
@@ -7900,7 +7900,7 @@
 
     .line 114
     .line 115
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 116
     .line 117
@@ -7921,7 +7921,7 @@
 
     .line 125
     .line 126
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 127
     .line 128
@@ -8259,7 +8259,7 @@
 
     .line 113
     .line 114
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 115
     .line 116
@@ -8292,7 +8292,7 @@
 
     .line 130
     .line 131
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 132
     .line 133
@@ -8313,7 +8313,7 @@
 
     .line 141
     .line 142
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 143
     .line 144
@@ -8580,7 +8580,7 @@
 
     .line 100
     .line 101
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 102
     .line 103
@@ -8613,7 +8613,7 @@
 
     .line 117
     .line 118
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 119
     .line 120
@@ -8634,7 +8634,7 @@
 
     .line 128
     .line 129
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 130
     .line 131
@@ -8912,7 +8912,7 @@
 
     .line 104
     .line 105
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 106
     .line 107
@@ -8945,7 +8945,7 @@
 
     .line 121
     .line 122
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 123
     .line 124
@@ -8966,7 +8966,7 @@
 
     .line 132
     .line 133
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 134
     .line 135
@@ -9030,11 +9030,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
+    invoke-virtual {p0, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
 
     .line 7
     .line 8
@@ -9237,7 +9237,7 @@
 
     .line 90
     .line 91
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 92
     .line 93
@@ -9270,7 +9270,7 @@
 
     .line 107
     .line 108
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 109
     .line 110
@@ -9291,7 +9291,7 @@
 
     .line 118
     .line 119
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 120
     .line 121
@@ -9349,7 +9349,7 @@
     return-void
 .end method
 
-.method public final z(Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;)V
+.method public final z(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;)V
     .locals 7
 
     .line 1
@@ -9375,7 +9375,7 @@
 
     .line 12
     .line 13
-    const-class v3, Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    const-class v3, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 14
     .line 15
@@ -9429,7 +9429,7 @@
 
     .line 40
     .line 41
-    const-class v1, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    const-class v1, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 42
     .line 43
@@ -9592,7 +9592,7 @@
 
     .line 116
     .line 117
-    const-string v1, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v1, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 118
     .line 119
@@ -9625,7 +9625,7 @@
 
     .line 133
     .line 134
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 135
     .line 136
@@ -9646,7 +9646,7 @@
 
     .line 144
     .line 145
-    const-string v5, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v5, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 146
     .line 147
@@ -9695,7 +9695,7 @@
 
     .line 167
     .line 168
-    const-class v2, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 169
     .line 170

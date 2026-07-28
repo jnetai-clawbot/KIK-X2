@@ -1005,7 +1005,7 @@
 
     .line 463
     :pswitch_e
-    check-cast v0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 464
     .line 465
@@ -1030,7 +1030,7 @@
     .line 474
     .line 475
     .line 476
-    sget v2, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 477
     .line 478
@@ -1042,7 +1042,7 @@
     move-result v2
 
     .line 482
-    invoke-virtual {v0, v1, v2}, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Content(Lgx2;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Content(Lgx2;I)V
 
     .line 483
     .line 484
@@ -1307,7 +1307,7 @@
 
     .line 615
     :pswitch_14
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 616
     .line 617
@@ -1392,7 +1392,7 @@
     move-result-object v7
 
     .line 654
-    invoke-virtual {v0, v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v0, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 655
     .line 656

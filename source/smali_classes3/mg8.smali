@@ -15,7 +15,7 @@
 
 .field public T0:Ljava/lang/Object;
 
-.field public U0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public U0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public V0:Lp1a;
 
@@ -200,7 +200,7 @@
 
     .line 38
     .line 39
-    iget-object v9, v0, Lmg8;->U0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v9, v0, Lmg8;->U0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 40
     .line 41
@@ -438,7 +438,7 @@
     move-object v9, v10
 
     .line 152
-    check-cast v9, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 153
     .line 154
@@ -481,7 +481,7 @@
 
     .line 172
     .line 173
-    iput-object v9, v0, Lmg8;->U0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object v9, v0, Lmg8;->U0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 174
     .line 175
@@ -621,7 +621,7 @@
 
     .line 237
     .line 238
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 239
     .line 240
@@ -770,7 +770,7 @@
 
     .line 307
     .line 308
-    invoke-direct {v7, v10, v15, v2, v4}, Lwq8;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v7, v10, v15, v2, v4}, Lwq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
 
     .line 309
     .line 310
@@ -937,7 +937,7 @@
 
     .line 385
     .line 386
-    iput-object v1, v0, Lmg8;->U0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object v1, v0, Lmg8;->U0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 387
     .line 388

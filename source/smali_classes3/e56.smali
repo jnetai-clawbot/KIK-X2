@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 .field public final synthetic R0:Loh1;
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/ui/activity/BaseActivity;Loh1;I)V
+.method public synthetic constructor <init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Loh1;I)V
     .locals 0
 
     .line 1
@@ -35,7 +35,7 @@
 
     .line 6
     .line 7
-    iput-object p3, p0, Le56;->Q0:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p3, p0, Le56;->Q0:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 8
     .line 9
@@ -80,7 +80,7 @@
 
     .line 11
     .line 12
-    iget-object v4, p0, Le56;->Q0:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v4, p0, Le56;->Q0:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 13
     .line 14
@@ -225,7 +225,7 @@
 
     .line 80
     .line 81
-    iget-object v4, p0, Le56;->Q0:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v4, p0, Le56;->Q0:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 82
     .line 83
@@ -251,7 +251,7 @@
     .line 93
     .line 94
     :try_start_1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 95
     .line 96
@@ -292,7 +292,7 @@
     .line 112
     :goto_1
     :try_start_2
-    const-class p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 113
     .line 114

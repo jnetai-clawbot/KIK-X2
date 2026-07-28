@@ -1053,11 +1053,11 @@
     move-object v0, v1
 
     .line 477
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 478
     .line 479
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 480
     .line 481
@@ -4725,11 +4725,11 @@
     move-object v4, v2
 
     .line 2151
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 2152
     .line 2153
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
 
     .line 2154
     .line 2155

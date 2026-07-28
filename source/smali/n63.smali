@@ -952,7 +952,7 @@
     .line 416
     .line 417
     .line 418
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 419
     .line 420
@@ -1198,7 +1198,7 @@
     .line 528
     .line 529
     .line 530
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 531
     .line 532
@@ -1321,7 +1321,7 @@
     .line 584
     .line 585
     .line 586
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 587
     .line 588
@@ -1444,7 +1444,7 @@
     .line 640
     .line 641
     .line 642
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 643
     .line 644
@@ -2088,11 +2088,11 @@
     move-object p0, p1
 
     .line 937
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 938
     .line 939
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 940
     .line 941
@@ -3601,7 +3601,7 @@
 
     .line 1631
     .line 1632
-    iget-object v9, p1, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v9, p1, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 1633
     .line 1634
@@ -3775,7 +3775,7 @@
     move-result-object p2
 
     .line 1713
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1714
     .line 1715
@@ -3788,7 +3788,7 @@
 
     .line 1719
     .line 1720
-    invoke-direct {v1, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v1, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 1721
     .line 1722
@@ -3967,7 +3967,7 @@
     move-result-object p2
 
     .line 1804
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1805
     .line 1806
@@ -3980,7 +3980,7 @@
 
     .line 1810
     .line 1811
-    invoke-direct {v1, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v1, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 1812
     .line 1813
@@ -4159,7 +4159,7 @@
     move-result-object p2
 
     .line 1895
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1896
     .line 1897
@@ -4172,7 +4172,7 @@
 
     .line 1901
     .line 1902
-    invoke-direct {v1, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v1, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 1903
     .line 1904

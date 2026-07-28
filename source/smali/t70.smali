@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public constructor <init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;)V
+.method public constructor <init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;)V
     .locals 1
 
     const/4 v0, 0x2
@@ -157,7 +157,7 @@
     move-object v6, v1
 
     .line 23
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 24
     .line 25
@@ -168,7 +168,7 @@
     move-object v8, p2
 
     .line 28
-    invoke-direct/range {v2 .. v8}, Lt70;-><init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;)V
+    invoke-direct/range {v2 .. v8}, Lt70;-><init>(Loxf;Landroid/net/Uri;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;)V
 
     .line 29
     .line 30
@@ -440,7 +440,7 @@
     move-object v7, v3
 
     .line 24
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 25
     .line 26
@@ -552,7 +552,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 80
     .line 81
@@ -665,7 +665,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 134
     .line 135
@@ -694,7 +694,7 @@
 
     .line 146
     .line 147
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 148
     .line 149

@@ -41,7 +41,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/jnetai/kikx2/storage/box/chat/Chat;)Lhm9;
+.method public static a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;)Lhm9;
     .locals 2
 
     .line 1
@@ -50,7 +50,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -94,7 +94,7 @@
 
     .line 25
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->c()Lv52;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->c()Lv52;
 
     .line 26
     .line 27
@@ -152,7 +152,7 @@
 
     .line 51
     :cond_2
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 52
     .line 53
@@ -172,7 +172,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->h()Ly9b;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->h()Ly9b;
 
     .line 62
     .line 63

@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final b:Liud;
 
@@ -29,7 +29,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 2
     .line 3
@@ -40,7 +40,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Liud;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Liud;)V
     .locals 2
 
     .line 1
@@ -54,7 +54,7 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Ll1d;->a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, p0, Ll1d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 8
     .line 9
@@ -62,7 +62,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 12
     .line 13
@@ -86,7 +86,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 24
     .line 25

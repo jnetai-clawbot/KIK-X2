@@ -21,7 +21,7 @@
 
 .field public final synthetic W0:Ljava/util/List;
 
-.field public final synthetic X:Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+.field public final synthetic X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
 .field public final synthetic X0:Luc1;
 
@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;III)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;III)V
     .locals 0
 
     .line 1
@@ -48,7 +48,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Ljp8;->X:Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    iput-object p1, p0, Ljp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 5
     .line 6
@@ -170,7 +170,7 @@
     move-result v14
 
     .line 28
-    iget-object v1, v0, Ljp8;->X:Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    iget-object v1, v0, Ljp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 29
     .line 30
@@ -266,7 +266,7 @@
 
     .line 69
     .line 70
-    invoke-static/range {v0 .. v15}, Lnp8;->c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+    invoke-static/range {v0 .. v15}, Lnp8;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
 
     .line 71
     .line 72

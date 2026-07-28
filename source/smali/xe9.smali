@@ -1946,7 +1946,7 @@
     return-void
 .end method
 
-.method public static final d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+.method public static final d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
     .locals 14
 
     .line 1
@@ -2566,7 +2566,7 @@
     move v4, v7
 
     .line 280
-    invoke-direct/range {v0 .. v5}, Lc61;-><init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;II)V
+    invoke-direct/range {v0 .. v5}, Lc61;-><init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;II)V
 
     .line 281
     .line 282

@@ -9,13 +9,13 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 .field public final synthetic Z:Lkotlin/jvm/functions/Function0;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 1
@@ -23,7 +23,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lg05;->Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p1, p0, Lg05;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 4
     .line 5
@@ -63,7 +63,7 @@
 
     .line 8
     .line 9
-    iget-object p0, p0, Lg05;->Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lg05;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 10
     .line 11
@@ -76,7 +76,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -88,7 +88,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -111,7 +111,7 @@
 
     .line 33
     :pswitch_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 34
     .line 35

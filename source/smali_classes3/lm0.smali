@@ -89,7 +89,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/util/List;Lk0a;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lsoc;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Ljava/util/List;Lk0a;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lsoc;Lk0a;Lk0a;)V
     .locals 1
 
     .line 31
@@ -182,7 +182,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;Lk0a;Lcq5;Lcq5;Lhif;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;Lk0a;Lcq5;Lcq5;Lhif;)V
     .locals 1
 
     .line 32
@@ -317,7 +317,7 @@
     move-object v7, v1
 
     .line 21
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 22
     .line 23
@@ -957,7 +957,7 @@
     move-result-object v1
 
     .line 334
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 335
     .line 336
@@ -1552,7 +1552,7 @@
 
     .line 628
     .line 629
-    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 630
     .line 631
@@ -1903,11 +1903,11 @@
 
     .line 794
     .line 795
-    iget-object v13, v13, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v13, v13, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 796
     .line 797
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 798
     .line 799
@@ -1915,7 +1915,7 @@
     move-result-object v13
 
     .line 801
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 802
     .line 803
@@ -4064,7 +4064,7 @@
 
     .line 1873
     .line 1874
-    invoke-direct/range {v5 .. v10}, Lxb0;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v5 .. v10}, Lxb0;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
 
     .line 1875
     .line 1876
@@ -4359,7 +4359,7 @@
 
     .line 2017
     .line 2018
-    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 2019
     .line 2020
@@ -4651,7 +4651,7 @@
 
     .line 2159
     .line 2160
-    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v5 .. v11}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 2161
     .line 2162
@@ -5464,7 +5464,7 @@
     move-result-object v0
 
     .line 246
-    sget-object v18, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v18, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 247
     .line 248
@@ -5472,7 +5472,7 @@
 
     .line 249
     .line 250
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 251
     .line 252
@@ -9806,7 +9806,7 @@
 
     .line 124
     .line 125
-    iget-object v9, v9, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v9, v9, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 126
     .line 127
@@ -9814,7 +9814,7 @@
 
     .line 128
     .line 129
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 130
     .line 131
@@ -15129,7 +15129,7 @@
 
     .line 1004
     .line 1005
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1006
     .line 1007
@@ -15141,7 +15141,7 @@
 
     .line 1010
     .line 1011
-    check-cast v23, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v23, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1012
     .line 1013
@@ -15153,7 +15153,7 @@
 
     .line 1016
     .line 1017
-    check-cast v24, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v24, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 1018
     .line 1019
@@ -15165,7 +15165,7 @@
 
     .line 1022
     .line 1023
-    check-cast v25, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v25, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 1024
     .line 1025
@@ -15484,7 +15484,7 @@
 
     .line 1180
     .line 1181
-    check-cast v27, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v27, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 1182
     .line 1183
@@ -15551,7 +15551,7 @@
     const/4 v10, 0x0
 
     .line 1213
-    invoke-direct {v5, v4, v1, v10}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v5, v4, v1, v10}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 1214
     .line 1215
@@ -15570,11 +15570,11 @@
 
     .line 1222
     .line 1223
-    sget v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 1224
     .line 1225
-    sget v4, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v4, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 1226
     .line 1227
@@ -15585,7 +15585,7 @@
     or-int/2addr v0, v3
 
     .line 1230
-    sget v3, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
 
     .line 1231
     .line 1232
@@ -15600,7 +15600,7 @@
     or-int/2addr v0, v3
 
     .line 1237
-    sget v3, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->$stable:I
 
     .line 1238
     .line 1239
@@ -15611,7 +15611,7 @@
     or-int/2addr v0, v3
 
     .line 1242
-    sget v3, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->$stable:I
 
     .line 1243
     .line 1244
@@ -15631,7 +15631,7 @@
 
     .line 1251
     .line 1252
-    invoke-static/range {v22 .. v32}, Lb68;->b(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v22 .. v32}, Lb68;->b(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 1253
     .line 1254
@@ -15682,7 +15682,7 @@
 
     .line 1275
     .line 1276
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1277
     .line 1278
@@ -15972,7 +15972,7 @@
     move-result-object v1
 
     .line 1414
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 1415
     .line 1416
@@ -16132,7 +16132,7 @@
     .line 1493
     .line 1494
     .line 1495
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 1496
     .line 1497
@@ -16412,7 +16412,7 @@
 
     .line 1633
     .line 1634
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1635
     .line 1636
@@ -16585,7 +16585,7 @@
     const/4 v10, 0x0
 
     .line 1718
-    invoke-direct {v1, v3, v4, v10}, Ll82;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;I)V
+    invoke-direct {v1, v3, v4, v10}, Ll82;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;I)V
 
     .line 1719
     .line 1720
@@ -18617,7 +18617,7 @@
 
     .line 2722
     .line 2723
-    const-string v27, "startBackupRestore(Lcom/jnetai/kikx2/core/backup/modern/BackupRestoreArgs;)V"
+    const-string v27, "startBackupRestore(Lcom/jnetai/kikx2/kikx2/core/backup/modern/BackupRestoreArgs;)V"
 
     .line 2724
     .line 2725

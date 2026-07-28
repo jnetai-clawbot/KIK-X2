@@ -6,17 +6,17 @@
 # instance fields
 .field public synthetic X:Ljava/lang/Object;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/core/power/KikConnectionWorker;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;
 
 .field public Z:I
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/core/power/KikConnectionWorker;Lga3;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;Lga3;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lxm7;->Y:Lcom/jnetai/kikx2/core/power/KikConnectionWorker;
+    iput-object p1, p0, Lxm7;->Y:Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;
 
     .line 2
     .line 3
@@ -53,11 +53,11 @@
 
     .line 9
     .line 10
-    iget-object p1, p0, Lxm7;->Y:Lcom/jnetai/kikx2/core/power/KikConnectionWorker;
+    iget-object p1, p0, Lxm7;->Y:Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;
 
     .line 11
     .line 12
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/core/power/KikConnectionWorker;->a(Lea3;)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;->a(Lea3;)Ljava/lang/Object;
 
     .line 13
     .line 14

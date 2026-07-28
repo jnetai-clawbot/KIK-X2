@@ -1207,11 +1207,11 @@
 
     .line 564
     .line 565
-    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 566
     .line 567
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 568
     .line 569
@@ -1231,11 +1231,11 @@
 
     .line 576
     .line 577
-    iget-object p1, p2, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p1, p2, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 578
     .line 579
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 580
     .line 581
@@ -1367,11 +1367,11 @@
 
     .line 642
     :pswitch_e
-    check-cast p2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 643
     .line 644
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->h()I
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->h()I
 
     .line 645
     .line 646
@@ -1387,11 +1387,11 @@
     move-result-object p0
 
     .line 652
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 653
     .line 654
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->h()I
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->h()I
 
     .line 655
     .line 656
@@ -1419,7 +1419,7 @@
 
     .line 667
     :pswitch_f
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 668
     .line 669
@@ -1431,7 +1431,7 @@
     move-result-object p0
 
     .line 673
-    check-cast p2, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 674
     .line 675
@@ -1563,11 +1563,11 @@
 
     .line 735
     .line 736
-    iget-object p0, p1, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object p0, p1, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 737
     .line 738
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;->h()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;->h()I
 
     .line 739
     .line 740
@@ -1587,11 +1587,11 @@
 
     .line 747
     .line 748
-    iget-object p1, p2, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object p1, p2, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 749
     .line 750
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;->h()I
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;->h()I
 
     .line 751
     .line 752
@@ -1691,11 +1691,11 @@
 
     .line 797
     :pswitch_15
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 798
     .line 799
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 800
     .line 801
@@ -1715,11 +1715,11 @@
     move-result-object p0
 
     .line 809
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 810
     .line 811
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 812
     .line 813
@@ -1751,11 +1751,11 @@
 
     .line 826
     :pswitch_16
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 827
     .line 828
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 829
     .line 830
@@ -1775,11 +1775,11 @@
     move-result-object p0
 
     .line 838
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 839
     .line 840
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 841
     .line 842

@@ -1689,7 +1689,7 @@
     return-void
 .end method
 
-.method public static final b(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
+.method public static final b(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
     .locals 9
 
     .line 1
@@ -2198,7 +2198,7 @@
     .line 234
     .line 235
     .line 236
-    sget v0, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->$stable:I
 
     .line 237
     .line 238
@@ -2247,7 +2247,7 @@
     move-object v3, p3
 
     .line 257
-    invoke-static/range {v0 .. v5}, Lwwh;->c(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+    invoke-static/range {v0 .. v5}, Lwwh;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
 
     .line 258
     .line 259
@@ -2310,7 +2310,7 @@
     move-object p4, v3
 
     .line 284
-    invoke-direct/range {p0 .. p6}, Lyw0;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;I)V
+    invoke-direct/range {p0 .. p6}, Lyw0;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;I)V
 
     .line 285
     .line 286
@@ -2323,7 +2323,7 @@
     return-void
 .end method
 
-.method public static final c(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+.method public static final c(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
     .locals 20
 
     .line 1
@@ -2785,7 +2785,7 @@
     move-object v4, v5
 
     .line 217
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->u()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->u()J
 
     .line 218
     .line 219
@@ -2860,7 +2860,7 @@
 
     .line 253
     .line 254
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->m()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->m()J
 
     .line 255
     .line 256
@@ -2939,7 +2939,7 @@
     move-object v11, v9
 
     .line 291
-    sget v4, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->$stable:I
+    sget v4, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->$stable:I
 
     .line 292
     .line 293
@@ -2961,7 +2961,7 @@
     or-int/2addr v4, v5
 
     .line 301
-    invoke-static {v1, v11, v12, v4}, Laxh;->e(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
+    invoke-static {v1, v11, v12, v4}, Laxh;->e(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
 
     .line 302
     .line 303
@@ -3010,7 +3010,7 @@
     move-object v4, v11
 
     .line 324
-    invoke-direct/range {v0 .. v6}, Lq2b;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
+    invoke-direct/range {v0 .. v6}, Lq2b;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
 
     .line 325
     .line 326
@@ -3023,7 +3023,7 @@
     return-void
 .end method
 
-.method public static final d(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+.method public static final d(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
     .locals 13
 
     .line 1
@@ -3474,7 +3474,7 @@
     .line 209
     .line 210
     .line 211
-    sget v1, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->$stable:I
 
     .line 212
     .line 213
@@ -3524,7 +3524,7 @@
 
     .line 232
     .line 233
-    invoke-static/range {v6 .. v11}, Lwwh;->c(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
+    invoke-static/range {v6 .. v11}, Lwwh;->c(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lgx2;I)V
 
     .line 234
     .line 235
@@ -3576,7 +3576,7 @@
 
     .line 256
     .line 257
-    invoke-direct/range {v0 .. v6}, Lq2b;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
+    invoke-direct/range {v0 .. v6}, Lq2b;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;II)V
 
     .line 258
     .line 259
@@ -3589,7 +3589,7 @@
     return-void
 .end method
 
-.method public static final e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
+.method public static final e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
     .locals 45
 
     move-object/from16 v1, p0
@@ -4517,7 +4517,7 @@
 
     move-object/from16 v15, p14
 
-    invoke-direct/range {v0 .. v32}, Lxyf;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
+    invoke-direct/range {v0 .. v32}, Lxyf;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
 
     move-object/from16 v1, v42
 
@@ -4613,7 +4613,7 @@
 
     move-object/from16 v10, p4
 
-    invoke-direct/range {v0 .. v24}, Lyyf;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lcq5;Lcs8;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lcq5;ZLcq5;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lqq5;ZLcq5;Lcq5;Lhd2;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;Lqq5;ZLcq5;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcq5;Lk0a;)V
+    invoke-direct/range {v0 .. v24}, Lyyf;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lcq5;Lcs8;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lcq5;ZLcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lqq5;ZLcq5;Lcq5;Lhd2;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;Lqq5;ZLcq5;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcq5;Lk0a;)V
 
     const v1, -0xe9f1823
 
@@ -4768,7 +4768,7 @@
 
     move-object/from16 v1, p0
 
-    invoke-direct/range {v0 .. v32}, Lxyf;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
+    invoke-direct/range {v0 .. v32}, Lxyf;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
 
     move-object/from16 v1, v44
 

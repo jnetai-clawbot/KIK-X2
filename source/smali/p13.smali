@@ -1898,11 +1898,11 @@
 
     .line 883
     :pswitch_15
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 884
     .line 885
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 886
     .line 887
@@ -1963,11 +1963,11 @@
 
     .line 917
     :pswitch_16
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 918
     .line 919
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 920
     .line 921
@@ -2000,11 +2000,11 @@
 
     .line 934
     .line 935
-    iget-object v0, v0, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v0, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 936
     .line 937
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
 
     .line 938
     .line 939
@@ -2028,11 +2028,11 @@
 
     .line 947
     .line 948
-    iget-object v0, v0, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v0, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 949
     .line 950
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
 
     .line 951
     .line 952
@@ -2044,7 +2044,7 @@
 
     .line 955
     .line 956
-    invoke-virtual {v0, v9}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v0, v9}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 957
     .line 958

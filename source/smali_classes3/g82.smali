@@ -29,7 +29,7 @@
 
 .field public final synthetic Y0:Lk0a;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Z0:Lj73;
 
@@ -37,7 +37,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhud;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
+.method public synthetic constructor <init>(Lhud;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
     .locals 0
 
     .line 1
@@ -54,7 +54,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lg82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p3, p0, Lg82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10
@@ -291,7 +291,7 @@
     move-object v9, v1
 
     .line 84
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 85
     .line 86
@@ -329,7 +329,7 @@
     .line 103
     .line 104
     .line 105
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->I()Lgcc;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->I()Lgcc;
 
     .line 106
     .line 107
@@ -376,7 +376,7 @@
     move v8, v6
 
     .line 128
-    iget-object v6, v0, Lg82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v6, v0, Lg82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 129
     .line 130
@@ -487,7 +487,7 @@
 
     .line 180
     .line 181
-    invoke-direct/range {v3 .. v19}, Lm82;-><init>(ILaa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
+    invoke-direct/range {v3 .. v19}, Lm82;-><init>(ILaa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
 
     .line 182
     .line 183

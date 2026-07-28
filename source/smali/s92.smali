@@ -301,7 +301,7 @@
     move-result-object p1
 
     .line 43
-    invoke-virtual {p1, v2, v3}, Llo9;->b(J)Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-virtual {p1, v2, v3}, Llo9;->b(J)Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 44
     .line 45
@@ -325,7 +325,7 @@
     move-result-object p0
 
     .line 54
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -333,7 +333,7 @@
     move-result-object v0
 
     .line 58
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
 
     .line 59
     .line 60
@@ -349,7 +349,7 @@
     move-result-object p1
 
     .line 66
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 67
     .line 68
@@ -357,7 +357,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 71
     .line 72

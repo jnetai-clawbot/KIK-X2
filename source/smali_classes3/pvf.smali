@@ -109,7 +109,7 @@
 
     .line 29
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 30
     .line 31
@@ -155,7 +155,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-virtual {p0, p1, v0}, Loxf;->k(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;)V
+    invoke-virtual {p0, p1, v0}, Loxf;->k(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;)V
 
     .line 54
     .line 55
@@ -167,7 +167,7 @@
     move-object v6, p1
 
     .line 58
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 59
     .line 60
@@ -222,7 +222,7 @@
     const/4 v8, 0x0
 
     .line 85
-    invoke-direct/range {v4 .. v9}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;I)V
+    invoke-direct/range {v4 .. v9}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;I)V
 
     .line 86
     .line 87
@@ -236,7 +236,7 @@
 
     .line 92
     :pswitch_2
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 93
     .line 94
@@ -284,7 +284,7 @@
     const/4 v4, 0x0
 
     .line 116
-    invoke-direct {v2, p0, p1, p2, v4}, Lwwf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;)V
+    invoke-direct {v2, p0, p1, p2, v4}, Lwwf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;)V
 
     .line 117
     .line 118

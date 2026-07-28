@@ -11,19 +11,19 @@
 
 .field public final synthetic R0:Z
 
-.field public X:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+.field public X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
 .field public Y:I
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Ljg8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iput-object p1, p0, Ljg8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 2
     .line 3
@@ -64,11 +64,11 @@
 
     .line 6
     .line 7
-    iget-object p0, p0, Ljg8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object p0, p0, Ljg8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 8
     .line 9
-    invoke-direct {p1, p0, v0, v1, p2}, Ljg8;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
+    invoke-direct {p1, p0, v0, v1, p2}, Ljg8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
 
     .line 10
     .line 11
@@ -141,7 +141,7 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Ljg8;->X:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v0, p0, Ljg8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 12
     .line 13
@@ -204,11 +204,11 @@
     move-result-object p1
 
     .line 41
-    iget-object v0, p0, Ljg8;->Z:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v0, p0, Ljg8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 42
     .line 43
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->j()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->j()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -216,7 +216,7 @@
     move-result-object v4
 
     .line 47
-    iput-object v0, p0, Ljg8;->X:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iput-object v0, p0, Ljg8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 48
     .line 49
@@ -268,7 +268,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->i()Liue;
 
     .line 72
     .line 73
@@ -499,7 +499,7 @@
 
     .line 172
     .line 173
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->h()Ljava/lang/String;
 
     .line 174
     .line 175
@@ -531,7 +531,7 @@
     move-object v6, p1
 
     .line 187
-    invoke-direct/range {v4 .. v9}, Lya1;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
+    invoke-direct/range {v4 .. v9}, Lya1;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
 
     .line 188
     .line 189
@@ -562,7 +562,7 @@
     move v4, p0
 
     .line 201
-    invoke-direct/range {v2 .. v8}, Lig8;-><init>(Lkh8;ZLcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Lfpd;Lfpd$b;Z)V
+    invoke-direct/range {v2 .. v8}, Lig8;-><init>(Lkh8;ZLcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Lfpd;Lfpd$b;Z)V
 
     .line 202
     .line 203

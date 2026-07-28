@@ -63,11 +63,11 @@
     .locals 7
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->I()Lgcc;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->I()Lgcc;
 
     .line 4
     .line 5

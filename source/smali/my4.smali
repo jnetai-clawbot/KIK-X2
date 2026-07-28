@@ -60,7 +60,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, p0, v0, v0}, Lny4;->a(Lga3;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p0, v0, v0}, Lny4;->a(Lga3;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 14
     .line 15

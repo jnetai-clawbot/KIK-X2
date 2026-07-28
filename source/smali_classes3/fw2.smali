@@ -2902,7 +2902,7 @@
     move-result v1
 
     .line 1349
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->b(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->b(Lgx2;I)Lsbf;
 
     .line 1350
     .line 1351
@@ -2938,7 +2938,7 @@
     move-result v1
 
     .line 1366
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->f(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->f(Lgx2;I)Lsbf;
 
     .line 1367
     .line 1368
@@ -2974,7 +2974,7 @@
     move-result v1
 
     .line 1383
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->e(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->e(Lgx2;I)Lsbf;
 
     .line 1384
     .line 1385
@@ -3010,7 +3010,7 @@
     move-result v1
 
     .line 1400
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->a(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->a(Lgx2;I)Lsbf;
 
     .line 1401
     .line 1402
@@ -3046,7 +3046,7 @@
     move-result v1
 
     .line 1417
-    invoke-static {v0, v1}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->d(Lgx2;I)Lsbf;
+    invoke-static {v0, v1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->d(Lgx2;I)Lsbf;
 
     .line 1418
     .line 1419

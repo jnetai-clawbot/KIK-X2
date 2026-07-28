@@ -47,7 +47,7 @@
 # virtual methods
 .method public final closePopup(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -115,7 +115,7 @@
 
 .method public final getOrientationLock(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -205,7 +205,7 @@
 
 .method public final handleBack(Lr7b;)Ls7b;
     .locals 3
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -343,7 +343,7 @@
 
 .method public final isDebugModeEnabled(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -421,7 +421,7 @@
 
 .method public final isPopupMode(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -499,7 +499,7 @@
 
 .method public final isStatusBarVisible(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -613,7 +613,7 @@
 
 .method public final openCard(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -635,7 +635,7 @@
 
 .method public final openExternal(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -735,7 +735,7 @@
 
 .method public final openPage(Lr7b;)Ls7b;
     .locals 7
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1103,7 +1103,7 @@
 
 .method public final pageLoaded(Lr7b;)Ls7b;
     .locals 1
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1139,7 +1139,7 @@
 
 .method public final performHttpsUpgradeCleanup(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1161,7 +1161,7 @@
 
 .method public final refresh(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1183,7 +1183,7 @@
 
 .method public final refreshPlanned(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1205,7 +1205,7 @@
 
 .method public final setBacklightTimeoutEnabled(Lr7b;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1227,7 +1227,7 @@
 
 .method public final setCardInfo(Lr7b;)Ls7b;
     .locals 10
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1873,7 +1873,7 @@
 
 .method public final setOrientationLock(Lr7b;)Ls7b;
     .locals 3
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -2006,7 +2006,7 @@
 
 .method public final setStatusBarVisible(Lr7b;)Ls7b;
     .locals 1
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1

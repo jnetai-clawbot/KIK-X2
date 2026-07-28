@@ -381,11 +381,11 @@
 
     .line 165
     :pswitch_4
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 166
     .line 167
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->W(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->W(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;)Lsbf;
 
     .line 168
     .line 169
@@ -467,11 +467,11 @@
 
     .line 207
     :pswitch_6
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 208
     .line 209
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 210
     .line 211

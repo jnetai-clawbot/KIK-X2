@@ -324,11 +324,11 @@
     .locals 7
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -348,7 +348,7 @@
 
     .line 12
     .line 13
-    const-class v2, Lcom/jnetai/kikx2/core/power/KikConnectionWorker;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/core/power/KikConnectionWorker;
 
     .line 14
     .line 15
@@ -2479,11 +2479,11 @@
     .line 4
     .line 5
     .line 6
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->j()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->j()J
 
     .line 9
     .line 10
@@ -2495,11 +2495,11 @@
 
     .line 13
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->c()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->c()J
 
     .line 16
     .line 17

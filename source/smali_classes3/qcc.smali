@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcq5;Ltcc;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)V
+.method public synthetic constructor <init>(Lcq5;Ltcc;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 6
     .line 7
-    iput-object p3, p0, Lqcc;->Q0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object p3, p0, Lqcc;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 8
     .line 9
@@ -59,7 +59,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lqcc;->Q0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v2, p0, Lqcc;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 6
     .line 7
@@ -80,11 +80,11 @@
 
     .line 15
     .line 16
-    iget-object v3, v3, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v3, v3, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 17
     .line 18
-    invoke-direct {v0, v3, v2}, Lma8;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;)V
+    invoke-direct {v0, v3, v2}, Lma8;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;)V
 
     .line 19
     .line 20
@@ -102,11 +102,11 @@
 
     .line 26
     .line 27
-    iget-object v3, v3, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v3, v3, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 28
     .line 29
-    invoke-direct {v0, v3, v2}, Lfa8;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;)V
+    invoke-direct {v0, v3, v2}, Lfa8;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;)V
 
     .line 30
     .line 31

@@ -154,7 +154,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZII)V
+.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZII)V
     .locals 1
 
     .line 52
@@ -801,15 +801,15 @@
 
     .line 290
     :pswitch_0
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 291
     .line 292
-    check-cast v14, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 293
     .line 294
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 295
     .line 296
@@ -960,7 +960,7 @@
 
     .line 364
     .line 365
-    invoke-static/range {v3 .. v21}, Lvvh;->a(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZLgx2;II)V
+    invoke-static/range {v3 .. v21}, Lvvh;->a(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZLgx2;II)V
 
     .line 366
     .line 367

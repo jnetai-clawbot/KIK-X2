@@ -4224,7 +4224,7 @@
     move-result-object v0
 
     .line 335
-    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 336
     .line 337
@@ -4232,7 +4232,7 @@
     move-result-object v1
 
     .line 339
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 340
     .line 341
@@ -4265,7 +4265,7 @@
     .line 354
     .line 355
     .line 356
-    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 357
     .line 358
@@ -4273,7 +4273,7 @@
     move-result-object v0
 
     .line 360
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 361
     .line 362
@@ -4297,7 +4297,7 @@
     move-result-object v0
 
     .line 372
-    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 373
     .line 374
@@ -4305,7 +4305,7 @@
     move-result-object v1
 
     .line 376
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->x()Z
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->x()Z
 
     .line 377
     .line 378
@@ -4335,7 +4335,7 @@
     move-result-object v7
 
     .line 391
-    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual/range {p0 .. p0}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 392
     .line 393
@@ -4343,7 +4343,7 @@
     move-result-object v0
 
     .line 395
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
 
     .line 396
     .line 397
@@ -8621,7 +8621,7 @@
     move-result-wide v10
 
     .line 133
-    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 134
     .line 135
@@ -8629,7 +8629,7 @@
     move-result-object v9
 
     .line 137
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 138
     .line 139
@@ -8645,7 +8645,7 @@
     move-result v18
 
     .line 145
-    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 146
     .line 147
@@ -8653,7 +8653,7 @@
     move-result-object v9
 
     .line 149
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 150
     .line 151
@@ -8697,7 +8697,7 @@
     move-result-object v9
 
     .line 171
-    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 172
     .line 173
@@ -8705,7 +8705,7 @@
     move-result-object v12
 
     .line 175
-    invoke-virtual {v12}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->x()Z
+    invoke-virtual {v12}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->x()Z
 
     .line 176
     .line 177
@@ -8735,7 +8735,7 @@
     move-result-object v20
 
     .line 190
-    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v3}, Lhpd;->f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 191
     .line 192
@@ -8743,7 +8743,7 @@
     move-result-object v9
 
     .line 194
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
 
     .line 195
     .line 196

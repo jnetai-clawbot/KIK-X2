@@ -122,7 +122,7 @@
 
 .method public final getLastMessage(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -221,7 +221,7 @@
 
 .method public final openConversation(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -295,7 +295,7 @@
 
 .method public final openConversationWithUser(Li40;)Ls7b;
     .locals 5
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -497,7 +497,7 @@
 
 .method public final sendKik(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -553,7 +553,7 @@
 
 .method public final sendKikToUser(Lr7b;)Ls7b;
     .locals 20
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1419,7 +1419,7 @@
 
 .method public final sendKikWithCallback(Li40;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -1470,7 +1470,7 @@
 
 .method public final sendSmiley(Lr7b;)Ls7b;
     .locals 3
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -1538,7 +1538,7 @@
 
 .method public final sendSmileyToUser(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1

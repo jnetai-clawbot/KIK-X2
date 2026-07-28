@@ -249,7 +249,7 @@
     move-result-object v4
 
     .line 101
-    invoke-static {v0, v4, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->OngoingVideoChatTopBar(Llw2;Lqq5;Lgx2;I)V
+    invoke-static {v0, v4, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->OngoingVideoChatTopBar(Llw2;Lqq5;Lgx2;I)V
 
     .line 102
     .line 103
@@ -334,7 +334,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 140
     .line 141
@@ -342,7 +342,7 @@
     move-result-object v7
 
     .line 143
-    iget-object v7, v7, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->Y0:Llud;
+    iget-object v7, v7, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->Y0:Llud;
 
     .line 144
     .line 145
@@ -354,7 +354,7 @@
     move-result-object v7
 
     .line 149
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 150
     .line 151
@@ -411,7 +411,7 @@
     .line 176
     .line 177
     .line 178
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 179
     .line 180
@@ -419,7 +419,7 @@
     move-result-object v8
 
     .line 182
-    iget-object v8, v8, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
+    iget-object v8, v8, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
 
     .line 183
     .line 184
@@ -604,7 +604,7 @@
 
     .line 272
     .line 273
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 274
     .line 275
@@ -648,7 +648,7 @@
 
     .line 294
     .line 295
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 296
     .line 297
@@ -656,7 +656,7 @@
     move-result-object v14
 
     .line 299
-    iget-object v14, v14, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->R0:Lmo9;
+    iget-object v14, v14, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->R0:Lmo9;
 
     .line 300
     .line 301
@@ -744,7 +744,7 @@
 
     .line 342
     .line 343
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 344
     .line 345
@@ -752,7 +752,7 @@
     move-result-object v5
 
     .line 347
-    iget-object v5, v5, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
+    iget-object v5, v5, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
 
     .line 348
     .line 349
@@ -878,7 +878,7 @@
 
     .line 410
     .line 411
-    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 412
     .line 413
@@ -886,7 +886,7 @@
     move-result-object v2
 
     .line 415
-    iget-object v2, v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->T0:Lj73;
+    iget-object v2, v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->T0:Lj73;
 
     .line 416
     .line 417

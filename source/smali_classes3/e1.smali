@@ -39,7 +39,7 @@
 
     iput v0, p0, Le1;->X:I
 
-    const-string v7, "submitReport(Lcom/jnetai/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
+    const-string v7, "submitReport(Lcom/jnetai/kikx2/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
 
     const/4 v3, 0x0
 
@@ -71,7 +71,7 @@
 
     .line 4
     .line 5
-    const-string v7, "updateTranslateState(Lcom/jnetai/kikx2/ui/fragments/chat/components/dialogs/TranslateDialogState;)V"
+    const-string v7, "updateTranslateState(Lcom/jnetai/kikx2/kikx2/ui/fragments/chat/components/dialogs/TranslateDialogState;)V"
 
     .line 6
     .line 7
@@ -278,7 +278,7 @@
 
     .line 83
     .line 84
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 85
     .line 86
@@ -300,7 +300,7 @@
     .line 94
     .line 95
     .line 96
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 97
     .line 98
@@ -312,7 +312,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 103
     .line 104
@@ -364,7 +364,7 @@
 
     .line 127
     .line 128
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 129
     .line 130
@@ -381,7 +381,7 @@
 
     .line 136
     .line 137
-    invoke-virtual {v0, v1}, Lihf;->j(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-virtual {v0, v1}, Lihf;->j(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 138
     .line 139

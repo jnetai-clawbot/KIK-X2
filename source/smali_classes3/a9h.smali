@@ -857,7 +857,7 @@
     return-void
 .end method
 
-.method public static final c(Lcq5;Lcom/jnetai/kikx2/client/stanzas/c;Lgx2;I)V
+.method public static final c(Lcq5;Lcom/jnetai/kikx2/kikx2/client/stanzas/c;Lgx2;I)V
     .locals 11
 
     .line 1
@@ -1139,15 +1139,15 @@
 
     .line 123
     .line 124
-    iget-object v1, p1, Lcom/jnetai/kikx2/client/stanzas/c;->Z:Ljava/lang/String;
+    iget-object v1, p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->Z:Ljava/lang/String;
 
     .line 125
     .line 126
-    iget-object v2, p1, Lcom/jnetai/kikx2/client/stanzas/c;->Q0:Ljava/lang/String;
+    iget-object v2, p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->Q0:Ljava/lang/String;
 
     .line 127
     .line 128
-    iget-object v5, p1, Lcom/jnetai/kikx2/client/stanzas/c;->R0:Ljava/lang/String;
+    iget-object v5, p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->R0:Ljava/lang/String;
 
     .line 129
     .line 130

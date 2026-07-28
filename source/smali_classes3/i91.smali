@@ -93,12 +93,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/jnetai/kikx2/App;)V
+.method public final a(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 3
 
     .line 1
     :try_start_0
-    const-class v0, Lcom/jnetai/kikx2/App;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3

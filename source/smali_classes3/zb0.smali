@@ -525,7 +525,7 @@
 
     .line 164
     .line 165
-    invoke-virtual {v8}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v8}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 166
     .line 167
@@ -533,7 +533,7 @@
     move-result-object v17
 
     .line 169
-    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 170
     .line 171

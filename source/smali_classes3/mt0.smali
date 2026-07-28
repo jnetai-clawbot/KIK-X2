@@ -11,11 +11,11 @@
 
 .field public Y:I
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
     .locals 0
 
     .line 1
@@ -23,7 +23,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lmt0;->Z:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Lmt0;->Z:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -48,7 +48,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lmt0;->Z:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lmt0;->Z:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -64,7 +64,7 @@
     const/4 v0, 0x2
 
     .line 11
-    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 12
     .line 13
@@ -80,7 +80,7 @@
     const/4 v0, 0x1
 
     .line 18
-    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 19
     .line 20
@@ -96,7 +96,7 @@
     const/4 v0, 0x0
 
     .line 25
-    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {p1, p0, p2, v0}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 26
     .line 27
@@ -220,7 +220,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lmt0;->Z:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v1, p0, Lmt0;->Z:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -284,7 +284,7 @@
     .line 31
     .line 32
     .line 33
-    iget-object p1, v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->X0:Llud;
+    iget-object p1, v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->X0:Llud;
 
     .line 34
     .line 35
@@ -292,7 +292,7 @@
 
     .line 36
     .line 37
-    invoke-direct {v0, v1, v5}, Llt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v0, v1, v5}, Llt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 38
     .line 39
@@ -352,7 +352,7 @@
     .line 63
     .line 64
     .line 65
-    iget-object p1, v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->V0:Llud;
+    iget-object p1, v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->V0:Llud;
 
     .line 66
     .line 67
@@ -360,7 +360,7 @@
 
     .line 68
     .line 69
-    invoke-direct {v0, v1}, Lnt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-direct {v0, v1}, Lnt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 70
     .line 71
@@ -417,7 +417,7 @@
     .line 94
     .line 95
     .line 96
-    iget-object p1, v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
+    iget-object p1, v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
 
     .line 97
     .line 98
@@ -436,7 +436,7 @@
     const/4 v2, 0x0
 
     .line 105
-    invoke-direct {v0, v1, v2}, Llt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v0, v1, v2}, Llt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 106
     .line 107

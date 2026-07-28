@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic R0:Lyl0;
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
+.method public synthetic constructor <init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
     .locals 0
 
     .line 1
@@ -31,7 +31,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p2, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -80,14 +80,14 @@
 
     .line 12
     .line 13
-    iget-object v2, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v2, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 14
     .line 15
     move-object v4, p2
 
     .line 16
-    invoke-direct/range {v0 .. v5}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
+    invoke-direct/range {v0 .. v5}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
 
     .line 17
     .line 18
@@ -114,11 +114,11 @@
 
     .line 27
     .line 28
-    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 29
     .line 30
-    invoke-direct/range {v1 .. v6}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
+    invoke-direct/range {v1 .. v6}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
 
     .line 31
     .line 32
@@ -145,11 +145,11 @@
 
     .line 41
     .line 42
-    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 43
     .line 44
-    invoke-direct/range {v1 .. v6}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
+    invoke-direct/range {v1 .. v6}, Lwg8;-><init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lyl0;Lea3;I)V
 
     .line 45
     .line 46
@@ -290,7 +290,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lwg8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 8
     .line 9
@@ -451,11 +451,11 @@
 
     .line 83
     .line 84
-    const-class v0, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 85
     .line 86
-    invoke-virtual {p1, v3, v0}, Ltua;->a(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
+    invoke-virtual {p1, v3, v0}, Ltua;->a(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
 
     .line 87
     .line 88
@@ -551,11 +551,11 @@
 
     .line 130
     .line 131
-    const-class v0, Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 132
     .line 133
-    invoke-virtual {p1, v3, v0}, Ltua;->a(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
+    invoke-virtual {p1, v3, v0}, Ltua;->a(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
 
     .line 134
     .line 135

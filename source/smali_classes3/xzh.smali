@@ -5288,7 +5288,7 @@
 
     .line 294
     .line 295
-    invoke-interface {v0}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {v0}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 296
     .line 297
@@ -5296,7 +5296,7 @@
     move-result-object v6
 
     .line 299
-    invoke-static {v6}, Lp9h;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v6}, Lp9h;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 300
     .line 301
@@ -5308,7 +5308,7 @@
 
     .line 304
     .line 305
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->n()Lfob;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->n()Lfob;
 
     .line 306
     .line 307

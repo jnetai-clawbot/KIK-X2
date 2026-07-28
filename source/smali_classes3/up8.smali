@@ -196,7 +196,7 @@
     const/4 v8, 0x0
 
     .line 41
-    invoke-direct/range {v1 .. v10}, Lsoc;-><init>(Ljava/lang/Integer;ZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lxve;Lwve;Lkue;Looc;I)V
+    invoke-direct/range {v1 .. v10}, Lsoc;-><init>(Ljava/lang/Integer;ZLio/agora/rtc2/Constants$VideoStreamType;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lxve;Lwve;Lkue;Looc;I)V
 
     .line 42
     .line 43

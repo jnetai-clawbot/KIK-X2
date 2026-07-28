@@ -186,7 +186,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 2
     .line 3

@@ -1866,7 +1866,7 @@
     move-result-object v0
 
     .line 82
-    invoke-static {v0}, Lcom/jnetai/kikx2/n/Security/Security;->f(Ljava/lang/String;)[B
+    invoke-static {v0}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->f(Ljava/lang/String;)[B
 
     .line 83
     .line 84

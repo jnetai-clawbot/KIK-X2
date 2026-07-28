@@ -70,7 +70,7 @@
 
     .line 13
     .line 14
-    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 15
     .line 16
@@ -87,7 +87,7 @@
 
     .line 21
     .line 22
-    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 23
     .line 24
@@ -104,7 +104,7 @@
 
     .line 29
     .line 30
-    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 31
     .line 32
@@ -121,11 +121,11 @@
 
     .line 37
     .line 38
-    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lqlf;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 39
     .line 40
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 41
     .line 42

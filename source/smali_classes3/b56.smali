@@ -1073,7 +1073,7 @@
 
     .line 466
     .line 467
-    invoke-virtual {v9}, Ldn7;->a()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {v9}, Ldn7;->a()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 468
     .line 469
@@ -1089,7 +1089,7 @@
 
     .line 474
     .line 475
-    invoke-direct {v7, v5}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v7, v5}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 476
     .line 477

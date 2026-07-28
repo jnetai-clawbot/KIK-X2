@@ -365,7 +365,7 @@
 
     .line 120
     .line 121
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 122
     .line 123
@@ -381,7 +381,7 @@
 
     .line 128
     .line 129
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->q(Z)V
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->q(Z)V
 
     .line 130
     .line 131

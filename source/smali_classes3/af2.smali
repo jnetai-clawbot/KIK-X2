@@ -375,7 +375,7 @@
 
     .line 140
     .line 141
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 142
     .line 143
@@ -396,7 +396,7 @@
 
     .line 151
     .line 152
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 153
     .line 154
@@ -466,7 +466,7 @@
     .line 185
     :cond_9
     :goto_4
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 186
     .line 187

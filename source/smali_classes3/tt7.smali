@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
     .locals 18
 
     .line 1
@@ -13,7 +13,7 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 5
     .line 6
@@ -65,7 +65,7 @@
 
     .line 25
     .line 26
-    invoke-direct/range {v0 .. v17}, Lcom/jnetai/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
+    invoke-direct/range {v0 .. v17}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
 
     .line 27
     .line 28
@@ -73,7 +73,7 @@
     return-object v0
 .end method
 
-.method public static b(Lzt4;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.method public static b(Lzt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
     .locals 19
 
     .line 1
@@ -310,7 +310,7 @@
 
     .line 109
     .line 110
-    new-instance v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    new-instance v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 111
     .line 112
@@ -338,7 +338,7 @@
     const/4 v14, 0x0
 
     .line 122
-    invoke-direct/range {v1 .. v18}, Lcom/jnetai/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
+    invoke-direct/range {v1 .. v18}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
 
     .line 123
     .line 124
@@ -346,7 +346,7 @@
     return-object v1
 .end method
 
-.method public static c(Lz7a;Z)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.method public static c(Lz7a;Z)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
     .locals 20
 
     .line 1
@@ -563,7 +563,7 @@
 
     .line 102
     .line 103
-    new-instance v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 104
     .line 105
@@ -589,7 +589,7 @@
 
     .line 114
     .line 115
-    invoke-direct/range {v2 .. v19}, Lcom/jnetai/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
+    invoke-direct/range {v2 .. v19}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLiu7;Lbn7;ZZZJILzw3;)V
 
     .line 116
     .line 117
@@ -626,7 +626,7 @@
 
     .line 133
     :cond_2
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
 
     .line 134
     .line 135
@@ -634,7 +634,7 @@
     move-result-object v1
 
     .line 137
-    sget-object v3, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->Companion:Lut7;
 
     .line 138
     .line 139
@@ -668,7 +668,7 @@
     .line 153
     .line 154
     .line 155
-    invoke-static {v0}, Lut7;->b(Lyt4;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v0}, Lut7;->b(Lyt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 156
     .line 157

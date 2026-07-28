@@ -1460,7 +1460,7 @@
 
     .line 652
     .line 653
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 654
     .line 655
@@ -1505,7 +1505,7 @@
     move-result v1
 
     .line 676
-    invoke-virtual {v8, v7, v6, v0, v1}, Laa2;->o(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lgx2;I)V
+    invoke-virtual {v8, v7, v6, v0, v1}, Laa2;->o(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lgx2;I)V
 
     .line 677
     .line 678
@@ -1904,7 +1904,7 @@
 
     .line 874
     .line 875
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 876
     .line 877
@@ -1941,7 +1941,7 @@
     move-result v1
 
     .line 894
-    invoke-static {v8, v7, v6, v0, v1}, Lfwh;->a(Lqa;Lza;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {v8, v7, v6, v0, v1}, Lfwh;->a(Lqa;Lza;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 895
     .line 896

@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
     .locals 1
 
     const/4 v0, 0x2
@@ -191,7 +191,7 @@
     move-object v5, v2
 
     .line 36
-    check-cast v5, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 37
     .line 38
@@ -217,7 +217,7 @@
 
     .line 47
     .line 48
-    invoke-direct/range {v4 .. v10}, Lra2;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v4 .. v10}, Lra2;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;ZLuf8;Lk0a;Lk0a;Lea3;)V
 
     .line 49
     .line 50
@@ -913,7 +913,7 @@
 
     .line 219
     .line 220
-    check-cast v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 221
     .line 222
@@ -985,7 +985,7 @@
 
     .line 255
     .line 256
-    invoke-virtual {v1, v6}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->n(Z)V
+    invoke-virtual {v1, v6}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->n(Z)V
 
     .line 257
     .line 258
@@ -1010,7 +1010,7 @@
 
     .line 267
     .line 268
-    invoke-virtual {v1, v6}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->n(Z)V
+    invoke-virtual {v1, v6}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->n(Z)V
 
     .line 269
     .line 270
@@ -1035,7 +1035,7 @@
 
     .line 279
     .line 280
-    invoke-virtual {v1, v2}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->n(Z)V
+    invoke-virtual {v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->n(Z)V
 
     .line 281
     .line 282
@@ -1086,7 +1086,7 @@
 
     .line 305
     :cond_d
-    invoke-virtual {v1, v2}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->n(Z)V
+    invoke-virtual {v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->n(Z)V
 
     .line 306
     .line 307

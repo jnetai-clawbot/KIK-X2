@@ -56,7 +56,7 @@
     .line 10
     .line 11
     .line 12
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 13
     .line 14
@@ -65,7 +65,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 18
     .line 19
@@ -1049,11 +1049,11 @@
     .line 480
     .line 481
     .line 482
-    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 483
     .line 484
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 485
     .line 486
@@ -1107,11 +1107,11 @@
 
     .line 509
     .line 510
-    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 511
     .line 512
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 513
     .line 514
@@ -1135,7 +1135,7 @@
 
     .line 523
     :pswitch_16
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 524
     .line 525
@@ -1152,7 +1152,7 @@
 
     .line 531
     :pswitch_17
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 532
     .line 533
@@ -1161,7 +1161,7 @@
     .line 534
     .line 535
     .line 536
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->f()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->f()J
 
     .line 537
     .line 538
@@ -1181,7 +1181,7 @@
 
     .line 545
     :pswitch_18
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 546
     .line 547
@@ -1198,7 +1198,7 @@
 
     .line 553
     :pswitch_19
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 554
     .line 555
@@ -1207,7 +1207,7 @@
     .line 556
     .line 557
     .line 558
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 559
     .line 560
@@ -1240,7 +1240,7 @@
     .line 572
     .line 573
     .line 574
-    sget-object p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 575
     .line 576
@@ -1266,7 +1266,7 @@
     .line 586
     .line 587
     .line 588
-    invoke-static {p1, v2}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {p1, v2}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 589
     .line 590
@@ -1339,7 +1339,7 @@
 
     .line 621
     .line 622
-    instance-of v0, p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    instance-of v0, p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 623
     .line 624
@@ -1347,11 +1347,11 @@
 
     .line 625
     .line 626
-    check-cast p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 627
     .line 628
-    iget-object v5, p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->Y0:Llud;
+    iget-object v5, p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->Y0:Llud;
 
     .line 629
     .line 630
@@ -1380,7 +1380,7 @@
 
     .line 641
     :cond_8
-    const-class p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    const-class p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 642
     .line 643

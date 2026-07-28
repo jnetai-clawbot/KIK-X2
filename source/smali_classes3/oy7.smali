@@ -16,11 +16,11 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -76,7 +76,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/jnetai/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
+.method public static a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
     .locals 5
 
     .line 1
@@ -133,7 +133,7 @@
 
     .line 26
     :cond_1
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->d()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->d()J
 
     .line 27
     .line 28
@@ -167,7 +167,7 @@
     .line 42
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->d()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->d()J
 
     .line 43
     .line 44

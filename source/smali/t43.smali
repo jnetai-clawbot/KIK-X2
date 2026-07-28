@@ -334,7 +334,7 @@
 
     .line 111
     .line 112
-    iget-object v1, v1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, v1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 113
     .line 114
@@ -790,7 +790,7 @@
 
     .line 326
     .line 327
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 328
     .line 329
@@ -1476,7 +1476,7 @@
 
     .line 668
     .line 669
-    check-cast v11, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 670
     .line 671

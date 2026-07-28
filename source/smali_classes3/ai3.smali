@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lnf2;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+.method public synthetic constructor <init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lai3;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lai3;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 6
     .line 7
@@ -69,7 +69,7 @@
     const/4 v6, 0x1
 
     .line 11
-    iget-object v7, p0, Lai3;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v7, p0, Lai3;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 12
     .line 13
@@ -182,7 +182,7 @@
 
     .line 64
     .line 65
-    sget v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 66
     .line 67
@@ -193,7 +193,7 @@
     or-int/2addr p3, v0
 
     .line 70
-    invoke-static {p1, p0, v7, p2, p3}, Lxe9;->d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {p1, p0, v7, p2, p3}, Lxe9;->d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 71
     .line 72
@@ -292,7 +292,7 @@
 
     .line 114
     .line 115
-    sget v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 116
     .line 117
@@ -303,7 +303,7 @@
     or-int/2addr p3, v0
 
     .line 120
-    invoke-static {p1, p0, v7, p2, p3}, Le8f;->a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {p1, p0, v7, p2, p3}, Le8f;->a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 121
     .line 122

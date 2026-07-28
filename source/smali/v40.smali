@@ -185,7 +185,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lx18;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;I)V
+.method public synthetic constructor <init>(Lx18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;I)V
     .locals 1
 
     .line 1
@@ -317,7 +317,7 @@
     move-object v10, v7
 
     .line 26
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 27
     .line 28
@@ -379,7 +379,7 @@
 
     .line 55
     .line 56
-    invoke-static/range {v9 .. v16}, Leuh;->a(Lx18;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v9 .. v16}, Leuh;->a(Lx18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 57
     .line 58

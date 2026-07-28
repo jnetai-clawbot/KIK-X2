@@ -33,11 +33,11 @@
     .locals 6
 
     .line 1
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 4
     .line 5
@@ -82,11 +82,11 @@
     move-result-object p0
 
     .line 22
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 25
     .line 26

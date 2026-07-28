@@ -2931,7 +2931,7 @@
     move-result v6
 
     .line 28
-    invoke-static/range {v1 .. v6}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->C(Lqa0;Lhud;Lk0a;Ljo2;Lgx2;I)Lsbf;
+    invoke-static/range {v1 .. v6}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->C(Lqa0;Lhud;Lk0a;Ljo2;Lgx2;I)Lsbf;
 
     .line 29
     .line 30
@@ -7021,7 +7021,7 @@
 
     .line 2012
     :pswitch_c
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 2013
     .line 2014
@@ -7110,7 +7110,7 @@
 
     .line 2055
     .line 2056
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
 
     .line 2057
     .line 2058
@@ -7814,11 +7814,11 @@
 
     .line 2412
     .line 2413
-    sget-object v13, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2414
     .line 2415
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2416
     .line 2417

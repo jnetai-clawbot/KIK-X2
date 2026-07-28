@@ -8,7 +8,7 @@
 
 .field public R0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public Y:Ljava/lang/String;
 
@@ -64,7 +64,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, v0, v0, p0}, Lxt;->d(Lcom/jnetai/kikx2/storage/box/chat/Chat;Ljava/lang/String;Lga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, v0, p0}, Lxt;->d(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ljava/lang/String;Lga3;)Ljava/lang/Object;
 
     .line 14
     .line 15

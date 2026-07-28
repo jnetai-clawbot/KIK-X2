@@ -854,7 +854,7 @@
     .line 10
     .line 11
     .line 12
-    iget-object v0, v2, Lop4;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lop4;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 13
     .line 14
@@ -1527,7 +1527,7 @@
     .line 337
     .line 338
     .line 339
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->j()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->j()Ljava/lang/String;
 
     .line 340
     .line 341
@@ -1538,7 +1538,7 @@
     const/4 v1, 0x0
 
     .line 344
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
 
     .line 345
     .line 346

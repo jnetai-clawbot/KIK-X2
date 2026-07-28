@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lhd2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
+.method public static final a(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
     .locals 20
 
     .line 1
@@ -392,7 +392,7 @@
 
     .line 169
     .line 170
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->a()J
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->a()J
 
     .line 171
     .line 172
@@ -477,7 +477,7 @@
 
     .line 207
     .line 208
-    invoke-direct {v4, v2, v6}, Lct;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+    invoke-direct {v4, v2, v6}, Lct;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
 
     .line 209
     .line 210
@@ -852,7 +852,7 @@
 
     .line 393
     .line 394
-    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual/range {p1 .. p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 395
     .line 396
@@ -905,7 +905,7 @@
 
     .line 416
     .line 417
-    invoke-direct/range {v1 .. v9}, Ldt;-><init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;Lhud;Lk0a;Lhud;)V
+    invoke-direct/range {v1 .. v9}, Ldt;-><init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;Lhud;Lk0a;Lhud;)V
 
     .line 418
     .line 419
@@ -1017,7 +1017,7 @@
     move v7, v10
 
     .line 471
-    invoke-direct/range {v0 .. v7}, Let;-><init>(Lhd2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;I)V
+    invoke-direct/range {v0 .. v7}, Let;-><init>(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;I)V
 
     .line 472
     .line 473

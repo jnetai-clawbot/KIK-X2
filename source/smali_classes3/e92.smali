@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Laa2;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
 
 # direct methods
-.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+.method public synthetic constructor <init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Le92;->Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iput-object p2, p0, Le92;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 6
     .line 7
@@ -59,7 +59,7 @@
     const/4 v3, 0x0
 
     .line 7
-    iget-object v4, p0, Le92;->Z:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v4, p0, Le92;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 8
     .line 9
@@ -99,7 +99,7 @@
     const/4 v6, 0x0
 
     .line 27
-    invoke-direct {v5, v4, p0, v3, v6}, Lue2;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
+    invoke-direct {v5, v4, p0, v3, v6}, Lue2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
 
     .line 28
     .line 29
@@ -140,7 +140,7 @@
     const/4 v6, 0x1
 
     .line 47
-    invoke-direct {v5, v4, p0, v3, v6}, Lue2;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
+    invoke-direct {v5, v4, p0, v3, v6}, Lue2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lnf2;Lea3;I)V
 
     .line 48
     .line 49

@@ -43,7 +43,7 @@
 # virtual methods
 .method public final getPhoto(Li40;)Ls7b;
     .locals 18
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -690,11 +690,11 @@
     .line 304
     .line 305
     .line 306
-    sget-object v4, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 307
     .line 308
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 309
     .line 310
@@ -702,7 +702,7 @@
     move-result-object v4
 
     .line 312
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 313
     .line 314
@@ -772,7 +772,7 @@
 
 .method public final savePhoto(Li40;)Ls7b;
     .locals 3
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1

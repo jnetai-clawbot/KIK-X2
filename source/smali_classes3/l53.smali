@@ -155,7 +155,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
+.method public final a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
     .locals 4
 
     .line 1
@@ -284,7 +284,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 61
     .line 62

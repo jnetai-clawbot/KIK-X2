@@ -289,11 +289,11 @@
 
     .line 108
     .line 109
-    iget-object v0, v0, Loec;->d:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v0, Loec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 110
     .line 111
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 112
     .line 113
@@ -313,7 +313,7 @@
 
     .line 120
     .line 121
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->k()Lio/objectbox/relation/ToMany;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->k()Lio/objectbox/relation/ToMany;
 
     .line 122
     .line 123
@@ -370,11 +370,11 @@
     move-result-object v3
 
     .line 147
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 148
     .line 149
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->i()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->i()Z
 
     .line 150
     .line 151

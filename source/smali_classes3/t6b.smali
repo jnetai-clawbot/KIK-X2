@@ -48,11 +48,11 @@
 
     .line 9
     .line 10
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 13
     .line 14
@@ -86,14 +86,14 @@
 
     .line 28
     .line 29
-    iget-object v0, p1, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v0, p1, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 30
     .line 31
     const/4 v1, 0x0
 
     .line 32
-    invoke-static {v0, v1}, Lfw6;->h(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Z)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1}, Lfw6;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Z)Landroid/graphics/Bitmap;
 
     .line 33
     .line 34
@@ -126,11 +126,11 @@
 
     .line 46
     .line 47
-    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 50
     .line 51

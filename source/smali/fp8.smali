@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p2, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -63,7 +63,7 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v0, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 9
     .line 10
@@ -74,7 +74,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p1, p0, v0, p2, v1}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
 
     .line 14
     .line 15
@@ -87,7 +87,7 @@
 
     .line 18
     .line 19
-    iget-object v0, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v0, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 20
     .line 21
@@ -98,7 +98,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p1, p0, v0, p2, v1}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
 
     .line 25
     .line 26
@@ -204,7 +204,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Lfp8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 4
     .line 5
@@ -274,7 +274,7 @@
 
     .line 35
     .line 36
-    invoke-static {v2, v1, p0}, Lxb0;->n(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/io/Serializable;
+    invoke-static {v2, v1, p0}, Lxb0;->n(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/io/Serializable;
 
     .line 37
     .line 38
@@ -350,7 +350,7 @@
     move-object v1, v0
 
     .line 72
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 73
     .line 74
@@ -430,7 +430,7 @@
 
     .line 108
     .line 109
-    invoke-static {v2, v1, p0}, Lxb0;->m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
+    invoke-static {v2, v1, p0}, Lxb0;->m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
 
     .line 110
     .line 111

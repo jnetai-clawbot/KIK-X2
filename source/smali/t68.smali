@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.storage.preferences.products.models.LegacyJsonCustomChatTheme"
+    const-string v2, "com.jnetai.kikx2.kikx2.storage.preferences.products.models.LegacyJsonCustomChatTheme"
 
     .line 11
     .line 12

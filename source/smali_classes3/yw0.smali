@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;I)V
     .locals 1
 
     .line 27
@@ -163,7 +163,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;ZI)V
+.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;ZI)V
     .locals 1
 
     .line 23
@@ -188,7 +188,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 24
@@ -394,14 +394,14 @@
     move-object v10, v7
 
     .line 25
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 26
     .line 27
     move-object v11, v6
 
     .line 28
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 29
     .line 30
@@ -449,7 +449,7 @@
 
     .line 51
     .line 52
-    invoke-static/range {v9 .. v15}, Luvh;->d(Lpu9;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v9 .. v15}, Luvh;->d(Lpu9;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 53
     .line 54
@@ -462,7 +462,7 @@
 
     .line 57
     .line 58
-    check-cast v16, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v16, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 59
     .line 60
@@ -531,7 +531,7 @@
 
     .line 92
     .line 93
-    invoke-static/range {v16 .. v22}, Leuh;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v16 .. v22}, Leuh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 94
     .line 95
@@ -846,7 +846,7 @@
 
     .line 243
     :pswitch_5
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 244
     .line 245
@@ -911,7 +911,7 @@
 
     .line 273
     .line 274
-    invoke-static/range {v4 .. v10}, Lwwh;->b(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
+    invoke-static/range {v4 .. v10}, Lwwh;->b(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
 
     .line 275
     .line 276
@@ -998,7 +998,7 @@
 
     .line 314
     .line 315
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 316
     .line 317
@@ -1061,7 +1061,7 @@
 
     .line 345
     .line 346
-    invoke-static/range {v4 .. v10}, Luq8;->n(Lpu9;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;ZLgx2;I)V
+    invoke-static/range {v4 .. v10}, Luq8;->n(Lpu9;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;ZLgx2;I)V
 
     .line 347
     .line 348

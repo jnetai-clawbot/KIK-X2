@@ -254,7 +254,7 @@
 
     .line 107
     .line 108
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$KikUserTypeConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$KikUserTypeConverter;
 
     .line 109
     .line 110
@@ -307,7 +307,7 @@
 
     .line 134
     .line 135
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$KikDeviceTypeConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$KikDeviceTypeConverter;
 
     .line 136
     .line 137
@@ -570,7 +570,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2
     .line 3

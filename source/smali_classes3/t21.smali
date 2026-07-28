@@ -516,7 +516,7 @@
 
     .line 151
     .line 152
-    const-string v16, "toggleSelection(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V"
+    const-string v16, "toggleSelection(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V"
 
     .line 153
     .line 154

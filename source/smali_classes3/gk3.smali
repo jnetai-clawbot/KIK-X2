@@ -194,11 +194,11 @@
     move-result-object v2
 
     .line 70
-    iget-object p0, p0, Ll1d;->a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Ll1d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 71
     .line 72
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -206,7 +206,7 @@
     move-result-object v3
 
     .line 76
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 77
     .line 78
@@ -360,7 +360,7 @@
 
     .line 147
     .line 148
-    iget-object p0, p0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p0, p0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 149
     .line 150

@@ -435,15 +435,15 @@
     .line 50
     .line 51
     .line 52
-    sget-object p1, Lcom/jnetai/kikx2/core/backup/modern/AutomaticBackupWorker;->h:Ly33;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/core/backup/modern/AutomaticBackupWorker;->h:Ly33;
 
     .line 53
     .line 54
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 55
     .line 56
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 57
     .line 58
@@ -471,7 +471,7 @@
     move-result-object p1
 
     .line 70
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 71
     .line 72

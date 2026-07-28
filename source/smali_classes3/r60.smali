@@ -84,7 +84,7 @@
     .line 10
     .line 11
     .line 12
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 13
     .line 14

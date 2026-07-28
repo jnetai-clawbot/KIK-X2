@@ -50,7 +50,7 @@
     return-void
 .end method
 
-.method public static final a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+.method public static final a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
     .locals 2
 
     .line 1
@@ -62,7 +62,7 @@
     .line 3
     .line 4
     :try_start_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->e()Lio/objectbox/relation/ToOne;
 
     .line 5
     .line 6
@@ -78,7 +78,7 @@
     move-result-object p0
 
     .line 12
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 13
     .line 14
@@ -140,7 +140,7 @@
 
     .line 35
     :goto_3
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 36
     .line 37
@@ -1302,7 +1302,7 @@
     return-object v0
 .end method
 
-.method public static final c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+.method public static final c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
     .locals 0
 
     .line 1
@@ -1316,7 +1316,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lp9h;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
+    invoke-static {p0, p1}, Lp9h;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
 
     .line 8
     .line 9
@@ -1344,7 +1344,7 @@
     return p0
 .end method
 
-.method public static final d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
+.method public static final d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
     .locals 2
 
     .line 1
@@ -1398,11 +1398,11 @@
 
     .line 25
     .line 26
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 27
     .line 28
-    invoke-virtual {v1, p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->w(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Z
+    invoke-virtual {v1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->w(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Z
 
     .line 29
     .line 30

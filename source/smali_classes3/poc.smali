@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+.field public final a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
 .field public final b:Ljava/lang/Integer;
 
@@ -12,7 +12,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;Ljava/lang/Integer;Z)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;Ljava/lang/Integer;Z)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iput-object p1, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 8
     .line 9
@@ -45,7 +45,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object v0, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 2
     .line 3
@@ -89,7 +89,7 @@
 
     .line 22
     .line 23
-    invoke-direct {p0, v0, p1, p2}, Lpoc;-><init>(Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;Ljava/lang/Integer;Z)V
+    invoke-direct {p0, v0, p1, p2}, Lpoc;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;Ljava/lang/Integer;Z)V
 
     .line 24
     .line 25
@@ -99,11 +99,11 @@
 
 
 # virtual methods
-.method public final b()Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+.method public final b()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object p0, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 2
     .line 3
@@ -144,11 +144,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object v1, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 14
     .line 15
-    iget-object v3, p1, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object v3, p1, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 16
     .line 17
@@ -215,11 +215,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object v0, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;->hashCode()I
 
     .line 4
     .line 5
@@ -306,7 +306,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lpoc;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;
+    iget-object v1, p0, Lpoc;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;
 
     .line 9
     .line 10

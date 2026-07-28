@@ -6,7 +6,7 @@
 # instance fields
 .field public Q0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public synthetic Y:Ljava/lang/Object;
 

@@ -2280,11 +2280,11 @@
     .locals 0
 
     .line 1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/group/KikGroupCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupCursor;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/group/KikGroupCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 4
     .line 5
@@ -3028,11 +3028,11 @@
     .line 4
     .line 5
     .line 6
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->e()J
 
     .line 9
     .line 10
@@ -3044,11 +3044,11 @@
 
     .line 13
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->f()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->f()J
 
     .line 16
     .line 17

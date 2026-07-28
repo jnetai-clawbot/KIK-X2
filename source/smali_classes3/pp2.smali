@@ -67,7 +67,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;Lyif;Lk0a;)V
+.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;Lyif;Lk0a;)V
     .locals 0
 
     .line 15
@@ -140,7 +140,7 @@
     .line 14
     .line 15
     .line 16
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 17
     .line 18
@@ -160,7 +160,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
 
     .line 27
     .line 28

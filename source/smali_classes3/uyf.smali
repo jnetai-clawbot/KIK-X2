@@ -534,7 +534,7 @@
     move-object v10, v3
 
     .line 183
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 184
     .line 185
@@ -572,7 +572,7 @@
     move-object v12, v3
 
     .line 201
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 202
     .line 203
@@ -685,7 +685,7 @@
     move-result-object v14
 
     .line 254
-    check-cast v14, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 255
     .line 256
@@ -785,7 +785,7 @@
 
     .line 303
     .line 304
-    check-cast v30, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    check-cast v30, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 305
     .line 306
@@ -1656,7 +1656,7 @@
 
     .line 734
     .line 735
-    sget v6, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 736
     .line 737
@@ -1664,7 +1664,7 @@
 
     .line 738
     .line 739
-    sget v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 740
     .line 741
@@ -1675,7 +1675,7 @@
     or-int/2addr v6, v7
 
     .line 744
-    sget v7, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->$stable:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->$stable:I
 
     .line 745
     .line 746
@@ -1698,7 +1698,7 @@
 
     .line 754
     .line 755
-    sget v7, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;->$stable:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;->$stable:I
 
     .line 756
     .line 757
@@ -1722,7 +1722,7 @@
 
     .line 766
     .line 767
-    invoke-static/range {v10 .. v41}, Lwwh;->e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
+    invoke-static/range {v10 .. v41}, Lwwh;->e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
 
     .line 768
     .line 769
@@ -1735,7 +1735,7 @@
     move-result-object v1
 
     .line 774
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 775
     .line 776
@@ -1990,7 +1990,7 @@
 
     .line 902
     .line 903
-    invoke-direct {v0, v1}, Lpec;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, v1}, Lpec;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 904
     .line 905
@@ -2053,7 +2053,7 @@
 
     .line 932
     .line 933
-    const-string v11, "submitReport(Lcom/jnetai/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
+    const-string v11, "submitReport(Lcom/jnetai/kikx2/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
 
     .line 934
     .line 935

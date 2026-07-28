@@ -9,13 +9,13 @@
 # instance fields
 .field public final synthetic X:Lnf2;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Z:Lkotlin/jvm/functions/Function0;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lkotlin/jvm/functions/Function0;)V
+.method public synthetic constructor <init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lkotlin/jvm/functions/Function0;)V
     .locals 0
 
     .line 1
@@ -28,7 +28,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lgi3;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p2, p0, Lgi3;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 7
     .line 8
@@ -121,7 +121,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-virtual/range {v0 .. v6}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual/range {v0 .. v6}, Lk83;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLjava/util/LinkedHashMap;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 40
     .line 41
@@ -129,11 +129,11 @@
     move-result-object p2
 
     .line 43
-    iget-object p3, p0, Lgi3;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p3, p0, Lgi3;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 44
     .line 45
-    invoke-virtual {p1, p3, p2}, Lnf2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {p1, p3, p2}, Lnf2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 46
     .line 47

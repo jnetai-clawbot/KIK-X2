@@ -34,7 +34,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(JLcom/jnetai/kikx2/client/live/models/SnsVideoViewer;I)V
+.method public synthetic constructor <init>(JLcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;I)V
     .locals 1
 
     .line 1
@@ -134,7 +134,7 @@
 
     .line 33
     :pswitch_0
-    check-cast p0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 34
     .line 35
@@ -163,7 +163,7 @@
     move-result p2
 
     .line 48
-    invoke-static {v3, v4, p0, p1, p2}, Ltlh;->q(JLcom/jnetai/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
+    invoke-static {v3, v4, p0, p1, p2}, Ltlh;->q(JLcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
 
     .line 49
     .line 50

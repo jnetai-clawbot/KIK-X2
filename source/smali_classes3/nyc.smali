@@ -294,11 +294,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->a()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->a()J
 
     .line 4
     .line 5

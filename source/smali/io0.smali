@@ -91,7 +91,7 @@
 
     .line 15
     .line 16
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 17
     .line 18
@@ -100,7 +100,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p0, p1, v4}, Lblf;->j(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, p1, v4}, Lblf;->j(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 22
     .line 23

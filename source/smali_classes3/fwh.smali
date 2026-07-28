@@ -10,7 +10,7 @@
 
 
 # direct methods
-.method public static final a(Lqa;Lza;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+.method public static final a(Lqa;Lza;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
     .locals 21
 
     .line 1
@@ -462,7 +462,7 @@
 
     .line 207
     .line 208
-    iget-object v0, v12, Lua;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v12, Lua;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 209
     .line 210
@@ -470,7 +470,7 @@
 
     .line 211
     .line 212
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 213
     .line 214
@@ -478,7 +478,7 @@
     move-result-object v3
 
     .line 216
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 217
     .line 218
@@ -721,7 +721,7 @@
 
     .line 333
     .line 334
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 335
     .line 336
@@ -754,7 +754,7 @@
 
     .line 350
     .line 351
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 352
     .line 353
@@ -775,7 +775,7 @@
 
     .line 361
     .line 362
-    const-string v7, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v7, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 363
     .line 364
@@ -853,7 +853,7 @@
     const/4 v5, 0x0
 
     .line 400
-    invoke-direct/range {v0 .. v5}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
+    invoke-direct/range {v0 .. v5}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
 
     .line 401
     .line 402

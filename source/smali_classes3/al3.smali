@@ -323,7 +323,7 @@
 
     .line 132
     :pswitch_14
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->a(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->a(Lk0a;)Lsbf;
 
     .line 133
     .line 134
@@ -335,7 +335,7 @@
 
     .line 137
     :pswitch_15
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->b(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->b(Lk0a;)Lsbf;
 
     .line 138
     .line 139
@@ -347,7 +347,7 @@
 
     .line 142
     :pswitch_16
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->e(Lk0a;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->e(Lk0a;)Lsbf;
 
     .line 143
     .line 144

@@ -185,7 +185,7 @@
     .line 23
     .line 24
     .line 25
-    sget-object p1, Lcom/jnetai/kikx2/core/backup/modern/AutomaticBackupWorker;->h:Ly33;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/core/backup/modern/AutomaticBackupWorker;->h:Ly33;
 
     .line 26
     .line 27

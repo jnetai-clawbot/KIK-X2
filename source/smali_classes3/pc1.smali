@@ -74,7 +74,7 @@
 
     .line 15
     .line 16
-    invoke-interface {v2}, Lyq8;->a()Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    invoke-interface {v2}, Lyq8;->a()Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 17
     .line 18
@@ -103,7 +103,7 @@
     move-result-object v4
 
     .line 31
-    invoke-interface {v2}, Lyq8;->e()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-interface {v2}, Lyq8;->e()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 32
     .line 33
@@ -111,7 +111,7 @@
     move-result-object v5
 
     .line 35
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 36
     .line 37
@@ -119,7 +119,7 @@
     move-result-object v5
 
     .line 39
-    invoke-interface {v2}, Lyq8;->e()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-interface {v2}, Lyq8;->e()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 40
     .line 41
@@ -127,7 +127,7 @@
     move-result-object v2
 
     .line 43
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 44
     .line 45

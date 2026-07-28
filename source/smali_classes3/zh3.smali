@@ -178,7 +178,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {p0, p1}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-virtual {p0, p1}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 65
     .line 66
@@ -190,7 +190,7 @@
 
     .line 69
     .line 70
-    invoke-direct {v2, p0, p1}, Lhgc;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lfgc;)V
+    invoke-direct {v2, p0, p1}, Lhgc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lfgc;)V
 
     .line 71
     .line 72

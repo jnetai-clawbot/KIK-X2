@@ -52,7 +52,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lk0a;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Laa2;Lhud;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Laa2;Lhud;Lk0a;Lk0a;Lk0a;)V
     .locals 1
 
     .line 24
@@ -321,7 +321,7 @@
 
     .line 79
     .line 80
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 81
     .line 82
@@ -447,7 +447,7 @@
     .line 140
     .line 141
     :cond_1
-    iget-object v15, v3, Ld05;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v15, v3, Ld05;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 142
     .line 143
@@ -465,7 +465,7 @@
 
     .line 150
     .line 151
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 152
     .line 153
@@ -492,11 +492,11 @@
 
     .line 162
     :goto_1
-    iget-object v0, v3, Ld05;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v3, Ld05;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 163
     .line 164
-    iget-object v13, v3, Ld05;->c:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object v13, v3, Ld05;->c:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 165
     .line 166
@@ -524,7 +524,7 @@
     move-result-object v7
 
     .line 178
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 179
     .line 180
@@ -877,7 +877,7 @@
 
     .line 353
     .line 354
-    const-string v30, "startPremiumBotSwap(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V"
+    const-string v30, "startPremiumBotSwap(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V"
 
     .line 355
     .line 356
@@ -973,7 +973,7 @@
 
     .line 401
     .line 402
-    const-string v38, "startLookupRequest(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V"
+    const-string v38, "startLookupRequest(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V"
 
     .line 403
     .line 404
@@ -1069,7 +1069,7 @@
 
     .line 449
     .line 450
-    const-string v38, "startResolveRequest(Lcom/jnetai/kikx2/ui/fragments/shared/ResolveRequest;)V"
+    const-string v38, "startResolveRequest(Lcom/jnetai/kikx2/kikx2/ui/fragments/shared/ResolveRequest;)V"
 
     .line 451
     .line 452
@@ -1165,7 +1165,7 @@
 
     .line 497
     .line 498
-    const-string v38, "setModerationDialog(Lcom/jnetai/kikx2/ui/fragments/shared/ModerationDialogInfo;)V"
+    const-string v38, "setModerationDialog(Lcom/jnetai/kikx2/kikx2/ui/fragments/shared/ModerationDialogInfo;)V"
 
     .line 499
     .line 500
@@ -1200,7 +1200,7 @@
 
     .line 515
     .line 516
-    sget v2, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 517
     .line 518
@@ -1215,7 +1215,7 @@
     or-int/2addr v2, v3
 
     .line 523
-    sget v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 524
     .line 525
@@ -1226,7 +1226,7 @@
     or-int/2addr v2, v3
 
     .line 528
-    sget v3, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->$stable:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->$stable:I
 
     .line 529
     .line 530
@@ -1259,7 +1259,7 @@
 
     .line 544
     .line 545
-    invoke-static/range {v14 .. v32}, Lvvh;->a(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZLgx2;II)V
+    invoke-static/range {v14 .. v32}, Lvvh;->a(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;ZLkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;ZLgx2;II)V
 
     .line 546
     .line 547

@@ -237,7 +237,7 @@
     .line 83
     .line 84
     .line 85
-    sget-object v12, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v12, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 86
     .line 87
@@ -273,11 +273,11 @@
 
     .line 101
     .line 102
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 103
     .line 104
-    invoke-static {v0, p0}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->c(Ly4a;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;)Lsbf;
+    invoke-static {v0, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->c(Ly4a;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;)Lsbf;
 
     .line 105
     .line 106
@@ -567,11 +567,11 @@
     .line 242
     .line 243
     :try_start_1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 244
     .line 245
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 246
     .line 247
@@ -710,7 +710,7 @@
     .line 310
     .line 311
     .line 312
-    sget-object v8, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 313
     .line 314
@@ -758,7 +758,7 @@
     move-result-object v0
 
     .line 335
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 336
     .line 337
@@ -766,7 +766,7 @@
 
     .line 338
     .line 339
-    sget-object v0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->Companion:Ldq7;
 
     .line 340
     .line 341
@@ -775,7 +775,7 @@
     .line 342
     .line 343
     .line 344
-    invoke-static {p0}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-static {p0}, Ldq7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 345
     .line 346
@@ -799,7 +799,7 @@
     add-long/2addr v1, v3
 
     .line 355
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->a(Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;J)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;J)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 356
     .line 357
@@ -1791,11 +1791,11 @@
 
     .line 831
     .line 832
-    iget-object p0, p0, Ll1d;->a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Ll1d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 833
     .line 834
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 835
     .line 836
@@ -1861,7 +1861,7 @@
     .line 865
     .line 866
     .line 867
-    sget-object v11, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v11, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 868
     .line 869
@@ -2472,7 +2472,7 @@
 
     .line 1160
     .line 1161
-    check-cast p0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 1162
     .line 1163
@@ -2480,7 +2480,7 @@
 
     .line 1164
     .line 1165
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 1166
     .line 1167
@@ -2488,7 +2488,7 @@
     move-result-object p0
 
     .line 1169
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 1170
     .line 1171

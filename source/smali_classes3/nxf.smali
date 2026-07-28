@@ -12,7 +12,7 @@
 
 .field public X:Lxt4;
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public Z:Ljava/util/LinkedHashMap;
 

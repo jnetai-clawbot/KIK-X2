@@ -93,7 +93,7 @@
 
     .line 29
     .line 30
-    iget-object v6, v4, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v6, v4, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 31
     .line 32
@@ -112,7 +112,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->t()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->t()J
 
     .line 38
     .line 39
@@ -124,11 +124,11 @@
 
     .line 42
     .line 43
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/SnsLike;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsLike;
 
     .line 44
     .line 45
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsLike;->i()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsLike;->i()J
 
     .line 46
     .line 47
@@ -147,7 +147,7 @@
     move-result-wide v8
 
     .line 54
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->q()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->q()J
 
     .line 55
     .line 56
@@ -155,7 +155,7 @@
     move-result-wide v10
 
     .line 58
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsLike;->h()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsLike;->h()J
 
     .line 59
     .line 60
@@ -208,7 +208,7 @@
     .line 83
     .line 84
     :cond_2
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->t()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->t()J
 
     .line 85
     .line 86
@@ -216,7 +216,7 @@
     move-result-wide v8
 
     .line 88
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsLike;->i()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsLike;->i()J
 
     .line 89
     .line 90
@@ -232,7 +232,7 @@
     move-result-wide v17
 
     .line 96
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->q()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->q()J
 
     .line 97
     .line 98
@@ -240,7 +240,7 @@
     move-result-wide v8
 
     .line 100
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/SnsLike;->h()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsLike;->h()J
 
     .line 101
     .line 102
@@ -306,7 +306,7 @@
 
     .line 129
     .line 130
-    invoke-static/range {v7 .. v30}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->h(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;ZIJJJJJJJLcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;I)Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    invoke-static/range {v7 .. v30}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->h(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;ZIJJJJJJJLcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;I)Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 131
     .line 132
@@ -416,7 +416,7 @@
     const/4 v14, 0x0
 
     .line 180
-    invoke-static/range {v4 .. v16}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v4 .. v16}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 181
     .line 182

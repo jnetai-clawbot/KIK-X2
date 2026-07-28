@@ -490,7 +490,7 @@
 
     .line 159
     .line 160
-    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/apis/tenor/model/TenorGif;)V"
+    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/kikx2/apis/tenor/model/TenorGif;)V"
 
     .line 161
     .line 162
@@ -654,7 +654,7 @@
 
     .line 242
     .line 243
-    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/apis/tenor/model/TenorGif;)V"
+    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/kikx2/apis/tenor/model/TenorGif;)V"
 
     .line 244
     .line 245
@@ -808,7 +808,7 @@
 
     .line 319
     .line 320
-    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/apis/tenor/model/TenorGif;)V"
+    const-string v21, "setPreviewedGif(Lcom/jnetai/kikx2/kikx2/apis/tenor/model/TenorGif;)V"
 
     .line 321
     .line 322

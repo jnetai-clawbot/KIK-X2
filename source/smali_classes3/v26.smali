@@ -595,7 +595,7 @@
     .line 169
     .line 170
     .line 171
-    check-cast v8, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 172
     .line 173
@@ -607,7 +607,7 @@
 
     .line 176
     .line 177
-    invoke-direct {v2, v8, v5}, Lp26;-><init>(Lcom/jnetai/kikx2/apis/tenor/GifApi;I)V
+    invoke-direct {v2, v8, v5}, Lp26;-><init>(Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;I)V
 
     .line 178
     .line 179
@@ -730,7 +730,7 @@
     .line 235
     .line 236
     .line 237
-    check-cast v8, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 238
     .line 239
@@ -742,7 +742,7 @@
 
     .line 242
     .line 243
-    invoke-direct {v2, v8, v6}, Lp26;-><init>(Lcom/jnetai/kikx2/apis/tenor/GifApi;I)V
+    invoke-direct {v2, v8, v6}, Lp26;-><init>(Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;I)V
 
     .line 244
     .line 245
@@ -873,7 +873,7 @@
 
     .line 306
     .line 307
-    check-cast p1, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 308
     .line 309

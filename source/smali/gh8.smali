@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ldua;Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;)V
+.method public constructor <init>(Ldua;Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Lgh8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p3, p0, Lgh8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -58,7 +58,7 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Lgh8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v1, p0, Lgh8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -66,7 +66,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p1, p0, v0, v1, p2}, Lgh8;-><init>(Ldua;Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;)V
+    invoke-direct {p1, p0, v0, v1, p2}, Lgh8;-><init>(Ldua;Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;)V
 
     .line 10
     .line 11
@@ -218,11 +218,11 @@
     move-result-object v6
 
     .line 49
-    iget-object v7, v0, Lgh8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v7, v0, Lgh8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 50
     .line 51
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 52
     .line 53
@@ -230,7 +230,7 @@
     move-result-object v7
 
     .line 55
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 56
     .line 57
@@ -365,7 +365,7 @@
     const/4 v15, 0x0
 
     .line 115
-    invoke-static/range {v6 .. v18}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v6 .. v18}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 116
     .line 117

@@ -932,7 +932,7 @@
 
     .line 431
     .line 432
-    iget-object v1, v7, Ljza;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, v7, Ljza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 433
     .line 434
@@ -940,7 +940,7 @@
 
     .line 435
     .line 436
-    invoke-virtual {v0, v1, v2}, Lihf;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {v0, v1, v2}, Lihf;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 437
     .line 438
@@ -1040,7 +1040,7 @@
 
     .line 485
     .line 486
-    invoke-static {v0, v7, v6}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->n(Lqa0;Lb70;Lk0a;)Lsbf;
+    invoke-static {v0, v7, v6}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->n(Lqa0;Lb70;Lk0a;)Lsbf;
 
     .line 487
     .line 488

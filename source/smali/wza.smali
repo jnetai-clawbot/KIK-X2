@@ -11,7 +11,7 @@
 
 .field public final synthetic R0:Lxza;
 
-.field public final synthetic S0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+.field public final synthetic S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
 .field public synthetic X:Ljava/lang/Object;
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
+.method public constructor <init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
     .locals 0
 
     .line 1
@@ -41,7 +41,7 @@
 
     .line 8
     .line 9
-    iput-object p7, p0, Lwza;->S0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object p7, p0, Lwza;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 10
     .line 11
@@ -70,7 +70,7 @@
 
     .line 4
     .line 5
-    iget-object v7, p0, Lwza;->S0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v7, p0, Lwza;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 6
     .line 7
@@ -89,7 +89,7 @@
     move-object v8, p2
 
     .line 14
-    invoke-direct/range {v0 .. v8}, Lwza;-><init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
+    invoke-direct/range {v0 .. v8}, Lwza;-><init>(Lh7c;JJLxza;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lea3;)V
 
     .line 15
     .line 16
@@ -314,11 +314,11 @@
 
     .line 82
     .line 83
-    iget-object p0, p0, Lwza;->S0:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object p0, p0, Lwza;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 84
     .line 85
-    invoke-virtual {v1, p0, v2, p1, v0}, Lxza;->j0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
+    invoke-virtual {v1, p0, v2, p1, v0}, Lxza;->j0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
 
     .line 86
     .line 87

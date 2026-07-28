@@ -129,7 +129,7 @@
     .line 28
     .line 29
     .line 30
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 31
     .line 32
@@ -273,7 +273,7 @@
 
     .line 97
     .line 98
-    invoke-direct {v1, v0}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v1, v0}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 99
     .line 100
@@ -283,7 +283,7 @@
     .line 102
     .line 103
     .line 104
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->u()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->u()Z
 
     .line 105
     .line 106
@@ -367,7 +367,7 @@
 
     .line 142
     .line 143
-    invoke-direct {v3, v12, v0, v2, v10}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v3, v12, v0, v2, v10}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 144
     .line 145
@@ -451,7 +451,7 @@
     .line 185
     .line 186
     .line 187
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->g()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->g()Z
 
     .line 188
     .line 189
@@ -535,7 +535,7 @@
 
     .line 225
     .line 226
-    invoke-direct {v3, v12, v0, v2, v13}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v3, v12, v0, v2, v13}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 227
     .line 228
@@ -686,7 +686,7 @@
 
     .line 298
     .line 299
-    invoke-direct {v3, v12, v0, v2, v4}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v3, v12, v0, v2, v4}, Ltyf;-><init>(Lwyf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 300
     .line 301
@@ -905,7 +905,7 @@
 
     .line 405
     .line 406
-    invoke-direct {v3, v0, v2, v13}, Lg05;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct {v3, v0, v2, v13}, Lg05;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
 
     .line 407
     .line 408
@@ -987,7 +987,7 @@
 
     .line 446
     :pswitch_0
-    check-cast v0, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 447
     .line 448
@@ -1053,7 +1053,7 @@
     move-result v6
 
     .line 478
-    invoke-static/range {v0 .. v6}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->j(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhud;Lhud;Lf91;ZLgx2;I)Lsbf;
+    invoke-static/range {v0 .. v6}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->j(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhud;Lhud;Lf91;ZLgx2;I)Lsbf;
 
     .line 479
     .line 480
@@ -1981,11 +1981,11 @@
     .line 932
     .line 933
     .line 934
-    iget-object v4, v1, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v4, v1, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 935
     .line 936
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 937
     .line 938

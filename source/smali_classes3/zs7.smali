@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/client/stanzas/c;
+.field public final a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
 
 # direct methods
@@ -12,14 +12,14 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/client/stanzas/c;->T0:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->T0:I
 
     .line 2
     .line 3
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/client/stanzas/c;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/client/stanzas/c;)V
     .locals 0
 
     .line 1
@@ -28,7 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iput-object p1, p0, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 5
     .line 6
@@ -71,11 +71,11 @@
 
     .line 12
     .line 13
-    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 14
     .line 15
-    iget-object p1, p1, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object p1, p1, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 16
     .line 17
@@ -94,7 +94,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 2
     .line 3
@@ -126,7 +126,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object p0, p0, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 9
     .line 10

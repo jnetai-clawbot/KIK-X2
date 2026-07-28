@@ -249,7 +249,7 @@
     move-result-object p2
 
     .line 93
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 94
     .line 95
@@ -262,7 +262,7 @@
 
     .line 99
     .line 100
-    invoke-direct {v1, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v1, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 101
     .line 102
@@ -391,7 +391,7 @@
     .line 157
     .line 158
     .line 159
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 160
     .line 161
@@ -404,7 +404,7 @@
 
     .line 165
     .line 166
-    invoke-direct {p0, p1}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {p0, p1}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 167
     .line 168
@@ -524,7 +524,7 @@
     .line 219
     .line 220
     .line 221
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 222
     .line 223
@@ -537,7 +537,7 @@
 
     .line 227
     .line 228
-    invoke-direct {p0, p1}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {p0, p1}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 229
     .line 230
@@ -3708,11 +3708,11 @@
     .line 1674
     .line 1675
     .line 1676
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 1677
     .line 1678
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->e()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->e()Z
 
     .line 1679
     .line 1680

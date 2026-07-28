@@ -288,7 +288,7 @@
 
     .line 114
     .line 115
-    const-string v13, "onStatusSelected(Lcom/jnetai/kikx2/storage/box/user/EmojiStatus;)V"
+    const-string v13, "onStatusSelected(Lcom/jnetai/kikx2/kikx2/storage/box/user/EmojiStatus;)V"
 
     .line 116
     .line 117

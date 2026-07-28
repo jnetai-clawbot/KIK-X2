@@ -727,11 +727,11 @@
 
     .line 262
     :pswitch_7
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 263
     .line 264
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 265
     .line 266
@@ -747,11 +747,11 @@
     move-result-object p0
 
     .line 272
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 273
     .line 274
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 275
     .line 276
@@ -1199,11 +1199,11 @@
 
     .line 478
     .line 479
-    iget-object p0, p2, Lad6;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object p0, p2, Lad6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 480
     .line 481
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 482
     .line 483
@@ -1242,11 +1242,11 @@
 
     .line 497
     .line 498
-    iget-object p1, p1, Lad6;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object p1, p1, Lad6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 499
     .line 500
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 501
     .line 502
@@ -1294,11 +1294,11 @@
 
     .line 520
     .line 521
-    iget-object p0, p2, Lfk9;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object p0, p2, Lfk9;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 522
     .line 523
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 524
     .line 525
@@ -1337,11 +1337,11 @@
 
     .line 539
     .line 540
-    iget-object p1, p1, Lfk9;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object p1, p1, Lfk9;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 541
     .line 542
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 543
     .line 544

@@ -1661,7 +1661,7 @@
 
     .line 801
     .line 802
-    const-string v3, "com.jnetai.kikx2.storage.preferences.shared.CustomBackground.Type"
+    const-string v3, "com.jnetai.kikx2.kikx2.storage.preferences.shared.CustomBackground.Type"
 
     .line 803
     .line 804

@@ -322,7 +322,7 @@
     move-result-object v1
 
     .line 122
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 123
     .line 124
@@ -399,7 +399,7 @@
 
     .line 160
     .line 161
-    invoke-direct {v6, v11, v1, v14}, Ljkf;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {v6, v11, v1, v14}, Ljkf;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 162
     .line 163
@@ -430,7 +430,7 @@
 
     .line 176
     .line 177
-    sget v4, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v4, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 178
     .line 179
@@ -458,7 +458,7 @@
 
     .line 190
     .line 191
-    invoke-static/range {v15 .. v22}, Leuh;->a(Lx18;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v15 .. v22}, Leuh;->a(Lx18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 192
     .line 193
@@ -723,11 +723,11 @@
 
     .line 312
     .line 313
-    iget-object v4, v1, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v4, v1, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 314
     .line 315
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 316
     .line 317

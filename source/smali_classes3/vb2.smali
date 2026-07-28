@@ -1587,7 +1587,7 @@
 
     .line 580
     .line 581
-    invoke-virtual {v10, v9}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {v10, v9}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 582
     .line 583
@@ -1595,7 +1595,7 @@
     move-result-object v10
 
     .line 585
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 586
     .line 587
@@ -1870,7 +1870,7 @@
 
     .line 716
     .line 717
-    invoke-virtual {v7, p1, v8}, Lfd2;->p(Ljava/lang/String;Lv52;)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v7, p1, v8}, Lfd2;->p(Ljava/lang/String;Lv52;)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 718
     .line 719
@@ -1914,7 +1914,7 @@
 
     .line 738
     .line 739
-    invoke-virtual {v7, p1, v6, v11}, Lfd2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;ZLga3;)Ljava/lang/Object;
+    invoke-virtual {v7, p1, v6, v11}, Lfd2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;ZLga3;)Ljava/lang/Object;
 
     .line 740
     .line 741

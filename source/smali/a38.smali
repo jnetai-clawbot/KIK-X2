@@ -173,7 +173,7 @@
 
     .line 53
     .line 54
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 55
     .line 56
@@ -2385,7 +2385,7 @@
 
     .line 218
     :pswitch_2
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 219
     .line 220
@@ -2456,7 +2456,7 @@
 
     .line 250
     .line 251
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 252
     .line 253
@@ -2473,7 +2473,7 @@
     .line 258
     .line 259
     .line 260
-    invoke-virtual {v1, v2, v3, v4}, Llo9;->i(JLcq5;)Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-virtual {v1, v2, v3, v4}, Llo9;->i(JLcq5;)Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 261
     .line 262
@@ -2485,7 +2485,7 @@
 
     .line 265
     .line 266
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
 
     .line 267
     .line 268
@@ -2509,7 +2509,7 @@
 
     .line 277
     .line 278
-    invoke-virtual {v0, v1, v6}, Lxla;->b(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v6}, Lxla;->b(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
 
     .line 279
     .line 280
@@ -2529,7 +2529,7 @@
 
     .line 286
     .line 287
-    invoke-virtual {v0, v1, v6}, Lxla;->a(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v6}, Lxla;->a(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
 
     .line 288
     .line 289
@@ -4614,11 +4614,11 @@
     .line 1245
     .line 1246
     :cond_43
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1247
     .line 1248
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1249
     .line 1250

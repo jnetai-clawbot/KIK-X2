@@ -1556,11 +1556,11 @@
     .locals 0
 
     .line 1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfileCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfileCursor;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfileCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfileCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 4
     .line 5
@@ -9215,11 +9215,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->f()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->f()J
 
     .line 4
     .line 5

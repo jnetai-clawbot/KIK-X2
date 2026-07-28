@@ -930,7 +930,7 @@
     const/4 v8, 0x0
 
     .line 399
-    invoke-static {v5, v7, v8, v11, v6}, Lfwh;->a(Lqa;Lza;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {v5, v7, v8, v11, v6}, Lfwh;->a(Lqa;Lza;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 400
     .line 401

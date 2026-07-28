@@ -503,7 +503,7 @@
     .line 139
     .line 140
     .line 141
-    check-cast v7, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 142
     .line 143
@@ -523,7 +523,7 @@
 
     .line 150
     .line 151
-    invoke-interface {v7, p0, v2}, Lcom/jnetai/kikx2/apis/tenor/GifApi;->categories-gIAlu-s(Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {v7, p0, v2}, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;->categories-gIAlu-s(Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 152
     .line 153

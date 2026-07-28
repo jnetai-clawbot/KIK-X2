@@ -104,11 +104,11 @@
 
     .line 26
     :pswitch_0
-    check-cast v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 27
     .line 28
-    invoke-virtual {v0, v4}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->n(Z)V
+    invoke-virtual {v0, v4}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->n(Z)V
 
     .line 29
     .line 30

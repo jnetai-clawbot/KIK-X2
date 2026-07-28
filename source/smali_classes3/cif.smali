@@ -1041,7 +1041,7 @@
 
     .line 405
     .line 406
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 407
     .line 408
@@ -1088,11 +1088,11 @@
     .line 426
     .line 427
     .line 428
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 429
     .line 430
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->k()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->k()Ljava/util/List;
 
     .line 431
     .line 432

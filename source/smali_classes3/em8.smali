@@ -391,11 +391,11 @@
     move-result-object v10
 
     .line 160
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 161
     .line 162
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 163
     .line 164
@@ -614,11 +614,11 @@
     move-result-object v7
 
     .line 265
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 266
     .line 267
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 268
     .line 269
@@ -642,7 +642,7 @@
 
     .line 278
     .line 279
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 280
     .line 281

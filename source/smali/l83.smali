@@ -356,7 +356,7 @@
 
     .line 163
     .line 164
-    const-class v8, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$ContentUriListConverter;
+    const-class v8, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$ContentUriListConverter;
 
     .line 165
     .line 166
@@ -548,7 +548,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 2
     .line 3

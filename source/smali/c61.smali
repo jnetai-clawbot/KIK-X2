@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic R0:I
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;II)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;II)V
     .locals 0
 
     .line 1
@@ -35,7 +35,7 @@
 
     .line 6
     .line 7
-    iput-object p3, p0, Lc61;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p3, p0, Lc61;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 8
     .line 9
@@ -69,7 +69,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lc61;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v3, p0, Lc61;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 8
     .line 9
@@ -111,7 +111,7 @@
     move-result p2
 
     .line 29
-    invoke-static {p0, v4, v3, p1, p2}, Lxe9;->d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {p0, v4, v3, p1, p2}, Lxe9;->d(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 30
     .line 31
@@ -132,7 +132,7 @@
     move-result p2
 
     .line 39
-    invoke-static {p0, v4, v3, p1, p2}, Le8f;->a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-static {p0, v4, v3, p1, p2}, Le8f;->a(Lkotlin/jvm/functions/Function0;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 40
     .line 41

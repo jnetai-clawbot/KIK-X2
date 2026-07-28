@@ -202,7 +202,7 @@
 
     .line 72
     .line 73
-    const-string v11, "toggleSelection(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V"
+    const-string v11, "toggleSelection(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V"
 
     .line 74
     .line 75
@@ -366,7 +366,7 @@
 
     .line 147
     .line 148
-    const-string v11, "toggleSelection(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V"
+    const-string v11, "toggleSelection(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V"
 
     .line 149
     .line 150

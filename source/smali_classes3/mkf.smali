@@ -254,7 +254,7 @@
     move-object v4, p2
 
     .line 83
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 84
     .line 85
@@ -272,7 +272,7 @@
 
     .line 92
     .line 93
-    invoke-static {v4, p2}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {v4, p2}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 94
     .line 95
@@ -342,7 +342,7 @@
 
     .line 127
     .line 128
-    invoke-direct {p4, p2, v4, v2}, Lhkf;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;I)V
+    invoke-direct {p4, p2, v4, v2}, Lhkf;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;I)V
 
     .line 129
     .line 130
@@ -372,7 +372,7 @@
     move-result-object v8
 
     .line 143
-    sget v10, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v10, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 144
     .line 145
@@ -384,7 +384,7 @@
 
     .line 148
     .line 149
-    invoke-static/range {v4 .. v10}, Leuh;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v4 .. v10}, Leuh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 150
     .line 151

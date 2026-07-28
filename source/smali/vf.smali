@@ -286,7 +286,7 @@
 
     .line 105
     .line 106
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 107
     .line 108
@@ -2859,7 +2859,7 @@
 
     .line 941
     .line 942
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 943
     .line 944

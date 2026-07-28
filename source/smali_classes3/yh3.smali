@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lwi3;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+.method public synthetic constructor <init>(Lwi3;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 6
     .line 7
-    iput-object p3, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p3, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 8
     .line 9
@@ -87,14 +87,14 @@
 
     .line 18
     .line 19
-    iget-object v7, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v7, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 20
     .line 21
     move-object v5, p1
 
     .line 22
-    invoke-direct/range {v3 .. v8}, Lfi3;-><init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct/range {v3 .. v8}, Lfi3;-><init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 23
     .line 24
@@ -218,11 +218,11 @@
 
     .line 81
     .line 82
-    iget-object p0, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p0, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 83
     .line 84
-    invoke-direct {v4, v5, p0, p1, v0}, Lkf2;-><init>(Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;ILea3;)V
+    invoke-direct {v4, v5, p0, p1, v0}, Lkf2;-><init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;ILea3;)V
 
     .line 85
     .line 86
@@ -266,11 +266,11 @@
 
     .line 103
     .line 104
-    iget-object v9, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v9, p0, Lyh3;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 105
     .line 106
-    invoke-direct/range {v5 .. v10}, Lfi3;-><init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct/range {v5 .. v10}, Lfi3;-><init>(Lwi3;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 107
     .line 108

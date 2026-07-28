@@ -19,11 +19,11 @@
 
 .field public final synthetic Y:Z
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lyif;ZLcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;ZLk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lyif;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;ZLk0a;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -40,7 +40,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lvif;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    iput-object p3, p0, Lvif;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 9
     .line 10
@@ -451,7 +451,7 @@
     move-result-object v4
 
     .line 186
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 187
     .line 188
@@ -479,7 +479,7 @@
     move-result v8
 
     .line 200
-    iget-object v9, v0, Lvif;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    iget-object v9, v0, Lvif;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 201
     .line 202
@@ -534,7 +534,7 @@
 
     .line 225
     .line 226
-    invoke-direct {v11, v5, v9, v10, v8}, Lpp2;-><init>(ZLcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;Lyif;Lk0a;)V
+    invoke-direct {v11, v5, v9, v10, v8}, Lpp2;-><init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;Lyif;Lk0a;)V
 
     .line 227
     .line 228
@@ -736,7 +736,7 @@
 
     .line 321
     .line 322
-    const-string v13, "onActionItemTapped(Lcom/jnetai/kikx2/ui/fragments/userprofile/UserProfileSettingsActionItem;)V"
+    const-string v13, "onActionItemTapped(Lcom/jnetai/kikx2/kikx2/ui/fragments/userprofile/UserProfileSettingsActionItem;)V"
 
     .line 323
     .line 324
@@ -966,7 +966,7 @@
 
     .line 432
     .line 433
-    sget v18, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v18, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 434
     .line 435
@@ -1001,7 +1001,7 @@
     move-object v8, v4
 
     .line 448
-    invoke-static/range {v8 .. v18}, Lajf;->e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v8 .. v18}, Lajf;->e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 449
     .line 450

@@ -99,7 +99,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2}, Ldn7;->a()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {v2}, Ldn7;->a()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 30
     .line 31
@@ -110,7 +110,7 @@
     const/4 v4, 0x0
 
     .line 34
-    invoke-virtual {v2, v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v2, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 35
     .line 36

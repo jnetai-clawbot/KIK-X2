@@ -18,7 +18,7 @@
 
 .field public X:Lz72;
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public Z:Ljava/lang/String;
 

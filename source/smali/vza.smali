@@ -8,7 +8,7 @@
 
 .field public final synthetic b:J
 
-.field public final synthetic c:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+.field public final synthetic c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
 .field public final synthetic d:Lxza;
 
@@ -16,7 +16,7 @@
 
 
 # direct methods
-.method public constructor <init>(JJLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lxza;Lh7c;)V
+.method public constructor <init>(JJLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lxza;Lh7c;)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 7
     .line 8
-    iput-object p5, p0, Lvza;->c:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iput-object p5, p0, Lvza;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 9
     .line 10
@@ -113,11 +113,11 @@
 
     .line 26
     :goto_0
-    iget-object v0, p0, Lvza;->c:Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    iget-object v0, p0, Lvza;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->g()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->g()I
 
     .line 29
     .line 30
@@ -154,7 +154,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0, v0, p1, p2, v1}, Lxza;->j0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
+    invoke-virtual {p0, v0, p1, p2, v1}, Lxza;->j0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;IILyza;)V
 
     .line 47
     .line 48

@@ -261,7 +261,7 @@
     move-result-object v0
 
     .line 26
-    check-cast v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 27
     .line 28
@@ -363,7 +363,7 @@
 
     .line 76
     .line 77
-    sget v3, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v3, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 78
     .line 79
@@ -4541,11 +4541,11 @@
 
     .line 10
     :cond_0
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 13
     .line 14

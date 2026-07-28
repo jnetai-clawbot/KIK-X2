@@ -20,7 +20,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1, p2}, Lwbc;-><init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-direct {p0, p1, p2}, Lwbc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 5
     .line 6
@@ -42,7 +42,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->l()I
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->l()I
 
     .line 12
     .line 13
@@ -62,11 +62,11 @@
 
     .line 20
     .line 21
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 22
     .line 23
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 24
     .line 25
@@ -90,7 +90,7 @@
 
     .line 34
     :cond_0
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->l()I
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->l()I
 
     .line 35
     .line 36
@@ -110,11 +110,11 @@
 
     .line 43
     .line 44
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 45
     .line 46
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 47
     .line 48
@@ -138,7 +138,7 @@
 
     .line 57
     :cond_1
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->L()Z
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->L()Z
 
     .line 58
     .line 59
@@ -150,11 +150,11 @@
 
     .line 62
     .line 63
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 64
     .line 65
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 66
     .line 67
@@ -178,7 +178,7 @@
 
     .line 76
     :cond_2
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->l()I
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->l()I
 
     .line 77
     .line 78
@@ -194,11 +194,11 @@
 
     .line 83
     .line 84
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 85
     .line 86
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 87
     .line 88
@@ -222,7 +222,7 @@
 
     .line 97
     :cond_3
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->N()Z
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->N()Z
 
     .line 98
     .line 99
@@ -246,7 +246,7 @@
 
     .line 106
     :cond_5
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->h()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->h()Ljava/lang/String;
 
     .line 107
     .line 108
@@ -600,11 +600,11 @@
 
     .line 117
     .line 118
-    iget-object v6, v1, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v6, v1, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 119
     .line 120
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->v()Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->v()Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 121
     .line 122
@@ -1194,7 +1194,7 @@
 
     .line 395
     .line 396
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 397
     .line 398
@@ -1454,7 +1454,7 @@
 
     .line 524
     :cond_18
-    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 525
     .line 526
@@ -1720,7 +1720,7 @@
 
     .line 653
     .line 654
-    iget-object v15, v1, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v15, v1, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 655
     .line 656
@@ -1743,7 +1743,7 @@
 
     .line 664
     .line 665
-    invoke-static/range {v14 .. v21}, Lim2;->c(Lim2;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Landroid/graphics/Bitmap;Ljava/lang/String;ZLcq5;ZI)Ltv6;
+    invoke-static/range {v14 .. v21}, Lim2;->c(Lim2;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Landroid/graphics/Bitmap;Ljava/lang/String;ZLcq5;ZI)Ltv6;
 
     .line 666
     .line 667
@@ -2005,7 +2005,7 @@
 
     .line 786
     .line 787
-    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->j()I
+    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->j()I
 
     .line 788
     .line 789
@@ -2090,7 +2090,7 @@
 
     .line 821
     .line 822
-    invoke-direct {v5, v11, v6, v2, v10}, Lrbc;-><init>(Lcq5;Ltbc;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)V
+    invoke-direct {v5, v11, v6, v2, v10}, Lrbc;-><init>(Lcq5;Ltbc;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)V
 
     .line 823
     .line 824
@@ -2185,7 +2185,7 @@
     const/4 v0, 0x1
 
     .line 862
-    invoke-direct {v4, v11, v6, v2, v0}, Lrbc;-><init>(Lcq5;Ltbc;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)V
+    invoke-direct {v4, v11, v6, v2, v0}, Lrbc;-><init>(Lcq5;Ltbc;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)V
 
     .line 863
     .line 864
@@ -2200,7 +2200,7 @@
 
     .line 869
     .line 870
-    sget v0, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->$stable:I
 
     .line 871
     .line 872
@@ -2231,7 +2231,7 @@
     move-object v4, v8
 
     .line 881
-    invoke-static/range {v0 .. v5}, Luvh;->e(ILcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v0 .. v5}, Luvh;->e(ILcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 882
     .line 883
@@ -2596,7 +2596,7 @@
     .line 1061
     .line 1062
     .line 1063
-    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual/range {v34 .. v34}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 1064
     .line 1065
@@ -2626,11 +2626,11 @@
 
     .line 1076
     :cond_2e
-    iget-object v0, v13, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v0, v13, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1077
     .line 1078
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->l()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->l()I
 
     .line 1079
     .line 1080
@@ -2658,7 +2658,7 @@
 
     .line 1091
     :cond_2f
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->l()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->l()I
 
     .line 1092
     .line 1093
@@ -2686,7 +2686,7 @@
 
     .line 1104
     :cond_30
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->L()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->L()Z
 
     .line 1105
     .line 1106
@@ -2706,7 +2706,7 @@
 
     .line 1113
     :cond_31
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->N()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->N()Z
 
     .line 1114
     .line 1115
@@ -2718,7 +2718,7 @@
 
     .line 1118
     .line 1119
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->h()Ljava/lang/String;
 
     .line 1120
     .line 1121
@@ -3783,7 +3783,7 @@
 
     .line 205
     .line 206
-    iget-object v8, v0, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v8, v0, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 207
     .line 208
@@ -3807,7 +3807,7 @@
 
     .line 217
     .line 218
-    invoke-static/range {v15 .. v22}, Lim2;->c(Lim2;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Landroid/graphics/Bitmap;Ljava/lang/String;ZLcq5;ZI)Ltv6;
+    invoke-static/range {v15 .. v22}, Lim2;->c(Lim2;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Landroid/graphics/Bitmap;Ljava/lang/String;ZLcq5;ZI)Ltv6;
 
     .line 219
     .line 220

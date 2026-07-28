@@ -237,11 +237,11 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -261,7 +261,7 @@
 
     .line 12
     .line 13
-    const-class v2, Lcom/jnetai/kikx2/core/power/PushService;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/core/power/PushService;
 
     .line 14
     .line 15
@@ -288,7 +288,7 @@
     .line 26
     .line 27
     .line 28
-    sget v0, Lcom/jnetai/kikx2/core/power/PushService;->X:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/core/power/PushService;->X:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -321,7 +321,7 @@
 
     .line 41
     .line 42
-    sget v0, Lcom/jnetai/kikx2/core/power/PushService;->X:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/core/power/PushService;->X:I
 
     .line 43
     .line 44
@@ -329,7 +329,7 @@
 
     .line 45
     :cond_0
-    sget v0, Lcom/jnetai/kikx2/core/power/PushService;->X:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/core/power/PushService;->X:I
 
     .line 46
     .line 47

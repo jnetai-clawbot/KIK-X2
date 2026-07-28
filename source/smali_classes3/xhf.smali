@@ -46,7 +46,7 @@
     const/4 v4, 0x0
 
     .line 13
-    invoke-direct/range {v0 .. v6}, Lop4;-><init>(ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
+    invoke-direct/range {v0 .. v6}, Lop4;-><init>(ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/List;Z)V
 
     .line 14
     .line 15

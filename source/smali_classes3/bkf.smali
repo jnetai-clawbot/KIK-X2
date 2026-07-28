@@ -56,7 +56,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 11
     .line 12
@@ -68,7 +68,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p2, p1}, Lqlf;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {p2, p1}, Lqlf;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 17
     .line 18

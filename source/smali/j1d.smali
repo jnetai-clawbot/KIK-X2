@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
     .locals 1
 
     .line 1
@@ -26,7 +26,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v0, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 7
     .line 8
@@ -180,11 +180,11 @@
 
     .line 14
     .line 15
-    iget-object p0, p0, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -216,11 +216,11 @@
 
     .line 31
     .line 32
-    iget-object p0, p0, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 33
     .line 34
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 35
     .line 36
@@ -232,11 +232,11 @@
 
     .line 39
     .line 40
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 41
     .line 42
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 43
     .line 44
@@ -393,11 +393,11 @@
 
     .line 34
     .line 35
-    iget-object p0, p0, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -425,7 +425,7 @@
 
     .line 50
     :cond_1
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->b()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -461,11 +461,11 @@
 
     .line 66
     .line 67
-    iget-object p0, p0, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 68
     .line 69
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 70
     .line 71
@@ -493,7 +493,7 @@
 
     .line 82
     :cond_3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
 
     .line 83
     .line 84

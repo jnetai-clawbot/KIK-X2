@@ -134,7 +134,7 @@
     move-object v15, v0
 
     .line 28
-    check-cast v15, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 29
     .line 30
@@ -210,7 +210,7 @@
     move-result v22
 
     .line 66
-    invoke-static/range {v15 .. v22}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->t(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lzra;Lhud;Lhud;Lf91;ZLgx2;I)Lsbf;
+    invoke-static/range {v15 .. v22}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->t(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lzra;Lhud;Lhud;Lf91;ZLgx2;I)Lsbf;
 
     .line 67
     .line 68
@@ -1775,11 +1775,11 @@
 
     .line 830
     .line 831
-    sget-object v4, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 832
     .line 833
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 834
     .line 835

@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public final synthetic R0:Lk0a;
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lep8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p2, p0, Lep8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -86,7 +86,7 @@
 
     .line 12
     .line 13
-    iget-object v2, p0, Lep8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v2, p0, Lep8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 14
     .line 15
@@ -97,7 +97,7 @@
     move-object v5, p2
 
     .line 18
-    invoke-direct/range {v0 .. v6}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v0 .. v6}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 19
     .line 20
@@ -124,7 +124,7 @@
 
     .line 29
     .line 30
-    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 31
     .line 32
@@ -132,7 +132,7 @@
 
     .line 33
     .line 34
-    invoke-direct/range {v1 .. v7}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v1 .. v7}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 35
     .line 36
@@ -159,7 +159,7 @@
 
     .line 45
     .line 46
-    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 47
     .line 48
@@ -167,7 +167,7 @@
 
     .line 49
     .line 50
-    invoke-direct/range {v1 .. v7}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
+    invoke-direct/range {v1 .. v7}, Lep8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;I)V
 
     .line 51
     .line 52
@@ -304,7 +304,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v3, p0, Lep8;->Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 8
     .line 9

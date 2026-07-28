@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Llt0;->Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Llt0;->Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -47,7 +47,7 @@
 
     .line 4
     .line 5
-    iget-object p0, p0, Llt0;->Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Llt0;->Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 6
     .line 7
@@ -60,15 +60,15 @@
 
     .line 11
     .line 12
-    iget-object p2, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->V0:Llud;
+    iget-object p2, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->V0:Llud;
 
     .line 13
     .line 14
-    iget-object v1, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->X0:Llud;
+    iget-object v1, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->X0:Llud;
 
     .line 15
     .line 16
-    iget-object p0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->W0:Llud;
+    iget-object p0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->W0:Llud;
 
     .line 17
     .line 18
@@ -222,11 +222,11 @@
 
     .line 91
     .line 92
-    sget p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 93
     .line 94
-    iget-object p0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->V0:Llud;
+    iget-object p0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->V0:Llud;
 
     .line 95
     .line 96

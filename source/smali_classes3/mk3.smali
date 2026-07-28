@@ -91,7 +91,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lxj7;Lca2;Lzhf;Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;ZLjava/util/UUID;)V
+.method public synthetic constructor <init>(Lxj7;Lca2;Lzhf;Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;ZLjava/util/UUID;)V
     .locals 1
 
     .line 20
@@ -683,7 +683,7 @@
 
     .line 246
     .line 247
-    check-cast v16, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    check-cast v16, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 248
     .line 249
@@ -727,7 +727,7 @@
 
     .line 268
     .line 269
-    invoke-static/range {v13 .. v20}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->h(Lxj7;Lca2;Lzhf;Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;ZLjava/util/UUID;Lgx2;I)Lsbf;
+    invoke-static/range {v13 .. v20}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->h(Lxj7;Lca2;Lzhf;Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;ZLjava/util/UUID;Lgx2;I)Lsbf;
 
     .line 270
     .line 271

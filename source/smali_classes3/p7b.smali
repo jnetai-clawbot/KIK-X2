@@ -107,7 +107,7 @@
 
 .method public final getInfo(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1

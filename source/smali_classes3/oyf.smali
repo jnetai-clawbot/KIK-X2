@@ -69,7 +69,7 @@
     move-object v5, p1
 
     .line 13
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 14
     .line 15

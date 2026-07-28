@@ -1899,11 +1899,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfileCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfileCursor;
 
     .line 7
     .line 8
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfileCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfileCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 9
     .line 10
@@ -1912,11 +1912,11 @@
 
     .line 12
     :pswitch_0
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConferenceCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConferenceCursor;
 
     .line 13
     .line 14
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConferenceCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConferenceCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 15
     .line 16

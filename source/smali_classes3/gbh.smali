@@ -436,7 +436,7 @@
     return-void
 .end method
 
-.method public static final a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+.method public static final a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
     .locals 22
 
     .line 1
@@ -1303,7 +1303,7 @@
 
     .line 389
     .line 390
-    invoke-direct/range {v0 .. v14}, Lof2;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+    invoke-direct/range {v0 .. v14}, Lof2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
 
     .line 391
     .line 392
@@ -1448,7 +1448,7 @@
 
     .line 460
     .line 461
-    invoke-direct/range {v0 .. v15}, Lqf2;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
+    invoke-direct/range {v0 .. v15}, Lqf2;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
 
     .line 462
     .line 463

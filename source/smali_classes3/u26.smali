@@ -84,7 +84,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Lcom/jnetai/kikx2/apis/tenor/GifApi;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;)V
     .locals 1
 
     const/4 v0, 0x0
@@ -338,7 +338,7 @@
 
     .line 61
     .line 62
-    iget-object v4, v3, Lsm8;->R0:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v4, v3, Lsm8;->R0:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 63
     .line 64
@@ -571,7 +571,7 @@
     move-object v4, v1
 
     .line 174
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 175
     .line 176
@@ -598,7 +598,7 @@
 
     .line 186
     .line 187
-    iput-object v4, v3, Lsm8;->R0:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iput-object v4, v3, Lsm8;->R0:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 188
     .line 189
@@ -2457,7 +2457,7 @@
     .line 1072
     :cond_28
     :goto_13
-    check-cast v7, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 1073
     .line 1074
@@ -2485,7 +2485,7 @@
 
     .line 1085
     .line 1086
-    invoke-interface {v7, v6, v1, v13, v3}, Lcom/jnetai/kikx2/apis/tenor/GifApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {v7, v6, v1, v13, v3}, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 1087
     .line 1088

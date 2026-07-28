@@ -280,7 +280,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
+.method public final b(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lga3;)Ljava/lang/Object;
     .locals 9
 
     .line 1
@@ -362,7 +362,7 @@
 
     .line 36
     .line 37
-    iget-object v0, v0, Ljm9;->X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v0, v0, Ljm9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 38
     .line 39
@@ -399,7 +399,7 @@
     .line 52
     .line 53
     .line 54
-    iput-object p1, v0, Ljm9;->X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, v0, Ljm9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 55
     .line 56
@@ -441,7 +441,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 74
     .line 75
@@ -487,7 +487,7 @@
 
     .line 96
     .line 97
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 98
     .line 99
@@ -633,7 +633,7 @@
     .line 164
     .line 165
     .line 166
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 167
     .line 168
@@ -662,7 +662,7 @@
     .line 179
     .line 180
     .line 181
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 182
     .line 183
@@ -726,7 +726,7 @@
     throw p0
 .end method
 
-.method public final c(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lea3;)Ljava/lang/Object;
+.method public final c(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lea3;)Ljava/lang/Object;
     .locals 5
 
     .line 1
@@ -808,7 +808,7 @@
 
     .line 36
     .line 37
-    iget-object v0, v0, Lkm9;->X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v0, v0, Lkm9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 38
     .line 39
@@ -845,7 +845,7 @@
     .line 52
     .line 53
     .line 54
-    iput-object p1, v0, Lkm9;->X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, v0, Lkm9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 55
     .line 56
@@ -887,7 +887,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 74
     .line 75
@@ -934,7 +934,7 @@
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 99
     .line 100

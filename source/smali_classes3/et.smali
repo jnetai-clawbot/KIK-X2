@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhd2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 1
@@ -452,7 +452,7 @@
     move-object v12, v6
 
     .line 143
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 144
     .line 145
@@ -512,7 +512,7 @@
 
     .line 172
     .line 173
-    invoke-static/range {v11 .. v18}, Lnyh;->a(Lhd2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v11 .. v18}, Lnyh;->a(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 174
     .line 175

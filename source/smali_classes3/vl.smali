@@ -69,11 +69,11 @@
 
     .line 16
     :pswitch_0
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 17
     .line 18
-    sget p1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget p1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 19
     .line 20
@@ -105,7 +105,7 @@
 
     .line 32
     .line 33
-    iget-object p0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->V0:Llud;
+    iget-object p0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->V0:Llud;
 
     .line 34
     .line 35

@@ -40,7 +40,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/App;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 1
 
     .line 67

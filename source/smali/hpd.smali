@@ -26,7 +26,7 @@
     .end annotation
 .end field
 
-.field private final d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field private final d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .annotation runtime Lt8d;
         value = "user"
     .end annotation
@@ -56,7 +56,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
 
     .line 2
     .line 3
@@ -226,11 +226,11 @@
 
     .line 44
     :cond_4
-    iget-object v1, p0, Lhpd;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Lhpd;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 45
     .line 46
-    iget-object v3, p1, Lhpd;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v3, p1, Lhpd;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 47
     .line 48
@@ -309,11 +309,11 @@
     return v0
 .end method
 
-.method public final f()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.method public final f()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lhpd;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Lhpd;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
@@ -399,11 +399,11 @@
 
     .line 33
     .line 34
-    iget-object v1, p0, Lhpd;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Lhpd;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 35
     .line 36
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
 
     .line 37
     .line 38
@@ -514,7 +514,7 @@
 
     .line 6
     .line 7
-    iget-object v4, p0, Lhpd;->d:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v4, p0, Lhpd;->d:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 8
     .line 9

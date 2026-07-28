@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.ui.components.dialogs.report.NewReportReason"
+    const-string v2, "com.jnetai.kikx2.kikx2.ui.components.dialogs.report.NewReportReason"
 
     .line 11
     .line 12

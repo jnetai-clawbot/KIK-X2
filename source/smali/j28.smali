@@ -170,7 +170,7 @@
 
     .line 52
     .line 53
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 54
     .line 55
@@ -179,7 +179,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->E()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->E()Ljava/util/Map;
 
     .line 59
     .line 60
@@ -216,7 +216,7 @@
     move-result-object v1
 
     .line 77
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->Y(Ljava/util/Map;)V
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->Y(Ljava/util/Map;)V
 
     .line 78
     .line 79
@@ -241,7 +241,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->E()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->E()Ljava/util/Map;
 
     .line 91
     .line 92
@@ -286,7 +286,7 @@
     move-result-object v1
 
     .line 113
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->Y(Ljava/util/Map;)V
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->Y(Ljava/util/Map;)V
 
     .line 114
     .line 115

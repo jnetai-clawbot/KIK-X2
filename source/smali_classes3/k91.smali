@@ -186,11 +186,11 @@
 
     .line 64
     .line 65
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 66
     .line 67
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 68
     .line 69
@@ -198,7 +198,7 @@
     move-result-object p0
 
     .line 71
-    invoke-virtual {v0, p0}, Li91;->a(Lcom/jnetai/kikx2/App;)V
+    invoke-virtual {v0, p0}, Li91;->a(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 72
     .line 73
@@ -403,11 +403,11 @@
 
     .line 18
     .line 19
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 20
     .line 21
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 22
     .line 23
@@ -415,7 +415,7 @@
     move-result-object p0
 
     .line 25
-    invoke-virtual {v0, p0}, Li91;->a(Lcom/jnetai/kikx2/App;)V
+    invoke-virtual {v0, p0}, Li91;->a(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 26
     .line 27

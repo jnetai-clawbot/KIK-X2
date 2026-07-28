@@ -16,7 +16,7 @@
 
 .field public Y:Ljava/lang/Object;
 
-.field public Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods

@@ -9,7 +9,7 @@
 # instance fields
 .field public final synthetic Q0:Lk0a;
 
-.field public final synthetic X:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic X:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic Y:Lhud;
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lhud;Lk0a;Lk0a;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lhud;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -26,7 +26,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lbk9;->X:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p1, p0, Lbk9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 5
     .line 6
@@ -60,7 +60,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lbk9;->X:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, p0, Lbk9;->X:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 7
     .line 8
@@ -84,7 +84,7 @@
 
     .line 17
     .line 18
-    invoke-interface {v1}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {v1}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 19
     .line 20
@@ -100,7 +100,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v2, v0, v1, p1}, Lgza;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lvb;)V
+    invoke-direct {v2, v0, v1, p1}, Lgza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lvb;)V
 
     .line 27
     .line 28

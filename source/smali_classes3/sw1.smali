@@ -103,7 +103,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 37
     .line 38
@@ -2184,11 +2184,11 @@
     .line 291
     .line 292
     .line 293
-    iget-object v1, v2, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v1, v2, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 294
     .line 295
-    invoke-virtual {v1, v0, v5}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
+    invoke-virtual {v1, v0, v5}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->j(Landroid/net/Uri;Ltef;)V
 
     .line 296
     .line 297

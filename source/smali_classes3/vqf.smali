@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lvqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iput-object p1, p0, Lvqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 4
     .line 5
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    iget-object p0, p0, Lvqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iget-object p0, p0, Lvqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 4
     .line 5
@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->k(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->k(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
 
     .line 9
     .line 10
@@ -64,7 +64,7 @@
 
     .line 13
     :pswitch_0
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->N(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->N(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
 
     .line 14
     .line 15
@@ -76,7 +76,7 @@
 
     .line 18
     :pswitch_1
-    invoke-static {p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->V(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->V(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;)Lsbf;
 
     .line 19
     .line 20

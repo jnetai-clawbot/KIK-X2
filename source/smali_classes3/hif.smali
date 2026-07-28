@@ -31,7 +31,7 @@
 .method public abstract i()Z
 .end method
 
-.method public abstract j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.method public abstract j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 .end method
 
 .method public abstract k()Ljava/lang/String;
@@ -43,7 +43,7 @@
 .method public abstract m()Ljava/lang/String;
 .end method
 
-.method public abstract n()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.method public abstract n()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 .end method
 
 .method public abstract o()Lbn7;

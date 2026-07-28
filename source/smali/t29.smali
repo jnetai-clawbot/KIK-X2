@@ -133,7 +133,7 @@
 
     .line 49
     .line 50
-    sget-object v5, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 51
     .line 52
@@ -555,11 +555,11 @@
 
     .line 253
     :pswitch_5
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 254
     .line 255
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 256
     .line 257

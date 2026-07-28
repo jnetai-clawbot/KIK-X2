@@ -1135,7 +1135,7 @@
 
     .line 190
     .line 191
-    const-class v7, Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    const-class v7, Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
 
     .line 192
     .line 193
@@ -1169,7 +1169,7 @@
 
     .line 208
     :cond_5
-    const-class v7, Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    const-class v7, Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
 
     .line 209
     .line 210
@@ -2988,7 +2988,7 @@
 
     .line 18
     .line 19
-    const-class v5, Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    const-class v5, Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
 
     .line 20
     .line 21
@@ -3124,7 +3124,7 @@
 
     .line 84
     :cond_2
-    const-class v5, Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    const-class v5, Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
 
     .line 85
     .line 86

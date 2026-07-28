@@ -86,7 +86,7 @@
 
     .line 17
     .line 18
-    check-cast v1, Lcom/jnetai/kikx2/App;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 19
     .line 20

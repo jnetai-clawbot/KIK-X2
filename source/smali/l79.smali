@@ -299,7 +299,7 @@
     move-result-object p0
 
     .line 56
-    check-cast p0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
     .line 57
     .line 58
@@ -311,11 +311,11 @@
 
     .line 61
     .line 62
-    sget-object p1, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 63
     .line 64
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->a()V
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->a()V
 
     .line 65
     .line 66
@@ -325,11 +325,11 @@
     .line 68
     .line 69
     .line 70
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 71
     .line 72
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 73
     .line 74

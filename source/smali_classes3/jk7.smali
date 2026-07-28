@@ -269,7 +269,7 @@
     return-void
 .end method
 
-.method public static final b(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lcq5;Lgx2;I)V
+.method public static final b(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lcq5;Lgx2;I)V
     .locals 31
 
     .line 1
@@ -1245,7 +1245,7 @@
     .line 457
     .line 458
     .line 459
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->r()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->r()Ljava/lang/String;
 
     .line 460
     .line 461
@@ -1355,7 +1355,7 @@
 
     .line 511
     .line 512
-    invoke-virtual {v6, v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v6, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 513
     .line 514
@@ -1533,7 +1533,7 @@
 
     .line 597
     .line 598
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 599
     .line 600
@@ -1894,7 +1894,7 @@
     return-void
 .end method
 
-.method public static final c(IZLgs7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+.method public static final c(IZLgs7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
     .locals 33
 
     .line 1
@@ -3297,7 +3297,7 @@
 
     .line 651
     .line 652
-    invoke-direct/range {v2 .. v17}, Lgk7;-><init>(Lvz3;ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;Ldd3;Lob9;)V
+    invoke-direct/range {v2 .. v17}, Lgk7;-><init>(Lvz3;ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;Ldd3;Lob9;)V
 
     .line 653
     .line 654
@@ -3513,7 +3513,7 @@
 
     .line 755
     .line 756
-    invoke-direct/range {v0 .. v15}, Lhk7;-><init>(IZLgs7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;I)V
+    invoke-direct/range {v0 .. v15}, Lhk7;-><init>(IZLgs7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;I)V
 
     .line 757
     .line 758

@@ -417,7 +417,7 @@
     move-result-object v0
 
     .line 130
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 131
     .line 132
@@ -428,7 +428,7 @@
 
     .line 134
     .line 135
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 136
     .line 137
@@ -440,7 +440,7 @@
 
     .line 140
     .line 141
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 142
     .line 143
@@ -486,7 +486,7 @@
 
     .line 164
     :cond_2
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 165
     .line 166

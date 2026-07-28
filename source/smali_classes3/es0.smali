@@ -13,13 +13,13 @@
 
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
 .field public final synthetic Z:Lnb1;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Les0;->Y:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iput-object p1, p0, Les0;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 4
     .line 5
@@ -77,7 +77,7 @@
 
     .line 10
     .line 11
-    iget-object p0, p0, Les0;->Y:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Les0;->Y:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 12
     .line 13
@@ -111,7 +111,7 @@
     move-result p2
 
     .line 29
-    invoke-static {p0, v4, v3, p1, p2}, Lb1i;->b(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+    invoke-static {p0, v4, v3, p1, p2}, Lb1i;->b(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
 
     .line 30
     .line 31
@@ -137,7 +137,7 @@
     move-result p2
 
     .line 42
-    invoke-static {p0, v4, v3, p1, p2}, Lb1i;->d(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+    invoke-static {p0, v4, v3, p1, p2}, Lb1i;->d(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
 
     .line 43
     .line 44

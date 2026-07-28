@@ -120,7 +120,7 @@
 
     .line 14
     :cond_0
-    invoke-interface {p2}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface {p2}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 15
     .line 16
@@ -132,7 +132,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->r()Liu7;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->r()Liu7;
 
     .line 21
     .line 22

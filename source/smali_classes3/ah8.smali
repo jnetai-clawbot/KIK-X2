@@ -86,11 +86,11 @@
 
     .line 26
     .line 27
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/SnsTopFans;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsTopFans;
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/SnsTopFans;->h()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsTopFans;->h()Ljava/util/List;
 
     .line 30
     .line 31
@@ -132,7 +132,7 @@
     const/4 v10, 0x0
 
     .line 45
-    invoke-static/range {v0 .. v12}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v0 .. v12}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 46
     .line 47

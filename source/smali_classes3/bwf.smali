@@ -13,11 +13,11 @@
 
 .field public final synthetic Y:Lhwf;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lhud;I)V
+.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lhud;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lbwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lbwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 6
     .line 7
@@ -75,7 +75,7 @@
     .line 11
     .line 12
     .line 13
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 14
     .line 15
@@ -132,7 +132,7 @@
 
     .line 41
     .line 42
-    iget-object v8, p0, Lbwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v8, p0, Lbwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 43
     .line 44
@@ -153,7 +153,7 @@
 
     .line 52
     :pswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 53
     .line 54
@@ -210,7 +210,7 @@
 
     .line 80
     .line 81
-    iget-object v8, p0, Lbwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v8, p0, Lbwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 82
     .line 83
@@ -256,7 +256,7 @@
 
     .line 103
     .line 104
-    sget-object v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 105
     .line 106
@@ -289,7 +289,7 @@
     .line 119
     .line 120
     .line 121
-    invoke-static {v3}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v3}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 122
     .line 123
@@ -301,11 +301,11 @@
 
     .line 126
     .line 127
-    iget-object p0, p0, Lbwf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lbwf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 128
     .line 129
-    invoke-virtual {v0, p0, v1, v3, p1}, Lihf;->h(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
+    invoke-virtual {v0, p0, v1, v3, p1}, Lihf;->h(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
 
     .line 130
     .line 131

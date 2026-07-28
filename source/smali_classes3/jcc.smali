@@ -13,13 +13,13 @@
 
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final synthetic Z:Lhd2;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;II)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;II)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Ljcc;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, p0, Ljcc;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 4
     .line 5
@@ -144,7 +144,7 @@
 
     .line 42
     .line 43
-    sget p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 44
     .line 45
@@ -156,7 +156,7 @@
 
     .line 48
     .line 49
-    iget-object v4, p0, Ljcc;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v4, p0, Ljcc;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 50
     .line 51
@@ -172,7 +172,7 @@
 
     .line 56
     .line 57
-    invoke-static/range {v4 .. v9}, Llcc;->j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
+    invoke-static/range {v4 .. v9}, Llcc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
 
     .line 58
     .line 59
@@ -231,7 +231,7 @@
 
     .line 83
     .line 84
-    sget p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 85
     .line 86
@@ -243,7 +243,7 @@
 
     .line 89
     .line 90
-    iget-object v4, p0, Ljcc;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v4, p0, Ljcc;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 91
     .line 92
@@ -259,7 +259,7 @@
 
     .line 97
     .line 98
-    invoke-static/range {v4 .. v9}, Llcc;->j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
+    invoke-static/range {v4 .. v9}, Llcc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
 
     .line 99
     .line 100

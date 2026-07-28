@@ -146,7 +146,7 @@
     return-void
 .end method
 
-.method public static b(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+.method public static b(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
     .locals 3
 
     .line 1
@@ -155,7 +155,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->w()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->w()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -200,7 +200,7 @@
     .line 23
     .line 24
     :cond_1
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -242,7 +242,7 @@
     .line 42
     .line 43
     :cond_3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->A()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->A()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -934,7 +934,7 @@
     return-object v0
 .end method
 
-.method public static h(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Z)Landroid/graphics/Bitmap;
+.method public static h(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Z)Landroid/graphics/Bitmap;
     .locals 0
 
     .line 1
@@ -943,7 +943,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->B()Ljava/lang/String;
 
     .line 5
     .line 6

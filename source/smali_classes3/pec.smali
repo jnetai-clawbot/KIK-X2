@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field public final d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods
@@ -16,7 +16,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 2
     .line 3
@@ -27,7 +27,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
     .locals 3
 
     .line 1
@@ -39,7 +39,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -52,7 +52,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object p1, p0, Lpec;->d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p1, p0, Lpec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 13
     .line 14
@@ -95,11 +95,11 @@
 
     .line 12
     .line 13
-    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 14
     .line 15
-    iget-object p1, p1, Lpec;->d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p1, p1, Lpec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 16
     .line 17
@@ -126,11 +126,11 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->hashCode()I
 
     .line 4
     .line 5
@@ -158,7 +158,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p0, p0, Lpec;->d:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 9
     .line 10

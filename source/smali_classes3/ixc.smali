@@ -519,7 +519,7 @@
 
     .line 219
     .line 220
-    sget-object v4, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 221
     .line 222

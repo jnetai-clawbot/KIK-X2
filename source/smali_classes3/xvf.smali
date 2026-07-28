@@ -196,7 +196,7 @@
 
     .line 64
     :pswitch_2
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 65
     .line 66
@@ -217,12 +217,12 @@
 
     .line 74
     .line 75
-    invoke-direct {v2, p1}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v2, p1}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 76
     .line 77
     .line 78
-    invoke-direct {v0, v1, v2}, Lkza;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;)V
+    invoke-direct {v0, v1, v2}, Lkza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;)V
 
     .line 79
     .line 80
@@ -339,7 +339,7 @@
 
     .line 136
     :pswitch_7
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 137
     .line 138
@@ -373,7 +373,7 @@
 
     .line 153
     :pswitch_8
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 154
     .line 155
@@ -504,7 +504,7 @@
 
     .line 218
     :pswitch_e
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 219
     .line 220
@@ -530,7 +530,7 @@
 
     .line 231
     :pswitch_f
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 232
     .line 233

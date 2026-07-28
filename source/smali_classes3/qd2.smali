@@ -56,7 +56,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 11
     .line 12

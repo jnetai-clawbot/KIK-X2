@@ -10,7 +10,7 @@
 
 .field public S0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public Y:Ld72;
 
@@ -66,7 +66,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-static {p1, v0, v0, p0}, Lc82;->a(Lc82;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Ld72;Lga3;)Ljava/lang/Object;
+    invoke-static {p1, v0, v0, p0}, Lc82;->a(Lc82;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Ld72;Lga3;)Ljava/lang/Object;
 
     .line 14
     .line 15

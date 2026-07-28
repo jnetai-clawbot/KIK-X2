@@ -52,7 +52,7 @@
     .line 6
     .line 7
     .line 8
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 9
     .line 10
@@ -107,7 +107,7 @@
 
     .line 34
     .line 35
-    iput-object v0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->Q0:Ldbd;
+    iput-object v0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->Q0:Ldbd;
 
     .line 36
     .line 37
@@ -127,7 +127,7 @@
 
     .line 44
     .line 45
-    iput-object v0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->R0:Lmo9;
+    iput-object v0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->R0:Lmo9;
 
     .line 46
     .line 47
@@ -147,7 +147,7 @@
 
     .line 54
     .line 55
-    iput-object v0, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
+    iput-object v0, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->S0:Ljs2;
 
     .line 56
     .line 57
@@ -167,7 +167,7 @@
 
     .line 64
     .line 65
-    iput-object p1, p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->T0:Lj73;
+    iput-object p1, p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->T0:Lj73;
 
     .line 66
     .line 67

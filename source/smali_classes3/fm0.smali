@@ -8777,14 +8777,14 @@
 
     .line 2427
     .line 2428
-    iget-object v3, v3, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v3, v3, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 2429
     .line 2430
     const/4 v14, 0x0
 
     .line 2431
-    invoke-virtual {v3, v14}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
+    invoke-virtual {v3, v14}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->d(Z)Ljava/lang/String;
 
     .line 2432
     .line 2433
@@ -8797,7 +8797,7 @@
     .line 2436
     .line 2437
     .line 2438
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 2439
     .line 2440
@@ -8917,11 +8917,11 @@
     .line 2497
     .line 2498
     .line 2499
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2500
     .line 2501
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2502
     .line 2503
@@ -9044,11 +9044,11 @@
 
     .line 2560
     .line 2561
-    iget-object v3, v3, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v3, v3, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2562
     .line 2563
-    invoke-virtual {v3, v14}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v3, v14}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 2564
     .line 2565
@@ -9061,7 +9061,7 @@
     .line 2568
     .line 2569
     .line 2570
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 2571
     .line 2572
@@ -9306,11 +9306,11 @@
 
     .line 2695
     .line 2696
-    iget-object v0, v0, Lfif;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v0, Lfif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2697
     .line 2698
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->j()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->j()I
 
     .line 2699
     .line 2700

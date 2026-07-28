@@ -1946,7 +1946,7 @@
     .line 734
     .line 735
     :goto_1a
-    sget-object v11, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->Companion:Lyn7;
+    sget-object v11, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->Companion:Lyn7;
 
     .line 736
     .line 737
@@ -2174,11 +2174,11 @@
     .line 846
     .line 847
     .line 848
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 849
     .line 850
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->b()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->b()Ljava/lang/String;
 
     .line 851
     .line 852
@@ -4468,7 +4468,7 @@
 
     .line 1909
     :cond_5b
-    sget-object v10, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->Companion:Li83;
+    sget-object v10, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->Companion:Li83;
 
     .line 1910
     .line 1911
@@ -4477,7 +4477,7 @@
     .line 1912
     .line 1913
     .line 1914
-    invoke-static {}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->a()Ljava/util/Set;
+    invoke-static {}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->a()Ljava/util/Set;
 
     .line 1915
     .line 1916
@@ -4672,7 +4672,7 @@
 
     .line 2005
     .line 2006
-    sget-object v2, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->HASH_TYPES:Ljava/util/Set;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->HASH_TYPES:Ljava/util/Set;
 
     .line 2007
     .line 2008

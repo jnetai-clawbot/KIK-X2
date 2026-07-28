@@ -561,7 +561,7 @@
     return-object v1
 .end method
 
-.method public static final a(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lgx2;I)V
+.method public static final a(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lgx2;I)V
     .locals 13
 
     .line 1
@@ -697,7 +697,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->a()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->a()J
 
     .line 58
     .line 59
@@ -782,7 +782,7 @@
 
     .line 94
     .line 95
-    invoke-direct {v0, p0, v9}, Lct;-><init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+    invoke-direct {v0, p0, v9}, Lct;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
 
     .line 96
     .line 97

@@ -600,7 +600,7 @@
     move-result-object v2
 
     .line 269
-    sget-object v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 270
     .line 271
@@ -626,7 +626,7 @@
     .line 281
     .line 282
     .line 283
-    invoke-static {v1, v2}, Ltn7;->c(Lz7a;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v1, v2}, Ltn7;->c(Lz7a;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 284
     .line 285
@@ -655,7 +655,7 @@
 
     .line 297
     .line 298
-    invoke-direct {v0, v1}, Loe3;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v0, v1}, Loe3;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 299
     .line 300
@@ -902,7 +902,7 @@
 
     .line 422
     .line 423
-    invoke-static {v0, v4, v5}, Lcom/jnetai/kikx2/n/Security/Security;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[B
+    invoke-static {v0, v4, v5}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[B
 
     .line 424
     .line 425

@@ -241,7 +241,7 @@
 
     .line 42
     .line 43
-    sget-object v11, Lcom/jnetai/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/client/stanzas/a;
+    sget-object v11, Lcom/jnetai/kikx2/kikx2/client/stanzas/a;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/a;
 
     .line 44
     .line 45
@@ -308,7 +308,7 @@
 
     .line 73
     .line 74
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 75
     .line 76
@@ -348,7 +348,7 @@
     move-result-object v0
 
     .line 94
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 95
     .line 96
@@ -356,7 +356,7 @@
     move-result-object v5
 
     .line 98
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 99
     .line 100
@@ -372,7 +372,7 @@
     move-result-object v5
 
     .line 106
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->n()Ljava/lang/String;
 
     .line 107
     .line 108

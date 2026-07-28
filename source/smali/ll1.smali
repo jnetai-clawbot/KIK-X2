@@ -71,7 +71,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/jnetai/kikx2/App;)V
+.method public static a(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 20
 
     .line 1
@@ -152,7 +152,7 @@
 
     .line 36
     :cond_2
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/App;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/App;->getPackageName()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -743,7 +743,7 @@
 
 
 # virtual methods
-.method public final declared-synchronized c(Lcom/jnetai/kikx2/App;)V
+.method public final declared-synchronized c(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 3
 
     .line 1
@@ -794,7 +794,7 @@
     .line 21
     :cond_0
     :try_start_1
-    invoke-static {p1}, Lll1;->a(Lcom/jnetai/kikx2/App;)V
+    invoke-static {p1}, Lll1;->a(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 22
     .line 23
@@ -896,11 +896,11 @@
 
     .line 21
     .line 22
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 23
     .line 24
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 25
     .line 26

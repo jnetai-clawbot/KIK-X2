@@ -6,7 +6,7 @@
 # virtual methods
 .method public final exportKeyStore(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -28,7 +28,7 @@
 
 .method public final getBalance(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -50,7 +50,7 @@
 
 .method public final getOrCreateWallet(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -72,7 +72,7 @@
 
 .method public final getPendingBalance(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -94,7 +94,7 @@
 
 .method public final getPublicAddress(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -116,7 +116,7 @@
 
 .method public final getWalletUrl(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -194,7 +194,7 @@
 
 .method public final isWalletAvailable(Lr7b;)Ls7b;
     .locals 2
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/PluginMethod;
     .end annotation
 
     .line 1
@@ -272,7 +272,7 @@
 
 .method public final sendKin(Li40;)Ls7b;
     .locals 0
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1

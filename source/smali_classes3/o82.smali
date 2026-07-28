@@ -11,11 +11,11 @@
 
 .field public final synthetic R0:Lhif;
 
-.field public final synthetic S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
-.field public final synthetic T0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic T0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
-.field public final synthetic U0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic U0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final synthetic V0:Lcq5;
 
@@ -29,7 +29,7 @@
 
 .field public final synthetic Y0:Lfv2;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Z0:Lfv2;
 
@@ -37,7 +37,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Laa2;Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;I)V
+.method public synthetic constructor <init>(Laa2;Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;I)V
     .locals 0
 
     .line 1
@@ -54,7 +54,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lo82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p3, p0, Lo82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10
@@ -66,15 +66,15 @@
 
     .line 13
     .line 14
-    iput-object p6, p0, Lo82;->S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p6, p0, Lo82;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 15
     .line 16
-    iput-object p7, p0, Lo82;->T0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p7, p0, Lo82;->T0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 17
     .line 18
-    iput-object p8, p0, Lo82;->U0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p8, p0, Lo82;->U0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 19
     .line 20
@@ -170,7 +170,7 @@
     move-object v3, v2
 
     .line 30
-    iget-object v2, v0, Lo82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v2, v0, Lo82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 31
     .line 32
@@ -191,21 +191,21 @@
     move-object v6, v5
 
     .line 39
-    iget-object v5, v0, Lo82;->S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v5, v0, Lo82;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 40
     .line 41
     move-object v7, v6
 
     .line 42
-    iget-object v6, v0, Lo82;->T0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v6, v0, Lo82;->T0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 43
     .line 44
     move-object v8, v7
 
     .line 45
-    iget-object v7, v0, Lo82;->U0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v7, v0, Lo82;->U0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 46
     .line 47
@@ -250,7 +250,7 @@
     move-object v0, v15
 
     .line 64
-    invoke-virtual/range {v0 .. v14}, Laa2;->r(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;Lgx2;I)V
+    invoke-virtual/range {v0 .. v14}, Laa2;->r(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;Lgx2;I)V
 
     .line 65
     .line 66

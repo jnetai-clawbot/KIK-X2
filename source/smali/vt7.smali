@@ -365,7 +365,7 @@
 
     .line 174
     .line 175
-    const-class v9, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$EmojiStatusConverter;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$EmojiStatusConverter;
 
     .line 176
     .line 177
@@ -522,7 +522,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 2
     .line 3

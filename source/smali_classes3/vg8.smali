@@ -91,11 +91,11 @@
 
     .line 24
     .line 25
-    check-cast p2, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 26
     .line 27
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->k()Ldpd;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->k()Ldpd;
 
     .line 28
     .line 29
@@ -121,7 +121,7 @@
 
     .line 39
     .line 40
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 41
     .line 42
@@ -143,7 +143,7 @@
     const/4 v3, 0x0
 
     .line 50
-    invoke-direct {v1, p1, p0, v2, v3}, Ljg8;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
+    invoke-direct {v1, p1, p0, v2, v3}, Ljg8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Lkh8;ZLea3;)V
 
     .line 51
     .line 52

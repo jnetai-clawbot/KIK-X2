@@ -6,13 +6,13 @@
 # instance fields
 .field public final a:Lz72;
 
-.field public final b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final c:Lknc;
 
 
 # direct methods
-.method public constructor <init>(Lz72;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lknc;)V
+.method public constructor <init>(Lz72;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lknc;)V
     .locals 0
 
     .line 1
@@ -25,7 +25,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lox2;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p2, p0, Lox2;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 7
     .line 8
@@ -90,15 +90,15 @@
 
     .line 22
     :cond_2
-    iget-object v0, p0, Lox2;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v0, p0, Lox2;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 23
     .line 24
-    iget-object v1, p1, Lox2;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p1, Lox2;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -169,11 +169,11 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Lox2;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p0, Lox2;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->hashCode()I
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->hashCode()I
 
     .line 12
     .line 13
@@ -241,7 +241,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lox2;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p0, Lox2;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 19
     .line 20

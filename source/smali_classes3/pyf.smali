@@ -70,7 +70,7 @@
 
     .line 15
     .line 16
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 17
     .line 18
@@ -95,7 +95,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v1, v3}, Lihf;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {v0, v1, v3}, Lihf;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 30
     .line 31
@@ -108,7 +108,7 @@
 
     .line 34
     .line 35
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 36
     .line 37
@@ -129,7 +129,7 @@
     move-result-object v0
 
     .line 46
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 47
     .line 48
@@ -161,7 +161,7 @@
 
     .line 60
     .line 61
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 62
     .line 63
@@ -182,7 +182,7 @@
     move-result-object v5
 
     .line 72
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -230,7 +230,7 @@
 
     .line 92
     .line 93
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 94
     .line 95
@@ -276,7 +276,7 @@
 
     .line 115
     .line 116
-    invoke-direct {v5, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v5, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 117
     .line 118
@@ -297,7 +297,7 @@
     move-result-object v0
 
     .line 127
-    invoke-static {v5, v1, v0}, Lvzh;->e(Lhif;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lblf;)Ljava/lang/String;
+    invoke-static {v5, v1, v0}, Lvzh;->e(Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lblf;)Ljava/lang/String;
 
     .line 128
     .line 129
@@ -306,7 +306,7 @@
 
     .line 131
     :cond_1
-    invoke-virtual {v2, v1, v3, v5}, Lihf;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
+    invoke-virtual {v2, v1, v3, v5}, Lihf;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
 
     .line 132
     .line 133
@@ -319,7 +319,7 @@
 
     .line 136
     .line 137
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 138
     .line 139
@@ -348,7 +348,7 @@
     move-result-object v2
 
     .line 152
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 153
     .line 154
@@ -356,7 +356,7 @@
     move-result-object v3
 
     .line 156
-    invoke-virtual {v2, v3}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v2, v3}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 157
     .line 158
@@ -385,7 +385,7 @@
     move-result-object v5
 
     .line 171
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 172
     .line 173
@@ -393,7 +393,7 @@
     move-result-object v6
 
     .line 175
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 176
     .line 177
@@ -438,7 +438,7 @@
 
     .line 193
     .line 194
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 195
     .line 196
@@ -459,7 +459,7 @@
     move-result-object v0
 
     .line 205
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 206
     .line 207
@@ -475,7 +475,7 @@
 
     .line 212
     :cond_3
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->p()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->p()Ljava/lang/String;
 
     .line 213
     .line 214
@@ -525,7 +525,7 @@
 
     .line 234
     .line 235
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 236
     .line 237
@@ -550,7 +550,7 @@
 
     .line 247
     .line 248
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 249
     .line 250

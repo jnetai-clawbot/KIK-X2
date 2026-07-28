@@ -605,7 +605,7 @@
 
     .line 205
     .line 206
-    new-instance v3, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance v3, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 207
     .line 208
@@ -647,7 +647,7 @@
 
     .line 227
     .line 228
-    invoke-direct {v3, v5, p2, v4}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {v3, v5, p2, v4}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 229
     .line 230

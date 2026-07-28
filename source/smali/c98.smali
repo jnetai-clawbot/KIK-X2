@@ -105,7 +105,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v3, v4}, Llo9;->b(J)Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-virtual {p0, v3, v4}, Llo9;->b(J)Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 18
     .line 19
@@ -141,7 +141,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, v0}, Llo9;->g(Lcom/jnetai/kikx2/storage/box/message/KikMessage;)J
+    invoke-virtual {p0, v0}, Llo9;->g(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)J
 
     .line 36
     .line 37

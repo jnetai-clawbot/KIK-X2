@@ -384,7 +384,7 @@
 
     .line 142
     .line 143
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 144
     .line 145
@@ -564,7 +564,7 @@
 
     .line 226
     .line 227
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 228
     .line 229
@@ -3135,7 +3135,7 @@
     .line 932
     .line 933
     :cond_29
-    invoke-interface {v7}, Lhif;->n()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-interface {v7}, Lhif;->n()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 934
     .line 935
@@ -3147,7 +3147,7 @@
 
     .line 938
     .line 939
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->x()Z
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->x()Z
 
     .line 940
     .line 941
@@ -3159,11 +3159,11 @@
 
     .line 944
     .line 945
-    sget-object v7, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 946
     .line 947
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 948
     .line 949
@@ -3183,7 +3183,7 @@
     move-result-object v7
 
     .line 957
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 958
     .line 959
@@ -3203,7 +3203,7 @@
 
     .line 966
     :cond_2a
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->b()Ljava/lang/String;
 
     .line 967
     .line 968
@@ -3215,11 +3215,11 @@
 
     .line 971
     .line 972
-    sget-object v7, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 973
     .line 974
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 975
     .line 976
@@ -3239,7 +3239,7 @@
     move-result-object v7
 
     .line 984
-    invoke-virtual {v4, v8}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
+    invoke-virtual {v4, v8}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->c(Z)Ljava/lang/String;
 
     .line 985
     .line 986
@@ -3259,11 +3259,11 @@
 
     .line 993
     :cond_2b
-    sget-object v4, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 994
     .line 995
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 996
     .line 997
@@ -3309,11 +3309,11 @@
 
     .line 1015
     .line 1016
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1017
     .line 1018
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1019
     .line 1020
@@ -3357,11 +3357,11 @@
 
     .line 1039
     :cond_2e
-    sget-object v7, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1040
     .line 1041
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1042
     .line 1043
@@ -3827,7 +3827,7 @@
     move-result-object v3
 
     .line 1264
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1265
     .line 1266
@@ -3835,7 +3835,7 @@
 
     .line 1267
     .line 1268
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 1269
     .line 1270
@@ -4017,11 +4017,11 @@
 
     .line 1353
     .line 1354
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1355
     .line 1356
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1357
     .line 1358
@@ -4549,11 +4549,11 @@
 
     .line 1605
     .line 1606
-    sget-object v10, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v10, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1607
     .line 1608
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1609
     .line 1610
@@ -5021,7 +5021,7 @@
     const/4 v14, 0x0
 
     .line 1839
-    invoke-static/range {v9 .. v16}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v9 .. v16}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 1840
     .line 1841
@@ -5195,7 +5195,7 @@
     const/4 v8, 0x0
 
     .line 1922
-    invoke-static/range {v3 .. v10}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v3 .. v10}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 1923
     .line 1924
@@ -5484,11 +5484,11 @@
 
     .line 2060
     .line 2061
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2062
     .line 2063
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 2064
     .line 2065

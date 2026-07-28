@@ -11,7 +11,7 @@
 
 .field public final synthetic R0:Z
 
-.field public final synthetic S0:Lcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;
+.field public final synthetic S0:Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;
 
 .field public final synthetic T0:I
 
@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;III)V
+.method public synthetic constructor <init>(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;III)V
     .locals 0
 
     .line 1
@@ -49,7 +49,7 @@
 
     .line 10
     .line 11
-    iput-object p5, p0, Lrk8;->S0:Lcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;
+    iput-object p5, p0, Lrk8;->S0:Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;
 
     .line 12
     .line 13
@@ -119,7 +119,7 @@
 
     .line 22
     .line 23
-    iget-object v5, p0, Lrk8;->S0:Lcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;
+    iget-object v5, p0, Lrk8;->S0:Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;
 
     .line 24
     .line 25
@@ -131,7 +131,7 @@
 
     .line 28
     .line 29
-    invoke-static/range {v1 .. v9}, Lcom/jnetai/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->f(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;IILgx2;I)Lsbf;
+    invoke-static/range {v1 .. v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->f(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;IILgx2;I)Lsbf;
 
     .line 30
     .line 31
@@ -178,7 +178,7 @@
 
     .line 50
     .line 51
-    iget-object v4, p0, Lrk8;->S0:Lcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;
+    iget-object v4, p0, Lrk8;->S0:Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;
 
     .line 52
     .line 53
@@ -190,7 +190,7 @@
 
     .line 56
     .line 57
-    invoke-static/range {v0 .. v8}, Lcom/jnetai/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->g(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/ui/videochat/components/LiveKitScaleType;IILgx2;I)Lsbf;
+    invoke-static/range {v0 .. v8}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->g(Ldlc;Lluf;Lpu9;ZLcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitScaleType;IILgx2;I)Lsbf;
 
     .line 58
     .line 59

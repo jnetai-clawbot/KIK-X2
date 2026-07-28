@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
 .field public final c:Ll0a;
 
@@ -20,14 +20,14 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->$stable:I
 
     .line 2
     .line 3
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;Ll0a;Lfpd;Lfpd$b;Z)V
     .locals 5
 
     .line 1
@@ -97,7 +97,7 @@
     .line 31
     .line 32
     .line 33
-    iput-object p1, p0, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iput-object p1, p0, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 34
     .line 35
@@ -150,11 +150,11 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v0, p0, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 12
     .line 13
-    iget-object v1, p1, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v1, p1, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 14
     .line 15
@@ -277,11 +277,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v0, p0, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;->hashCode()I
 
     .line 4
     .line 5
@@ -406,7 +406,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lya1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsGiftMessage;
+    iget-object v1, p0, Lya1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsGiftMessage;
 
     .line 9
     .line 10

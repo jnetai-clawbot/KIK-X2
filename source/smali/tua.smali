@@ -208,7 +208,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
+.method public final a(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
     .locals 4
 
     .line 1
@@ -487,7 +487,7 @@
 
     .line 134
     :cond_2
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 135
     .line 136
@@ -495,7 +495,7 @@
     move-result-object p2
 
     .line 138
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 139
     .line 140

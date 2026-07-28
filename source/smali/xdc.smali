@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lxj7;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lea3;I)V
+.method public synthetic constructor <init>(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lea3;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p2, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 6
     .line 7
@@ -54,7 +54,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 4
     .line 5
@@ -74,7 +74,7 @@
     const/4 v1, 0x1
 
     .line 13
-    invoke-direct {p1, p0, v0, p2, v1}, Lxdc;-><init>(Lxj7;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lxdc;-><init>(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lea3;I)V
 
     .line 14
     .line 15
@@ -90,7 +90,7 @@
     const/4 v1, 0x0
 
     .line 20
-    invoke-direct {p1, p0, v0, p2, v1}, Lxdc;-><init>(Lxj7;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lea3;I)V
+    invoke-direct {p1, p0, v0, p2, v1}, Lxdc;-><init>(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lea3;I)V
 
     .line 21
     .line 22
@@ -200,7 +200,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v2, p0, Lxdc;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 6
     .line 7
@@ -278,7 +278,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -361,7 +361,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p1, v2, p0}, Lxla;->e(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v2, p0}, Lxla;->e(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lga3;)Ljava/lang/Object;
 
     .line 82
     .line 83

@@ -34,7 +34,7 @@
 
     .line 9
     .line 10
-    const-string v2, "com.jnetai.kikx2.storage.preferences.backupcodes.BackupCodeList"
+    const-string v2, "com.jnetai.kikx2.kikx2.storage.preferences.backupcodes.BackupCodeList"
 
     .line 11
     .line 12

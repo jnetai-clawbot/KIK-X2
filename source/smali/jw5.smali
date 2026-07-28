@@ -20,7 +20,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;",
             ">;"
         }
     .end annotation

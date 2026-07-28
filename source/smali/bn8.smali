@@ -228,7 +228,7 @@
 
     .line 94
     .line 95
-    const-string v1, "com.jnetai.kikx2.storage.preferences.live.LiveProfileSettings.CountrySpoof"
+    const-string v1, "com.jnetai.kikx2.kikx2.storage.preferences.live.LiveProfileSettings.CountrySpoof"
 
     .line 96
     .line 97

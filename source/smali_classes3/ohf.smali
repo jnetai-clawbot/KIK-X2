@@ -485,7 +485,7 @@
 
     .line 168
     .line 169
-    invoke-virtual {v5}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v5}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 170
     .line 171
@@ -493,7 +493,7 @@
     move-result-object v13
 
     .line 173
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 174
     .line 175

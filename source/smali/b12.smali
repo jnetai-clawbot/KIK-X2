@@ -1531,7 +1531,7 @@
 
     .line 200
     :cond_8
-    check-cast p3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 201
     .line 202
@@ -1539,7 +1539,7 @@
 
     .line 203
     .line 204
-    invoke-virtual {p3}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->i()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->i()Ljava/lang/String;
 
     .line 205
     .line 206

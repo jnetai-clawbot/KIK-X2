@@ -547,7 +547,7 @@
 
     .line 223
     .line 224
-    check-cast v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 225
     .line 226
@@ -572,7 +572,7 @@
 
     .line 235
     .line 236
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 237
     .line 238
@@ -684,7 +684,7 @@
 
     .line 289
     .line 290
-    check-cast v1, Lcom/jnetai/kikx2/App;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 291
     .line 292
@@ -4810,11 +4810,11 @@
 
     .line 1327
     .line 1328
-    check-cast v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1329
     .line 1330
-    invoke-direct {v1, v2, v3}, Llt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v1, v2, v3}, Llt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 1331
     .line 1332
@@ -4857,7 +4857,7 @@
 
     .line 1348
     .line 1349
-    check-cast v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1350
     .line 1351
@@ -4917,7 +4917,7 @@
 
     .line 1378
     .line 1379
-    iget-object v2, v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->Q0:Ldbd;
+    iget-object v2, v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->Q0:Ldbd;
 
     .line 1380
     .line 1381
@@ -6058,7 +6058,7 @@
 
     .line 1935
     .line 1936
-    check-cast v6, Lcom/jnetai/kikx2/App;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1937
     .line 1938

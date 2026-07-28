@@ -6599,7 +6599,7 @@
     move-result-object v4
 
     .line 961
-    check-cast v4, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 962
     .line 963
@@ -6830,7 +6830,7 @@
     const/4 v2, 0x2
 
     .line 1075
-    invoke-direct {v3, v4, v2}, Lu15;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v3, v4, v2}, Lu15;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 1076
     .line 1077
@@ -6931,7 +6931,7 @@
 
     .line 1123
     .line 1124
-    invoke-direct/range {v20 .. v25}, Le56;-><init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/ui/activity/BaseActivity;Loh1;I)V
+    invoke-direct/range {v20 .. v25}, Le56;-><init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Loh1;I)V
 
     .line 1125
     .line 1126
@@ -7036,7 +7036,7 @@
 
     .line 1174
     .line 1175
-    invoke-direct/range {v20 .. v25}, Le56;-><init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/ui/activity/BaseActivity;Loh1;I)V
+    invoke-direct/range {v20 .. v25}, Le56;-><init>(Ldd3;Lio/objectbox/BoxStore;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Loh1;I)V
 
     .line 1176
     .line 1177
@@ -7489,7 +7489,7 @@
     move-result-object v2
 
     .line 1393
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 1394
     .line 1395
@@ -7509,7 +7509,7 @@
 
     .line 1402
     .line 1403
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->c()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->c()Ljava/lang/String;
 
     .line 1404
     .line 1405
@@ -7541,7 +7541,7 @@
     move-result-object v3
 
     .line 1419
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 1420
     .line 1421
@@ -7611,7 +7611,7 @@
     const/4 v5, 0x0
 
     .line 1450
-    invoke-direct {v7, v6, v2, v5}, Lyz4;-><init>(Lmo9;Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;I)V
+    invoke-direct {v7, v6, v2, v5}, Lyz4;-><init>(Lmo9;Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;I)V
 
     .line 1451
     .line 1452
@@ -8141,7 +8141,7 @@
 
     .line 1698
     .line 1699
-    const-string v7, "setViewType(Lcom/jnetai/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
+    const-string v7, "setViewType(Lcom/jnetai/kikx2/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
 
     .line 1700
     .line 1701
@@ -8423,7 +8423,7 @@
 
     .line 1829
     .line 1830
-    const-string v20, "setViewType(Lcom/jnetai/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
+    const-string v20, "setViewType(Lcom/jnetai/kikx2/kikx2/ui/fragments/settings/theme/CustomThemeEditFragment$ViewType;Z)V"
 
     .line 1831
     .line 1832
@@ -8478,7 +8478,7 @@
     move-object v8, v7
 
     .line 1855
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1856
     .line 1857
@@ -9365,7 +9365,7 @@
     move-result-object v2
 
     .line 2280
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2281
     .line 2282
@@ -9441,7 +9441,7 @@
 
     .line 2317
     .line 2318
-    invoke-direct {v3, v2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v3, v2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 2319
     .line 2320
@@ -9520,7 +9520,7 @@
 
     .line 2355
     .line 2356
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 2357
     .line 2358

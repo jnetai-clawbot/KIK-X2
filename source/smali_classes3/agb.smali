@@ -849,7 +849,7 @@
 
     .line 344
     .line 345
-    invoke-static {v0, v1, v2, p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->O(Lob9;Landroid/content/Context;Lhud;Lk0a;)Lsbf;
+    invoke-static {v0, v1, v2, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->O(Lob9;Landroid/content/Context;Lhud;Lk0a;)Lsbf;
 
     .line 346
     .line 347
@@ -1628,7 +1628,7 @@
 
     .line 737
     .line 738
-    iget-object v6, v4, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v6, v4, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 739
     .line 740
@@ -1636,7 +1636,7 @@
 
     .line 741
     .line 742
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->J()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->J()Z
 
     .line 743
     .line 744
@@ -1692,7 +1692,7 @@
     const/4 v11, 0x1
 
     .line 764
-    invoke-static/range {v6 .. v13}, Lny4;->d(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;ZZLth4;ZLqz4;I)Lhz4;
+    invoke-static/range {v6 .. v13}, Lny4;->d(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;ZZLth4;ZLqz4;I)Lhz4;
 
     .line 765
     .line 766

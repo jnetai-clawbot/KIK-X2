@@ -64,11 +64,11 @@
 
     .line 26
     .line 27
-    sget-object v2, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 28
     .line 29
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 30
     .line 31
@@ -76,7 +76,7 @@
     move-result-object v2
 
     .line 33
-    invoke-direct {v1, v2, v0}, Loz2;-><init>(Lcom/jnetai/kikx2/App;Lpc3;)V
+    invoke-direct {v1, v2, v0}, Loz2;-><init>(Lcom/jnetai/kikx2/kikx2/App;Lpc3;)V
 
     .line 34
     .line 35

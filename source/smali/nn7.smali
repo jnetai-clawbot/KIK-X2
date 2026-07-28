@@ -224,11 +224,11 @@
     move-result-object v0
 
     .line 52
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 53
     .line 54
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->b()Ljava/lang/String;
 
     .line 55
     .line 56
@@ -336,11 +336,11 @@
     move-result-object v0
 
     .line 109
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 110
     .line 111
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->g()Ljava/lang/String;
 
     .line 112
     .line 113
@@ -431,11 +431,11 @@
     move-result-object v0
 
     .line 155
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 156
     .line 157
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 158
     .line 159
@@ -919,7 +919,7 @@
 
     .line 68
     .line 69
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
 
     .line 70
     .line 71
@@ -933,7 +933,7 @@
     .line 75
     .line 76
     .line 77
-    new-instance v9, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    new-instance v9, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 78
     .line 79
@@ -1080,7 +1080,7 @@
 
     .line 144
     .line 145
-    invoke-direct/range {v9 .. v18}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
+    invoke-direct/range {v9 .. v18}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
 
     .line 146
     .line 147
@@ -1162,7 +1162,7 @@
 
     .line 186
     .line 187
-    sget-object v7, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
 
     .line 188
     .line 189
@@ -1176,7 +1176,7 @@
     .line 193
     .line 194
     .line 195
-    invoke-static {v6, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    invoke-static {v6, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 196
     .line 197
@@ -1261,7 +1261,7 @@
 
     .line 237
     .line 238
-    sget-object v7, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
 
     .line 239
     .line 240
@@ -1275,7 +1275,7 @@
     .line 244
     .line 245
     .line 246
-    invoke-static {v6, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    invoke-static {v6, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 247
     .line 248
@@ -1360,7 +1360,7 @@
 
     .line 288
     .line 289
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;->Companion:Lud2;
 
     .line 290
     .line 291
@@ -1374,7 +1374,7 @@
     .line 295
     .line 296
     .line 297
-    invoke-static {v3, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    invoke-static {v3, v0}, Lud2;->a(Lteg;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 298
     .line 299
@@ -1509,7 +1509,7 @@
 
     .line 362
     .line 363
-    sget-object v6, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
+    sget-object v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
 
     .line 364
     .line 365
@@ -1727,7 +1727,7 @@
 
     .line 460
     :goto_e
-    new-instance v8, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    new-instance v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 461
     .line 462
@@ -1747,7 +1747,7 @@
 
     .line 469
     .line 470
-    invoke-direct/range {v8 .. v20}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
+    invoke-direct/range {v8 .. v20}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
 
     .line 471
     .line 472
@@ -1802,7 +1802,7 @@
 
     .line 496
     .line 497
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
 
     .line 498
     .line 499
@@ -1824,7 +1824,7 @@
     .line 507
     .line 508
     .line 509
-    new-instance v6, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    new-instance v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 510
     .line 511
@@ -1857,7 +1857,7 @@
 
     .line 523
     .line 524
-    invoke-direct/range {v6 .. v18}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
+    invoke-direct/range {v6 .. v18}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
 
     .line 525
     .line 526
@@ -1912,7 +1912,7 @@
 
     .line 550
     .line 551
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->Companion:Lun7;
 
     .line 552
     .line 553
@@ -1934,7 +1934,7 @@
     .line 561
     .line 562
     .line 563
-    new-instance v6, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    new-instance v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 564
     .line 565
@@ -1967,7 +1967,7 @@
 
     .line 577
     .line 578
-    invoke-direct/range {v6 .. v18}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
+    invoke-direct/range {v6 .. v18}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JILzw3;)V
 
     .line 579
     .line 580
@@ -2158,7 +2158,7 @@
 
     .line 673
     .line 674
-    sget-object v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 675
     .line 676
@@ -2204,7 +2204,7 @@
     .line 696
     .line 697
     .line 698
-    invoke-static {v3, v6}, Ltn7;->b(Lxt4;Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v3, v6}, Ltn7;->b(Lxt4;Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 699
     .line 700

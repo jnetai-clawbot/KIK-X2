@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic R0:Lkotlin/jvm/functions/Function0;
 
-.field public final synthetic S0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+.field public final synthetic S0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
 .field public final synthetic T0:Z
 
@@ -25,7 +25,7 @@
 
 .field public final synthetic X0:Lcq5;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 .field public final synthetic Y0:Lcq5;
 
@@ -49,7 +49,7 @@
 
 .field public final synthetic h1:Lcq5;
 
-.field public final synthetic i1:Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+.field public final synthetic i1:Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
 .field public final synthetic j1:Z
 
@@ -73,7 +73,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;III)V
     .locals 1
 
     .line 1
@@ -81,15 +81,15 @@
 
     iput v0, p0, Lxyf;->X:I
 
-    iput-object p1, p0, Lxyf;->Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p1, p0, Lxyf;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     iput-object p2, p0, Lxyf;->Z:Lcs8;
 
-    iput-object p3, p0, Lxyf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p3, p0, Lxyf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     iput-object p4, p0, Lxyf;->R0:Lkotlin/jvm/functions/Function0;
 
-    iput-object p5, p0, Lxyf;->S0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iput-object p5, p0, Lxyf;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     iput-boolean p6, p0, Lxyf;->T0:Z
 
@@ -135,7 +135,7 @@
 
     move-object/from16 p1, p21
 
-    iput-object p1, p0, Lxyf;->i1:Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    iput-object p1, p0, Lxyf;->i1:Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     move/from16 p1, p22
 
@@ -254,7 +254,7 @@
     move-result v36
 
     .line 35
-    iget-object v5, v0, Lxyf;->Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v5, v0, Lxyf;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 36
     .line 37
@@ -262,7 +262,7 @@
 
     .line 38
     .line 39
-    iget-object v7, v0, Lxyf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v7, v0, Lxyf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 40
     .line 41
@@ -270,7 +270,7 @@
 
     .line 42
     .line 43
-    iget-object v9, v0, Lxyf;->S0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iget-object v9, v0, Lxyf;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 44
     .line 45
@@ -362,7 +362,7 @@
 
     .line 88
     .line 89
-    iget-object v1, v0, Lxyf;->i1:Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    iget-object v1, v0, Lxyf;->i1:Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 90
     .line 91
@@ -442,7 +442,7 @@
 
     .line 128
     .line 129
-    invoke-static/range {v5 .. v36}, Lwwh;->e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
+    invoke-static/range {v5 .. v36}, Lwwh;->e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
 
     .line 130
     .line 131
@@ -492,7 +492,7 @@
     move-result v68
 
     .line 154
-    iget-object v1, v0, Lxyf;->Y:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, v0, Lxyf;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 155
     .line 156
@@ -500,7 +500,7 @@
 
     .line 157
     .line 158
-    iget-object v4, v0, Lxyf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v4, v0, Lxyf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 159
     .line 160
@@ -508,7 +508,7 @@
 
     .line 161
     .line 162
-    iget-object v6, v0, Lxyf;->S0:Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    iget-object v6, v0, Lxyf;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 163
     .line 164
@@ -600,7 +600,7 @@
 
     .line 207
     .line 208
-    iget-object v1, v0, Lxyf;->i1:Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    iget-object v1, v0, Lxyf;->i1:Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 209
     .line 210
@@ -724,7 +724,7 @@
 
     .line 269
     .line 270
-    invoke-static/range {v37 .. v68}, Lwwh;->e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
+    invoke-static/range {v37 .. v68}, Lwwh;->e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcs8;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;ZZLjava/util/Map;Lhd2;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;ZLqq5;FLjava/util/List;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;II)V
 
     .line 271
     .line 272

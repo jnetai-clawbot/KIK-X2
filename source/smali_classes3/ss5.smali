@@ -983,11 +983,11 @@
 
     .line 357
     .line 358
-    iget-object p1, p1, Lu4d;->a:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object p1, p1, Lu4d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 359
     .line 360
-    invoke-static {p1}, Lph6;->h(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static {p1}, Lph6;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 361
     .line 362

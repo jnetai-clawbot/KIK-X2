@@ -184,7 +184,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v0, v2}, Lk83;->d(Lzfg;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v0, v2}, Lk83;->d(Lzfg;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 75
     .line 76
@@ -204,7 +204,7 @@
 
     .line 83
     .line 84
-    invoke-direct {v2, v0}, Lpd4;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-direct {v2, v0}, Lpd4;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 85
     .line 86

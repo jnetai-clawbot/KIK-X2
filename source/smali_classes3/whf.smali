@@ -353,7 +353,7 @@
     const/4 v15, 0x0
 
     .line 68
-    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 69
     .line 70
@@ -446,7 +446,7 @@
     move-object v12, v8
 
     .line 113
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 114
     .line 115
@@ -493,7 +493,7 @@
     const/4 v15, 0x0
 
     .line 133
-    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 134
     .line 135
@@ -581,7 +581,7 @@
 
     .line 176
     .line 177
-    invoke-static {v12}, Lp9h;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v12}, Lp9h;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 178
     .line 179
@@ -593,7 +593,7 @@
 
     .line 182
     .line 183
-    invoke-virtual {v11}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->i()Lnp4;
+    invoke-virtual {v11}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->i()Lnp4;
 
     .line 184
     .line 185
@@ -707,7 +707,7 @@
     move-object v14, v13
 
     .line 236
-    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
+    invoke-static/range {v10 .. v17}, Lop4;->a(Lop4;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lnp4;Lnp4;Ljava/util/ArrayList;ZI)Lop4;
 
     .line 237
     .line 238

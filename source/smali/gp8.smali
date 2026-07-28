@@ -12,7 +12,7 @@
 
 .field public T0:I
 
-.field public X:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public X:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public Y:Lylc;
 
@@ -46,7 +46,7 @@
     const/4 p1, 0x0
 
     .line 11
-    invoke-static {p1, p1, p0}, Lxb0;->m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
+    invoke-static {p1, p1, p0}, Lxb0;->m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
 
     .line 12
     .line 13

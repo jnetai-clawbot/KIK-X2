@@ -787,7 +787,7 @@
     .end packed-switch
 .end method
 
-.method public static c(Lihf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Ltp5;)V
+.method public static c(Lihf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ltp5;)V
     .locals 1
 
     .line 1
@@ -807,7 +807,7 @@
 
     .line 7
     :goto_0
-    invoke-virtual {p0, p1, p2, v0}, Lihf;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2, v0}, Lihf;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -817,7 +817,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
+.method public final b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ltp5;Ljava/lang/String;)V
     .locals 11
 
     .line 1
@@ -826,7 +826,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -850,7 +850,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -888,7 +888,7 @@
 
     .line 35
     :cond_0
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->g()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->g()Z
 
     .line 36
     .line 37
@@ -907,7 +907,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -931,7 +931,7 @@
 
     .line 55
     .line 56
-    invoke-direct {v0, p1}, Lrp5;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, p1}, Lrp5;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 57
     .line 58
@@ -950,7 +950,7 @@
 
     .line 66
     :cond_1
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -1026,7 +1026,7 @@
 
     .line 101
     .line 102
-    invoke-direct {v0, p1}, Lrp5;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, p1}, Lrp5;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 103
     .line 104
@@ -1089,7 +1089,7 @@
     return-void
 .end method
 
-.method public final d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+.method public final d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
     .locals 7
 
     .line 1
@@ -1231,11 +1231,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p1, Lgza;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, p1, Lgza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 5
     .line 6
-    iget-object v1, p1, Lgza;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, p1, Lgza;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 7
     .line 8
@@ -1255,7 +1255,7 @@
     move-result-object v2
 
     .line 16
-    invoke-virtual {p0, v0, v1, p1, v2}, Lihf;->h(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Lihf;->h(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
 
     .line 17
     .line 18
@@ -1263,7 +1263,7 @@
     return-void
 .end method
 
-.method public final h(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
+.method public final h(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lvb;Lxj7;)V
     .locals 9
 
     .line 1
@@ -1460,7 +1460,7 @@
     return-object p0
 .end method
 
-.method public final j(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+.method public final j(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
     .locals 4
 
     .line 1

@@ -3644,7 +3644,7 @@
     move-result-object v14
 
     .line 245
-    check-cast v14, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 246
     .line 247

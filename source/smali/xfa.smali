@@ -865,7 +865,7 @@
 
     .line 404
     :pswitch_d
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 405
     .line 406
@@ -877,7 +877,7 @@
 
     .line 409
     .line 410
-    invoke-direct {p0, v0, p1}, Lj1d;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {p0, v0, p1}, Lj1d;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 411
     .line 412

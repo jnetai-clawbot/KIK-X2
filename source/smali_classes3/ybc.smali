@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;II)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;II)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lybc;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p1, p0, Lybc;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 4
     .line 5
@@ -50,7 +50,7 @@
     const/4 v2, 0x1
 
     .line 6
-    iget-object p0, p0, Lybc;->Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Lybc;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 7
     .line 8
@@ -80,7 +80,7 @@
     move-result p2
 
     .line 22
-    invoke-static {p0, p1, p2}, Llcc;->h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Llcc;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 23
     .line 24
@@ -97,7 +97,7 @@
     move-result p2
 
     .line 30
-    invoke-static {p0, p1, p2}, Licc;->h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Licc;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 31
     .line 32
@@ -114,7 +114,7 @@
     move-result p2
 
     .line 38
-    invoke-static {p0, p1, p2}, Lhcc;->h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Lhcc;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 39
     .line 40
@@ -131,7 +131,7 @@
     move-result p2
 
     .line 46
-    invoke-static {p0, p1, p2}, Lzbc;->h(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {p0, p1, p2}, Lzbc;->h(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 47
     .line 48

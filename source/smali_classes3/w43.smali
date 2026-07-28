@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lx43;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;I)V
+.method public synthetic constructor <init>(Lx43;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lw43;->Q0:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Lw43;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7
@@ -54,7 +54,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lw43;->Q0:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v1, p0, Lw43;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 4
     .line 5
@@ -74,7 +74,7 @@
     const/4 v2, 0x2
 
     .line 13
-    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;I)V
+    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;I)V
 
     .line 14
     .line 15
@@ -90,7 +90,7 @@
     const/4 v2, 0x1
 
     .line 20
-    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;I)V
+    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;I)V
 
     .line 21
     .line 22
@@ -106,7 +106,7 @@
     const/4 v2, 0x0
 
     .line 27
-    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lea3;I)V
+    invoke-direct {v0, p0, v1, p1, v2}, Lw43;-><init>(Lx43;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lea3;I)V
 
     .line 28
     .line 29
@@ -231,7 +231,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lw43;->Q0:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v2, p0, Lw43;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7
@@ -312,7 +312,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v2, v7, p0}, Ll53;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v2, v7, p0}, Ll53;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -390,7 +390,7 @@
     const/4 v0, 0x0
 
     .line 79
-    invoke-virtual {p1, v2, v0, p0}, Ll53;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v2, v0, p0}, Ll53;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -465,7 +465,7 @@
 
     .line 112
     .line 113
-    invoke-virtual {p1, v2, v7, p0}, Ll53;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
+    invoke-virtual {p1, v2, v7, p0}, Ll53;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLga3;)Ljava/lang/Object;
 
     .line 114
     .line 115

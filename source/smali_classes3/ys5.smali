@@ -1446,11 +1446,11 @@
     .line 642
     :cond_1e
     :goto_2
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 643
     .line 644
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 645
     .line 646
@@ -1641,11 +1641,11 @@
     .line 734
     :cond_25
     :goto_6
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 735
     .line 736
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 737
     .line 738
@@ -6614,11 +6614,11 @@
     .line 1817
     :cond_47
     :goto_20
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1818
     .line 1819
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1820
     .line 1821
@@ -6820,11 +6820,11 @@
     .line 1915
     :cond_4d
     :goto_24
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1916
     .line 1917
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1918
     .line 1919
@@ -7430,7 +7430,7 @@
 
     .line 2214
     .line 2215
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 2216
     .line 2217
@@ -7705,7 +7705,7 @@
 
     .line 2341
     .line 2342
-    invoke-virtual {v4, v15, v0}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v4, v15, v0}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 2343
     .line 2344
@@ -7915,7 +7915,7 @@
 
     .line 2432
     .line 2433
-    invoke-direct {v11, v0, v8}, Lu4d;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Lis5;)V
+    invoke-direct {v11, v0, v8}, Lu4d;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Lis5;)V
 
     .line 2434
     .line 2435

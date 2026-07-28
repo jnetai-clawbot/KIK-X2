@@ -2340,11 +2340,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->f()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->f()J
 
     .line 4
     .line 5

@@ -111,13 +111,13 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/App;Lpc3;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/App;Lpc3;)V
     .locals 2
 
     .line 111
     new-instance v0, Lb04;
 
-    invoke-direct {v0, p1}, Lb04;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, p1}, Lb04;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 112
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -152,7 +152,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {p2, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/App;I)V
+    invoke-direct {p2, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;I)V
 
     iput-object p2, p0, Loz2;->T0:Ljava/lang/Object;
 
@@ -161,7 +161,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/App;I)V
+    invoke-direct {p2, p1, v1}, Lzz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;I)V
 
     invoke-static {p2}, Lmgh;->c(Lv3e;)Lv3e;
 

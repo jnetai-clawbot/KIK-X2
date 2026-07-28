@@ -56,7 +56,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 11
     .line 12
@@ -86,7 +86,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -131,7 +131,7 @@
 
     .line 47
     .line 48
-    iget-object p1, p1, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iget-object p1, p1, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 49
     .line 50
@@ -139,7 +139,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p0, p1}, Lz4a;->z(Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;)V
+    invoke-virtual {p0, p1}, Lz4a;->z(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;)V
 
     .line 53
     .line 54
@@ -192,7 +192,7 @@
     move-result-object p0
 
     .line 78
-    invoke-static {p1, p0}, Lqe7;->i(Lkrf;Lxj7;)Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    invoke-static {p1, p0}, Lqe7;->i(Lkrf;Lxj7;)Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 79
     .line 80
@@ -204,7 +204,7 @@
 
     .line 83
     .line 84
-    invoke-virtual {p2, p0}, Lz4a;->z(Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;)V
+    invoke-virtual {p2, p0}, Lz4a;->z(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;)V
 
     .line 85
     .line 86

@@ -77,7 +77,7 @@
     move-object v6, p0
 
     .line 18
-    invoke-virtual/range {v0 .. v6}, Lrb0;->d(Lcom/jnetai/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
+    invoke-virtual/range {v0 .. v6}, Lrb0;->d(Lcom/jnetai/kikx2/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
 
     .line 19
     .line 20

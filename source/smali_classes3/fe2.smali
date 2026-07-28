@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+.field public final a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;)V
     .locals 0
 
     .line 1
@@ -25,7 +25,7 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iput-object p1, p0, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 8
     .line 9
@@ -68,11 +68,11 @@
 
     .line 12
     .line 13
-    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 14
     .line 15
-    iget-object p1, p1, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iget-object p1, p1, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 16
     .line 17
@@ -99,7 +99,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 2
     .line 3
@@ -131,7 +131,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    iget-object p0, p0, Lfe2;->a:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 9
     .line 10

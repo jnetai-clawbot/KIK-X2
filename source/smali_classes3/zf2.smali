@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lco7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lhud;Lk0a;)V
+.method public synthetic constructor <init>(Lco7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lhud;Lk0a;)V
     .locals 1
 
     .line 1
@@ -653,7 +653,7 @@
 
     .line 247
     .line 248
-    check-cast v30, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v30, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 249
     .line 250
@@ -754,7 +754,7 @@
 
     .line 298
     .line 299
-    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
+    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
 
     .line 300
     .line 301
@@ -799,7 +799,7 @@
 
     .line 321
     .line 322
-    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
+    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
 
     .line 323
     .line 324
@@ -844,7 +844,7 @@
 
     .line 344
     .line 345
-    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
+    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
 
     .line 346
     .line 347
@@ -889,7 +889,7 @@
 
     .line 367
     .line 368
-    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
+    invoke-virtual/range {v27 .. v36}, Lco7;->h(Lu38;ILcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lfk9;Lcq5;Lcq5;Lcq5;Lcq5;)V
 
     .line 369
     .line 370

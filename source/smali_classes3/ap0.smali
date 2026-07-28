@@ -197,7 +197,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lxve;ZI)V
+.method public synthetic constructor <init>(Lpu9;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lxve;ZI)V
     .locals 1
 
     .line 21
@@ -483,7 +483,7 @@
     move-object v13, v6
 
     .line 125
-    check-cast v13, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 126
     .line 127
@@ -531,7 +531,7 @@
 
     .line 148
     .line 149
-    invoke-static/range {v12 .. v17}, Luq8;->e(Lpu9;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lxve;ZLgx2;I)V
+    invoke-static/range {v12 .. v17}, Luq8;->e(Lpu9;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lxve;ZLgx2;I)V
 
     .line 150
     .line 151

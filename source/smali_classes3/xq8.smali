@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field public final a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
 .field public final b:Lsb1;
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lsb1;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lsb1;Ljava/lang/String;)V
     .locals 2
 
     .line 1
@@ -30,7 +30,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iput-object p1, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 5
     .line 6
@@ -96,7 +96,7 @@
 
 
 # virtual methods
-.method public final bridge synthetic a()Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.method public final bridge synthetic a()Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
     .locals 0
 
     .line 1
@@ -132,11 +132,11 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -147,11 +147,11 @@
     return-object p0
 .end method
 
-.method public final e()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.method public final e()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
@@ -186,15 +186,15 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v0, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 12
     .line 13
-    iget-object v1, p1, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p1, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -284,11 +284,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v0, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
 
     .line 4
     .line 5
@@ -354,7 +354,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, p0, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 9
     .line 10

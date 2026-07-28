@@ -254,7 +254,7 @@
     move-object v7, v5
 
     .line 50
-    check-cast v7, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 51
     .line 52
@@ -495,7 +495,7 @@
     move-result-object v10
 
     .line 161
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 162
     .line 163
@@ -655,7 +655,7 @@
     move-result-object v15
 
     .line 238
-    check-cast v15, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 239
     .line 240
@@ -736,7 +736,7 @@
     move-result-object v1
 
     .line 281
-    invoke-direct {v14, v15, v4, v7, v1}, Lwq8;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v14, v15, v4, v7, v1}, Lwq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
 
     .line 282
     .line 283
@@ -823,7 +823,7 @@
     move-result-object v4
 
     .line 321
-    invoke-direct {v1, v10, v11, v13, v4}, Lwq8;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v1, v10, v11, v13, v4}, Lwq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
 
     .line 322
     .line 323
@@ -977,7 +977,7 @@
     move-object v8, v6
 
     .line 52
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 53
     .line 54
@@ -1218,7 +1218,7 @@
     move-result-object v12
 
     .line 163
-    check-cast v12, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 164
     .line 165
@@ -1390,7 +1390,7 @@
     move-result-object v9
 
     .line 246
-    check-cast v9, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 247
     .line 248
@@ -1427,7 +1427,7 @@
     .line 263
     .line 264
     .line 265
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 266
     .line 267
@@ -1435,7 +1435,7 @@
     move-result-object v5
 
     .line 269
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 270
     .line 271
@@ -1504,7 +1504,7 @@
     move-result-object v6
 
     .line 306
-    invoke-direct {v5, v9, v2, v8, v6}, Lwq8;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v5, v9, v2, v8, v6}, Lwq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
 
     .line 307
     .line 308
@@ -1599,7 +1599,7 @@
     move-result-object v5
 
     .line 350
-    invoke-direct {v2, v12, v13, v15, v5}, Lwq8;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v2, v12, v13, v15, v5}, Lwq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljb1;Ljava/util/List;Ljava/lang/String;)V
 
     .line 351
     .line 352
@@ -1609,7 +1609,7 @@
     .line 354
     .line 355
     .line 356
-    invoke-virtual {v12}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v12}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 357
     .line 358
@@ -1617,7 +1617,7 @@
     move-result-object v2
 
     .line 360
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 361
     .line 362
@@ -1740,7 +1740,7 @@
     move-result-object v6
 
     .line 418
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 419
     .line 420
@@ -1812,7 +1812,7 @@
     move-result-object v10
 
     .line 453
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 454
     .line 455
@@ -1864,7 +1864,7 @@
 
     .line 474
     .line 475
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 476
     .line 477
@@ -1923,7 +1923,7 @@
     move-result-object v9
 
     .line 506
-    invoke-direct {v7, v6, v8, v9}, Lxq8;-><init>(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lsb1;Ljava/lang/String;)V
+    invoke-direct {v7, v6, v8, v9}, Lxq8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lsb1;Ljava/lang/String;)V
 
     .line 507
     .line 508

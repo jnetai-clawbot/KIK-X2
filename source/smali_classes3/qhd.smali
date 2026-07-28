@@ -1271,7 +1271,7 @@
 
     .line 567
     .line 568
-    invoke-interface {v15}, Lhif;->n()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-interface {v15}, Lhif;->n()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 569
     .line 570
@@ -1283,7 +1283,7 @@
 
     .line 573
     .line 574
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->w()Z
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->w()Z
 
     .line 575
     .line 576

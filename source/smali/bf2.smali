@@ -430,7 +430,7 @@
 
     .line 169
     .line 170
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 171
     .line 172

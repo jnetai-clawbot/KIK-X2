@@ -103,7 +103,7 @@
     move-result v2
 
     .line 29
-    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->l(Lhud;Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->l(Lhud;Lhud;Lgx2;I)Lsbf;
 
     .line 30
     .line 31
@@ -139,7 +139,7 @@
     move-result v2
 
     .line 46
-    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->v(Lhud;Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->v(Lhud;Lhud;Lgx2;I)Lsbf;
 
     .line 47
     .line 48
@@ -175,7 +175,7 @@
     move-result v2
 
     .line 63
-    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->q(Lhud;Lhud;Lgx2;I)Lsbf;
+    invoke-static {v0, v6, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->q(Lhud;Lhud;Lgx2;I)Lsbf;
 
     .line 64
     .line 65

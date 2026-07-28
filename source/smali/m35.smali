@@ -78,7 +78,7 @@
 
     .line 23
     .line 24
-    sget-object p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 25
     .line 26
@@ -91,7 +91,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->a(Ljava/lang/Object;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->a(Ljava/lang/Object;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 32
     .line 33
@@ -119,7 +119,7 @@
 
     .line 43
     .line 44
-    sget-object p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 45
     .line 46
@@ -132,7 +132,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-static {p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->a(Ljava/lang/Object;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->a(Ljava/lang/Object;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 52
     .line 53
@@ -144,7 +144,7 @@
 
     .line 56
     :cond_1
-    sget-object p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 57
     .line 58
@@ -153,7 +153,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-static {p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->d(Lz7a;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->d(Lz7a;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 62
     .line 63
@@ -183,7 +183,7 @@
 
     .line 74
     :pswitch_1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 75
     .line 76
@@ -196,7 +196,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->F(Ljo7;)V
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->F(Ljo7;)V
 
     .line 82
     .line 83
@@ -204,7 +204,7 @@
     const/4 p0, 0x1
 
     .line 85
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->E(Z)V
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->E(Z)V
 
     .line 86
     .line 87
@@ -242,7 +242,7 @@
 
     .line 103
     .line 104
-    new-instance p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 105
     .line 106
@@ -257,7 +257,7 @@
 
     .line 110
     .line 111
-    invoke-direct {p0, v1, p1, v0}, Lcom/jnetai/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
+    invoke-direct {p0, v1, p1, v0}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;-><init>(ILjava/lang/Object;I)V
 
     .line 112
     .line 113
@@ -266,7 +266,7 @@
 
     .line 115
     :cond_2
-    sget-object p0, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 116
     .line 117
@@ -275,7 +275,7 @@
     .line 118
     .line 119
     .line 120
-    invoke-static {p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->d(Lz7a;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->d(Lz7a;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 121
     .line 122
@@ -352,7 +352,7 @@
 
     .line 157
     :pswitch_5
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 158
     .line 159
@@ -364,12 +364,12 @@
     const/4 p0, 0x0
 
     .line 163
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->F(Ljo7;)V
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->F(Ljo7;)V
 
     .line 164
     .line 165
     .line 166
-    invoke-virtual {p1, v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->E(Z)V
+    invoke-virtual {p1, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->E(Z)V
 
     .line 167
     .line 168

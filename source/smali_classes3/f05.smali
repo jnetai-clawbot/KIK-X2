@@ -13,17 +13,17 @@
 
 .field public final synthetic Y:Lcq5;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 13
     iput p4, p0, Lf05;->X:I
 
-    iput-object p1, p0, Lf05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p1, p0, Lf05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     iput-object p2, p0, Lf05;->Y:Lcq5;
 
@@ -34,7 +34,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 1
@@ -46,7 +46,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lf05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Lf05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7
@@ -93,7 +93,7 @@
 
     .line 11
     .line 12
-    iget-object v7, p0, Lf05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v7, p0, Lf05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 13
     .line 14
@@ -146,7 +146,7 @@
     move-result-object v0
 
     .line 39
-    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lgb8;
+    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lgb8;
 
     .line 40
     .line 41
@@ -207,11 +207,11 @@
 
     .line 67
     .line 68
-    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 69
     .line 70
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 71
     .line 72
@@ -219,11 +219,11 @@
     move-result-object v9
 
     .line 74
-    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 75
     .line 76
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 77
     .line 78
@@ -321,7 +321,7 @@
     move-result-object v0
 
     .line 124
-    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lgb8;
+    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lgb8;
 
     .line 125
     .line 126
@@ -382,11 +382,11 @@
 
     .line 152
     .line 153
-    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 154
     .line 155
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 156
     .line 157
@@ -394,11 +394,11 @@
     move-result-object v9
 
     .line 159
-    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 160
     .line 161
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 162
     .line 163
@@ -512,7 +512,7 @@
     move-result-object v0
 
     .line 217
-    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lgb8;
+    invoke-static {v0, v7}, Lph6;->s(Lxj7;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lgb8;
 
     .line 218
     .line 219
@@ -573,11 +573,11 @@
 
     .line 245
     .line 246
-    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v9, v8, Lad6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 247
     .line 248
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 249
     .line 250
@@ -585,11 +585,11 @@
     move-result-object v9
 
     .line 252
-    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object v8, v8, Lad6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 253
     .line 254
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->c()Ljo7;
 
     .line 255
     .line 256
@@ -697,7 +697,7 @@
 
     .line 306
     .line 307
-    invoke-direct {v0, v7, v1}, Lhgc;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lfgc;)V
+    invoke-direct {v0, v7, v1}, Lhgc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lfgc;)V
 
     .line 308
     .line 309
@@ -724,7 +724,7 @@
 
     .line 320
     .line 321
-    invoke-direct {v0, v7, v1}, Lhgc;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lfgc;)V
+    invoke-direct {v0, v7, v1}, Lhgc;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lfgc;)V
 
     .line 322
     .line 323

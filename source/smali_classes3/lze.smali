@@ -391,7 +391,7 @@
     move-result-object v3
 
     .line 130
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 131
     .line 132
@@ -428,7 +428,7 @@
     .line 148
     .line 149
     .line 150
-    invoke-static {v3, v13}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {v3, v13}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 151
     .line 152
@@ -456,7 +456,7 @@
 
     .line 163
     :cond_6
-    invoke-static {v3, v11}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {v3, v11}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 164
     .line 165
@@ -526,7 +526,7 @@
     const/4 v4, 0x3
 
     .line 197
-    invoke-direct {v5, v9, v3, v4}, Lb53;-><init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;I)V
+    invoke-direct {v5, v9, v3, v4}, Lb53;-><init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;I)V
 
     .line 198
     .line 199
@@ -553,7 +553,7 @@
     move-result-object v19
 
     .line 211
-    sget v21, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v21, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 212
     .line 213
@@ -572,7 +572,7 @@
     move-object v15, v3
 
     .line 220
-    invoke-static/range {v15 .. v21}, Leuh;->b(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
+    invoke-static/range {v15 .. v21}, Leuh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;ZLkotlin/jvm/functions/Function0;Lpu9;Lgx2;I)V
 
     .line 221
     .line 222
@@ -1179,7 +1179,7 @@
     .line 523
     .line 524
     .line 525
-    sget v0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->$stable:I
 
     .line 526
     .line 527

@@ -146,7 +146,7 @@
 
     .line 53
     .line 54
-    sget-object v5, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 55
     .line 56

@@ -283,7 +283,7 @@
 
     .line 117
     .line 118
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 119
     .line 120
@@ -316,7 +316,7 @@
 
     .line 134
     .line 135
-    const-string v3, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v3, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 136
     .line 137
@@ -337,7 +337,7 @@
 
     .line 145
     .line 146
-    const-string v6, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v6, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 147
     .line 148
@@ -466,7 +466,7 @@
 
     .line 206
     .line 207
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 208
     .line 209
@@ -474,7 +474,7 @@
     move-result-object p0
 
     .line 211
-    invoke-static {p0}, Ljsg;->i(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-static {p0}, Ljsg;->i(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 212
     .line 213
@@ -487,7 +487,7 @@
 
     .line 216
     .line 217
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 218
     .line 219
@@ -508,7 +508,7 @@
 
     .line 226
     .line 227
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 228
     .line 229
@@ -537,7 +537,7 @@
 
     .line 240
     .line 241
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 242
     .line 243
@@ -558,7 +558,7 @@
 
     .line 250
     .line 251
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 252
     .line 253
@@ -726,7 +726,7 @@
     .line 329
     .line 330
     .line 331
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 332
     .line 333

@@ -532,7 +532,7 @@
     move-result v2
 
     .line 249
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->c(Ltnc;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/ComposableSingletons$VideoChatFragmentKt;->c(Ltnc;Lgx2;I)Lsbf;
 
     .line 250
     .line 251

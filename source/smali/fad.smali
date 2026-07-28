@@ -1036,7 +1036,7 @@
     iput-object p3, p0, Lfad;->Q0:Ljava/lang/Object;
 
     .line 225
-    const-class p2, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    const-class p2, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     invoke-virtual {p1, p2}, Lio/objectbox/BoxStore;->j(Ljava/lang/Class;)Ln81;
 

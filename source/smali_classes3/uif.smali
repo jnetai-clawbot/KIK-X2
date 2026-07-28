@@ -266,7 +266,7 @@
 
     .line 94
     :pswitch_2
-    check-cast p0, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 95
     .line 96
@@ -274,7 +274,7 @@
 
     .line 97
     .line 98
-    invoke-static {p0, p1}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->h(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Ly8;)Lsbf;
+    invoke-static {p0, p1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->h(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Ly8;)Lsbf;
 
     .line 99
     .line 100
@@ -328,7 +328,7 @@
     move-result-object v0
 
     .line 124
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 125
     .line 126
@@ -337,7 +337,7 @@
     .line 127
     .line 128
     .line 129
-    invoke-virtual {p0, v0, v1}, Lblf;->j(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, v0, v1}, Lblf;->j(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 130
     .line 131

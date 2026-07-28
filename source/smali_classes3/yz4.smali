@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lmo9;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lmo9;Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;I)V
+.method public synthetic constructor <init>(Lmo9;Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lyz4;->Z:Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    iput-object p2, p0, Lyz4;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 6
     .line 7
@@ -49,7 +49,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lyz4;->Z:Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    iget-object v1, p0, Lyz4;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 4
     .line 5
@@ -62,7 +62,7 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 11
     .line 12
@@ -82,7 +82,7 @@
 
     .line 19
     :pswitch_0
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->b()J
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->b()J
 
     .line 20
     .line 21

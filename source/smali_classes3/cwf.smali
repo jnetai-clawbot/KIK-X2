@@ -632,7 +632,7 @@
     move-result-object v10
 
     .line 217
-    check-cast v10, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 218
     .line 219
@@ -753,7 +753,7 @@
 
     .line 276
     .line 277
-    const-string v21, "joinGroup(Lcom/jnetai/kikx2/storage/box/group/KikDisplayOnlyGroup;)V"
+    const-string v21, "joinGroup(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikDisplayOnlyGroup;)V"
 
     .line 278
     .line 279
@@ -919,7 +919,7 @@
     or-int/2addr v3, v12
 
     .line 361
-    sget v12, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->$stable:I
+    sget v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->$stable:I
 
     .line 362
     .line 363
@@ -969,7 +969,7 @@
     const/4 v11, 0x0
 
     .line 379
-    invoke-static/range {v1 .. v10}, Lfnh;->a(Lnoa;Ldn7;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v1 .. v10}, Lfnh;->a(Lnoa;Ldn7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 380
     .line 381
@@ -1013,7 +1013,7 @@
     move-result-object v4
 
     .line 402
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 403
     .line 404
@@ -1052,7 +1052,7 @@
     .line 420
     .line 421
     .line 422
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 423
     .line 424
@@ -1418,7 +1418,7 @@
 
     .line 602
     .line 603
-    invoke-direct/range {v1 .. v31}, Lzvf;-><init>(Lnoa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lhwf;Lhud;ZZLk0a;Lhud;Lk0a;Lk0a;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lhud;Lk0a;Lk0a;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
+    invoke-direct/range {v1 .. v31}, Lzvf;-><init>(Lnoa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lhwf;Lhud;ZZLk0a;Lhud;Lk0a;Lk0a;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lhud;Lk0a;Lk0a;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
 
     .line 604
     .line 605
@@ -1621,7 +1621,7 @@
     const/4 v12, 0x3
 
     .line 706
-    invoke-direct {v8, v4, v3, v7, v12}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v8, v4, v3, v7, v12}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 707
     .line 708
@@ -1717,7 +1717,7 @@
     .line 753
     .line 754
     .line 755
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 756
     .line 757
@@ -1750,7 +1750,7 @@
     move-result-object v16
 
     .line 770
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 771
     .line 772
@@ -1865,7 +1865,7 @@
     const/4 v7, 0x1
 
     .line 825
-    invoke-direct {v8, v4, v3, v6, v7}, Lwvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v8, v4, v3, v6, v7}, Lwvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 826
     .line 827
@@ -2110,7 +2110,7 @@
     const/4 v8, 0x1
 
     .line 947
-    invoke-direct {v1, v4, v3, v8}, Ltvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {v1, v4, v3, v8}, Ltvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 948
     .line 949
@@ -2185,7 +2185,7 @@
     move-result-object v1
 
     .line 986
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 987
     .line 988
@@ -2193,7 +2193,7 @@
 
     .line 989
     .line 990
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;->e()Ljava/lang/String;
 
     .line 991
     .line 992
@@ -2311,7 +2311,7 @@
     const/4 v8, 0x0
 
     .line 1042
-    invoke-direct {v12, v4, v3, v15, v8}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v12, v4, v3, v15, v8}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 1043
     .line 1044
@@ -2534,7 +2534,7 @@
     const/4 v8, 0x0
 
     .line 1152
-    invoke-direct {v7, v4, v3, v14, v8}, Lwvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v7, v4, v3, v14, v8}, Lwvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 1153
     .line 1154
@@ -2909,7 +2909,7 @@
 
     .line 1341
     .line 1342
-    const-string v19, "submitReport(Lcom/jnetai/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
+    const-string v19, "submitReport(Lcom/jnetai/kikx2/kikx2/ui/components/dialogs/report/SubmitReportArgs;)V"
 
     .line 1343
     .line 1344
@@ -3239,7 +3239,7 @@
     const/4 v8, 0x1
 
     .line 1508
-    invoke-direct {v9, v4, v3, v2, v8}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v9, v4, v3, v2, v8}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 1509
     .line 1510
@@ -3391,7 +3391,7 @@
     const/4 v7, 0x2
 
     .line 1585
-    invoke-direct {v8, v4, v3, v5, v7}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+    invoke-direct {v8, v4, v3, v5, v7}, Lvvf;-><init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
 
     .line 1586
     .line 1587

@@ -669,7 +669,7 @@
 
     .line 242
     .line 243
-    invoke-static/range {v12 .. v19}, Lcom/jnetai/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->c(Ldlc;Lvva;Lpu9;Ltq5;IILgx2;I)Lsbf;
+    invoke-static/range {v12 .. v19}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->c(Ldlc;Lvva;Lpu9;Ltq5;IILgx2;I)Lsbf;
 
     .line 244
     .line 245

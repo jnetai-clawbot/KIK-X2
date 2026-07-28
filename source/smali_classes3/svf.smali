@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lhwf;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lsvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lsvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 6
     .line 7
@@ -77,7 +77,7 @@
     move-result-object v5
 
     .line 17
-    invoke-virtual {v3}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v3}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 18
     .line 19
@@ -105,14 +105,14 @@
     const/4 v9, 0x2
 
     .line 31
-    iget-object v6, p0, Lsvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v6, p0, Lsvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 32
     .line 33
     const/4 v8, 0x0
 
     .line 34
-    invoke-direct/range {v4 .. v9}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
+    invoke-direct/range {v4 .. v9}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
 
     .line 35
     .line 36
@@ -138,11 +138,11 @@
     move-result-object v0
 
     .line 47
-    iget-object p0, p0, Lsvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lsvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -382,7 +382,7 @@
 
     .line 163
     .line 164
-    const-string v10, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v10, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 165
     .line 166
@@ -415,7 +415,7 @@
 
     .line 180
     .line 181
-    const-string v10, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v10, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 182
     .line 183
@@ -436,7 +436,7 @@
 
     .line 191
     .line 192
-    const-string v10, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v10, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 193
     .line 194

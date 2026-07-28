@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.field private final a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .annotation runtime Lt8d;
         value = "userDetails"
     .end annotation
@@ -21,11 +21,11 @@
 
 
 # virtual methods
-.method public final a()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+.method public final a()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
@@ -66,11 +66,11 @@
 
     .line 12
     .line 13
-    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 14
     .line 15
-    iget-object p1, p1, Liz5;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p1, p1, Liz5;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 16
     .line 17
@@ -97,11 +97,11 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->hashCode()I
 
     .line 4
     .line 5
@@ -116,7 +116,7 @@
     .locals 2
 
     .line 1
-    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object p0, p0, Liz5;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 2
     .line 3

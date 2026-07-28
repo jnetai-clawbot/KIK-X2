@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lf48;Ljava/util/List;Lf48;Ljava/util/List;)V
+.method public synthetic constructor <init>(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lf48;Ljava/util/List;Lf48;Ljava/util/List;)V
     .locals 1
 
     .line 1
@@ -187,7 +187,7 @@
 
     .line 36
     .line 37
-    check-cast v19, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v19, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 38
     .line 39
@@ -538,7 +538,7 @@
     .line 210
     .line 211
     .line 212
-    sget v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 213
     .line 214
@@ -574,7 +574,7 @@
 
     .line 229
     .line 230
-    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
 
     .line 231
     .line 232
@@ -637,7 +637,7 @@
 
     .line 262
     .line 263
-    sget v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 264
     .line 265
@@ -669,7 +669,7 @@
 
     .line 278
     .line 279
-    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
 
     .line 280
     .line 281
@@ -732,7 +732,7 @@
 
     .line 311
     .line 312
-    sget v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->$stable:I
 
     .line 313
     .line 314
@@ -760,7 +760,7 @@
 
     .line 325
     .line 326
-    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v18 .. v24}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
 
     .line 327
     .line 328

@@ -113,7 +113,7 @@
 
     .line 13
     .line 14
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 15
     .line 16
@@ -156,7 +156,7 @@
     move-object v5, p0
 
     .line 34
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 35
     .line 36
@@ -2501,7 +2501,7 @@
 
     .line 58
     .line 59
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 60
     .line 61
@@ -2700,15 +2700,15 @@
 
     .line 154
     .line 155
-    check-cast v3, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 156
     .line 157
-    const-class v6, Lcom/jnetai/kikx2/client/live/models/SnsBouncer;
+    const-class v6, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncer;
 
     .line 158
     .line 159
-    invoke-virtual {v2, v3, v6}, Ltua;->a(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
+    invoke-virtual {v2, v3, v6}, Ltua;->a(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/lang/Class;)Lrl1;
 
     .line 160
     .line 161
@@ -3101,7 +3101,7 @@
     move-object v4, v1
 
     .line 346
-    check-cast v4, Lcom/jnetai/kikx2/client/live/models/SnsBouncer;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncer;
 
     .line 347
     .line 348
@@ -3788,7 +3788,7 @@
 
     .line 654
     .line 655
-    iget-object v7, v0, Lbp7;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v7, v0, Lbp7;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 656
     .line 657
@@ -6526,7 +6526,7 @@
 
     .line 1931
     :cond_62
-    iget-object v0, v0, Len5;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v0, v0, Len5;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1932
     .line 1933

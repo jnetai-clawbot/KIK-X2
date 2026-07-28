@@ -526,11 +526,11 @@
     move-result-object v6
 
     .line 193
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 194
     .line 195
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 196
     .line 197
@@ -558,7 +558,7 @@
 
     .line 208
     .line 209
-    invoke-direct {v9, v6, v7}, Lar9;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;)V
+    invoke-direct {v9, v6, v7}, Lar9;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;)V
 
     .line 210
     .line 211

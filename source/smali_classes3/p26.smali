@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/apis/tenor/GifApi;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/apis/tenor/GifApi;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lp26;->Y:Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    iput-object p1, p0, Lp26;->Y:Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 4
     .line 5
@@ -52,11 +52,11 @@
 
     .line 7
     .line 8
-    iget-object p0, p0, Lp26;->Y:Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    iget-object p0, p0, Lp26;->Y:Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 9
     .line 10
-    invoke-direct {v0, p0}, Lg98;-><init>(Lcom/jnetai/kikx2/apis/tenor/GifApi;)V
+    invoke-direct {v0, p0}, Lg98;-><init>(Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;)V
 
     .line 11
     .line 12
@@ -69,7 +69,7 @@
 
     .line 15
     .line 16
-    iget-object p0, p0, Lp26;->Y:Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    iget-object p0, p0, Lp26;->Y:Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 17
     .line 18

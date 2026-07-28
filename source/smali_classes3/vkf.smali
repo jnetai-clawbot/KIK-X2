@@ -442,11 +442,11 @@
     move-object v5, v4
 
     .line 30
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 31
     .line 32
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -552,11 +552,11 @@
     move-result-object v1
 
     .line 30
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 31
     .line 32
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -576,7 +576,7 @@
     return-object v0
 .end method
 
-.method public final c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+.method public final c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
     .locals 10
 
     .line 1
@@ -605,7 +605,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -636,7 +636,7 @@
 
     .line 27
     :cond_1
-    invoke-virtual {p1, v4}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
+    invoke-virtual {p1, v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -645,7 +645,7 @@
 
     .line 31
     :goto_0
-    invoke-static {p1, v2}, Lp9h;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
+    invoke-static {p1, v2}, Lp9h;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)I
 
     .line 32
     .line 33
@@ -763,7 +763,7 @@
 
     .line 88
     .line 89
-    invoke-static {p1, v5}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {p1, v5}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 90
     .line 91
@@ -786,7 +786,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 101
     .line 102
@@ -826,7 +826,7 @@
 
     .line 118
     .line 119
-    invoke-static {p1, v5}, Lp9h;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
+    invoke-static {p1, v5}, Lp9h;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Collection;)Z
 
     .line 120
     .line 121
@@ -846,11 +846,11 @@
 
     .line 128
     .line 129
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 130
     .line 131
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 132
     .line 133
@@ -892,7 +892,7 @@
 
     .line 152
     :cond_5
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->v()Z
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->v()Z
 
     .line 153
     .line 154
@@ -942,7 +942,7 @@
 
     .line 174
     .line 175
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 176
     .line 177
@@ -1011,11 +1011,11 @@
 
     .line 208
     .line 209
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 210
     .line 211
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 212
     .line 213
@@ -1061,11 +1061,11 @@
 
     .line 233
     .line 234
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 235
     .line 236
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 237
     .line 238

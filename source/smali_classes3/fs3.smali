@@ -344,11 +344,11 @@
     move-result-object p0
 
     .line 115
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 116
     .line 117
-    invoke-virtual {v8, p0, p2}, Lyif;->i(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {v8, p0, p2}, Lyif;->i(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 118
     .line 119

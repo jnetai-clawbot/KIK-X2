@@ -279,7 +279,7 @@
     move-object v6, v10
 
     .line 115
-    const-class v10, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$ChatBucketConverter;
+    const-class v10, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$ChatBucketConverter;
 
     .line 116
     .line 117
@@ -315,7 +315,7 @@
 
     .line 132
     .line 133
-    const-class v10, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$ChatPlatformConverter;
+    const-class v10, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$ChatPlatformConverter;
 
     .line 134
     .line 135
@@ -352,7 +352,7 @@
 
     .line 151
     .line 152
-    const-class v10, Lcom/jnetai/kikx2/storage/box/converters/ObjectBoxConverters$PreComputedChatCategoryConverter;
+    const-class v10, Lcom/jnetai/kikx2/kikx2/storage/box/converters/ObjectBoxConverters$PreComputedChatCategoryConverter;
 
     .line 153
     .line 154
@@ -675,7 +675,7 @@
     .locals 0
 
     .line 1
-    const-class p0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2
     .line 3

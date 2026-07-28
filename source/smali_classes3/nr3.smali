@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhd2;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 26
@@ -146,7 +146,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lnoa;Ldn7;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;I)V
+.method public synthetic constructor <init>(Lnoa;Ldn7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;I)V
     .locals 1
 
     .line 27
@@ -277,7 +277,7 @@
     move-object v12, v10
 
     .line 32
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 33
     .line 34
@@ -359,7 +359,7 @@
     move-result v20
 
     .line 72
-    invoke-static/range {v11 .. v20}, Lbih;->b(Lhd2;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v11 .. v20}, Lbih;->b(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 73
     .line 74
@@ -592,7 +592,7 @@
     move-object v15, v10
 
     .line 182
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 183
     .line 184
@@ -669,7 +669,7 @@
     move-result v22
 
     .line 221
-    invoke-static/range {v13 .. v22}, Lfnh;->a(Lnoa;Ldn7;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v13 .. v22}, Lfnh;->a(Lnoa;Ldn7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lcq5;Lcq5;Lqq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 222
     .line 223

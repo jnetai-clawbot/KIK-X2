@@ -796,7 +796,7 @@
 
     .line 199
     .line 200
-    const-class v0, Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift;
 
     .line 201
     .line 202
@@ -924,7 +924,7 @@
 
     .line 262
     .line 263
-    const-class v0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 264
     .line 265
@@ -1087,7 +1087,7 @@
 
     .line 342
     .line 343
-    iget-object p1, p1, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object p1, p1, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 344
     .line 345

@@ -182,7 +182,7 @@
 
     .line 41
     .line 42
-    check-cast v25, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v25, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 43
     .line 44
@@ -464,15 +464,15 @@
 
     .line 172
     .line 173
-    iget-object v3, v4, Lfk9;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;
+    iget-object v3, v4, Lfk9;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;
 
     .line 174
     .line 175
-    iget-object v4, v4, Lfk9;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v4, v4, Lfk9;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 176
     .line 177
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;->a()J
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;->a()J
 
     .line 178
     .line 179
@@ -529,7 +529,7 @@
 
     .line 203
     .line 204
-    invoke-direct/range {v19 .. v34}, Lkwf;-><init>(Lc18;Lcom/jnetai/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/storage/box/user/KikUser;ZLk0a;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;)V
+    invoke-direct/range {v19 .. v34}, Lkwf;-><init>(Lc18;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupMember;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZLk0a;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;)V
 
     .line 205
     .line 206

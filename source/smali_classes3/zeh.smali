@@ -298,7 +298,7 @@
 
     .line 16
     .line 17
-    iget-object v5, v3, Lsoc;->h:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v5, v3, Lsoc;->h:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 18
     .line 19
@@ -537,7 +537,7 @@
 
     .line 120
     .line 121
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->z()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->z()Z
 
     .line 122
     .line 123
@@ -602,7 +602,7 @@
 
     .line 150
     .line 151
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->p()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->p()Z
 
     .line 152
     .line 153
@@ -1171,7 +1171,7 @@
 
     .line 422
     .line 423
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->z()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->z()Z
 
     .line 424
     .line 425
@@ -4014,7 +4014,7 @@
     const/4 v13, 0x1
 
     .line 1975
-    invoke-direct/range {v0 .. v10}, Lhl0;-><init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Ljava/util/List;Lk0a;Lk0a;)V
+    invoke-direct/range {v0 .. v10}, Lhl0;-><init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Ljava/util/List;Lk0a;Lk0a;)V
 
     .line 1976
     .line 1977

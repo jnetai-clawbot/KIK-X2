@@ -1145,11 +1145,11 @@
 
     .line 7
     .line 8
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 9
     .line 10
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
@@ -1157,7 +1157,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 15
     .line 16
@@ -1262,7 +1262,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 62
     .line 63
@@ -1270,7 +1270,7 @@
     move-result-object v7
 
     .line 65
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/App;->b()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/App;->b()Ljava/lang/String;
 
     .line 66
     .line 67
@@ -2379,11 +2379,11 @@
 
     .line 116
     :try_start_0
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 117
     .line 118
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 119
     .line 120
@@ -2516,11 +2516,11 @@
     .line 177
     .line 178
     :try_start_1
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 179
     .line 180
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 181
     .line 182
@@ -2688,11 +2688,11 @@
     .line 258
     .line 259
     .line 260
-    sget-object v7, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 261
     .line 262
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 263
     .line 264

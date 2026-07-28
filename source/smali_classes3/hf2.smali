@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lbf5;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lffd;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+.method public synthetic constructor <init>(Lffd;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lhf2;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p2, p0, Lhf2;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 6
     .line 7
@@ -53,7 +53,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lhf2;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v2, p0, Lhf2;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 6
     .line 7
@@ -181,7 +181,7 @@
     const/4 p2, 0x2
 
     .line 65
-    invoke-direct {p0, p1, v2, p2}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {p0, p1, v2, p2}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 66
     .line 67
@@ -305,7 +305,7 @@
 
     .line 121
     .line 122
-    invoke-direct {p0, p1, v2, v8}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {p0, p1, v2, v8}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 123
     .line 124

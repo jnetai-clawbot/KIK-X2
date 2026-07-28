@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
     .locals 1
 
     .line 36
@@ -1115,7 +1115,7 @@
 
     .line 474
     .line 475
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 476
     .line 477
@@ -1139,7 +1139,7 @@
 
     .line 486
     .line 487
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 488
     .line 489
@@ -1264,7 +1264,7 @@
 
     .line 547
     .line 548
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 549
     .line 550
@@ -1328,7 +1328,7 @@
     .line 580
     .line 581
     .line 582
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
 
     .line 583
     .line 584
@@ -1344,7 +1344,7 @@
     move-result-object v0
 
     .line 590
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 591
     .line 592
@@ -1352,7 +1352,7 @@
 
     .line 593
     .line 594
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 595
     .line 596
@@ -1719,7 +1719,7 @@
     .line 772
     .line 773
     .line 774
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->l()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->l()Z
 
     .line 775
     .line 776
@@ -1944,7 +1944,7 @@
     .line 885
     .line 886
     .line 887
-    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->e()Z
+    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->e()Z
 
     .line 888
     .line 889
@@ -2225,7 +2225,7 @@
     .line 1024
     .line 1025
     .line 1026
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->f()Lio/objectbox/relation/ToOne;
 
     .line 1027
     .line 1028

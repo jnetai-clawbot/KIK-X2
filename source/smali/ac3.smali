@@ -940,7 +940,7 @@
 
     .line 440
     .line 441
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 442
     .line 443
@@ -969,7 +969,7 @@
     move-result-object v6
 
     .line 456
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 457
     .line 458
@@ -1199,7 +1199,7 @@
 
     .line 572
     .line 573
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 574
     .line 575

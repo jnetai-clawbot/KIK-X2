@@ -117,7 +117,7 @@
 
     .line 33
     :pswitch_1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 34
     .line 35
@@ -130,7 +130,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 41
     .line 42
@@ -139,7 +139,7 @@
 
     .line 44
     :pswitch_2
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 45
     .line 46
@@ -152,7 +152,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 52
     .line 53
@@ -161,7 +161,7 @@
 
     .line 55
     :pswitch_3
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 56
     .line 57
@@ -174,7 +174,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 63
     .line 64
@@ -183,7 +183,7 @@
 
     .line 66
     :pswitch_4
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 67
     .line 68
@@ -196,7 +196,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, p1, v1}, Lvkf;->c(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 74
     .line 75

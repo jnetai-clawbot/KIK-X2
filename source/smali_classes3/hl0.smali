@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Ljava/util/List;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Ljava/util/List;Lk0a;Lk0a;)V
     .locals 1
 
     .line 1
@@ -1642,7 +1642,7 @@
 
     .line 730
     .line 731
-    const-string v31, "selectBackupFile(Lcom/jnetai/kikx2/core/backup/modern/BackupFile;)V"
+    const-string v31, "selectBackupFile(Lcom/jnetai/kikx2/kikx2/core/backup/modern/BackupFile;)V"
 
     .line 732
     .line 733
@@ -6961,7 +6961,7 @@
 
     .line 45
     .line 46
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 47
     .line 48
@@ -8009,7 +8009,7 @@
 
     .line 560
     .line 561
-    invoke-direct/range {v23 .. v30}, Lpz1;-><init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;)V
+    invoke-direct/range {v23 .. v30}, Lpz1;-><init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;)V
 
     .line 562
     .line 563
@@ -8184,7 +8184,7 @@
 
     .line 649
     .line 650
-    invoke-direct/range {v23 .. v32}, Llm0;-><init>(Ljava/util/List;Lk0a;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lsoc;Lk0a;Lk0a;)V
+    invoke-direct/range {v23 .. v32}, Llm0;-><init>(Ljava/util/List;Lk0a;Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lsoc;Lk0a;Lk0a;)V
 
     .line 651
     .line 652

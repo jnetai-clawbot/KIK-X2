@@ -853,7 +853,7 @@
     move-result-object p4
 
     .line 66
-    check-cast p4, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p4, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 67
     .line 68
@@ -1013,7 +1013,7 @@
 
     .line 142
     .line 143
-    invoke-direct {p2, p0, p4}, Lf9c;-><init>(Lob9;Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-direct {p2, p0, p4}, Lf9c;-><init>(Lob9;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 144
     .line 145

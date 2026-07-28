@@ -8,7 +8,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jnetai/kikx2/client/live/models/SnsVideoGuestBroadcast;",
+            "Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoGuestBroadcast;",
             ">;"
         }
     .end annotation

@@ -87,7 +87,7 @@
 
     .line 22
     .line 23
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 24
     .line 25
@@ -121,7 +121,7 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -347,7 +347,7 @@
 
     .line 143
     .line 144
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 145
     .line 146
@@ -356,7 +356,7 @@
     .line 147
     .line 148
     .line 149
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
 
     .line 150
     .line 151
@@ -384,7 +384,7 @@
 
     .line 162
     :cond_5
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->n()Ljava/lang/String;
 
     .line 163
     .line 164
@@ -401,11 +401,11 @@
     .line 169
     .line 170
     :cond_6
-    iget-object v0, v0, Lkp5;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v0, Lkp5;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 171
     .line 172
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->p()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->p()Ljava/lang/String;
 
     .line 173
     .line 174
@@ -449,7 +449,7 @@
     move-result-object v0
 
     .line 196
-    invoke-virtual {v1, v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->D(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->D(Ljava/lang/String;)V
 
     .line 197
     .line 198

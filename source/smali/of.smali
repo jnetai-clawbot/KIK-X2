@@ -589,7 +589,7 @@
 
     .line 229
     .line 230
-    check-cast v14, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 231
     .line 232
@@ -663,11 +663,11 @@
 
     .line 265
     .line 266
-    check-cast v1, Lcom/jnetai/kikx2/client/live/models/SnsBouncerPrivileges;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncerPrivileges;
 
     .line 267
     .line 268
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/SnsBouncerPrivileges;->i()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncerPrivileges;->i()Ljava/lang/String;
 
     .line 269
     .line 270
@@ -708,11 +708,11 @@
 
     .line 287
     .line 288
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/SnsBouncerPrivileges;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncerPrivileges;
 
     .line 289
     .line 290
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/SnsBouncerPrivileges;->h()Ljava/util/Date;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsBouncerPrivileges;->h()Ljava/util/Date;
 
     .line 291
     .line 292
@@ -728,11 +728,11 @@
 
     .line 297
     .line 298
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 299
     .line 300
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 301
     .line 302
@@ -812,11 +812,11 @@
 
     .line 339
     .line 340
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 341
     .line 342
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 343
     .line 344
@@ -2421,7 +2421,7 @@
 
     .line 1087
     .line 1088
-    check-cast v13, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1089
     .line 1090
@@ -2499,7 +2499,7 @@
 
     .line 1121
     .line 1122
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 1123
     .line 1124
@@ -2543,7 +2543,7 @@
 
     .line 1143
     .line 1144
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 1145
     .line 1146
@@ -2564,7 +2564,7 @@
 
     .line 1154
     :cond_40
-    sget v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     .line 1155
     .line 1156
@@ -2582,7 +2582,7 @@
 
     .line 1162
     :cond_41
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->h()Ly4a;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->h()Ly4a;
 
     .line 1163
     .line 1164
@@ -2646,7 +2646,7 @@
 
     .line 1193
     .line 1194
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 1195
     .line 1196
@@ -2679,7 +2679,7 @@
 
     .line 1210
     .line 1211
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 1212
     .line 1213
@@ -2700,7 +2700,7 @@
 
     .line 1221
     .line 1222
-    const-string v8, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v8, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 1223
     .line 1224
@@ -2777,7 +2777,7 @@
     .line 1260
     .line 1261
     .line 1262
-    invoke-virtual {v13, v0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->i(Landroid/content/Intent;)V
+    invoke-virtual {v13, v0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->i(Landroid/content/Intent;)V
 
     .line 1263
     .line 1264

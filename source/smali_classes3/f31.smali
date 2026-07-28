@@ -3273,7 +3273,7 @@
 
     .line 122
     .line 123
-    const-string v19, "setFeedbackDialogState(Lcom/jnetai/kikx2/ui/components/dialogs/feedback/FeedbackDialogState;)V"
+    const-string v19, "setFeedbackDialogState(Lcom/jnetai/kikx2/kikx2/ui/components/dialogs/feedback/FeedbackDialogState;)V"
 
     .line 124
     .line 125

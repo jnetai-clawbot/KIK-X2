@@ -88,7 +88,7 @@
 
     .line 18
     .line 19
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 20
     .line 21
@@ -97,7 +97,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -125,7 +125,7 @@
 
     .line 36
     .line 37
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 38
     .line 39
@@ -146,7 +146,7 @@
 
     .line 46
     .line 47
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 48
     .line 49
@@ -155,7 +155,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -183,7 +183,7 @@
 
     .line 64
     .line 65
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 66
     .line 67
@@ -200,7 +200,7 @@
 
     .line 72
     .line 73
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 74
     .line 75
@@ -209,7 +209,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->f()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->f()J
 
     .line 79
     .line 80
@@ -254,7 +254,7 @@
     .line 97
     .line 98
     .line 99
-    sget-object v1, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 100
     .line 101
@@ -280,7 +280,7 @@
     .line 111
     .line 112
     .line 113
-    invoke-static {v0, v7}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v0, v7}, Ltt7;->c(Lz7a;Z)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 114
     .line 115
@@ -930,7 +930,7 @@
 
     .line 422
     .line 423
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 424
     .line 425
@@ -939,7 +939,7 @@
     .line 426
     .line 427
     .line 428
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->h()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->h()I
 
     .line 429
     .line 430

@@ -143,7 +143,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lk0a;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Laa2;Lj73;Lhif;Lhud;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Laa2;Lj73;Lhif;Lhud;Lk0a;Lk0a;)V
     .locals 1
 
     .line 28
@@ -2530,7 +2530,7 @@
 
     .line 1090
     .line 1091
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1092
     .line 1093
@@ -2686,7 +2686,7 @@
     .line 1165
     .line 1166
     .line 1167
-    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1168
     .line 1169
@@ -2694,7 +2694,7 @@
     move-result-object v6
 
     .line 1171
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 1172
     .line 1173
@@ -2702,7 +2702,7 @@
     move-result-wide v6
 
     .line 1175
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 1176
     .line 1177
@@ -2731,7 +2731,7 @@
     .line 1187
     .line 1188
     :goto_1a
-    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1189
     .line 1190
@@ -2739,7 +2739,7 @@
     move-result-object v0
 
     .line 1192
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 1193
     .line 1194
@@ -2751,7 +2751,7 @@
 
     .line 1197
     .line 1198
-    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v5}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 1199
     .line 1200
@@ -2759,7 +2759,7 @@
     move-result-object v0
 
     .line 1202
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->s()Ljava/lang/String;
 
     .line 1203
     .line 1204

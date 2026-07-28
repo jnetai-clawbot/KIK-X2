@@ -36,7 +36,7 @@
     const/4 p1, 0x0
 
     .line 11
-    invoke-static {p1, p0}, Lnz;->a(Lcom/jnetai/kikx2/App;Lga3;)Ljava/lang/Object;
+    invoke-static {p1, p0}, Lnz;->a(Lcom/jnetai/kikx2/kikx2/App;Lga3;)Ljava/lang/Object;
 
     .line 12
     .line 13

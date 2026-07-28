@@ -434,11 +434,11 @@
 
     .line 184
     .line 185
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 186
     .line 187
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 188
     .line 189
@@ -446,7 +446,7 @@
     move-result-object v1
 
     .line 191
-    invoke-direct {v0, v1}, Ljs2;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, v1}, Ljs2;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 192
     .line 193
@@ -458,7 +458,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/App;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/App;)V
     .locals 4
 
     .line 1

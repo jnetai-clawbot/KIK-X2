@@ -1607,7 +1607,7 @@
 
     .line 738
     .line 739
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 740
     .line 741
@@ -1616,7 +1616,7 @@
     .line 742
     .line 743
     .line 744
-    invoke-virtual {v0, v5}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->J(I)Z
+    invoke-virtual {v0, v5}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->J(I)Z
 
     .line 745
     .line 746
@@ -1628,7 +1628,7 @@
 
     .line 749
     .line 750
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 751
     .line 752
@@ -1672,7 +1672,7 @@
 
     .line 766
     .line 767
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 768
     .line 769
@@ -1681,7 +1681,7 @@
     .line 770
     .line 771
     .line 772
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->m()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->m()I
 
     .line 773
     .line 774
@@ -1692,7 +1692,7 @@
     add-int/2addr v1, v5
 
     .line 777
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->C(I)V
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->C(I)V
 
     .line 778
     .line 779

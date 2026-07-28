@@ -62,7 +62,7 @@
     .line 8
     .line 9
     .line 10
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 11
     .line 12
@@ -75,7 +75,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 18
     .line 19
@@ -87,7 +87,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 24
     .line 25
@@ -111,7 +111,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -137,7 +137,7 @@
 
     .line 48
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -149,7 +149,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->e()Ljava/lang/String;
 
     .line 55
     .line 56

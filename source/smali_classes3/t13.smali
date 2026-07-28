@@ -195,7 +195,7 @@
     move-object v6, v5
 
     .line 59
-    check-cast v6, Lcom/jnetai/kikx2/ui/videochat/model/E2EEState;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/E2EEState;
 
     .line 60
     .line 61
@@ -233,7 +233,7 @@
 
     .line 76
     .line 77
-    invoke-static/range {v6 .. v11}, Lcom/jnetai/kikx2/ui/videochat/components/E2EEStatePillKt;->c(Lcom/jnetai/kikx2/ui/videochat/model/E2EEState;Lpu9;IILgx2;I)Lsbf;
+    invoke-static/range {v6 .. v11}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/E2EEStatePillKt;->c(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/E2EEState;Lpu9;IILgx2;I)Lsbf;
 
     .line 78
     .line 79
@@ -286,7 +286,7 @@
 
     .line 100
     .line 101
-    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/ui/videochat/components/ConnectionQualityIndicatorKt;->a(Ls13;Lpu9;IILgx2;I)Lsbf;
+    invoke-static/range {v0 .. v5}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/ConnectionQualityIndicatorKt;->a(Ls13;Lpu9;IILgx2;I)Lsbf;
 
     .line 102
     .line 103

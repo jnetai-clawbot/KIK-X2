@@ -290,7 +290,7 @@
     move-object v11, v8
 
     .line 102
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 103
     .line 104
@@ -381,7 +381,7 @@
 
     .line 147
     .line 148
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 149
     .line 150

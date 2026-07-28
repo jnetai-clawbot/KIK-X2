@@ -37,7 +37,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhd2;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;Lqmd;Lk0a;Lii5;Lp92;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lhd2;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;Lqmd;Lk0a;Lii5;Lp92;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
     .locals 1
 
     .line 1
@@ -632,7 +632,7 @@
 
     .line 236
     .line 237
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 238
     .line 239
@@ -769,7 +769,7 @@
     move-result-object v0
 
     .line 304
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 305
     .line 306
@@ -777,7 +777,7 @@
 
     .line 307
     .line 308
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 309
     .line 310
@@ -946,7 +946,7 @@
 
     .line 389
     .line 390
-    invoke-direct {v0, v5, v4}, Lf92;-><init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;)V
+    invoke-direct {v0, v5, v4}, Lf92;-><init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;)V
 
     .line 391
     .line 392
@@ -1180,7 +1180,7 @@
     move-result-object v7
 
     .line 505
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 506
     .line 507

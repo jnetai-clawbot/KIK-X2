@@ -501,7 +501,7 @@
     move-result-object v5
 
     .line 233
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 234
     .line 235
@@ -509,7 +509,7 @@
 
     .line 236
     .line 237
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 238
     .line 239
@@ -534,7 +534,7 @@
 
     .line 249
     .line 250
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->Companion:Ltn7;
 
     .line 251
     .line 252
@@ -543,7 +543,7 @@
     .line 253
     .line 254
     .line 255
-    invoke-static {v7}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-static {v7}, Ltn7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 256
     .line 257
@@ -555,7 +555,7 @@
 
     .line 260
     .line 261
-    invoke-direct {v8, v7}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v8, v7}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 262
     .line 263
@@ -564,7 +564,7 @@
 
     .line 265
     :cond_0
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 266
     .line 267
@@ -573,7 +573,7 @@
     .line 268
     .line 269
     .line 270
-    invoke-static {v7}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v7}, Ltt7;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 271
     .line 272
@@ -585,13 +585,13 @@
 
     .line 275
     .line 276
-    invoke-direct {v8, v7}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v8, v7}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 277
     .line 278
     .line 279
     :goto_1
-    invoke-direct {v6, v5, v8}, Lar9;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;)V
+    invoke-direct {v6, v5, v8}, Lar9;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;)V
 
     .line 280
     .line 281

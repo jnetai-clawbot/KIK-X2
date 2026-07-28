@@ -22,7 +22,7 @@
 
 .field public X0:I
 
-.field public Y:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public Y:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public Y0:I
 

@@ -363,7 +363,7 @@
 
     .line 135
     .line 136
-    sget-object v3, Lcom/jnetai/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->Companion:Ltt7;
 
     .line 137
     .line 138
@@ -385,7 +385,7 @@
     .line 146
     .line 147
     .line 148
-    invoke-static {v2}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-static {v2}, Ltt7;->b(Lzt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 149
     .line 150

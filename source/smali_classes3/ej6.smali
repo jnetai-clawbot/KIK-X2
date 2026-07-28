@@ -8,13 +8,13 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
-.field public final b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
-.field public final c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+.field public final c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
-.field public final d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+.field public final d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
 
 # direct methods
@@ -22,25 +22,25 @@
     .locals 2
 
     .line 1
-    sget v0, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->$stable:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->$stable:I
 
     .line 2
     .line 3
-    sget v1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
 
     .line 4
     .line 5
     or-int/2addr v0, v1
 
     .line 6
-    sget v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 7
     .line 8
     or-int/2addr v0, v1
 
     .line 9
-    sget v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 10
     .line 11
@@ -54,7 +54,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;)V
     .locals 0
 
     .line 1
@@ -68,19 +68,19 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p1, p0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 8
     .line 9
-    iput-object p2, p0, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p2, p0, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 10
     .line 11
-    iput-object p3, p0, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iput-object p3, p0, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 12
     .line 13
-    iput-object p4, p0, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iput-object p4, p0, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 14
     .line 15
@@ -123,11 +123,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 14
     .line 15
-    iget-object v3, p1, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v3, p1, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 16
     .line 17
@@ -147,11 +147,11 @@
 
     .line 24
     :cond_2
-    iget-object v1, p0, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p0, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 25
     .line 26
-    iget-object v3, p1, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v3, p1, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 27
     .line 28
@@ -171,11 +171,11 @@
 
     .line 35
     :cond_3
-    iget-object v1, p0, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v1, p0, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 36
     .line 37
-    iget-object v3, p1, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v3, p1, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 38
     .line 39
@@ -195,11 +195,11 @@
 
     .line 46
     :cond_4
-    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 47
     .line 48
-    iget-object p1, p1, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iget-object p1, p1, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 49
     .line 50
@@ -226,11 +226,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, p0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->hashCode()I
 
     .line 4
     .line 5
@@ -245,7 +245,7 @@
     const/4 v1, 0x0
 
     .line 10
-    iget-object v2, p0, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v2, p0, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 11
     .line 12
@@ -260,7 +260,7 @@
 
     .line 16
     :cond_0
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->hashCode()I
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->hashCode()I
 
     .line 17
     .line 18
@@ -276,7 +276,7 @@
 
     .line 22
     .line 23
-    iget-object v2, p0, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v2, p0, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 24
     .line 25
@@ -291,7 +291,7 @@
 
     .line 29
     :cond_1
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->hashCode()I
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->hashCode()I
 
     .line 30
     .line 31
@@ -307,7 +307,7 @@
 
     .line 35
     .line 36
-    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 37
     .line 38
@@ -319,7 +319,7 @@
 
     .line 41
     :cond_2
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->hashCode()I
 
     .line 42
     .line 43
@@ -351,7 +351,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10
@@ -369,7 +369,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v1, p0, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 19
     .line 20
@@ -387,7 +387,7 @@
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v1, p0, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 29
     .line 30
@@ -405,7 +405,7 @@
     .line 36
     .line 37
     .line 38
-    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iget-object p0, p0, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 39
     .line 40

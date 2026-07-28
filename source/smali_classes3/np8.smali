@@ -1358,11 +1358,11 @@
 
     .line 215
     .line 216
-    iget-object v12, v0, Lxa1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v12, v0, Lxa1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 217
     .line 218
-    invoke-virtual {v12}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
+    invoke-virtual {v12}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->j()Ljava/lang/String;
 
     .line 219
     .line 220
@@ -1693,7 +1693,7 @@
     move-result-object v5
 
     .line 385
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 386
     .line 387
@@ -1701,7 +1701,7 @@
 
     .line 388
     .line 389
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 390
     .line 391
@@ -1796,7 +1796,7 @@
     move-result-object v5
 
     .line 433
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 434
     .line 435
@@ -1804,7 +1804,7 @@
 
     .line 436
     .line 437
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->j()Ljava/lang/String;
 
     .line 438
     .line 439
@@ -2025,7 +2025,7 @@
     return-void
 .end method
 
-.method public static final c(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
+.method public static final c(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;Lgx2;III)V
     .locals 51
 
     move-object/from16 v0, p0
@@ -4156,7 +4156,7 @@
 
     move-object/from16 v4, p3
 
-    invoke-direct/range {v0 .. v15}, Ljp8;-><init>(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;III)V
+    invoke-direct/range {v0 .. v15}, Ljp8;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;Ljava/lang/String;Lfje;Ljava/lang/String;Lfje;ZLjava/lang/Object;Ljdd;Ljava/lang/Object;Ljava/util/List;Luc1;Ljava/lang/Integer;III)V
 
     move-object/from16 v4, v48
 
@@ -6796,7 +6796,7 @@
     return-void
 .end method
 
-.method public static final f(Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
+.method public static final f(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;)Lgb8;
     .locals 10
 
     .line 1
@@ -6808,7 +6808,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->w()Z
 
     .line 6
     .line 7
@@ -6820,7 +6820,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->v()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->v()Z
 
     .line 12
     .line 13
@@ -6833,7 +6833,7 @@
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 18
     .line 19
@@ -6846,7 +6846,7 @@
     .line 22
     .line 23
     :cond_1
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->l()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->l()Z
 
     .line 24
     .line 25
@@ -6869,7 +6869,7 @@
 
     .line 32
     :goto_0
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
 
     .line 33
     .line 34
@@ -6915,7 +6915,7 @@
     .line 54
     .line 55
     :cond_3
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->v()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->v()Z
 
     .line 56
     .line 57
@@ -6954,7 +6954,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->r()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->r()Z
 
     .line 76
     .line 77
@@ -6993,7 +6993,7 @@
     .line 94
     .line 95
     :cond_5
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->q()Z
 
     .line 96
     .line 97
@@ -7054,7 +7054,7 @@
     .line 126
     .line 127
     :cond_6
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->u()Z
 
     .line 128
     .line 129
@@ -7110,7 +7110,7 @@
     .line 155
     .line 156
     .line 157
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
 
     .line 158
     .line 159
@@ -7167,7 +7167,7 @@
     .line 184
     .line 185
     :cond_9
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;->h()Lsne;
 
     .line 186
     .line 187

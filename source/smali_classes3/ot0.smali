@@ -53,7 +53,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lnb9;Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;)V
+.method public constructor <init>(Lnb9;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;)V
     .locals 1
 
     .line 1
@@ -462,11 +462,11 @@
 
     .line 171
     .line 172
-    check-cast v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 173
     .line 174
-    invoke-direct {p0, v1, v2, v8}, Lot0;-><init>(Lnb9;Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;)V
+    invoke-direct {p0, v1, v2, v8}, Lot0;-><init>(Lnb9;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;)V
 
     .line 175
     .line 176
@@ -840,7 +840,7 @@
     move-object v6, v2
 
     .line 344
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 345
     .line 346
@@ -993,7 +993,7 @@
     move-object v6, v2
 
     .line 413
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 414
     .line 415
@@ -1102,7 +1102,7 @@
 
     .line 460
     .line 461
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 462
     .line 463
@@ -1217,7 +1217,7 @@
 
     .line 510
     .line 511
-    check-cast v2, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 512
     .line 513
@@ -3937,7 +3937,7 @@
     .line 811
     .line 812
     .line 813
-    check-cast v12, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 814
     .line 815
@@ -4667,11 +4667,11 @@
 
     .line 1177
     .line 1178
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1179
     .line 1180
-    invoke-virtual {v12}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v12}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1181
     .line 1182
@@ -5262,7 +5262,7 @@
 
     .line 1471
     .line 1472
-    iget-object v0, v0, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v0, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1473
     .line 1474
@@ -5403,7 +5403,7 @@
 
     .line 1539
     .line 1540
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1541
     .line 1542
@@ -5440,7 +5440,7 @@
     .line 1556
     .line 1557
     .line 1558
-    invoke-static {v0, v12, v1}, Lnf2;->c(Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Linc;)V
+    invoke-static {v0, v12, v1}, Lnf2;->c(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Linc;)V
 
     .line 1559
     .line 1560
@@ -5715,7 +5715,7 @@
 
     .line 1695
     .line 1696
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1697
     .line 1698
@@ -5723,7 +5723,7 @@
 
     .line 1699
     .line 1700
-    invoke-direct {v2, v0, v12, v11}, Ldd2;-><init>(Ldd3;Lfd2;Lcom/jnetai/kikx2/storage/box/chat/Chat;)V
+    invoke-direct {v2, v0, v12, v11}, Ldd2;-><init>(Ldd3;Lfd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;)V
 
     .line 1701
     .line 1702
@@ -5922,7 +5922,7 @@
 
     .line 1800
     .line 1801
-    const-class v2, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 1802
     .line 1803
@@ -6086,7 +6086,7 @@
 
     .line 1877
     .line 1878
-    const-string v2, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v2, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 1879
     .line 1880
@@ -6119,7 +6119,7 @@
 
     .line 1894
     .line 1895
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 1896
     .line 1897
@@ -6140,7 +6140,7 @@
 
     .line 1905
     .line 1906
-    const-string v4, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v4, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 1907
     .line 1908
@@ -6173,7 +6173,7 @@
     move-result-object v17
 
     .line 1923
-    const-class v14, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    const-class v14, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 1924
     .line 1925
@@ -6217,11 +6217,11 @@
 
     .line 1943
     .line 1944
-    check-cast v12, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1945
     .line 1946
-    invoke-direct {v1, v12, v9, v7}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {v1, v12, v9, v7}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 1947
     .line 1948
@@ -6235,7 +6235,7 @@
 
     .line 1953
     .line 1954
-    invoke-direct {v1, v12, v9, v8}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {v1, v12, v9, v8}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 1955
     .line 1956
@@ -6249,7 +6249,7 @@
 
     .line 1961
     .line 1962
-    invoke-direct {v1, v12, v9, v5}, Lmt0;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lea3;I)V
+    invoke-direct {v1, v12, v9, v5}, Lmt0;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lea3;I)V
 
     .line 1963
     .line 1964

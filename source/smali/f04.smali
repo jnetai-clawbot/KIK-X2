@@ -303,7 +303,7 @@
 
     .line 133
     .line 134
-    check-cast v4, Lcom/jnetai/kikx2/App;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 135
     .line 136
@@ -333,7 +333,7 @@
 
     .line 149
     .line 150
-    iget-object v2, v2, Lzz3;->Y:Lcom/jnetai/kikx2/App;
+    iget-object v2, v2, Lzz3;->Y:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 151
     .line 152

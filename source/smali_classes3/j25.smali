@@ -6126,11 +6126,11 @@
 
     .line 277
     .line 278
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 279
     .line 280
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 281
     .line 282
@@ -7095,11 +7095,11 @@
 
     .line 177
     .line 178
-    sget-object v16, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v16, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 179
     .line 180
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 181
     .line 182
@@ -7107,7 +7107,7 @@
     move-result-object v15
 
     .line 184
-    invoke-direct {v8, v15}, Lpy4;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v8, v15}, Lpy4;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 185
     .line 186

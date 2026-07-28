@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/App;
+.field public final a:Lcom/jnetai/kikx2/kikx2/App;
 
 .field public final b:J
 
@@ -73,11 +73,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 5
     .line 6
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 7
     .line 8
@@ -85,7 +85,7 @@
     move-result-object v0
 
     .line 10
-    iput-object v0, p0, Llu9;->a:Lcom/jnetai/kikx2/App;
+    iput-object v0, p0, Llu9;->a:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
@@ -2527,7 +2527,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lcom/jnetai/kikx2/n/Security/Security;->f(Ljava/lang/String;)[B
+    invoke-static {p0}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->f(Ljava/lang/String;)[B
 
     .line 6
     .line 7

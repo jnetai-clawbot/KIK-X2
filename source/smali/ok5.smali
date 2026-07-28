@@ -1236,11 +1236,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p1, Lgif;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p1, p1, Lgif;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -1252,7 +1252,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 18
     .line 19

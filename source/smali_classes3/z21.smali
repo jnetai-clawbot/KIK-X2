@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lhif;Lhif;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lhif;Lhif;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 28
@@ -394,14 +394,14 @@
     move-object v11, v10
 
     .line 26
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 27
     .line 28
     move-object v12, v4
 
     .line 29
-    check-cast v12, Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;
+    check-cast v12, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;
 
     .line 30
     .line 31
@@ -467,7 +467,7 @@
     move-result v18
 
     .line 61
-    invoke-static/range {v11 .. v18}, Luvh;->b(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/group/KikGroupExtendedProfile;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v11 .. v18}, Luvh;->b(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroupExtendedProfile;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 62
     .line 63
@@ -1080,7 +1080,7 @@
 
     .line 354
     .line 355
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 356
     .line 357
@@ -1143,7 +1143,7 @@
     move-object v7, v4
 
     .line 384
-    invoke-virtual/range {v6 .. v13}, Ltcc;->q(Lhz4;Ljtf;Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-virtual/range {v6 .. v13}, Ltcc;->q(Lhz4;Ljtf;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lcq5;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 385
     .line 386
@@ -1337,7 +1337,7 @@
     move-object v15, v4
 
     .line 475
-    check-cast v15, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 476
     .line 477
@@ -1406,7 +1406,7 @@
     move-result v21
 
     .line 510
-    invoke-static/range {v14 .. v21}, Lfjh;->b(Lrqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcq5;Lgx2;I)V
+    invoke-static/range {v14 .. v21}, Lfjh;->b(Lrqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcq5;Lgx2;I)V
 
     .line 511
     .line 512
@@ -1597,7 +1597,7 @@
 
     .line 601
     .line 602
-    check-cast v23, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;
+    check-cast v23, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;
 
     .line 603
     .line 604
@@ -1673,7 +1673,7 @@
 
     .line 639
     .line 640
-    invoke-static/range {v23 .. v31}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->i(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;Lhif;Lhif;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ILgx2;I)Lsbf;
+    invoke-static/range {v23 .. v31}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->i(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;Lhif;Lhif;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ILgx2;I)Lsbf;
 
     .line 641
     .line 642

@@ -164,7 +164,7 @@
 
     .line 61
     .line 62
-    check-cast p2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 63
     .line 64
@@ -180,7 +180,7 @@
 
     .line 69
     .line 70
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 71
     .line 72
@@ -201,7 +201,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p2}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->j()Z
+    invoke-virtual {p2}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->j()Z
 
     .line 82
     .line 83
@@ -225,11 +225,11 @@
 
     .line 92
     .line 93
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 94
     .line 95
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 96
     .line 97
@@ -307,7 +307,7 @@
 
     .line 132
     .line 133
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 134
     .line 135
@@ -352,11 +352,11 @@
 
     .line 154
     .line 155
-    check-cast p1, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 156
     .line 157
-    invoke-virtual {p0, p1}, Lkh8;->D(Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;)Lib1;
+    invoke-virtual {p0, p1}, Lkh8;->D(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;)Lib1;
 
     .line 158
     .line 159

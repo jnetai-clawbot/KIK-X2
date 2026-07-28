@@ -2135,7 +2135,7 @@
     const-wide/16 v14, 0x0
 
     .line 92
-    invoke-static {v0, v14, v15}, Lcom/jnetai/kikx2/n/Security/Security;->a([BJ)[B
+    invoke-static {v0, v14, v15}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->a([BJ)[B
 
     move-result-object v4
 
@@ -2261,7 +2261,7 @@
 
     .line 97
     :try_start_40
-    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/n/Security/Security;->a([BJ)[B
+    invoke-static {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->a([BJ)[B
 
     move-result-object v0
     :try_end_40
@@ -2445,7 +2445,7 @@
     const-wide/16 v14, 0x1
 
     .line 104
-    invoke-static {v0, v14, v15}, Lcom/jnetai/kikx2/n/Security/Security;->a([BJ)[B
+    invoke-static {v0, v14, v15}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->a([BJ)[B
 
     move-result-object v0
     :try_end_44

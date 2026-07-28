@@ -503,7 +503,7 @@
 
     .line 213
     .line 214
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 215
     .line 216
@@ -746,7 +746,7 @@
 
     .line 329
     .line 330
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 331
     .line 332
@@ -997,7 +997,7 @@
 
     .line 36
     :pswitch_1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 37
     .line 38
@@ -2263,7 +2263,7 @@
 
     .line 202
     .line 203
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 204
     .line 205
@@ -2300,7 +2300,7 @@
     move-result-object v3
 
     .line 222
-    invoke-virtual {v0, v3}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
 
     .line 223
     .line 224
@@ -2320,7 +2320,7 @@
 
     .line 231
     .line 232
-    invoke-direct {v1, v0, v2}, Ll1d;-><init>(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Liud;)V
+    invoke-direct {v1, v0, v2}, Ll1d;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Liud;)V
 
     .line 233
     .line 234
@@ -2905,7 +2905,7 @@
     move-result-object v2
 
     .line 525
-    check-cast v2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 526
     .line 527
@@ -2929,7 +2929,7 @@
     move-result v5
 
     .line 537
-    invoke-direct {v3, v2, v5}, Lepd;-><init>(Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;Z)V
+    invoke-direct {v3, v2, v5}, Lepd;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;Z)V
 
     .line 538
     .line 539
@@ -3028,11 +3028,11 @@
 
     .line 586
     .line 587
-    iget-object v4, v4, Lepd;->a:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    iget-object v4, v4, Lepd;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 588
     .line 589
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->i()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 590
     .line 591
@@ -3040,7 +3040,7 @@
     move-result-object v4
 
     .line 593
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 594
     .line 595
@@ -3398,7 +3398,7 @@
 
     .line 766
     .line 767
-    iget-object v7, v7, Leb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v7, v7, Leb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 768
     .line 769
@@ -3417,7 +3417,7 @@
 
     .line 775
     .line 776
-    iget-object v10, v10, Leb1;->b:Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    iget-object v10, v10, Leb1;->b:Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 777
     .line 778
@@ -3804,7 +3804,7 @@
 
     .line 965
     .line 966
-    check-cast v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 967
     .line 968
@@ -4766,11 +4766,11 @@
 
     .line 1438
     .line 1439
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1440
     .line 1441
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->y()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->y()Z
 
     .line 1442
     .line 1443
@@ -4782,7 +4782,7 @@
 
     .line 1446
     .line 1447
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->g()Z
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->g()Z
 
     .line 1448
     .line 1449

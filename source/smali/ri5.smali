@@ -81,7 +81,7 @@
 
     .line 15
     .line 16
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 17
     .line 18
@@ -101,7 +101,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, v1, v2}, Lgba;->c(Lgba;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lea3;)Ljava/lang/Object;
+    invoke-static {v0, v1, v2}, Lgba;->c(Lgba;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lea3;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -286,11 +286,11 @@
 
     .line 116
     .line 117
-    iget-object v4, v1, Lwbc;->c:Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    iget-object v4, v1, Lwbc;->c:Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 118
     .line 119
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 120
     .line 121

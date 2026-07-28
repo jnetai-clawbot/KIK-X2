@@ -132,7 +132,7 @@
     move-object v1, p1
 
     .line 13
-    invoke-static/range {v0 .. v6}, Lcom/jnetai/kikx2/n/Security/Security;->pbkdf2Fast(Ljava/lang/String;Ljava/lang/String;[BJJ)[B
+    invoke-static/range {v0 .. v6}, Lcom/jnetai/kikx2/kikx2/n/Security/Security;->pbkdf2Fast(Ljava/lang/String;Ljava/lang/String;[BJJ)[B
 
     .line 14
     .line 15

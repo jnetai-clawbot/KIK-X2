@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic X:I
 
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Loo7;Lqq5;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+.method public synthetic constructor <init>(Loo7;Lqq5;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
     .locals 0
 
     .line 1
@@ -33,7 +33,7 @@
 
     .line 6
     .line 7
-    iput-object p3, p0, Lmwf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p3, p0, Lmwf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 8
     .line 9
@@ -63,7 +63,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Lmwf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v3, p0, Lmwf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 8
     .line 9

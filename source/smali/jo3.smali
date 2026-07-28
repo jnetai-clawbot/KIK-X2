@@ -5,7 +5,7 @@
 # interfaces
 .implements Lh00;
 .implements Lydc;
-.implements Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver_GeneratedInjector;
+.implements Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver_GeneratedInjector;
 .implements Lsm5;
 .implements Lt9;
 .implements Lxt5;
@@ -222,7 +222,7 @@
 
 
 # virtual methods
-.method public final injectIncomingCallActionsReceiver(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver;)V
+.method public final injectIncomingCallActionsReceiver(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver;)V
     .locals 0
 
     .line 1

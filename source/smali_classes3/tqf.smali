@@ -13,7 +13,7 @@
 
 .field public final synthetic S0:I
 
-.field public final synthetic X:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+.field public final synthetic X:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
 .field public final synthetic Y:Lhif;
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhif;ZZZI)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhif;ZZZI)V
     .locals 0
 
     .line 1
@@ -30,7 +30,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Ltqf;->X:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iput-object p1, p0, Ltqf;->X:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 5
     .line 6
@@ -82,7 +82,7 @@
     move-result v7
 
     .line 10
-    iget-object v0, p0, Ltqf;->X:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iget-object v0, p0, Ltqf;->X:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 11
     .line 12
@@ -106,7 +106,7 @@
 
     .line 21
     .line 22
-    invoke-static/range {v0 .. v7}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->a0(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhif;ZZZILgx2;I)Lsbf;
+    invoke-static/range {v0 .. v7}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->a0(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhif;ZZZILgx2;I)Lsbf;
 
     .line 23
     .line 24

@@ -248,7 +248,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 67
     .line 68
@@ -256,7 +256,7 @@
     move-result-object p0
 
     .line 70
-    invoke-virtual {v7, v0, p0}, Loxf;->h(Ldd3;Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-virtual {v7, v0, p0}, Loxf;->h(Ldd3;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 71
     .line 72
@@ -383,7 +383,7 @@
 
     .line 131
     .line 132
-    sget-object v1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 133
     .line 134
@@ -420,7 +420,7 @@
 
     .line 150
     .line 151
-    invoke-static {v1, p1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->c(ILjava/lang/Throwable;)Z
+    invoke-static {v1, p1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->c(ILjava/lang/Throwable;)Z
 
     .line 152
     .line 153

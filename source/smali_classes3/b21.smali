@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(ILcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(ILcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;I)V
     .locals 1
 
     .line 1
@@ -334,7 +334,7 @@
     move-object v9, v5
 
     .line 86
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 87
     .line 88
@@ -389,7 +389,7 @@
 
     .line 112
     .line 113
-    invoke-static/range {v9 .. v14}, Llcc;->j(Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
+    invoke-static/range {v9 .. v14}, Llcc;->j(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhd2;Lcq5;ILgx2;I)V
 
     .line 114
     .line 115
@@ -609,7 +609,7 @@
 
     .line 217
     :pswitch_5
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 218
     .line 219
@@ -667,7 +667,7 @@
     move-object v8, v4
 
     .line 245
-    invoke-static/range {v7 .. v12}, Luvh;->e(ILcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v7 .. v12}, Luvh;->e(ILcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 246
     .line 247

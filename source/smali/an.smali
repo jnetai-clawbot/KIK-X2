@@ -88,7 +88,7 @@
     .line 22
     .line 23
     .line 24
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 25
     .line 26

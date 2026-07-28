@@ -9,13 +9,13 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
 .field public final synthetic Z:Lk0a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;I)V
     .locals 0
 
     .line 1
@@ -23,7 +23,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Luqf;->Y:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iput-object p1, p0, Luqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 4
     .line 5
@@ -54,7 +54,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 7
     .line 8
@@ -62,7 +62,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->R(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
+    invoke-static {v0, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->R(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
 
     .line 11
     .line 12
@@ -74,7 +74,7 @@
 
     .line 15
     :pswitch_0
-    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 16
     .line 17
@@ -82,7 +82,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->H(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
+    invoke-static {v0, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->H(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
 
     .line 20
     .line 21
@@ -94,7 +94,7 @@
 
     .line 24
     :pswitch_1
-    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iget-object v0, p0, Luqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 25
     .line 26
@@ -102,7 +102,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->r(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
+    invoke-static {v0, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->r(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;)Lsbf;
 
     .line 29
     .line 30

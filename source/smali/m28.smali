@@ -387,7 +387,7 @@
 
     .line 167
     :pswitch_8
-    check-cast p0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 168
     .line 169
@@ -410,7 +410,7 @@
     add-long/2addr v0, v2
 
     .line 178
-    invoke-static {p0, v0, v1}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->a(Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;J)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-static {p0, v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;J)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 179
     .line 180
@@ -431,7 +431,7 @@
 
     .line 186
     .line 187
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 188
     .line 189
@@ -1148,11 +1148,11 @@
 
     .line 518
     .line 519
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 520
     .line 521
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 522
     .line 523

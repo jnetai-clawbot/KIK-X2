@@ -1084,7 +1084,7 @@
 
     .line 180
     .line 181
-    invoke-virtual {v2}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v2}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 182
     .line 183
@@ -1227,7 +1227,7 @@
 
     .line 246
     .line 247
-    invoke-direct/range {v0 .. v10}, Lxu7;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Liv7;Lsv7;Ljava/lang/String;Ljava/lang/String;Lj2b;ILjava/lang/String;Lbq7;Los7;)V
+    invoke-direct/range {v0 .. v10}, Lxu7;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Liv7;Lsv7;Ljava/lang/String;Ljava/lang/String;Lj2b;ILjava/lang/String;Lbq7;Los7;)V
 
     .line 248
     .line 249
@@ -6546,11 +6546,11 @@
     .line 90
     .line 91
     .line 92
-    sget-object v4, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v4, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 93
     .line 94
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 95
     .line 96
@@ -6558,7 +6558,7 @@
     move-result-object v4
 
     .line 98
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 99
     .line 100
@@ -7568,7 +7568,7 @@
     return-void
 .end method
 
-.method public final t(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+.method public final t(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
     .locals 12
 
     .line 1
@@ -7625,7 +7625,7 @@
 
     .line 26
     .line 27
-    invoke-direct {v3, p1}, Lpd4;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-direct {v3, p1}, Lpd4;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 28
     .line 29
@@ -7676,7 +7676,7 @@
 
     .line 49
     .line 50
-    invoke-direct {v0, p1}, Lpd4;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-direct {v0, p1}, Lpd4;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 51
     .line 52

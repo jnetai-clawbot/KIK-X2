@@ -2370,7 +2370,7 @@
 
     .line 248
     :cond_a
-    sget-object v1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 249
     .line 250
@@ -2379,7 +2379,7 @@
     .line 251
     .line 252
     .line 253
-    invoke-static {v5}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {v5}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 254
     .line 255
@@ -2391,7 +2391,7 @@
 
     .line 258
     .line 259
-    iget-object v8, v1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Y:Ljava/lang/Object;
+    iget-object v8, v1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Y:Ljava/lang/Object;
 
     .line 260
     .line 261
@@ -5104,7 +5104,7 @@
 
     .line 424
     .line 425
-    sget-object v3, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 426
     .line 427
@@ -5113,7 +5113,7 @@
     .line 428
     .line 429
     .line 430
-    invoke-static {v1}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/client/stanzas/StanzaException;
+    invoke-static {v1}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->b(Ljava/lang/Throwable;)Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;
 
     .line 431
     .line 432
@@ -5125,7 +5125,7 @@
 
     .line 435
     .line 436
-    iget v1, v1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->X:I
+    iget v1, v1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->X:I
 
     .line 437
     .line 438

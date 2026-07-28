@@ -358,7 +358,7 @@
     move-result-object v2
 
     .line 158
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 159
     .line 160
@@ -366,7 +366,7 @@
 
     .line 161
     .line 162
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 163
     .line 164
@@ -502,7 +502,7 @@
 
     .line 228
     .line 229
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 230
     .line 231

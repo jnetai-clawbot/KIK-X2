@@ -695,7 +695,7 @@
     move-result-object v3
 
     .line 332
-    const-class v8, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;
+    const-class v8, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;
 
     .line 333
     .line 334
@@ -712,7 +712,7 @@
     .line 339
     .line 340
     .line 341
-    check-cast v3, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;
 
     .line 342
     .line 343
@@ -798,7 +798,7 @@
     move-result-object v3
 
     .line 387
-    const-class v8, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;
+    const-class v8, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;
 
     .line 388
     .line 389
@@ -815,7 +815,7 @@
     .line 394
     .line 395
     .line 396
-    check-cast v3, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;
 
     .line 397
     .line 398

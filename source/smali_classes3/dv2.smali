@@ -553,7 +553,7 @@
     move-object v1, v2
 
     .line 183
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 184
     .line 185
@@ -611,7 +611,7 @@
     move-result v6
 
     .line 211
-    invoke-static/range {v0 .. v6}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v0 .. v6}, Lfjh;->c(Lf48;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/util/List;Lcq5;Lcq5;Lgx2;I)V
 
     .line 212
     .line 213

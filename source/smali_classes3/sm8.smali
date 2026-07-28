@@ -6,7 +6,7 @@
 # instance fields
 .field public Q0:Ljava/util/Iterator;
 
-.field public R0:Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+.field public R0:Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
 .field public S0:Lp1a;
 

@@ -1056,7 +1056,7 @@
 
     .line 87
     :cond_3
-    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.apis.blue.urban.model.UrbanApiResult.Success"
+    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.kikx2.apis.blue.urban.model.UrbanApiResult.Success"
 
     .line 88
     .line 89
@@ -2062,11 +2062,11 @@
     .line 557
     .line 558
     :try_start_2
-    sget-object p1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 559
     .line 560
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 561
     .line 562
@@ -2308,7 +2308,7 @@
 
     .line 670
     :cond_24
-    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.apis.blue.services.botdetection.GroupResult"
+    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.kikx2.apis.blue.services.botdetection.GroupResult"
 
     .line 671
     .line 672
@@ -2509,7 +2509,7 @@
 
     .line 761
     :cond_29
-    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.apis.blue.services.botdetection.UserResult"
+    const-string p0, "null cannot be cast to non-null type com.jnetai.kikx2.kikx2.apis.blue.services.botdetection.UserResult"
 
     .line 762
     .line 763

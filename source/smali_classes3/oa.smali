@@ -96,7 +96,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
+.method public constructor <init>(Lqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
     .locals 1
 
     const/4 v0, 0x0
@@ -119,7 +119,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ZLkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lj7c;Lzf8;Lcq5;Lea3;)V
+.method public constructor <init>(ZLkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lj7c;Lzf8;Lcq5;Lea3;)V
     .locals 1
 
     const/4 v0, 0x3
@@ -1965,7 +1965,7 @@
     move-object v5, v0
 
     .line 18
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 19
     .line 20
@@ -2005,7 +2005,7 @@
     move-object v9, p2
 
     .line 36
-    invoke-direct/range {v2 .. v9}, Loa;-><init>(ZLkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lj7c;Lzf8;Lcq5;Lea3;)V
+    invoke-direct/range {v2 .. v9}, Loa;-><init>(ZLkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lj7c;Lzf8;Lcq5;Lea3;)V
 
     .line 37
     .line 38
@@ -2153,7 +2153,7 @@
     move-object v5, p1
 
     .line 103
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 104
     .line 105
@@ -2174,7 +2174,7 @@
     move v6, p0
 
     .line 112
-    invoke-direct/range {v3 .. v8}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
+    invoke-direct/range {v3 .. v8}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
 
     .line 113
     .line 114
@@ -2386,7 +2386,7 @@
     move-object v10, v0
 
     .line 27
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 28
     .line 29
@@ -2873,7 +2873,7 @@
     move-object v15, v4
 
     .line 262
-    check-cast v15, Lcom/jnetai/kikx2/client/live/models/message/SnsChat;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChat;
 
     .line 263
     .line 264
@@ -3109,7 +3109,7 @@
     move-result-object v14
 
     .line 375
-    check-cast v14, Lcom/jnetai/kikx2/client/live/models/message/SnsChatParticipant;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatParticipant;
 
     .line 376
     .line 377
@@ -3383,11 +3383,11 @@
     move-object v8, v7
 
     .line 503
-    check-cast v8, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 504
     .line 505
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;->k()Ldpd;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;->k()Ldpd;
 
     .line 506
     .line 507
@@ -3498,11 +3498,11 @@
     move-result-object v3
 
     .line 556
-    check-cast v3, Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;
 
     .line 557
     .line 558
-    invoke-virtual {v11, v3}, Lkh8;->D(Lcom/jnetai/kikx2/client/live/models/message/SnsChatMessage;)Lib1;
+    invoke-virtual {v11, v3}, Lkh8;->D(Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsChatMessage;)Lib1;
 
     .line 559
     .line 560
@@ -3553,11 +3553,11 @@
 
     .line 583
     .line 584
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 585
     .line 586
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 587
     .line 588
@@ -3655,7 +3655,7 @@
 
     .line 633
     .line 634
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 635
     .line 636
@@ -3718,7 +3718,7 @@
 
     .line 664
     .line 665
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 666
     .line 667
@@ -3775,7 +3775,7 @@
     move-result v2
 
     .line 694
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 695
     .line 696
@@ -3783,7 +3783,7 @@
     move-result-object v3
 
     .line 698
-    invoke-virtual {v10}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->o()Ljava/lang/String;
+    invoke-virtual {v10}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->o()Ljava/lang/String;
 
     .line 699
     .line 700
@@ -3791,7 +3791,7 @@
     move-result-object v4
 
     .line 702
-    invoke-direct {v1, v6, v2, v3, v4}, Ldb1;-><init>(ZILcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Ljava/lang/String;)V
+    invoke-direct {v1, v6, v2, v3, v4}, Ldb1;-><init>(ZILcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Ljava/lang/String;)V
 
     .line 703
     .line 704
@@ -4631,7 +4631,7 @@
 
     .line 1112
     .line 1113
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1114
     .line 1115
@@ -4705,7 +4705,7 @@
 
     .line 1148
     .line 1149
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1150
     .line 1151
@@ -4852,7 +4852,7 @@
     move-result-object v10
 
     .line 1221
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1222
     .line 1223
@@ -5195,7 +5195,7 @@
 
     .line 1381
     .line 1382
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 1383
     .line 1384
@@ -5236,7 +5236,7 @@
 
     .line 1400
     .line 1401
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1402
     .line 1403
@@ -5376,7 +5376,7 @@
 
     .line 1470
     .line 1471
-    invoke-direct/range {v16 .. v21}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
+    invoke-direct/range {v16 .. v21}, Loa;-><init>(Lqa;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLjava/lang/String;Lea3;)V
 
     .line 1472
     .line 1473
@@ -5405,11 +5405,11 @@
 
     .line 1484
     .line 1485
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1486
     .line 1487
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1488
     .line 1489
@@ -5455,11 +5455,11 @@
 
     .line 1509
     .line 1510
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1511
     .line 1512
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1513
     .line 1514
@@ -5516,7 +5516,7 @@
 
     .line 1539
     .line 1540
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1541
     .line 1542

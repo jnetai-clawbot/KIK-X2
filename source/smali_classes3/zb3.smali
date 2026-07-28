@@ -161,7 +161,7 @@
     move-result v2
 
     .line 33
-    invoke-static {v0, v7, v1, v2}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->I(Lb70;ZLgx2;I)Lsbf;
+    invoke-static {v0, v7, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->I(Lb70;ZLgx2;I)Lsbf;
 
     .line 34
     .line 35

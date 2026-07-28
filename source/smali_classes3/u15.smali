@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Lu15;->Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Lu15;->Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 4
     .line 5
@@ -47,7 +47,7 @@
 
     .line 4
     .line 5
-    iget-object p0, p0, Lu15;->Y:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Lu15;->Y:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 6
     .line 7

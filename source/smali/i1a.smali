@@ -124,11 +124,11 @@
     move-object v5, v4
 
     .line 40
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 41
     .line 42
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->e()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->e()Z
 
     .line 43
     .line 44
@@ -191,11 +191,11 @@
 
     .line 72
     .line 73
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 74
     .line 75
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -285,11 +285,11 @@
     move-object v5, v4
 
     .line 119
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 120
     .line 121
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->e()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->e()Z
 
     .line 122
     .line 123
@@ -352,11 +352,11 @@
 
     .line 151
     .line 152
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 153
     .line 154
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
 
     .line 155
     .line 156

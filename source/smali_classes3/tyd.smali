@@ -1696,11 +1696,11 @@
 
     .line 180
     .line 181
-    iget-object v8, v1, Lwq8;->f:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v8, v1, Lwq8;->f:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 182
     .line 183
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->r()Lum8;
 
     .line 184
     .line 185
@@ -1727,7 +1727,7 @@
     move v5, v12
 
     .line 196
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 197
     .line 198
@@ -2004,7 +2004,7 @@
     .line 333
     .line 334
     .line 335
-    iget-object v2, v1, Lwq8;->a:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v2, v1, Lwq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 336
     .line 337
@@ -2015,7 +2015,7 @@
 
     .line 339
     .line 340
-    sget v21, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->$stable:I
+    sget v21, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->$stable:I
 
     .line 341
     .line 342
@@ -2115,7 +2115,7 @@
 
     .line 387
     .line 388
-    invoke-static/range {v2 .. v8}, Lwwh;->b(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
+    invoke-static/range {v2 .. v8}, Lwwh;->b(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lnb1;ZLszd;Lwy0;Lgx2;I)V
 
     .line 389
     .line 390
@@ -2143,7 +2143,7 @@
     .line 400
     .line 401
     .line 402
-    iget-object v2, v1, Lwq8;->f:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v2, v1, Lwq8;->f:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 403
     .line 404
@@ -2155,7 +2155,7 @@
 
     .line 407
     .line 408
-    sget v5, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
+    sget v5, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
 
     .line 409
     .line 410
@@ -2181,7 +2181,7 @@
 
     .line 419
     .line 420
-    invoke-static/range {v2 .. v7}, Lb1i;->a(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
+    invoke-static/range {v2 .. v7}, Lb1i;->a(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
 
     .line 421
     .line 422
@@ -2343,7 +2343,7 @@
     .line 502
     .line 503
     .line 504
-    invoke-virtual/range {p5 .. p5}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
+    invoke-virtual/range {p5 .. p5}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->j()Ljava/lang/String;
 
     .line 505
     .line 506

@@ -85,7 +85,7 @@
     return-void
 .end method
 
-.method public static g(Lcom/jnetai/kikx2/core/fgs/LongRunningService;Landroid/app/Notification;I)V
+.method public static g(Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;Landroid/app/Notification;I)V
     .locals 2
 
     .line 1

@@ -4,9 +4,9 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
-.field public final b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 
 # direct methods
@@ -17,7 +17,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)V
     .locals 0
 
     .line 1
@@ -26,11 +26,11 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Liq7;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p1, p0, Liq7;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 5
     .line 6
-    iput-object p2, p0, Liq7;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p2, p0, Liq7;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 7
     .line 8
@@ -67,15 +67,15 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Liq7;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, p0, Liq7;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 12
     .line 13
-    iget-object v1, p1, Liq7;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p1, Liq7;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -91,15 +91,15 @@
 
     .line 22
     :cond_2
-    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 23
     .line 24
-    iget-object p1, p1, Liq7;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p1, p1, Liq7;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 25
     .line 26
-    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->equals(Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -130,11 +130,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Liq7;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, p0, Liq7;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->hashCode()I
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->hashCode()I
 
     .line 4
     .line 5
@@ -146,11 +146,11 @@
 
     .line 8
     .line 9
-    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->hashCode()I
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->hashCode()I
 
     .line 12
     .line 13
@@ -181,7 +181,7 @@
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Liq7;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, p0, Liq7;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10
@@ -199,7 +199,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p0, p0, Liq7;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 19
     .line 20

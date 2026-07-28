@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhud;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;ILcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhud;)V
+.method public synthetic constructor <init>(Lhud;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;ILcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhud;)V
     .locals 1
 
     .line 18
@@ -193,14 +193,14 @@
     move-object v13, v9
 
     .line 29
-    check-cast v13, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 30
     .line 31
     move-object v15, v8
 
     .line 32
-    check-cast v15, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 33
     .line 34
@@ -224,7 +224,7 @@
 
     .line 43
     .line 44
-    invoke-static/range {v12 .. v17}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->y(Lhud;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;ILcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhud;Lm18;)Lsbf;
+    invoke-static/range {v12 .. v17}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->y(Lhud;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;ILcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhud;Lm18;)Lsbf;
 
     .line 45
     .line 46

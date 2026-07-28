@@ -74,7 +74,7 @@
 
     .line 15
     .line 16
-    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 17
     .line 18
@@ -82,7 +82,7 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 21
     .line 22
@@ -143,7 +143,7 @@
 
     .line 49
     .line 50
-    iget-object v3, v2, Lwz4;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v3, v2, Lwz4;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 51
     .line 52
@@ -151,7 +151,7 @@
 
     .line 53
     .line 54
-    invoke-direct {v0, v3, v2}, Lmza;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lgcc;)V
+    invoke-direct {v0, v3, v2}, Lmza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lgcc;)V
 
     .line 55
     .line 56
@@ -185,7 +185,7 @@
 
     .line 70
     .line 71
-    invoke-interface {v2}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v2}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 72
     .line 73
@@ -193,7 +193,7 @@
     move-result-object v2
 
     .line 75
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -231,7 +231,7 @@
 
     .line 93
     .line 94
-    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 95
     .line 96
@@ -239,7 +239,7 @@
     move-result-object v0
 
     .line 98
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->a()Ljava/lang/String;
 
     .line 99
     .line 100

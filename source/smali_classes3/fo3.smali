@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lpt0;
-.implements Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity_GeneratedInjector;
+.implements Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity_GeneratedInjector;
 .implements Lz24;
 .implements Lom5;
 .implements Lxt5;
@@ -484,7 +484,7 @@
     return-object p0
 .end method
 
-.method public final injectIncomingCallActivity(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;)V
+.method public final injectIncomingCallActivity(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;)V
     .locals 0
 
     .line 1

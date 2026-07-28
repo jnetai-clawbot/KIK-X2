@@ -32,7 +32,7 @@
 
     .line 4
     .line 5
-    const-class v2, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$BackgroundFeature;
+    const-class v2, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$BackgroundFeature;
 
     .line 6
     .line 7
@@ -49,7 +49,7 @@
 
     .line 13
     .line 14
-    const-class v3, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$BattleFeature;
+    const-class v3, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$BattleFeature;
 
     .line 15
     .line 16
@@ -66,7 +66,7 @@
 
     .line 22
     .line 23
-    const-class v4, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$ContestsFeature;
+    const-class v4, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$ContestsFeature;
 
     .line 24
     .line 25
@@ -83,7 +83,7 @@
 
     .line 31
     .line 32
-    const-class v5, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$ViewerContestsFeature;
+    const-class v5, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$ViewerContestsFeature;
 
     .line 33
     .line 34
@@ -100,7 +100,7 @@
 
     .line 40
     .line 41
-    const-class v6, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$GoalsFeature;
+    const-class v6, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$GoalsFeature;
 
     .line 42
     .line 43
@@ -117,7 +117,7 @@
 
     .line 49
     .line 50
-    const-class v7, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$GuestFeature;
+    const-class v7, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$GuestFeature;
 
     .line 51
     .line 52
@@ -134,7 +134,7 @@
 
     .line 58
     .line 59
-    const-class v8, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$FaceMaskFeature;
+    const-class v8, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$FaceMaskFeature;
 
     .line 60
     .line 61
@@ -151,7 +151,7 @@
 
     .line 67
     .line 68
-    const-class v9, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$NextDateFeature;
+    const-class v9, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$NextDateFeature;
 
     .line 69
     .line 70
@@ -168,7 +168,7 @@
 
     .line 76
     .line 77
-    const-class v10, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$MultiGuestFeature;
+    const-class v10, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$MultiGuestFeature;
 
     .line 78
     .line 79
@@ -185,7 +185,7 @@
 
     .line 85
     .line 86
-    const-class v11, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$NextGuestFeature;
+    const-class v11, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$NextGuestFeature;
 
     .line 87
     .line 88
@@ -202,7 +202,7 @@
 
     .line 94
     .line 95
-    const-class v12, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$PollsFeature;
+    const-class v12, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$PollsFeature;
 
     .line 96
     .line 97
@@ -219,7 +219,7 @@
 
     .line 103
     .line 104
-    const-class v13, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$SpotlightsFeature;
+    const-class v13, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$SpotlightsFeature;
 
     .line 105
     .line 106
@@ -236,7 +236,7 @@
 
     .line 112
     .line 113
-    const-class v14, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$StreamerSubscriptionsFeature;
+    const-class v14, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$StreamerSubscriptionsFeature;
 
     .line 114
     .line 115
@@ -253,7 +253,7 @@
 
     .line 121
     .line 122
-    const-class v15, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$HdStreamVideoFeature;
+    const-class v15, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$HdStreamVideoFeature;
 
     .line 123
     .line 124
@@ -274,7 +274,7 @@
 
     .line 132
     .line 133
-    const-class v0, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$BingoFeature;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$BingoFeature;
 
     .line 134
     .line 135
@@ -295,7 +295,7 @@
 
     .line 143
     .line 144
-    const-class v1, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$LandscapeStreamingFeature;
+    const-class v1, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$LandscapeStreamingFeature;
 
     .line 145
     .line 146
@@ -668,7 +668,7 @@
 
     .line 97
     .line 98
-    const-class p0, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;
+    const-class p0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;
 
     .line 99
     .line 100
@@ -704,7 +704,7 @@
     .line 115
     .line 116
     .line 117
-    check-cast p0, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -743,7 +743,7 @@
     .line 132
     .line 133
     .line 134
-    new-instance p0, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;
 
     .line 135
     .line 136
@@ -751,13 +751,13 @@
 
     .line 137
     .line 138
-    invoke-direct {p0, p1}, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;-><init>(Ljava/util/Map;)V
+    invoke-direct {p0, p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature$UnknownFeature;-><init>(Ljava/util/Map;)V
 
     .line 139
     .line 140
     .line 141
     :goto_2
-    check-cast p0, Lcom/jnetai/kikx2/client/live/models/stream/features/BroadcastFeature;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/BroadcastFeature;
 
     .line 142
     .line 143

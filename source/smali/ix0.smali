@@ -419,7 +419,7 @@
     move-object v3, v0
 
     .line 43
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 44
     .line 45
@@ -430,7 +430,7 @@
     move-object v1, v0
 
     .line 48
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 49
     .line 50
@@ -502,7 +502,7 @@
 
     .line 79
     .line 80
-    invoke-virtual {v5, v10, v11}, Llo9;->a(J)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v5, v10, v11}, Llo9;->a(J)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 81
     .line 82
@@ -565,7 +565,7 @@
     .line 111
     .line 112
     :cond_2
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->z()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->z()Lio/objectbox/relation/ToOne;
 
     .line 113
     .line 114
@@ -584,7 +584,7 @@
     move-object v13, v5
 
     .line 121
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 122
     .line 123
@@ -643,7 +643,7 @@
     .line 150
     .line 151
     :cond_3
-    invoke-virtual {v15}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual {v15}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 152
     .line 153
@@ -800,7 +800,7 @@
 
     .line 220
     :goto_2
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 221
     .line 222
@@ -867,7 +867,7 @@
 
     .line 248
     .line 249
-    invoke-virtual {v14, v3, v4}, Lxza;->k0(Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
+    invoke-virtual {v14, v3, v4}, Lxza;->k0(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;Lyza;)V
 
     .line 250
     .line 251
@@ -941,7 +941,7 @@
 
     .line 282
     :goto_7
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 283
     .line 284

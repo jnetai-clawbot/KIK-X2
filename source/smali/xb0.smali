@@ -152,7 +152,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
+.method public constructor <init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
     .locals 1
 
     const/4 v0, 0x5
@@ -248,7 +248,7 @@
     return-void
 .end method
 
-.method public static final m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
+.method public static final m(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/lang/Object;
     .locals 12
 
     .line 1
@@ -346,7 +346,7 @@
 
     .line 44
     .line 45
-    iget-object v6, v0, Lgp8;->X:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v6, v0, Lgp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 46
     .line 47
@@ -478,7 +478,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 109
     .line 110
@@ -486,7 +486,7 @@
     move-result-object v6
 
     .line 112
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/client/live/models/SnsUser;
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->t()Lcom/jnetai/kikx2/kikx2/client/live/models/SnsUser;
 
     .line 113
     .line 114
@@ -510,7 +510,7 @@
 
     .line 123
     .line 124
-    iput-object p1, v0, Lgp8;->X:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p1, v0, Lgp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 125
     .line 126
@@ -651,7 +651,7 @@
     move-result-object v10
 
     .line 190
-    check-cast v10, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 191
     .line 192
@@ -768,7 +768,7 @@
     return-object p0
 .end method
 
-.method public static final n(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/io/Serializable;
+.method public static final n(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lga3;)Ljava/io/Serializable;
     .locals 10
 
     .line 1
@@ -862,7 +862,7 @@
 
     .line 42
     .line 43
-    iget-object v5, v0, Lhp8;->X:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v5, v0, Lhp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 44
     .line 45
@@ -1035,7 +1035,7 @@
     .line 125
     .line 126
     .line 127
-    iput-object p1, v0, Lhp8;->X:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p1, v0, Lhp8;->X:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 128
     .line 129
@@ -1531,11 +1531,11 @@
     .line 148
     .line 149
     .line 150
-    sget-object v14, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v14, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 151
     .line 152
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 153
     .line 154
@@ -5884,7 +5884,7 @@
     move-object v5, p2
 
     .line 72
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 73
     .line 74
@@ -5906,7 +5906,7 @@
 
     .line 81
     .line 82
-    invoke-direct/range {v3 .. v8}, Lxb0;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v3 .. v8}, Lxb0;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lea3;)V
 
     .line 83
     .line 84
@@ -6659,7 +6659,7 @@
 
     .line 40
     .line 41
-    check-cast v5, Lcom/jnetai/kikx2/App;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/App;
 
     .line 42
     .line 43
@@ -6706,11 +6706,11 @@
     .line 60
     .line 61
     :try_start_1
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 62
     .line 63
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 64
     .line 65
@@ -7007,7 +7007,7 @@
 
     .line 208
     .line 209
-    invoke-static {v5, v3, v4, v1, v0}, Llia;->a(Lcom/jnetai/kikx2/App;Lw6a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
+    invoke-static {v5, v3, v4, v1, v0}, Llia;->a(Lcom/jnetai/kikx2/kikx2/App;Lw6a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
 
     .line 210
     .line 211
@@ -7116,7 +7116,7 @@
 
     .line 254
     .line 255
-    check-cast v0, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 256
     .line 257
@@ -7269,7 +7269,7 @@
 
     .line 329
     .line 330
-    invoke-direct {v5, v7, v0, v13, v6}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
+    invoke-direct {v5, v7, v0, v13, v6}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
 
     .line 331
     .line 332
@@ -7286,7 +7286,7 @@
 
     .line 338
     .line 339
-    invoke-direct {v10, v7, v0, v13, v3}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
+    invoke-direct {v10, v7, v0, v13, v3}, Lfp8;-><init>(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;I)V
 
     .line 340
     .line 341

@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public static final a(Lcom/jnetai/kikx2/App;Lga3;)Ljava/lang/Object;
+.method public static final a(Lcom/jnetai/kikx2/kikx2/App;Lga3;)Ljava/lang/Object;
     .locals 12
 
     .line 1

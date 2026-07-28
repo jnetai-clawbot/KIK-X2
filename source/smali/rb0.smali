@@ -55,11 +55,11 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 2
     .line 3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 4
     .line 5
@@ -97,7 +97,7 @@
 
 
 # virtual methods
-.method public final b(Lcom/jnetai/kikx2/App;Ls1f;Ljava/io/File;Lrza;Lga3;)Ljava/lang/Object;
+.method public final b(Lcom/jnetai/kikx2/kikx2/App;Ls1f;Ljava/io/File;Lrza;Lga3;)Ljava/lang/Object;
     .locals 14
 
     .line 1
@@ -250,7 +250,7 @@
 
     .line 66
     .line 67
-    iget-object p1, v10, Ljb0;->X:Lcom/jnetai/kikx2/App;
+    iget-object p1, v10, Ljb0;->X:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 68
     .line 69
@@ -284,7 +284,7 @@
     .line 81
     .line 82
     .line 83
-    iput-object p1, v10, Ljb0;->X:Lcom/jnetai/kikx2/App;
+    iput-object p1, v10, Ljb0;->X:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 84
     .line 85
@@ -426,7 +426,7 @@
     .line 150
     .line 151
     .line 152
-    iput-object v12, v10, Ljb0;->X:Lcom/jnetai/kikx2/App;
+    iput-object v12, v10, Ljb0;->X:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 153
     .line 154
@@ -758,7 +758,7 @@
     throw p0
 .end method
 
-.method public final d(Lcom/jnetai/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
+.method public final d(Lcom/jnetai/kikx2/kikx2/App;Ls1f;Lsh9;Ljava/io/File;Lm35;Lga3;)Ljava/lang/Object;
     .locals 9
 
     .line 1

@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
     .locals 0
 
     .line 1

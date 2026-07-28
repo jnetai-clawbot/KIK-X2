@@ -760,7 +760,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 19
     .line 20
@@ -818,7 +818,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 47
     .line 48
@@ -2472,7 +2472,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -2488,7 +2488,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 13
     .line 14
@@ -2502,7 +2502,7 @@
     const/4 v2, 0x1
 
     .line 18
-    invoke-virtual {v0, v2, v1}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->m(IZ)V
+    invoke-virtual {v0, v2, v1}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->m(IZ)V
 
     .line 19
     .line 20
@@ -2557,7 +2557,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 10
     .line 11
@@ -2568,12 +2568,12 @@
     const/4 v1, 0x1
 
     .line 14
-    invoke-virtual {v0, v1, v1}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->m(IZ)V
+    invoke-virtual {v0, v1, v1}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->m(IZ)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 18
     .line 19
@@ -2586,7 +2586,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 25
     .line 26
@@ -2598,7 +2598,7 @@
 
     .line 29
     .line 30
-    invoke-direct {v1, p0, v0}, Lgr1;-><init>(Lhr1;Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-direct {v1, p0, v0}, Lgr1;-><init>(Lhr1;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 31
     .line 32

@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Lcom/jnetai/kikx2/App;Ltlc;Lpk8;)Ldlc;
+.method public static a(Lcom/jnetai/kikx2/kikx2/App;Ltlc;Lpk8;)Ldlc;
     .locals 33
 
     .line 1

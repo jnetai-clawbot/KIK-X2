@@ -64,7 +64,7 @@
 
     .line 9
     .line 10
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 11
     .line 12
@@ -82,11 +82,11 @@
     .line 18
     .line 19
     .line 20
-    iget-object p1, v3, Ld05;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object p1, v3, Ld05;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 21
     .line 22
-    iget-object v0, v3, Ld05;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v3, Ld05;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 23
     .line 24
@@ -110,7 +110,7 @@
     move-result-object v2
 
     .line 34
-    invoke-static {v0, p1, v2}, Lvzh;->c(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lblf;)Ltp5;
+    invoke-static {v0, p1, v2}, Lvzh;->c(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lblf;)Ltp5;
 
     .line 35
     .line 36
@@ -176,7 +176,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -218,11 +218,11 @@
 
     .line 85
     .line 86
-    iget-object v0, v3, Ld05;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v3, Ld05;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 87
     .line 88
-    iget-object v3, v3, Ld05;->b:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v3, v3, Ld05;->b:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 89
     .line 90
@@ -246,7 +246,7 @@
     move-result-object p0
 
     .line 100
-    invoke-static {v3, v0, p0}, Lvzh;->c(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lblf;)Ltp5;
+    invoke-static {v3, v0, p0}, Lvzh;->c(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lblf;)Ltp5;
 
     .line 101
     .line 102
@@ -255,7 +255,7 @@
 
     .line 104
     :cond_2
-    invoke-static {p1, v0, v2}, Lihf;->c(Lihf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Ltp5;)V
+    invoke-static {p1, v0, v2}, Lihf;->c(Lihf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ltp5;)V
 
     .line 105
     .line 106

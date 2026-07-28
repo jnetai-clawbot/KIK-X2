@@ -1626,11 +1626,11 @@
 
     .line 721
     .line 722
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 723
     .line 724
-    invoke-direct {v0, v1, v13, v6}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v0, v1, v13, v6}, Lne2;-><init>(Ldf5;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 725
     .line 726
@@ -1765,7 +1765,7 @@
 
     .line 784
     .line 785
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 786
     .line 787
@@ -2189,7 +2189,7 @@
 
     .line 976
     .line 977
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 978
     .line 979

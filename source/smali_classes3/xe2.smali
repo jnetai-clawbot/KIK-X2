@@ -659,7 +659,7 @@
     move-result-object v9
 
     .line 227
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 228
     .line 229
@@ -702,7 +702,7 @@
 
     .line 248
     .line 249
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 250
     .line 251
@@ -1582,11 +1582,11 @@
 
     .line 675
     .line 676
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 677
     .line 678
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 679
     .line 680
@@ -1997,7 +1997,7 @@
     move-result-object v5
 
     .line 873
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 874
     .line 875
@@ -2009,11 +2009,11 @@
 
     .line 878
     :cond_15
-    sget-object v9, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;
+    sget-object v9, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;
 
     .line 879
     .line 880
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->getRoomState()Liud;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->getRoomState()Liud;
 
     .line 881
     .line 882
@@ -2029,7 +2029,7 @@
     move-result-object v16
 
     .line 888
-    check-cast v16, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v16, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 889
     .line 890
@@ -2037,7 +2037,7 @@
 
     .line 891
     .line 892
-    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;->getJoinArgs()Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;->getJoinArgs()Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 893
     .line 894
@@ -2045,7 +2045,7 @@
     move-result-object v17
 
     .line 896
-    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;->getChatId()Ljava/lang/String;
+    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;->getChatId()Ljava/lang/String;
 
     .line 897
     .line 898
@@ -2053,7 +2053,7 @@
     move-result-object v8
 
     .line 900
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 901
     .line 902
@@ -2090,7 +2090,7 @@
 
     .line 916
     .line 917
-    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;->getJoinArgs()Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;
+    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;->getJoinArgs()Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;
 
     .line 918
     .line 919
@@ -2098,7 +2098,7 @@
     move-result-object v2
 
     .line 921
-    invoke-direct {v1, v2}, Lfe2;-><init>(Lcom/jnetai/kikx2/ui/videochat/VideoChatJoinArgs;)V
+    invoke-direct {v1, v2}, Lfe2;-><init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatJoinArgs;)V
 
     .line 922
     .line 923
@@ -2132,7 +2132,7 @@
     .line 937
     .line 938
     :cond_17
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
 
     .line 939
     .line 940
@@ -2164,7 +2164,7 @@
 
     .line 953
     .line 954
-    invoke-virtual {v9}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInTelephonyCall()Z
+    invoke-virtual {v9}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInTelephonyCall()Z
 
     .line 955
     .line 956
@@ -2197,7 +2197,7 @@
     move-result-object v5
 
     .line 970
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 971
     .line 972
@@ -2240,7 +2240,7 @@
 
     .line 991
     .line 992
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;->b()Ljava/util/UUID;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;->b()Ljava/util/UUID;
 
     .line 993
     .line 994

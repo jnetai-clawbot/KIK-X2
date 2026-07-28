@@ -236,7 +236,7 @@
     move-result-object v7
 
     .line 90
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 91
     .line 92
@@ -349,7 +349,7 @@
 
     .line 147
     .line 148
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 149
     .line 150
@@ -448,7 +448,7 @@
     move v3, v2
 
     .line 194
-    new-instance v2, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;
+    new-instance v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;
 
     .line 195
     .line 196
@@ -504,12 +504,12 @@
 
     .line 219
     .line 220
-    invoke-direct/range {v2 .. v9}, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;-><init>(JLjava/lang/String;JILzw3;)V
+    invoke-direct/range {v2 .. v9}, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;-><init>(JLjava/lang/String;JILzw3;)V
 
     .line 221
     .line 222
     .line 223
-    iget-object v3, v2, Lcom/jnetai/kikx2/storage/box/message/WhoReadEntry;->message:Lio/objectbox/relation/ToOne;
+    iget-object v3, v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/WhoReadEntry;->message:Lio/objectbox/relation/ToOne;
 
     .line 224
     .line 225
@@ -517,7 +517,7 @@
 
     .line 226
     .line 227
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 228
     .line 229
@@ -649,7 +649,7 @@
 
     .line 284
     :goto_2
-    invoke-virtual {v13, v1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->J(I)Z
+    invoke-virtual {v13, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->J(I)Z
 
     .line 285
     .line 286
@@ -661,7 +661,7 @@
 
     .line 289
     .line 290
-    invoke-virtual {v10, v13}, Llo9;->g(Lcom/jnetai/kikx2/storage/box/message/KikMessage;)J
+    invoke-virtual {v10, v13}, Llo9;->g(Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)J
 
     .line 291
     .line 292

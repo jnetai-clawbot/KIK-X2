@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+.field public final a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
 .field public final b:I
 
@@ -19,7 +19,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 0
 
     .line 1
@@ -28,7 +28,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Len5;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iput-object p1, p0, Len5;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -109,7 +109,7 @@
     .line 6
     .line 7
     :try_start_0
-    iget-object p0, p0, Len5;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Len5;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 8
     .line 9
@@ -373,7 +373,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Len5;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object p0, p0, Len5;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 2
     .line 3

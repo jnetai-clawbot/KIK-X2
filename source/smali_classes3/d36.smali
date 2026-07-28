@@ -1863,7 +1863,7 @@
 
     .line 216
     .line 217
-    check-cast v2, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;
 
     .line 218
     .line 219
@@ -1908,7 +1908,7 @@
 
     .line 239
     .line 240
-    invoke-interface {v2, v9, v11, v6, v3}, Lcom/jnetai/kikx2/apis/tenor/GifApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {v2, v9, v11, v6, v3}, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 241
     .line 242

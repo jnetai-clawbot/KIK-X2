@@ -265,7 +265,7 @@
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 110
     .line 111
@@ -273,7 +273,7 @@
     move-result-object p0
 
     .line 113
-    invoke-static {p0}, Ljsg;->i(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-static {p0}, Ljsg;->i(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 114
     .line 115

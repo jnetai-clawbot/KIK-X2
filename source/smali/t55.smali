@@ -77,11 +77,11 @@
 
     .line 8
     .line 9
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -94,7 +94,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -117,7 +117,7 @@
     const/4 v0, 0x1
 
     .line 29
-    invoke-virtual {p1, v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->C(Z)V
+    invoke-virtual {p1, v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->C(Z)V
 
     .line 30
     .line 31
@@ -127,12 +127,12 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->y(Z)V
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->y(Z)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v1, p1}, Lblf;->k(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-virtual {v1, p1}, Lblf;->k(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 38
     .line 39

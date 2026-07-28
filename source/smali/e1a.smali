@@ -369,7 +369,7 @@
 
     .line 138
     .line 139
-    new-instance v6, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    new-instance v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 140
     .line 141
@@ -386,7 +386,7 @@
     const/4 v10, 0x0
 
     .line 146
-    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
+    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
 
     .line 147
     .line 148
@@ -403,7 +403,7 @@
 
     .line 153
     .line 154
-    new-instance v6, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    new-instance v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 155
     .line 156
@@ -433,7 +433,7 @@
 
     .line 167
     .line 168
-    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
+    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
 
     .line 169
     .line 170
@@ -450,7 +450,7 @@
 
     .line 175
     .line 176
-    new-instance v6, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    new-instance v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 177
     .line 178
@@ -476,7 +476,7 @@
 
     .line 187
     .line 188
-    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
+    invoke-direct/range {v6 .. v12}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
 
     .line 189
     .line 190

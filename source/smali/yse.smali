@@ -123,7 +123,7 @@
 
     .line 43
     .line 44
-    const-string v8, "getGender()Lcom/jnetai/kikx2/client/live/models/enums/Gender;"
+    const-string v8, "getGender()Lcom/jnetai/kikx2/kikx2/client/live/models/enums/Gender;"
 
     .line 45
     .line 46
@@ -191,7 +191,7 @@
 
     .line 79
     .line 80
-    const-string v12, "getLocation()Lcom/jnetai/kikx2/client/live/repos/oauth/myprofile/requests/patches/TmgLocationPatch;"
+    const-string v12, "getLocation()Lcom/jnetai/kikx2/kikx2/client/live/repos/oauth/myprofile/requests/patches/TmgLocationPatch;"
 
     .line 81
     .line 82
@@ -208,7 +208,7 @@
 
     .line 88
     .line 89
-    const-string v13, "getPrivacySettings()Lcom/jnetai/kikx2/client/live/repos/oauth/myprofile/requests/patches/TmgPrivacySettingsPatch;"
+    const-string v13, "getPrivacySettings()Lcom/jnetai/kikx2/kikx2/client/live/repos/oauth/myprofile/requests/patches/TmgPrivacySettingsPatch;"
 
     .line 90
     .line 91

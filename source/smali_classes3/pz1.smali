@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Ldd3;Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;)V
     .locals 1
 
     .line 22
@@ -194,7 +194,7 @@
     move-object v14, v8
 
     .line 31
-    check-cast v14, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v14, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 32
     .line 33
@@ -230,7 +230,7 @@
 
     .line 48
     .line 49
-    invoke-direct/range {v11 .. v18}, Ldp8;-><init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
+    invoke-direct/range {v11 .. v18}, Ldp8;-><init>(Lkotlin/jvm/functions/Function0;Lsoc;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lk0a;Lk0a;Lk0a;Lea3;)V
 
     .line 50
     .line 51

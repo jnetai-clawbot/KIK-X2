@@ -384,7 +384,7 @@
 
     .line 115
     .line 116
-    iget-object v5, p0, Lkza;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v5, p0, Lkza;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 117
     .line 118
@@ -392,7 +392,7 @@
 
     .line 119
     .line 120
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->b()Lio/objectbox/relation/ToOne;
 
     .line 121
     .line 122
@@ -408,7 +408,7 @@
     move-result-object v5
 
     .line 128
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 129
     .line 130
@@ -416,7 +416,7 @@
 
     .line 131
     .line 132
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->i()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->i()Z
 
     .line 133
     .line 134

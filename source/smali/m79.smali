@@ -257,7 +257,7 @@
     .locals 0
 
     .line 1
-    sget-object p0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 2
     .line 3
@@ -278,7 +278,7 @@
     .line 5
     .line 6
     .line 7
-    sget-object p1, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 8
     .line 9
@@ -309,7 +309,7 @@
 
     .line 19
     .line 20
-    iget-object v0, p2, Ln79;->e:Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+    iget-object v0, p2, Ln79;->e:Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
     .line 21
     .line 22
@@ -317,7 +317,7 @@
 
     .line 23
     .line 24
-    iput-object p1, v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Y:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Y:Ljava/lang/String;
 
     .line 25
     .line 26
@@ -368,7 +368,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object p1, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 5
     .line 6

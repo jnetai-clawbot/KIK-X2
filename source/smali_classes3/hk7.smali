@@ -41,7 +41,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(IZLgs7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;I)V
+.method public synthetic constructor <init>(IZLgs7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;I)V
     .locals 1
 
     .line 1
@@ -377,7 +377,7 @@
 
     .line 99
     .line 100
-    check-cast v27, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v27, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 101
     .line 102
@@ -514,7 +514,7 @@
 
     .line 168
     .line 169
-    invoke-static/range {v24 .. v39}, Ljk7;->c(IZLgs7;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v24 .. v39}, Ljk7;->c(IZLgs7;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;ZILzj7;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 170
     .line 171

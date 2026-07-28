@@ -85,11 +85,11 @@
 
     .line 19
     .line 20
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 21
     .line 22
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 23
     .line 24
@@ -97,7 +97,7 @@
     move-result-object v3
 
     .line 26
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/App;->a()Landroid/content/pm/PackageManager;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/App;->a()Landroid/content/pm/PackageManager;
 
     .line 27
     .line 28
@@ -240,11 +240,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 5
     .line 6
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 7
     .line 8
@@ -252,7 +252,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/App;->a()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/App;->a()Landroid/content/pm/PackageManager;
 
     .line 11
     .line 12

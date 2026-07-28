@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZJ)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZJ)V
     .locals 1
 
     .line 1
@@ -532,7 +532,7 @@
 
     .line 226
     :pswitch_1
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 227
     .line 228
@@ -612,7 +612,7 @@
 
     .line 263
     .line 264
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->b()Z
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->b()Z
 
     .line 265
     .line 266

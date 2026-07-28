@@ -1710,7 +1710,7 @@
 
     .line 618
     :pswitch_13
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 619
     .line 620
@@ -1739,7 +1739,7 @@
 
     .line 632
     :pswitch_14
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 633
     .line 634
@@ -2961,7 +2961,7 @@
 
     .line 1213
     .line 1214
-    invoke-interface {p1}, Lhif;->n()Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-interface {p1}, Lhif;->n()Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1215
     .line 1216

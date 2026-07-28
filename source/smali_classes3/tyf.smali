@@ -13,11 +13,11 @@
 
 .field public final synthetic Y:Lwyf;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lwyf;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lwyf;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Ltyf;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Ltyf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 6
     .line 7
@@ -63,7 +63,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Ltyf;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v3, p0, Ltyf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 8
     .line 9
@@ -95,7 +95,7 @@
     const/4 v0, 0x1
 
     .line 23
-    invoke-virtual {p0, v3, v0}, Lihf;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, v3, v0}, Lihf;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 24
     .line 25
@@ -194,7 +194,7 @@
     const/4 v0, 0x0
 
     .line 72
-    invoke-virtual {p0, v3, v0}, Lihf;->d(Lcom/jnetai/kikx2/storage/box/user/KikUser;Z)V
+    invoke-virtual {p0, v3, v0}, Lihf;->d(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Z)V
 
     .line 73
     .line 74

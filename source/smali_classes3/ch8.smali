@@ -11,11 +11,11 @@
 
 .field public final synthetic Y:Lkh8;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;I)V
+.method public synthetic constructor <init>(Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;I)V
     .locals 0
 
     .line 1
@@ -27,7 +27,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lch8;->Z:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iput-object p2, p0, Lch8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 6
     .line 7
@@ -60,7 +60,7 @@
     const/4 v3, 0x0
 
     .line 8
-    iget-object v4, v0, Lch8;->Z:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v4, v0, Lch8;->Z:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 9
     .line 10
@@ -246,7 +246,7 @@
 
     .line 88
     .line 89
-    invoke-static/range {v8 .. v20}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v8 .. v20}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 90
     .line 91
@@ -461,7 +461,7 @@
     move-object v11, v5
 
     .line 182
-    invoke-static/range {v11 .. v23}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
+    invoke-static/range {v11 .. v23}, Lsoc;->c(Lsoc;Ljava/lang/Integer;Ljava/lang/String;ZZZLcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Ljava/util/List;Lxve;Lcom/jnetai/kikx2/kikx2/client/live/models/message/SnsFreeGift$a;Lroc;ZI)Lsoc;
 
     .line 183
     .line 184

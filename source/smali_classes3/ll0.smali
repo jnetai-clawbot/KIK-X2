@@ -144,7 +144,7 @@
     move-result v3
 
     .line 52
-    invoke-static {v0, v1, v2, v3}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->Y(Lk0a;Ljo2;Lgx2;I)Lsbf;
+    invoke-static {v0, v1, v2, v3}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->Y(Lk0a;Ljo2;Lgx2;I)Lsbf;
 
     .line 53
     .line 54

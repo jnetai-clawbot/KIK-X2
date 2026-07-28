@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;ZLcs8;I)V
+.method public synthetic constructor <init>(Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;ZLcs8;I)V
     .locals 1
 
     .line 26
@@ -412,7 +412,7 @@
 
     .line 128
     .line 129
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 130
     .line 131
@@ -420,15 +420,15 @@
 
     .line 132
     .line 133
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 134
     .line 135
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 136
     .line 137
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 138
     .line 139
@@ -503,7 +503,7 @@
     move v9, v0
 
     .line 170
-    invoke-static/range {v3 .. v12}, Lb68;->c(Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;ZLcs8;Lgx2;I)V
+    invoke-static/range {v3 .. v12}, Lb68;->c(Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Ljava/util/Set;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;ZLcs8;Lgx2;I)V
 
     .line 171
     .line 172

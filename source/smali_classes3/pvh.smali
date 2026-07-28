@@ -546,11 +546,11 @@
 
     .line 103
     .line 104
-    iget-object v4, p0, Lgza;->b:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v4, p0, Lgza;->b:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 105
     .line 106
-    invoke-virtual {v4, v7}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
+    invoke-virtual {v4, v7}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->c(Z)Ljava/lang/String;
 
     .line 107
     .line 108

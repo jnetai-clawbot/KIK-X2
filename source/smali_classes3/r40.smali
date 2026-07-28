@@ -4924,7 +4924,7 @@
     move-object v2, v6
 
     .line 1946
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1947
     .line 1948

@@ -277,7 +277,7 @@
 
     .line 97
     .line 98
-    sget-object v5, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 99
     .line 100
@@ -310,7 +310,7 @@
 
     .line 113
     :pswitch_5
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 114
     .line 115
@@ -326,7 +326,7 @@
 
     .line 120
     .line 121
-    invoke-direct {v0, v8}, Loec;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v0, v8}, Loec;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 122
     .line 123
@@ -340,7 +340,7 @@
 
     .line 128
     :pswitch_6
-    check-cast v8, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 129
     .line 130
@@ -348,7 +348,7 @@
 
     .line 131
     .line 132
-    invoke-static {v8, p0}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->m(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;)Lsbf;
+    invoke-static {v8, p0}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->m(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;)Lsbf;
 
     .line 133
     .line 134

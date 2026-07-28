@@ -72,7 +72,7 @@
     return-void
 .end method
 
-.method public static final a(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
+.method public static final a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
     .locals 38
 
     .line 1
@@ -555,7 +555,7 @@
 
     .line 210
     .line 211
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->j()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->j()Ljava/lang/String;
 
     .line 212
     .line 213
@@ -576,7 +576,7 @@
     .line 219
     .line 220
     :goto_f
-    invoke-static {v1}, Lp9h;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v1}, Lp9h;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 221
     .line 222
@@ -588,7 +588,7 @@
 
     .line 225
     .line 226
-    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->c()Ljava/lang/String;
+    invoke-virtual/range {v17 .. v17}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->c()Ljava/lang/String;
 
     .line 227
     .line 228
@@ -1953,7 +1953,7 @@
 
     .line 898
     .line 899
-    invoke-direct {v9, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v9, v1}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 900
     .line 901
@@ -2546,7 +2546,7 @@
     .line 1194
     .line 1195
     .line 1196
-    invoke-static {v1}, Lp9h;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v1}, Lp9h;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 1197
     .line 1198
@@ -2558,7 +2558,7 @@
 
     .line 1201
     .line 1202
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->i()Lnp4;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->i()Lnp4;
 
     .line 1203
     .line 1204
@@ -2727,7 +2727,7 @@
 
     .line 1281
     .line 1282
-    invoke-direct/range {v0 .. v8}, Lh82;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
+    invoke-direct/range {v0 .. v8}, Lh82;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;I)V
 
     .line 1283
     .line 1284
@@ -4100,7 +4100,7 @@
     return-void
 .end method
 
-.method public static final e(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+.method public static final e(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;Lgx2;I)V
     .locals 44
 
     .line 1
@@ -5204,7 +5204,7 @@
 
     .line 508
     .line 509
-    sget v20, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v20, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 510
     .line 511
@@ -5305,7 +5305,7 @@
 
     .line 555
     .line 556
-    invoke-static/range {v0 .. v8}, Lajf;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
+    invoke-static/range {v0 .. v8}, Lajf;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lgx2;I)V
 
     .line 557
     .line 558
@@ -5330,7 +5330,7 @@
     .line 567
     .line 568
     .line 569
-    invoke-static {v8}, Lp9h;->a(Lcom/jnetai/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    invoke-static {v8}, Lp9h;->a(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 570
     .line 571
@@ -5342,7 +5342,7 @@
 
     .line 574
     .line 575
-    invoke-direct {v0, v8}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, v8}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 576
     .line 577
@@ -5373,7 +5373,7 @@
     move-object v5, v3
 
     .line 588
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->s()Ljava/lang/String;
 
     .line 589
     .line 590
@@ -5524,7 +5524,7 @@
 
     .line 656
     .line 657
-    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->h()Ljava/lang/Integer;
+    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->h()Ljava/lang/Integer;
 
     .line 658
     .line 659
@@ -5580,7 +5580,7 @@
 
     .line 678
     .line 679
-    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->k()Ljava/util/List;
+    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->k()Ljava/util/List;
 
     .line 680
     .line 681
@@ -5726,7 +5726,7 @@
 
     .line 750
     .line 751
-    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
+    invoke-virtual/range {v19 .. v19}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->f()Ljava/lang/String;
 
     .line 752
     .line 753
@@ -6609,7 +6609,7 @@
 
     .line 1173
     .line 1174
-    invoke-direct/range {v0 .. v10}, Lbb2;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;I)V
+    invoke-direct/range {v0 .. v10}, Lbb2;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Ljava/util/Map;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lcq5;I)V
 
     .line 1175
     .line 1176

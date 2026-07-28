@@ -39,11 +39,11 @@
 
     .line 9
     .line 10
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 13
     .line 14
@@ -134,7 +134,7 @@
 
     .line 58
     .line 59
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 60
     .line 61
@@ -142,7 +142,7 @@
     move-result-object v3
 
     .line 63
-    invoke-direct {v2, v3}, Lnz3;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v2, v3}, Lnz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 64
     .line 65
@@ -453,7 +453,7 @@
 
     .line 226
     .line 227
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 228
     .line 229
@@ -461,7 +461,7 @@
     move-result-object v2
 
     .line 231
-    invoke-direct {v1, v2}, Lnz3;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v1, v2}, Lnz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 232
     .line 233
@@ -542,7 +542,7 @@
 
     .line 272
     .line 273
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 274
     .line 275
@@ -550,7 +550,7 @@
     move-result-object v1
 
     .line 277
-    invoke-direct {v0, v1}, Lnz3;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, v1}, Lnz3;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 278
     .line 279
@@ -579,11 +579,11 @@
 
     .line 7
     .line 8
-    sget-object v2, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 9
     .line 10
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
@@ -591,7 +591,7 @@
     move-result-object v2
 
     .line 14
-    invoke-direct {v1, v2}, Lpy4;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v1, v2}, Lpy4;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 15
     .line 16
@@ -859,11 +859,11 @@
 
     .line 5
     .line 6
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 7
     .line 8
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 9
     .line 10
@@ -871,7 +871,7 @@
     move-result-object v1
 
     .line 12
-    invoke-direct {v0, v1}, Lpy4;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v0, v1}, Lpy4;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 13
     .line 14
@@ -1127,7 +1127,7 @@
     return-object v0
 .end method
 
-.method public static d(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;ZZLth4;ZLqz4;I)Lhz4;
+.method public static d(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;ZZLth4;ZLqz4;I)Lhz4;
     .locals 23
 
     .line 1
@@ -1214,7 +1214,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -1234,11 +1234,11 @@
 
     .line 45
     .line 46
-    sget-object v5, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v5, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 47
     .line 48
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 49
     .line 50
@@ -1246,7 +1246,7 @@
     move-result-object v5
 
     .line 52
-    invoke-direct {v3, v5}, Lpy4;-><init>(Lcom/jnetai/kikx2/App;)V
+    invoke-direct {v3, v5}, Lpy4;-><init>(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 53
     .line 54
@@ -1341,7 +1341,7 @@
     move-result-object v3
 
     .line 99
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -1482,7 +1482,7 @@
 
     .line 164
     .line 165
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->m()Ljava/lang/String;
 
     .line 166
     .line 167
@@ -1510,7 +1510,7 @@
 
     .line 178
     .line 179
-    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->j()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->j()Ljava/lang/String;
 
     .line 180
     .line 181
@@ -1932,7 +1932,7 @@
 
 
 # virtual methods
-.method public final a(Lga3;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
+.method public final a(Lga3;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;Ljava/lang/String;)Ljava/lang/Object;
     .locals 4
 
     .line 1

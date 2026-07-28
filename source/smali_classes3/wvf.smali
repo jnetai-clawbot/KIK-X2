@@ -13,11 +13,11 @@
 
 .field public final synthetic Y:Lhwf;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lk0a;I)V
+.method public synthetic constructor <init>(Lhwf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lk0a;I)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 4
     .line 5
-    iput-object p2, p0, Lwvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p2, p0, Lwvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 6
     .line 7
@@ -111,14 +111,14 @@
     const/4 v5, 0x0
 
     .line 31
-    iget-object p0, p0, Lwvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object p0, p0, Lwvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 32
     .line 33
     const/4 v6, 0x0
 
     .line 34
-    invoke-direct {v4, v0, p0, v6, v5}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;I)V
+    invoke-direct {v4, v0, p0, v6, v5}, Lexf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;I)V
 
     .line 35
     .line 36
@@ -159,7 +159,7 @@
     const/4 v10, 0x1
 
     .line 54
-    iget-object v7, p0, Lwvf;->Z:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v7, p0, Lwvf;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 55
     .line 56
@@ -169,7 +169,7 @@
     const/4 v9, 0x0
 
     .line 58
-    invoke-direct/range {v5 .. v10}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;ZLea3;I)V
+    invoke-direct/range {v5 .. v10}, Lxwf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;ZLea3;I)V
 
     .line 59
     .line 60

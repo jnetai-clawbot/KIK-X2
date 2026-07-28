@@ -88,7 +88,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->f(Llw2;Lqq5;ILgx2;I)Lsbf;
+    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->f(Llw2;Lqq5;ILgx2;I)Lsbf;
 
     .line 21
     .line 22
@@ -100,7 +100,7 @@
 
     .line 25
     :pswitch_0
-    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->d(Llw2;Lqq5;ILgx2;I)Lsbf;
+    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->d(Llw2;Lqq5;ILgx2;I)Lsbf;
 
     .line 26
     .line 27
@@ -112,7 +112,7 @@
 
     .line 30
     :pswitch_1
-    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->a(Llw2;Lqq5;ILgx2;I)Lsbf;
+    invoke-static {p0, v2, v1, p1, p2}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/OngoingVideoChatTopBarKt;->a(Llw2;Lqq5;ILgx2;I)Lsbf;
 
     .line 31
     .line 32

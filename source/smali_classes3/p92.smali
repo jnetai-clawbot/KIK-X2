@@ -8,7 +8,7 @@
 
 .field public final synthetic b:Laa2;
 
-.field public final synthetic c:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic d:Lhud;
 
@@ -16,7 +16,7 @@
 
 
 # direct methods
-.method public constructor <init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;)V
+.method public constructor <init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -29,7 +29,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lp92;->c:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p2, p0, Lp92;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 7
     .line 8
@@ -902,7 +902,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {v1, p1, p2}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v1, p1, p2}, Lk83;->e(Lrdg;[B)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 109
     .line 110
@@ -918,11 +918,11 @@
     move-result-object p2
 
     .line 116
-    iget-object p0, p0, Lp92;->c:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p0, p0, Lp92;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 117
     .line 118
-    invoke-virtual {p2, p0, p1}, Lnf2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {p2, p0, p1}, Lnf2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 119
     .line 120

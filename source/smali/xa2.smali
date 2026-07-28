@@ -270,11 +270,11 @@
 
     .line 12
     .line 13
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->I()Lgcc;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->I()Lgcc;
 
     .line 16
     .line 17
@@ -303,7 +303,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32

@@ -79,7 +79,7 @@
     .line 15
     .line 16
     .line 17
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 18
     .line 19
@@ -100,7 +100,7 @@
     const/4 p1, 0x0
 
     .line 28
-    invoke-direct {p0, v3, p2, p1}, Lai3;-><init>(Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {p0, v3, p2, p1}, Lai3;-><init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 29
     .line 30
@@ -128,7 +128,7 @@
 
     .line 43
     :pswitch_0
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 44
     .line 45
@@ -146,7 +146,7 @@
 
     .line 52
     .line 53
-    invoke-direct {p0, v3, p2, v5}, Lai3;-><init>(Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;I)V
+    invoke-direct {p0, v3, p2, v5}, Lai3;-><init>(Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;I)V
 
     .line 54
     .line 55
@@ -174,7 +174,7 @@
 
     .line 68
     :pswitch_1
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 69
     .line 70
@@ -208,7 +208,7 @@
 
     .line 85
     .line 86
-    invoke-direct {v0, p0, v3, p2, v1}, Le7;-><init>(Llud;Lnf2;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lea3;)V
+    invoke-direct {v0, p0, v3, p2, v1}, Le7;-><init>(Llud;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lea3;)V
 
     .line 87
     .line 88
@@ -257,7 +257,7 @@
     move-object v9, p2
 
     .line 112
-    check-cast v9, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 113
     .line 114
@@ -354,7 +354,7 @@
 
     .line 160
     :pswitch_3
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 161
     .line 162

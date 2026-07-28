@@ -259,7 +259,7 @@
     .line 37
     .line 38
     .line 39
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 40
     .line 41
@@ -287,7 +287,7 @@
 
     .line 52
     .line 53
-    invoke-direct {v3, p1, v1, v6}, Lhf2;-><init>(Lffd;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v3, p1, v1, v6}, Lhf2;-><init>(Lffd;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 54
     .line 55
@@ -371,7 +371,7 @@
     .line 90
     .line 91
     .line 92
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 93
     .line 94
@@ -399,7 +399,7 @@
 
     .line 105
     .line 106
-    invoke-direct {v3, p1, v8, v1}, Lhf2;-><init>(Lffd;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v3, p1, v8, v1}, Lhf2;-><init>(Lffd;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 107
     .line 108
@@ -483,7 +483,7 @@
     .line 143
     .line 144
     .line 145
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 146
     .line 147

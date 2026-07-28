@@ -77,7 +77,7 @@
     move-result-object v1
 
     .line 15
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 16
     .line 17
@@ -175,11 +175,11 @@
     move-result-object v0
 
     .line 65
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 66
     .line 67
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;->c()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -522,7 +522,7 @@
 
     .line 148
     .line 149
-    sget-object v8, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;->Companion:Lbc2;
+    sget-object v8, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;->Companion:Lbc2;
 
     .line 150
     .line 151
@@ -536,7 +536,7 @@
     .line 155
     .line 156
     .line 157
-    new-instance v9, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    new-instance v9, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 158
     .line 159
@@ -695,7 +695,7 @@
 
     .line 229
     .line 230
-    invoke-direct/range {v9 .. v20}, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;-><init>(JLjava/lang/String;ZLjava/util/UUID;Lmeg;ZJILzw3;)V
+    invoke-direct/range {v9 .. v20}, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;-><init>(JLjava/lang/String;ZLjava/util/UUID;Lmeg;ZJILzw3;)V
 
     .line 231
     .line 232
@@ -751,11 +751,11 @@
 
     .line 257
     .line 258
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;
 
     .line 259
     .line 260
-    invoke-virtual {v4}, Lcom/jnetai/kikx2/storage/box/bluechat/ChatProfile;->c()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jnetai/kikx2/kikx2/storage/box/bluechat/ChatProfile;->c()Ljava/lang/String;
 
     .line 261
     .line 262

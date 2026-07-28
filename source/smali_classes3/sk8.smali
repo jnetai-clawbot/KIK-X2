@@ -305,7 +305,7 @@
 
     .line 117
     .line 118
-    invoke-static {p0, v3, p1}, Lcom/jnetai/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->d(ZLk0a;Lub4;)Ltb4;
+    invoke-static {p0, v3, p1}, Lcom/jnetai/kikx2/kikx2/ui/videochat/components/LiveKitVideoRendererKt;->d(ZLk0a;Lub4;)Ltb4;
 
     .line 119
     .line 120

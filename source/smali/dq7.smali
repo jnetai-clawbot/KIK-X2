@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
     .locals 7
 
     .line 1
@@ -13,7 +13,7 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 5
     .line 6
@@ -38,7 +38,7 @@
     move-object v3, p0
 
     .line 15
-    invoke-direct/range {v0 .. v6}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
+    invoke-direct/range {v0 .. v6}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
 
     .line 16
     .line 17
@@ -175,7 +175,7 @@
 
     .line 58
     :cond_3
-    new-instance v7, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    new-instance v7, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 59
     .line 60
@@ -217,7 +217,7 @@
 
     .line 76
     .line 77
-    invoke-direct/range {v7 .. v13}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
+    invoke-direct/range {v7 .. v13}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;-><init>(JLjava/lang/String;Ljava/lang/Long;ILzw3;)V
 
     .line 78
     .line 79

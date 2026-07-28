@@ -236,7 +236,7 @@
 
     .line 66
     .line 67
-    check-cast v6, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;
 
     .line 68
     .line 69
@@ -273,7 +273,7 @@
     move-result v2
 
     .line 86
-    invoke-static {v0, v6, v1, v2}, Luq8;->m(Lxs8;Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
+    invoke-static {v0, v6, v1, v2}, Luq8;->m(Lxs8;Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;Lgx2;I)V
 
     .line 87
     .line 88
@@ -543,7 +543,7 @@
 
     .line 215
     .line 216
-    check-cast v6, Lcom/jnetai/kikx2/client/stanzas/c;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 217
     .line 218
@@ -580,7 +580,7 @@
     move-result v2
 
     .line 235
-    invoke-static {v0, v6, v1, v2}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/client/stanzas/c;Lgx2;I)V
+    invoke-static {v0, v6, v1, v2}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/kikx2/client/stanzas/c;Lgx2;I)V
 
     .line 236
     .line 237
@@ -647,7 +647,7 @@
 
     .line 267
     .line 268
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 269
     .line 270
@@ -688,7 +688,7 @@
     move-result v2
 
     .line 289
-    invoke-virtual {v0, v6, v1, v2}, Lco7;->g(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lgx2;I)V
+    invoke-virtual {v0, v6, v1, v2}, Lco7;->g(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lgx2;I)V
 
     .line 290
     .line 291
@@ -1692,7 +1692,7 @@
 
     .line 777
     .line 778
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 779
     .line 780
@@ -1729,7 +1729,7 @@
     move-result v2
 
     .line 797
-    invoke-static {v0, v6, v1, v2}, Lb68;->f(Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lgx2;I)V
+    invoke-static {v0, v6, v1, v2}, Lb68;->f(Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lgx2;I)V
 
     .line 798
     .line 799

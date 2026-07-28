@@ -1939,7 +1939,7 @@
 
     .line 876
     .line 877
-    const-string v21, "openAllMilestones(Lcom/jnetai/kikx2/client/live/models/user/LiveUserDetails;)V"
+    const-string v21, "openAllMilestones(Lcom/jnetai/kikx2/kikx2/client/live/models/user/LiveUserDetails;)V"
 
     .line 878
     .line 879
@@ -2418,7 +2418,7 @@
 
     .line 1112
     .line 1113
-    sget v2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->$stable:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->$stable:I
 
     .line 1114
     .line 1115
@@ -2666,7 +2666,7 @@
 
     .line 1237
     .line 1238
-    const-string v21, "setMilestoneSortDirection(Lcom/jnetai/kikx2/ui/fragments/live/uimodels/SortDirection;)V"
+    const-string v21, "setMilestoneSortDirection(Lcom/jnetai/kikx2/kikx2/ui/fragments/live/uimodels/SortDirection;)V"
 
     .line 1239
     .line 1240
@@ -3486,7 +3486,7 @@
 
     .line 1651
     .line 1652
-    const-string v21, "claimChallenge(Lcom/jnetai/kikx2/client/live/repos/oauth/challenges/models/TmgChallengeV2;)V"
+    const-string v21, "claimChallenge(Lcom/jnetai/kikx2/kikx2/client/live/repos/oauth/challenges/models/TmgChallengeV2;)V"
 
     .line 1653
     .line 1654

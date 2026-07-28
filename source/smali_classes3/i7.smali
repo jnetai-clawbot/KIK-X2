@@ -133,7 +133,7 @@
     return-void
 .end method
 
-.method public static j(Li1d;Li7;Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljo2;Lgx2;I)V
+.method public static j(Li1d;Li7;Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljo2;Lgx2;I)V
     .locals 19
 
     .line 1
@@ -488,7 +488,7 @@
 
     .line 161
     .line 162
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 163
     .line 164
@@ -521,7 +521,7 @@
     .line 177
     .line 178
     .line 179
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->n()Ljo7;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->n()Ljo7;
 
     .line 180
     .line 181
@@ -1485,7 +1485,7 @@
     move-result-object v2
 
     .line 262
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 263
     .line 264

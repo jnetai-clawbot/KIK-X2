@@ -476,7 +476,7 @@
 
     .line 192
     :cond_5
-    new-instance v3, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    new-instance v3, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 193
     .line 194
@@ -560,12 +560,12 @@
     move-object v8, v7
 
     .line 232
-    invoke-direct/range {v3 .. v21}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZJLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;I)V
+    invoke-direct/range {v3 .. v21}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZJLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;I)V
 
     .line 233
     .line 234
     .line 235
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->f()Lio/objectbox/relation/ToOne;
 
     .line 236
     .line 237
@@ -577,7 +577,7 @@
 
     .line 240
     .line 241
-    new-instance v8, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    new-instance v8, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 242
     .line 243
@@ -598,7 +598,7 @@
     move-object v11, v2
 
     .line 250
-    invoke-direct/range {v8 .. v17}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;-><init>(JLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v8 .. v17}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;-><init>(JLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 251
     .line 252
@@ -645,7 +645,7 @@
     .line 273
     .line 274
     .line 275
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 276
     .line 277

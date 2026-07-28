@@ -57,7 +57,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 12
     .line 13
@@ -73,7 +73,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lxu7;->getActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 20
     .line 21
@@ -88,7 +88,7 @@
     const/4 v2, 0x0
 
     .line 26
-    invoke-virtual {v0, v1, v2}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->m(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->m(IZ)V
 
     .line 27
     .line 28

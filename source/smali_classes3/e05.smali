@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic R0:Lkotlin/jvm/functions/Function0;
 
@@ -15,11 +15,11 @@
 
 .field public final synthetic Y:Lcq5;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcq5;Lkotlin/jvm/functions/Function0;)V
     .locals 1
 
     .line 1
@@ -35,11 +35,11 @@
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Le05;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p1, p0, Le05;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 8
     .line 9
-    iput-object p2, p0, Le05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Le05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 10
     .line 11
@@ -54,7 +54,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcq5;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;I)V
+.method public synthetic constructor <init>(Lcq5;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lkotlin/jvm/functions/Function0;I)V
     .locals 0
 
     .line 16
@@ -62,9 +62,9 @@
 
     iput-object p1, p0, Le05;->Y:Lcq5;
 
-    iput-object p2, p0, Le05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iput-object p2, p0, Le05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
-    iput-object p3, p0, Le05;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p3, p0, Le05;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     iput-object p4, p0, Le05;->R0:Lkotlin/jvm/functions/Function0;
 
@@ -97,11 +97,11 @@
 
     .line 8
     .line 9
-    iget-object v5, p0, Le05;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v5, p0, Le05;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 10
     .line 11
-    iget-object v6, p0, Le05;->Z:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v6, p0, Le05;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 12
     .line 13
@@ -126,7 +126,7 @@
 
     .line 23
     :cond_0
-    invoke-direct {v0, v6, v2, v1}, Ljza;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZZ)V
+    invoke-direct {v0, v6, v2, v1}, Ljza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZZ)V
 
     .line 24
     .line 25
@@ -161,7 +161,7 @@
 
     .line 39
     :goto_0
-    invoke-direct {v0, v6, v1, v2}, Ljza;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;ZZ)V
+    invoke-direct {v0, v6, v1, v2}, Ljza;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;ZZ)V
 
     .line 40
     .line 41
@@ -184,7 +184,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v6}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->t()Z
+    invoke-virtual {v6}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->t()Z
 
     .line 52
     .line 53
@@ -200,7 +200,7 @@
 
     .line 58
     .line 59
-    invoke-direct {v0, v5, v6}, Lqec;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, v5, v6}, Lqec;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 60
     .line 61
@@ -218,7 +218,7 @@
 
     .line 67
     .line 68
-    invoke-direct {v0, v6}, Lpec;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, v6}, Lpec;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 69
     .line 70

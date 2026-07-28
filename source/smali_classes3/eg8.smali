@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field public Q0:Lcom/jnetai/kikx2/client/live/models/stream/features/LiveBroadcastMetadataResponse;
+.field public Q0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/features/LiveBroadcastMetadataResponse;
 
 .field public R0:Lzf8;
 
-.field public S0:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+.field public S0:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
 .field public T0:Lj7c;
 

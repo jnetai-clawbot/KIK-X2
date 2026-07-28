@@ -1061,17 +1061,17 @@
     if-eqz v0, :cond_26
 
     .line 2
-    iget-object v0, v2, Lwz4;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v2, Lwz4;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 3
     iget-object v1, v2, Lwz4;->b:Lgcc;
 
-    invoke-interface {v1}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v1}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     move-result-object v16
 
     .line 4
-    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->c()Ljava/lang/String;
+    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1086,7 +1086,7 @@
 
     .line 5
     :goto_16
-    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
+    invoke-virtual/range {v16 .. v16}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->e()Lio/objectbox/relation/ToOne;
 
     move-result-object v1
 
@@ -1369,7 +1369,7 @@
 
     move-object/from16 v10, p14
 
-    invoke-direct/range {v0 .. v23}, Lb05;-><init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lwz4;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ZLj73;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lcq5;Lk0a;Lcq5;)V
+    invoke-direct/range {v0 .. v23}, Lb05;-><init>(ZLkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lwz4;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ZLj73;Lkotlin/jvm/functions/Function0;Lcq5;Lcq5;Lcq5;Lkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lcq5;Lk0a;Lcq5;)V
 
     const v1, -0x4240a085
 
@@ -2679,7 +2679,7 @@
 
     .line 98
     .line 99
-    invoke-interface {v7}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v7}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 100
     .line 101
@@ -2687,7 +2687,7 @@
     move-result-object v7
 
     .line 103
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 104
     .line 105
@@ -2699,7 +2699,7 @@
 
     .line 108
     .line 109
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->j()I
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->j()I
 
     .line 110
     .line 111
@@ -2758,7 +2758,7 @@
     .line 138
     .line 139
     :cond_8
-    iget-object v7, v7, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->whoReadEntries:Lio/objectbox/relation/ToMany;
+    iget-object v7, v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->whoReadEntries:Lio/objectbox/relation/ToMany;
 
     .line 140
     .line 141

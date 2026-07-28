@@ -306,7 +306,7 @@
 
     .line 91
     :cond_3
-    sget-object p1, Lcom/jnetai/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;
+    sget-object p1, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException;->Companion:Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;
 
     .line 92
     .line 93
@@ -319,7 +319,7 @@
 
     .line 97
     .line 98
-    invoke-static {p1, v0}, Lcom/jnetai/kikx2/client/stanzas/StanzaException$Companion;->c(ILjava/lang/Throwable;)Z
+    invoke-static {p1, v0}, Lcom/jnetai/kikx2/kikx2/client/stanzas/StanzaException$Companion;->c(ILjava/lang/Throwable;)Z
 
     .line 99
     .line 100

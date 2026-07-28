@@ -127,11 +127,11 @@
     move-result-object v0
 
     .line 45
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 46
     .line 47
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->c()Ljava/lang/String;
 
     .line 48
     .line 49

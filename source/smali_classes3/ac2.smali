@@ -163,7 +163,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;I)V
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;I)V
     .locals 1
 
     .line 29
@@ -684,11 +684,11 @@
 
     .line 208
     .line 209
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 210
     .line 211
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 212
     .line 213
@@ -762,7 +762,7 @@
     move-object v10, v3
 
     .line 245
-    invoke-static/range {v5 .. v13}, Lvvh;->c(Lkotlin/jvm/functions/Function0;ZLcom/jnetai/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lgx2;I)V
+    invoke-static/range {v5 .. v13}, Lvvh;->c(Lkotlin/jvm/functions/Function0;ZLcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lgx2;I)V
 
     .line 246
     .line 247

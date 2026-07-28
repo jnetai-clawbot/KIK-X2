@@ -358,7 +358,7 @@
 
     .line 127
     .line 128
-    const-string v18, "updatePlaybackState(Lcom/jnetai/kikx2/ui/message/content/RenderableFullScreenContentMessage;Lcom/jnetai/kikx2/ui/components/video/VideoPlayerState;)V"
+    const-string v18, "updatePlaybackState(Lcom/jnetai/kikx2/kikx2/ui/message/content/RenderableFullScreenContentMessage;Lcom/jnetai/kikx2/kikx2/ui/components/video/VideoPlayerState;)V"
 
     .line 129
     .line 130

@@ -274,11 +274,11 @@
 
     .line 103
     .line 104
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 105
     .line 106
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 107
     .line 108
@@ -696,11 +696,11 @@
 
     .line 289
     .line 290
-    check-cast v7, Lcom/jnetai/kikx2/apis/tenor/GifApi;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;
 
     .line 291
     .line 292
-    invoke-direct {v0, v8, v7}, Lu26;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/apis/tenor/GifApi;)V
+    invoke-direct {v0, v8, v7}, Lu26;-><init>(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/apis/tenor/GifApi;)V
 
     .line 293
     .line 294
@@ -999,7 +999,7 @@
 
     .line 437
     .line 438
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 439
     .line 440

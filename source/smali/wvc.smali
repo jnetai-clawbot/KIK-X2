@@ -116,11 +116,11 @@
     .line 40
     .line 41
     .line 42
-    iget-object v0, v0, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, v0, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 43
     .line 44
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 45
     .line 46

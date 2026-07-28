@@ -393,7 +393,7 @@
     move-result-object v0
 
     .line 59
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 60
     .line 61
@@ -413,7 +413,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 70
     .line 71
@@ -1646,7 +1646,7 @@
     move-result-object v43
 
     .line 676
-    check-cast v43, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v43, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 677
     .line 678
@@ -1654,7 +1654,7 @@
 
     .line 679
     .line 680
-    invoke-virtual/range {v43 .. v43}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
+    invoke-virtual/range {v43 .. v43}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->o()Ljava/lang/String;
 
     .line 681
     .line 682
@@ -3164,11 +3164,11 @@
 
     .line 1437
     .line 1438
-    iget-object v0, v0, Lrp5;->a:Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    iget-object v0, v0, Lrp5;->a:Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1439
     .line 1440
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 1441
     .line 1442
@@ -3189,7 +3189,7 @@
     move-result-object v48
 
     .line 1451
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->h()Ljava/lang/String;
 
     .line 1452
     .line 1453
@@ -4283,7 +4283,7 @@
 
     .line 1991
     .line 1992
-    const-string v13, "com.jnetai.kikx2.NavigatorImpl.extras"
+    const-string v13, "com.jnetai.kikx2.kikx2.NavigatorImpl.extras"
 
     .line 1993
     .line 1994
@@ -4316,7 +4316,7 @@
 
     .line 2008
     .line 2009
-    const-string v13, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v13, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 2010
     .line 2011
@@ -4337,7 +4337,7 @@
 
     .line 2019
     .line 2020
-    const-string v14, "com.jnetai.kikx2.NavigatorImpl.screenName"
+    const-string v14, "com.jnetai.kikx2.kikx2.NavigatorImpl.screenName"
 
     .line 2021
     .line 2022

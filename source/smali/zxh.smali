@@ -190,11 +190,11 @@
     .locals 0
 
     .line 1
-    new-instance p0, Lcom/jnetai/kikx2/storage/box/user/KikUserCursor;
+    new-instance p0, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserCursor;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/storage/box/user/KikUserCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserCursor;-><init>(Lio/objectbox/Transaction;JLio/objectbox/BoxStore;)V
 
     .line 4
     .line 5
@@ -1954,11 +1954,11 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;->x()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;->x()J
 
     .line 4
     .line 5

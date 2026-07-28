@@ -384,11 +384,11 @@
 
     .line 18
     .line 19
-    sget-object v2, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v2, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 20
     .line 21
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 22
     .line 23
@@ -442,7 +442,7 @@
     .line 45
     .line 46
     .line 47
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 48
     .line 49
@@ -550,11 +550,11 @@
     .line 8
     .line 9
     :try_start_1
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 10
     .line 11
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 12
     .line 13
@@ -731,11 +731,11 @@
     .line 8
     .line 9
     :try_start_1
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 10
     .line 11
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 12
     .line 13
@@ -2331,11 +2331,11 @@
     .line 46
     .line 47
     .line 48
-    sget-object p0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object p0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 49
     .line 50
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 51
     .line 52
@@ -2343,7 +2343,7 @@
     move-result-object p0
 
     .line 54
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/App;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 55
     .line 56
@@ -2374,7 +2374,7 @@
 
     .line 68
     :cond_3
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 69
     .line 70
@@ -3068,11 +3068,11 @@
     .line 65
     .line 66
     .line 67
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 68
     .line 69
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 70
     .line 71
@@ -3467,11 +3467,11 @@
     .line 4
     .line 5
     .line 6
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->b()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->b()J
 
     .line 9
     .line 10
@@ -3483,11 +3483,11 @@
 
     .line 13
     :sswitch_0
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/model/FriendAttributionModel;->b()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/FriendAttributionModel;->b()J
 
     .line 16
     .line 17
@@ -3499,11 +3499,11 @@
 
     .line 20
     :sswitch_1
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->d()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->d()J
 
     .line 23
     .line 24
@@ -3515,11 +3515,11 @@
 
     .line 27
     :sswitch_2
-    check-cast p1, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast p1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 28
     .line 29
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->c()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->c()J
 
     .line 30
     .line 31
@@ -3724,7 +3724,7 @@
 
     .line 64
     .line 65
-    iget-object v1, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iget-object v1, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 66
     .line 67
@@ -3770,7 +3770,7 @@
 
     .line 84
     .line 85
-    iget-object v2, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iget-object v2, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 86
     .line 87
@@ -3838,7 +3838,7 @@
 
     .line 111
     .line 112
-    iget-object v2, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iget-object v2, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 113
     .line 114
@@ -3973,7 +3973,7 @@
     .line 171
     .line 172
     :cond_7
-    sget-object v13, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
+    sget-object v13, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
 
     .line 173
     .line 174
@@ -4045,11 +4045,11 @@
     .line 205
     .line 206
     .line 207
-    sget-object v16, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v16, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 208
     .line 209
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 210
     .line 211
@@ -4061,7 +4061,7 @@
 
     .line 214
     .line 215
-    const-class v7, Lcom/jnetai/kikx2/core/fgs/LongRunningService;
+    const-class v7, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;
 
     .line 216
     .line 217
@@ -4132,7 +4132,7 @@
 
     .line 248
     .line 249
-    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 250
     .line 251
@@ -4178,7 +4178,7 @@
     .line 267
     .line 268
     .line 269
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
@@ -4211,7 +4211,7 @@
 
     .line 283
     .line 284
-    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 285
     .line 286
@@ -4322,7 +4322,7 @@
     .line 333
     :cond_c
     :goto_4
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
     :try_end_7
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_3
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
@@ -4335,7 +4335,7 @@
     .line 336
     :goto_5
     :try_start_8
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 337
     .line 338
@@ -4432,7 +4432,7 @@
     .line 378
     .line 379
     :cond_e
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 380
     .line 381
@@ -4464,7 +4464,7 @@
 
     .line 394
     .line 395
-    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/App;
+    iput-object v8, v5, Lj79;->Q0:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 396
     .line 397
@@ -4506,7 +4506,7 @@
     .line 411
     :goto_8
     :try_start_a
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 412
     .line 413
@@ -4523,7 +4523,7 @@
     .line 418
     .line 419
     :goto_9
-    sget-object v0, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
 
     .line 420
     .line 421
@@ -4540,7 +4540,7 @@
     .line 426
     :goto_a
     :try_start_b
-    sget-object v3, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->Q0:Lnph;
 
     .line 427
     .line 428
@@ -4560,7 +4560,7 @@
 
     .line 435
     :goto_b
-    sget-object v1, Lcom/jnetai/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/core/fgs/LongRunningService;->R0:Lp1a;
 
     .line 436
     .line 437

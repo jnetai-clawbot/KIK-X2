@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
+.method public static final a(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLwy0;Lgx2;I)V
     .locals 8
 
     .line 1
@@ -460,7 +460,7 @@
     .line 210
     .line 211
     .line 212
-    sget v1, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
 
     .line 213
     .line 214
@@ -485,7 +485,7 @@
     or-int/2addr v0, v1
 
     .line 223
-    invoke-static {p0, p1, p2, p4, v0}, Lb1i;->b(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+    invoke-static {p0, p1, p2, p4, v0}, Lb1i;->b(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
 
     .line 224
     .line 225
@@ -552,7 +552,7 @@
     return-void
 .end method
 
-.method public static final b(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+.method public static final b(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
     .locals 6
 
     .line 1
@@ -770,7 +770,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->x()Z
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->x()Z
 
     .line 94
     .line 95
@@ -854,7 +854,7 @@
 
     .line 136
     .line 137
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 138
     .line 139
@@ -970,7 +970,7 @@
     .line 196
     .line 197
     :goto_8
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->i()Lsne;
 
     .line 198
     .line 199
@@ -1011,7 +1011,7 @@
     .line 214
     .line 215
     .line 216
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->p()Lw6a;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->p()Lw6a;
 
     .line 217
     .line 218
@@ -1065,7 +1065,7 @@
     move v4, p4
 
     .line 240
-    invoke-direct/range {v0 .. v5}, Les0;-><init>(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
+    invoke-direct/range {v0 .. v5}, Les0;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
 
     .line 241
     .line 242
@@ -1409,7 +1409,7 @@
     return-void
 .end method
 
-.method public static final d(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+.method public static final d(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
     .locals 8
 
     .line 1
@@ -1805,7 +1805,7 @@
     .line 183
     .line 184
     .line 185
-    sget v1, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
+    sget v1, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->$stable:I
 
     .line 186
     .line 187
@@ -1830,7 +1830,7 @@
     or-int/2addr v0, v1
 
     .line 196
-    invoke-static {p0, p1, p2, p3, v0}, Lb1i;->b(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
+    invoke-static {p0, p1, p2, p3, v0}, Lb1i;->b(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FLgx2;I)V
 
     .line 197
     .line 198
@@ -1881,7 +1881,7 @@
     move v4, p4
 
     .line 219
-    invoke-direct/range {v0 .. v5}, Les0;-><init>(Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
+    invoke-direct/range {v0 .. v5}, Les0;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;Lnb1;FII)V
 
     .line 220
     .line 221

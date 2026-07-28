@@ -440,11 +440,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 5
     .line 6
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 7
     .line 8
@@ -452,7 +452,7 @@
     move-result-object v0
 
     .line 10
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 11
     .line 12
@@ -460,7 +460,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/App;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/App;->getPackageName()Ljava/lang/String;
 
     .line 15
     .line 16

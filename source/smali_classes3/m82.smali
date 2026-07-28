@@ -11,7 +11,7 @@
 
 .field public final synthetic R0:Lhif;
 
-.field public final synthetic S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+.field public final synthetic S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
 .field public final synthetic T0:Lhud;
 
@@ -29,7 +29,7 @@
 
 .field public final synthetic Y0:Lk0a;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Z0:Lk0a;
 
@@ -41,7 +41,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(ILaa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
+.method public synthetic constructor <init>(ILaa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lhud;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;)V
     .locals 0
 
     .line 1
@@ -58,7 +58,7 @@
 
     .line 7
     .line 8
-    iput-object p3, p0, Lm82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p3, p0, Lm82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 9
     .line 10
@@ -70,7 +70,7 @@
 
     .line 13
     .line 14
-    iput-object p6, p0, Lm82;->S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iput-object p6, p0, Lm82;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 15
     .line 16
@@ -270,7 +270,7 @@
 
     .line 67
     .line 68
-    check-cast v16, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v16, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 69
     .line 70
@@ -297,7 +297,7 @@
     move-result-object v3
 
     .line 81
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 82
     .line 83
@@ -458,7 +458,7 @@
 
     .line 160
     .line 161
-    iget-object v12, v0, Lm82;->S0:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v12, v0, Lm82;->S0:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 162
     .line 163
@@ -483,7 +483,7 @@
 
     .line 171
     .line 172
-    invoke-direct/range {v7 .. v14}, Lnz1;-><init>(Lk0a;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Laa2;Lhud;Lk0a;Lk0a;Lk0a;)V
+    invoke-direct/range {v7 .. v14}, Lnz1;-><init>(Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Laa2;Lhud;Lk0a;Lk0a;Lk0a;)V
 
     .line 173
     .line 174
@@ -526,7 +526,7 @@
 
     .line 192
     .line 193
-    invoke-direct/range {v7 .. v15}, Loz1;-><init>(Lk0a;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Laa2;Lj73;Lhif;Lhud;Lk0a;Lk0a;)V
+    invoke-direct/range {v7 .. v15}, Loz1;-><init>(Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Laa2;Lj73;Lhif;Lhud;Lk0a;Lk0a;)V
 
     .line 194
     .line 195
@@ -547,7 +547,7 @@
     move-result-object v19
 
     .line 204
-    sget v5, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 205
     .line 206
@@ -563,7 +563,7 @@
     or-int/2addr v5, v7
 
     .line 212
-    sget v7, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->$stable:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->$stable:I
 
     .line 213
     .line 214
@@ -592,7 +592,7 @@
     move-object v12, v9
 
     .line 225
-    iget-object v9, v0, Lm82;->Z:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v9, v0, Lm82;->Z:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 226
     .line 227
@@ -627,7 +627,7 @@
 
     .line 239
     .line 240
-    invoke-virtual/range {v7 .. v21}, Laa2;->r(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;Lgx2;I)V
+    invoke-virtual/range {v7 .. v21}, Laa2;->r(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;Lcq5;Lcq5;Lcq5;Lfv2;Lfv2;Lgx2;I)V
 
     .line 241
     .line 242

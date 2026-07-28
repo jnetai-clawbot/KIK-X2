@@ -1490,7 +1490,7 @@
     move-object v3, v13
 
     .line 659
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 660
     .line 661
@@ -1588,7 +1588,7 @@
 
     .line 708
     .line 709
-    invoke-direct/range {v1 .. v6}, Ldk9;-><init>(Ljava/util/List;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ly4a;Lcq5;Lcq5;)V
+    invoke-direct/range {v1 .. v6}, Ldk9;-><init>(Ljava/util/List;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ly4a;Lcq5;Lcq5;)V
 
     .line 710
     .line 711
@@ -1955,7 +1955,7 @@
 
     .line 894
     .line 895
-    iget-object v2, v1, Lwq8;->a:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v2, v1, Lwq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 896
     .line 897
@@ -1975,7 +1975,7 @@
 
     .line 904
     .line 905
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->w()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->w()Ljava/lang/String;
 
     .line 906
     .line 907
@@ -2165,11 +2165,11 @@
 
     .line 999
     .line 1000
-    iget-object v0, v1, Lwq8;->a:Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    iget-object v0, v1, Lwq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 1001
     .line 1002
-    invoke-static {v0}, Lqeh;->g(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;)Lcyd;
+    invoke-static {v0}, Lqeh;->g(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;)Lcyd;
 
     .line 1003
     .line 1004
@@ -2206,11 +2206,11 @@
 
     .line 1019
     .line 1020
-    iget-object v1, v1, Lxq8;->a:Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    iget-object v1, v1, Lxq8;->a:Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 1021
     .line 1022
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 1023
     .line 1024
@@ -2637,7 +2637,7 @@
     .line 1233
     .line 1234
     .line 1235
-    iget-object v1, v14, Lz4a;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v1, v14, Lz4a;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1236
     .line 1237

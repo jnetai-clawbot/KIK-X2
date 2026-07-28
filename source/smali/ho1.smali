@@ -329,11 +329,11 @@
     move-object v7, v5
 
     .line 130
-    check-cast v7, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 131
     .line 132
-    invoke-virtual {v7}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
+    invoke-virtual {v7}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->l()Ljava/lang/String;
 
     .line 133
     .line 134
@@ -419,7 +419,7 @@
     move-result-object v5
 
     .line 172
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 173
     .line 174
@@ -431,12 +431,12 @@
 
     .line 177
     .line 178
-    invoke-virtual {v5, v1}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->x(Lnp4;)V
+    invoke-virtual {v5, v1}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->x(Lnp4;)V
 
     .line 179
     .line 180
     .line 181
-    invoke-virtual {v5, v2, v3}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;->D(J)V
+    invoke-virtual {v5, v2, v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;->D(J)V
 
     .line 182
     .line 183
@@ -514,7 +514,7 @@
     move-result-object v0
 
     .line 214
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 215
     .line 216
@@ -561,7 +561,7 @@
     move-result-object v2
 
     .line 237
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;
 
     .line 238
     .line 239
@@ -591,7 +591,7 @@
 
     .line 251
     .line 252
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;->b()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;->b()Ljava/lang/String;
 
     .line 253
     .line 254
@@ -722,7 +722,7 @@
 
     .line 315
     .line 316
-    invoke-virtual {p0, v3, v4}, Llo9;->b(J)Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-virtual {p0, v3, v4}, Llo9;->b(J)Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 317
     .line 318

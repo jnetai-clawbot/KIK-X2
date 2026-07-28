@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+.method public static a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
     .locals 21
 
     .line 1
@@ -51,7 +51,7 @@
 
     .line 19
     .line 20
-    new-instance v1, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    new-instance v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 21
     .line 22
@@ -103,7 +103,7 @@
 
     .line 41
     .line 42
-    invoke-direct/range {v1 .. v20}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
+    invoke-direct/range {v1 .. v20}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
 
     .line 43
     .line 44
@@ -111,7 +111,7 @@
     return-object v1
 .end method
 
-.method public static b(Lyt4;)Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+.method public static b(Lyt4;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
     .locals 23
 
     .line 1
@@ -656,7 +656,7 @@
 
     .line 250
     .line 251
-    new-instance v3, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;
+    new-instance v3, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;
 
     .line 252
     .line 253
@@ -679,7 +679,7 @@
 
     .line 261
     .line 262
-    invoke-direct/range {v3 .. v22}, Lcom/jnetai/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
+    invoke-direct/range {v3 .. v22}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUserExtendedProfile;-><init>(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lnp4;JILzw3;)V
 
     .line 263
     .line 264

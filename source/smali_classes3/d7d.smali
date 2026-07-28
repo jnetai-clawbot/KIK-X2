@@ -1203,11 +1203,11 @@
     .line 552
     .line 553
     .line 554
-    iget-object p0, p1, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p0, p1, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 555
     .line 556
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 557
     .line 558

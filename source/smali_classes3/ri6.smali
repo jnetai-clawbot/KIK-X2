@@ -51,7 +51,7 @@
     move-object v1, p0
 
     .line 17
-    check-cast v1, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 18
     .line 19

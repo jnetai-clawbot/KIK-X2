@@ -966,7 +966,7 @@
 
     .line 440
     :try_start_3
-    const-class v0, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    const-class v0, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 441
     .line 442
@@ -1140,7 +1140,7 @@
 
     .line 512
     .line 513
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 514
     .line 515
@@ -1149,7 +1149,7 @@
     .line 516
     .line 517
     .line 518
-    invoke-virtual {v0, v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->G(Z)V
+    invoke-virtual {v0, v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->G(Z)V
 
     .line 519
     .line 520
@@ -1162,7 +1162,7 @@
 
     .line 523
     .line 524
-    check-cast v0, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v0, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 525
     .line 526
@@ -1171,7 +1171,7 @@
     .line 527
     .line 528
     .line 529
-    invoke-virtual {v0, v7}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->B(Z)V
+    invoke-virtual {v0, v7}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->B(Z)V
 
     .line 530
     .line 531

@@ -330,7 +330,7 @@
 
     .line 89
     .line 90
-    check-cast p2, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;
 
     .line 91
     .line 92
@@ -350,7 +350,7 @@
 
     .line 99
     .line 100
-    invoke-interface {p2, p1, v3, v0}, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v3, v0}, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -370,7 +370,7 @@
 
     .line 108
     .line 109
-    check-cast p2, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;
 
     .line 110
     .line 111
@@ -390,7 +390,7 @@
 
     .line 118
     .line 119
-    invoke-interface {p2, v9, p1, v3, v0}, Lcom/jnetai/kikx2/apis/tenor/TenorApiV2;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {p2, v9, p1, v3, v0}, Lcom/jnetai/kikx2/kikx2/apis/tenor/TenorApiV2;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 120
     .line 121
@@ -651,7 +651,7 @@
 
     .line 240
     .line 241
-    check-cast p2, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;
 
     .line 242
     .line 243
@@ -671,7 +671,7 @@
 
     .line 250
     .line 251
-    invoke-interface {p2, p1, v3, v0}, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v3, v0}, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;->trending-0E7RQCE(Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 252
     .line 253
@@ -691,7 +691,7 @@
 
     .line 259
     .line 260
-    check-cast p2, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;
 
     .line 261
     .line 262
@@ -711,7 +711,7 @@
 
     .line 269
     .line 270
-    invoke-interface {p2, v9, p1, v3, v0}, Lcom/jnetai/kikx2/apis/tenor/KlipyApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
+    invoke-interface {p2, v9, p1, v3, v0}, Lcom/jnetai/kikx2/kikx2/apis/tenor/KlipyApi;->search-BWLJW6A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lea3;)Ljava/lang/Object;
 
     .line 271
     .line 272

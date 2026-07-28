@@ -575,7 +575,7 @@
     move-result-object v0
 
     .line 5
-    const-string v1, "com.jnetai.kikx2.NavigatorImpl.navigationResolvableId"
+    const-string v1, "com.jnetai.kikx2.kikx2.NavigatorImpl.navigationResolvableId"
 
     .line 6
     .line 7

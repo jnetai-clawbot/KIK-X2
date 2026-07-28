@@ -2245,7 +2245,7 @@
 
     .line 1074
     .line 1075
-    const-string v22, "setActiveLeaderboardParams(Lcom/jnetai/kikx2/ui/fragments/live/home/LiveHomeViewModel$ActiveLeaderboardParams;)V"
+    const-string v22, "setActiveLeaderboardParams(Lcom/jnetai/kikx2/kikx2/ui/fragments/live/home/LiveHomeViewModel$ActiveLeaderboardParams;)V"
 
     .line 1076
     .line 1077

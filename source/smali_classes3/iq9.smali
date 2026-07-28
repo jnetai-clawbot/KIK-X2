@@ -314,7 +314,7 @@
 
     .line 126
     .line 127
-    sget v2, Lcom/jnetai/kikx2/client/live/models/SnsVideoViewer;->$stable:I
+    sget v2, Lcom/jnetai/kikx2/kikx2/client/live/models/SnsVideoViewer;->$stable:I
 
     .line 128
     .line 129

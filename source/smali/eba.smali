@@ -194,7 +194,7 @@
 
     .line 34
     .line 35
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 36
     .line 37
@@ -202,7 +202,7 @@
 
     .line 38
     .line 39
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 40
     .line 41
@@ -693,7 +693,7 @@
     .line 265
     .line 266
     .line 267
-    invoke-virtual {v4}, Lk83;->c()Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v4}, Lk83;->c()Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 268
     .line 269
@@ -701,7 +701,7 @@
     move-result-object v4
 
     .line 271
-    invoke-virtual {v2, v1, v4}, Llo9;->d(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-virtual {v2, v1, v4}, Llo9;->d(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 272
     .line 273
@@ -721,7 +721,7 @@
 
     .line 280
     .line 281
-    invoke-virtual {v3, v1}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {v3, v1}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 282
     .line 283
@@ -737,7 +737,7 @@
 
     .line 288
     .line 289
-    invoke-direct {v3, v1, v2}, Liq7;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/KikMessage;)V
+    invoke-direct {v3, v1, v2}, Liq7;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;)V
 
     .line 290
     .line 291
@@ -1371,7 +1371,7 @@
     move-result-object v19
 
     .line 603
-    new-instance v12, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    new-instance v12, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 604
     .line 605
@@ -1395,7 +1395,7 @@
 
     .line 614
     .line 615
-    invoke-direct/range {v12 .. v21}, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;-><init>(JLjava/lang/String;Ljava/util/UUID;JLjava/util/List;ILzw3;)V
+    invoke-direct/range {v12 .. v21}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;-><init>(JLjava/lang/String;Ljava/util/UUID;JLjava/util/List;ILzw3;)V
 
     .line 616
     .line 617
@@ -1577,7 +1577,7 @@
 
     .line 705
     .line 706
-    invoke-virtual {v3, v15, v12}, Lfd2;->t(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;)V
+    invoke-virtual {v3, v15, v12}, Lfd2;->t(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;)V
 
     .line 707
     .line 708
@@ -1599,7 +1599,7 @@
     .line 716
     .line 717
     .line 718
-    invoke-virtual {v3, v15}, Ll1a;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    invoke-virtual {v3, v15}, Ll1a;->a(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 719
     .line 720
@@ -1607,7 +1607,7 @@
     move-result-object v3
 
     .line 722
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->e()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->e()Z
 
     .line 723
     .line 724
@@ -1652,11 +1652,11 @@
     move-result v2
 
     .line 744
-    sget-object v3, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;
 
     .line 745
     .line 746
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInTelephonyCall()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInTelephonyCall()Z
 
     .line 747
     .line 748
@@ -1774,7 +1774,7 @@
     .line 803
     .line 804
     :cond_c
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
 
     .line 805
     .line 806
@@ -1906,15 +1906,15 @@
     .line 870
     .line 871
     :cond_d
-    sget-object v17, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity;->Companion:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity$Companion;
+    sget-object v17, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity;->Companion:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity$Companion;
 
     .line 872
     .line 873
-    sget-object v0, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v0, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 874
     .line 875
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 876
     .line 877
@@ -1966,7 +1966,7 @@
 
     .line 900
     .line 901
-    invoke-static/range {v17 .. v23}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity$Companion;->createIntent$default(Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity$Companion;Landroid/content/Context;Ljava/lang/String;Legg;ZILjava/lang/Object;)Landroid/content/Intent;
+    invoke-static/range {v17 .. v23}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity$Companion;->createIntent$default(Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity$Companion;Landroid/content/Context;Ljava/lang/String;Legg;ZILjava/lang/Object;)Landroid/content/Intent;
 
     .line 902
     .line 903
@@ -1982,7 +1982,7 @@
 
     .line 908
     .line 909
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 910
     .line 911
@@ -2005,7 +2005,7 @@
     move-result-object v11
 
     .line 920
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 921
     .line 922
@@ -2025,14 +2025,14 @@
     move-result-object v0
 
     .line 930
-    sget-object v12, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver;->Companion:Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;
+    sget-object v12, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver;->Companion:Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;
 
     .line 931
     .line 932
     move v14, v13
 
     .line 933
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 934
     .line 935
@@ -2044,7 +2044,7 @@
 
     .line 938
     .line 939
-    const-string v14, "com.jnetai.kikx2.voip.ACTION_DECLINE"
+    const-string v14, "com.jnetai.kikx2.kikx2.voip.ACTION_DECLINE"
 
     .line 940
     .line 941
@@ -2130,7 +2130,7 @@
 
     .line 982
     .line 983
-    invoke-virtual/range {v12 .. v17}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;->createPendingIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
+    invoke-virtual/range {v12 .. v17}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;->createPendingIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
 
     .line 984
     .line 985
@@ -2142,7 +2142,7 @@
 
     .line 988
     .line 989
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 990
     .line 991
@@ -2174,7 +2174,7 @@
 
     .line 1004
     .line 1005
-    invoke-virtual {v10, v14, v5, v3, v7}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActivity$Companion;->createIntent(Landroid/content/Context;Ljava/lang/String;Legg;Z)Landroid/content/Intent;
+    invoke-virtual {v10, v14, v5, v3, v7}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActivity$Companion;->createIntent(Landroid/content/Context;Ljava/lang/String;Legg;Z)Landroid/content/Intent;
 
     .line 1006
     .line 1007
@@ -2182,7 +2182,7 @@
     move-result-object v5
 
     .line 1009
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1010
     .line 1011
@@ -2204,7 +2204,7 @@
     move-object v6, v13
 
     .line 1019
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1020
     .line 1021
@@ -2212,7 +2212,7 @@
     move-result-object v13
 
     .line 1023
-    const-string v14, "com.jnetai.kikx2.voip.ACTION_DISMISS"
+    const-string v14, "com.jnetai.kikx2.kikx2.voip.ACTION_DISMISS"
 
     .line 1024
     .line 1025
@@ -2294,7 +2294,7 @@
     move-object v15, v9
 
     .line 1065
-    invoke-virtual/range {v12 .. v17}, Lcom/jnetai/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;->createPendingIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
+    invoke-virtual/range {v12 .. v17}, Lcom/jnetai/kikx2/kikx2/ui/videochat/IncomingCallActionsReceiver$Companion;->createPendingIntent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/app/PendingIntent;
 
     .line 1066
     .line 1067
@@ -2306,7 +2306,7 @@
 
     .line 1070
     .line 1071
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1072
     .line 1073
@@ -2347,7 +2347,7 @@
 
     .line 1091
     .line 1092
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1093
     .line 1094
@@ -2387,7 +2387,7 @@
 
     .line 1111
     .line 1112
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1113
     .line 1114
@@ -2448,7 +2448,7 @@
 
     .line 1139
     .line 1140
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1141
     .line 1142
@@ -2603,7 +2603,7 @@
     move-result v0
 
     .line 1218
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1219
     .line 1220
@@ -2645,7 +2645,7 @@
     move-result v0
 
     .line 1240
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1241
     .line 1242
@@ -2697,7 +2697,7 @@
 
     .line 1267
     .line 1268
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 1269
     .line 1270
@@ -2705,7 +2705,7 @@
     move-result-object v1
 
     .line 1272
-    invoke-virtual {v0, v1}, Lll1;->c(Lcom/jnetai/kikx2/App;)V
+    invoke-virtual {v0, v1}, Lll1;->c(Lcom/jnetai/kikx2/kikx2/App;)V
 
     .line 1273
     .line 1274
@@ -2945,7 +2945,7 @@
 
     .line 1386
     .line 1387
-    invoke-virtual {v0, v15, v12}, Lfd2;->t(Ljava/lang/String;Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;)V
+    invoke-virtual {v0, v15, v12}, Lfd2;->t(Ljava/lang/String;Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;)V
 
     .line 1388
     .line 1389

@@ -1946,7 +1946,7 @@
     return-void
 .end method
 
-.method public static final e(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
+.method public static final e(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;Lgx2;I)V
     .locals 10
 
     .line 1
@@ -2186,7 +2186,7 @@
 
     .line 106
     :cond_6
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->j()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->j()J
 
     .line 107
     .line 108
@@ -2210,7 +2210,7 @@
 
     .line 117
     :cond_7
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->s()J
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->s()J
 
     .line 118
     .line 119
@@ -2274,7 +2274,7 @@
 
     .line 146
     .line 147
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;->v()Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 148
     .line 149
@@ -2282,7 +2282,7 @@
     move-result-object v1
 
     .line 151
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->o()Lqqe;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->o()Lqqe;
 
     .line 152
     .line 153
@@ -2369,7 +2369,7 @@
 
     .line 191
     .line 192
-    invoke-direct {v0, p0, p1, p3, v2}, Lu2b;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
+    invoke-direct {v0, p0, p1, p3, v2}, Lu2b;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
 
     .line 193
     .line 194
@@ -2442,7 +2442,7 @@
 
     .line 225
     .line 226
-    invoke-direct {p2, p0, v3, p3, v7}, Lu2b;-><init>(Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
+    invoke-direct {p2, p0, v3, p3, v7}, Lu2b;-><init>(Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lszd;II)V
 
     .line 227
     .line 228

@@ -194,7 +194,7 @@
     .line 74
     :cond_4
     :goto_1
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 75
     .line 76
@@ -207,7 +207,7 @@
 
     .line 80
     .line 81
-    invoke-direct {p0, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {p0, p2}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 82
     .line 83
@@ -254,7 +254,7 @@
     .line 102
     :cond_6
     :goto_3
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 103
     .line 104
@@ -267,7 +267,7 @@
 
     .line 108
     .line 109
-    invoke-direct {p0, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {p0, p2}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 110
     .line 111
@@ -350,7 +350,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    invoke-virtual {p0, p1}, Lsc6;->c(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 13
     .line 14
@@ -362,7 +362,7 @@
 
     .line 17
     .line 18
-    invoke-direct {p1, p0}, Lfif;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {p1, p0}, Lfif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 19
     .line 20
@@ -387,7 +387,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0, p1}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-virtual {p0, p1}, Lblf;->e(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 31
     .line 32
@@ -399,7 +399,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p1, p0}, Lgif;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {p1, p0}, Lgif;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 37
     .line 38

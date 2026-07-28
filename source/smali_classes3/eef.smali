@@ -1636,7 +1636,7 @@
 
     .line 182
     .line 183
-    const-string v5, "goBack(Lcom/jnetai/kikx2/apis/blue/urban/model/UrbanDictionaryState$Success;)V"
+    const-string v5, "goBack(Lcom/jnetai/kikx2/kikx2/apis/blue/urban/model/UrbanDictionaryState$Success;)V"
 
     .line 184
     .line 185

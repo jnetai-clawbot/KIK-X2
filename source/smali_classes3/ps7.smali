@@ -960,11 +960,11 @@
 
     .line 394
     .line 395
-    iget-object v3, v7, Lzs7;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object v3, v7, Lzs7;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 396
     .line 397
-    sget v7, Lcom/jnetai/kikx2/client/stanzas/c;->T0:I
+    sget v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;->T0:I
 
     .line 398
     .line 399
@@ -975,7 +975,7 @@
     or-int/2addr v6, v7
 
     .line 402
-    invoke-static {v9, v3, v4, v6}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/client/stanzas/c;Lgx2;I)V
+    invoke-static {v9, v3, v4, v6}, La9h;->c(Lcq5;Lcom/jnetai/kikx2/kikx2/client/stanzas/c;Lgx2;I)V
 
     .line 403
     .line 404

@@ -25,11 +25,11 @@
 
 .field public final synthetic X0:Lqa0;
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
 .field public final synthetic Y0:Lhud;
 
-.field public final synthetic Z:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+.field public final synthetic Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
 .field public final synthetic Z0:Lhud;
 
@@ -47,7 +47,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;ZLqa0;Lk0a;Lk0a;Lk0a;Lob9;Landroid/content/Context;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(ZLcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;ZLqa0;Lk0a;Lk0a;Lk0a;Lob9;Landroid/content/Context;Lk0a;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -60,11 +60,11 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Lwqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iput-object p2, p0, Lwqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lwqf;->Z:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iput-object p3, p0, Lwqf;->Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 9
     .line 10
@@ -197,11 +197,11 @@
 
     .line 20
     .line 21
-    iget-object v2, v0, Lwqf;->Y:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iget-object v2, v0, Lwqf;->Y:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 22
     .line 23
-    iget-object v3, v0, Lwqf;->Z:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iget-object v3, v0, Lwqf;->Z:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 24
     .line 25
@@ -305,7 +305,7 @@
 
     .line 74
     .line 75
-    invoke-static/range {v1 .. v22}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->p(ZLcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;Lhud;Lhud;Lhud;Lhud;Lhud;ZLqa0;Lhud;Lhud;Lk0a;Lob9;Landroid/content/Context;Lhud;Lhud;Lk0a;Lf91;Lgx2;I)Lsbf;
+    invoke-static/range {v1 .. v22}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->p(ZLcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lhud;Lhud;Lhud;Lhud;Lhud;Lhud;ZLqa0;Lhud;Lhud;Lk0a;Lob9;Landroid/content/Context;Lhud;Lhud;Lk0a;Lf91;Lgx2;I)Lsbf;
 
     .line 76
     .line 77

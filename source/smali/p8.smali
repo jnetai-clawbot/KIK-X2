@@ -2244,7 +2244,7 @@
 
     .line 212
     :cond_f
-    iget-object v0, v9, Len5;->a:Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    iget-object v0, v9, Len5;->a:Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 213
     .line 214
@@ -3383,11 +3383,11 @@
 
     .line 743
     .line 744
-    sget-object v1, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v1, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 745
     .line 746
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 747
     .line 748
@@ -5468,7 +5468,7 @@
 
     .line 1720
     .line 1721
-    invoke-direct {v0, v10}, Lua;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;)V
+    invoke-direct {v0, v10}, Lua;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;)V
 
     .line 1722
     .line 1723

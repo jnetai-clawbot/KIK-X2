@@ -315,7 +315,7 @@
     move-object v5, v1
 
     .line 101
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 102
     .line 103
@@ -755,7 +755,7 @@
     .line 99
     .line 100
     .line 101
-    invoke-virtual {p0, v4}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    invoke-virtual {p0, v4}, Lfd2;->l(Ljava/lang/String;)Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 102
     .line 103
@@ -1350,7 +1350,7 @@
     .line 405
     .line 406
     .line 407
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 408
     .line 409
@@ -1363,7 +1363,7 @@
 
     .line 412
     .line 413
-    invoke-direct {v2, p0, v4, p1, v3}, Lzc2;-><init>(Lfd2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Luc2;Z)V
+    invoke-direct {v2, p0, v4, p1, v3}, Lzc2;-><init>(Lfd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Luc2;Z)V
 
     .line 414
     .line 415

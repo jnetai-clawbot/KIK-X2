@@ -3132,7 +3132,7 @@
     return-void
 .end method
 
-.method public static c(Lz7a;)Lcom/jnetai/kikx2/client/stanzas/c;
+.method public static c(Lz7a;)Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
     .locals 5
 
     .line 1
@@ -3156,7 +3156,7 @@
 
     .line 10
     .line 11
-    new-instance v0, Lcom/jnetai/kikx2/client/stanzas/c;
+    new-instance v0, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 12
     .line 13
@@ -3252,7 +3252,7 @@
     .line 58
     .line 59
     :goto_0
-    invoke-direct {v0, v1, v2, v3, p0}, Lcom/jnetai/kikx2/client/stanzas/c;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lh9d;)V
+    invoke-direct {v0, v1, v2, v3, p0}, Lcom/jnetai/kikx2/kikx2/client/stanzas/c;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lh9d;)V
 
     .line 60
     .line 61

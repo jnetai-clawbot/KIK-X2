@@ -13,7 +13,7 @@
 
 .field public final synthetic S0:Z
 
-.field public final synthetic T0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic T0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic U0:Ljava/lang/String;
 
@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lvz3;ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;Ldd3;Lob9;)V
+.method public synthetic constructor <init>(Lvz3;ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;Ldd3;Lob9;)V
     .locals 0
 
     .line 1
@@ -72,7 +72,7 @@
 
     .line 15
     .line 16
-    iput-object p7, p0, Lgk7;->T0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p7, p0, Lgk7;->T0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 17
     .line 18
@@ -451,7 +451,7 @@
 
     .line 161
     .line 162
-    iget-object v3, v0, Lgk7;->T0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v3, v0, Lgk7;->T0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 163
     .line 164
@@ -527,7 +527,7 @@
 
     .line 199
     .line 200
-    invoke-direct/range {v17 .. v29}, Lbk7;-><init>(ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;)V
+    invoke-direct/range {v17 .. v29}, Lbk7;-><init>(ZLcq5;Lcq5;Lcq5;ZLcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/String;Lzj7;Lgs7;ILkotlin/jvm/functions/Function0;Lk0a;)V
 
     .line 201
     .line 202

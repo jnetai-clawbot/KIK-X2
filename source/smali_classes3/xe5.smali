@@ -274,21 +274,21 @@
     move-object v8, v7
 
     .line 47
-    check-cast v8, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 48
     .line 49
     move-object v9, v6
 
     .line 50
-    check-cast v9, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    check-cast v9, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 51
     .line 52
     move-object v10, v5
 
     .line 53
-    check-cast v10, Lcom/jnetai/kikx2/ui/videochat/model/EndCallReason;
+    check-cast v10, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/EndCallReason;
 
     .line 54
     .line 55
@@ -320,7 +320,7 @@
 
     .line 68
     .line 69
-    invoke-static/range {v8 .. v13}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->Z(Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;Lcom/jnetai/kikx2/ui/videochat/model/EndCallReason;ILgx2;I)Lsbf;
+    invoke-static/range {v8 .. v13}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->Z(Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;Lcom/jnetai/kikx2/kikx2/ui/videochat/model/EndCallReason;ILgx2;I)Lsbf;
 
     .line 70
     .line 71

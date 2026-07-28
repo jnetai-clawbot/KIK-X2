@@ -5883,7 +5883,7 @@
     move-object v13, v6
 
     .line 1721
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1722
     .line 1723
@@ -5960,7 +5960,7 @@
     move-result-object v10
 
     .line 1761
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1762
     .line 1763
@@ -5996,7 +5996,7 @@
 
     .line 1778
     .line 1779
-    invoke-virtual {v13}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v13}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1780
     .line 1781
@@ -6087,7 +6087,7 @@
     move-result-object v6
 
     .line 1824
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;
 
     .line 1825
     .line 1826
@@ -6269,7 +6269,7 @@
     const/4 v6, 0x1
 
     .line 1910
-    invoke-direct {v4, v13, v2, v6}, Ll82;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;I)V
+    invoke-direct {v4, v13, v2, v6}, Ll82;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;I)V
 
     .line 1911
     .line 1912
@@ -6448,7 +6448,7 @@
 
     .line 1990
     .line 1991
-    invoke-direct {v11, v13, v1, v10}, Lmj6;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Ldk6;Lk0a;)V
+    invoke-direct {v11, v13, v1, v10}, Lmj6;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ldk6;Lk0a;)V
 
     .line 1992
     .line 1993
@@ -6609,7 +6609,7 @@
     const/4 v4, 0x2
 
     .line 2064
-    invoke-direct {v11, v13, v10, v4}, Ll82;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;I)V
+    invoke-direct {v11, v13, v10, v4}, Ll82;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;I)V
 
     .line 2065
     .line 2066
@@ -6730,7 +6730,7 @@
     const/4 v11, 0x1
 
     .line 2121
-    invoke-direct {v4, v1, v13, v11}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v4, v1, v13, v11}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 2122
     .line 2123
@@ -6799,7 +6799,7 @@
     const/4 v6, 0x2
 
     .line 2152
-    invoke-direct {v11, v1, v13, v6}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/storage/box/chat/Chat;I)V
+    invoke-direct {v11, v1, v13, v6}, Ljj6;-><init>(Ldk6;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;I)V
 
     .line 2153
     .line 2154
@@ -6818,7 +6818,7 @@
 
     .line 2161
     .line 2162
-    sget v6, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 2163
     .line 2164
@@ -6838,7 +6838,7 @@
     or-int/2addr v6, v11
 
     .line 2172
-    sget v11, Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;->$stable:I
+    sget v11, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;->$stable:I
 
     .line 2173
     .line 2174
@@ -6892,7 +6892,7 @@
 
     .line 2197
     .line 2198
-    invoke-static/range {v12 .. v27}, Lgbh;->a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v12 .. v27}, Lgbh;->a(Lkotlin/jvm/functions/Function0;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikMuteStatus;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lcq5;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 2199
     .line 2200
@@ -6918,7 +6918,7 @@
     move-result-object v4
 
     .line 2211
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2212
     .line 2213
@@ -7274,7 +7274,7 @@
     move-result-object v6
 
     .line 2385
-    check-cast v6, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 2386
     .line 2387
@@ -7707,7 +7707,7 @@
     move-result-object v4
 
     .line 2593
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 2594
     .line 2595
@@ -7865,7 +7865,7 @@
 
     .line 2669
     .line 2670
-    invoke-direct {v14, v1, v4, v10}, Lmj6;-><init>(Ldk6;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;)V
+    invoke-direct {v14, v1, v4, v10}, Lmj6;-><init>(Ldk6;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;)V
 
     .line 2671
     .line 2672
@@ -9167,19 +9167,19 @@
 
     .line 132
     .line 133
-    iget-object v1, v11, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v1, v11, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 134
     .line 135
-    iget-object v2, v11, Lej6;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v2, v11, Lej6;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 136
     .line 137
-    iget-object v3, v11, Lej6;->c:Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    iget-object v3, v11, Lej6;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 138
     .line 139
-    iget-object v4, v11, Lej6;->d:Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    iget-object v4, v11, Lej6;->d:Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 140
     .line 141
@@ -9191,7 +9191,7 @@
     move-result-object v6
 
     .line 145
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 146
     .line 147
@@ -9215,7 +9215,7 @@
     move-result-object v7
 
     .line 157
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 158
     .line 159
@@ -9247,7 +9247,7 @@
     move-result-object v0
 
     .line 173
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 174
     .line 175
@@ -11789,7 +11789,7 @@
     return-object p0
 .end method
 
-.method public final o(Lcom/jnetai/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
+.method public final o(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Ljava/lang/Long;)V
     .locals 13
 
     .line 1
@@ -11810,7 +11810,7 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 11
     .line 12

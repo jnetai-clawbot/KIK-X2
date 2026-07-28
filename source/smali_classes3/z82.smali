@@ -19,7 +19,7 @@
 
 .field public final synthetic V0:Lhud;
 
-.field public final synthetic W0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic W0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic X:Lbz7;
 
@@ -71,7 +71,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lbz7;Lk0a;Lwg6;Laa2;Lhd2;Lk0a;Lhif;Lk0a;Lk0a;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lf48;Lk0a;Lj73;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lhud;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lbz7;Lk0a;Lwg6;Laa2;Lhd2;Lk0a;Lhif;Lk0a;Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lf48;Lk0a;Lj73;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lhud;Lk0a;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -95,7 +95,7 @@
 
     iput-object p9, p0, Lz82;->V0:Lhud;
 
-    iput-object p10, p0, Lz82;->W0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p10, p0, Lz82;->W0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     iput-object p11, p0, Lz82;->X0:Lhud;
 
@@ -2003,11 +2003,11 @@
     .line 900
     .line 901
     .line 902
-    sget-object v3, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->INSTANCE:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;
 
     .line 903
     .line 904
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitCallManager;->isInLiveKitCall()Liud;
 
     .line 905
     .line 906
@@ -2038,7 +2038,7 @@
     move-result-object v4
 
     .line 919
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/chat/ActiveVideoConference;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/ActiveVideoConference;
 
     .line 920
     .line 921
@@ -2264,7 +2264,7 @@
     .line 1028
     .line 1029
     :goto_10
-    invoke-interface/range {v20 .. v20}, Lhif;->j()Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    invoke-interface/range {v20 .. v20}, Lhif;->j()Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1030
     .line 1031
@@ -2272,7 +2272,7 @@
     move-result-object v3
 
     .line 1033
-    iget-object v4, v10, Lz82;->W0:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v4, v10, Lz82;->W0:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1034
     .line 1035
@@ -2583,7 +2583,7 @@
     const/4 v2, 0x0
 
     .line 1182
-    invoke-direct {v9, v3, v5, v2}, Ld92;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lk0a;I)V
+    invoke-direct {v9, v3, v5, v2}, Ld92;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lk0a;I)V
 
     .line 1183
     .line 1184
@@ -2650,7 +2650,7 @@
     const/4 v4, 0x1
 
     .line 1213
-    invoke-direct {v2, v3, v5, v4}, Ld92;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lk0a;I)V
+    invoke-direct {v2, v3, v5, v4}, Ld92;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lk0a;I)V
 
     .line 1214
     .line 1215
@@ -2701,7 +2701,7 @@
     const/4 v4, 0x2
 
     .line 1238
-    invoke-direct {v2, v3, v7, v4}, Ld92;-><init>(Lcom/jnetai/kikx2/storage/box/user/KikUser;Lk0a;I)V
+    invoke-direct {v2, v3, v7, v4}, Ld92;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lk0a;I)V
 
     .line 1239
     .line 1240
@@ -2716,7 +2716,7 @@
 
     .line 1245
     .line 1246
-    sget v4, Lcom/jnetai/kikx2/storage/box/user/KikUser;->$stable:I
+    sget v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;->$stable:I
 
     .line 1247
     .line 1248
@@ -2802,7 +2802,7 @@
 
     .line 1285
     .line 1286
-    invoke-static/range {v2 .. v11}, Lbih;->b(Lhd2;Lcom/jnetai/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v2 .. v11}, Lbih;->b(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;Lxae;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 1287
     .line 1288
@@ -2834,7 +2834,7 @@
     move-object v3, v2
 
     .line 1301
-    check-cast v3, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;
+    check-cast v3, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;
 
     .line 1302
     .line 1303
@@ -2946,7 +2946,7 @@
     const/4 v7, 0x0
 
     .line 1357
-    invoke-direct {v5, v14, v3, v7}, Le92;-><init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+    invoke-direct {v5, v14, v3, v7}, Le92;-><init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
 
     .line 1358
     .line 1359
@@ -3028,7 +3028,7 @@
     const/4 v7, 0x1
 
     .line 1397
-    invoke-direct {v8, v14, v3, v7}, Le92;-><init>(Laa2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;I)V
+    invoke-direct {v8, v14, v3, v7}, Le92;-><init>(Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;I)V
 
     .line 1398
     .line 1399
@@ -3046,7 +3046,7 @@
 
     .line 1405
     .line 1406
-    sget v8, Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
+    sget v8, Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;->$stable:I
 
     .line 1407
     .line 1408
@@ -3072,7 +3072,7 @@
 
     .line 1417
     .line 1418
-    invoke-static/range {v2 .. v9}, Lnyh;->a(Lhd2;Lcom/jnetai/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
+    invoke-static/range {v2 .. v9}, Lnyh;->a(Lhd2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/AnonChatInfo;ZLkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function0;Lgx2;I)V
 
     .line 1419
     .line 1420
@@ -3129,7 +3129,7 @@
 
     .line 1444
     .line 1445
-    invoke-direct {v4, v13, v14}, Lf92;-><init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Laa2;)V
+    invoke-direct {v4, v13, v14}, Lf92;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Laa2;)V
 
     .line 1446
     .line 1447
@@ -3574,7 +3574,7 @@
 
     .line 1664
     .line 1665
-    invoke-direct/range {v19 .. v35}, Lg92;-><init>(Lhif;Lhud;Laa2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhd2;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;Lhud;Lwg6;)V
+    invoke-direct/range {v19 .. v35}, Lg92;-><init>(Lhif;Lhud;Laa2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhd2;Lhud;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;Lj73;Lk0a;Lhud;Lwg6;)V
 
     .line 1666
     .line 1667

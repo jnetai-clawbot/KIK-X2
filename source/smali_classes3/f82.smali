@@ -104,11 +104,11 @@
 
     .line 30
     .line 31
-    iget-object p1, p1, Ll1d;->a:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object p1, p1, Ll1d;->a:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 32
     .line 33
-    invoke-virtual {p1}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->h()J
+    invoke-virtual {p1}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->h()J
 
     .line 34
     .line 35

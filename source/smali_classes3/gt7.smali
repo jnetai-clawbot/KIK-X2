@@ -941,11 +941,11 @@
 
     .line 248
     .line 249
-    iget-object v2, v2, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v2, v2, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 250
     .line 251
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 252
     .line 253
@@ -1248,11 +1248,11 @@
 
     .line 394
     .line 395
-    iget-object v0, v0, Loe3;->a:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v0, v0, Loe3;->a:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 396
     .line 397
-    invoke-direct {v1, v0}, Lxs7;-><init>(Lcom/jnetai/kikx2/storage/box/group/KikGroup;)V
+    invoke-direct {v1, v0}, Lxs7;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;)V
 
     .line 398
     .line 399
@@ -1917,11 +1917,11 @@
 
     .line 711
     .line 712
-    iget-object v0, v0, Lie3;->a:Lcom/jnetai/kikx2/client/stanzas/c;
+    iget-object v0, v0, Lie3;->a:Lcom/jnetai/kikx2/kikx2/client/stanzas/c;
 
     .line 713
     .line 714
-    invoke-direct {v1, v0}, Lzs7;-><init>(Lcom/jnetai/kikx2/client/stanzas/c;)V
+    invoke-direct {v1, v0}, Lzs7;-><init>(Lcom/jnetai/kikx2/kikx2/client/stanzas/c;)V
 
     .line 715
     .line 716
@@ -2379,11 +2379,11 @@
 
     .line 943
     .line 944
-    sget-object v3, Lcom/jnetai/kikx2/App;->Z:Lcom/jnetai/kikx2/App;
+    sget-object v3, Lcom/jnetai/kikx2/kikx2/App;->Z:Lcom/jnetai/kikx2/kikx2/App;
 
     .line 945
     .line 946
-    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/App;
+    invoke-static {}, Lsyh;->c()Lcom/jnetai/kikx2/kikx2/App;
 
     .line 947
     .line 948

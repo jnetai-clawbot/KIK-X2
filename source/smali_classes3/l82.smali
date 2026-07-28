@@ -9,13 +9,13 @@
 # instance fields
 .field public final synthetic X:I
 
-.field public final synthetic Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public final synthetic Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public final synthetic Z:Lk0a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lk0a;I)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lk0a;I)V
     .locals 0
 
     .line 1
@@ -23,7 +23,7 @@
 
     .line 2
     .line 3
-    iput-object p1, p0, Ll82;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iput-object p1, p0, Ll82;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 4
     .line 5
@@ -57,7 +57,7 @@
 
     .line 6
     .line 7
-    iget-object p0, p0, Ll82;->Y:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object p0, p0, Ll82;->Y:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 8
     .line 9
@@ -96,7 +96,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 27
     .line 28

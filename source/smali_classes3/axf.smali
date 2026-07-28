@@ -55,7 +55,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
+.method public synthetic constructor <init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
     .locals 0
 
     .line 1
@@ -317,7 +317,7 @@
     move-object v5, p0
 
     .line 93
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 94
     .line 95
@@ -331,7 +331,7 @@
     const/4 v8, 0x3
 
     .line 99
-    invoke-direct/range {v3 .. v8}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
+    invoke-direct/range {v3 .. v8}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
 
     .line 100
     .line 101
@@ -365,21 +365,21 @@
     move-object v5, p0
 
     .line 114
-    check-cast v5, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 115
     .line 116
     move-object v6, v1
 
     .line 117
-    check-cast v6, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v6, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 118
     .line 119
     const/4 v8, 0x2
 
     .line 120
-    invoke-direct/range {v3 .. v8}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
+    invoke-direct/range {v3 .. v8}, Laxf;-><init>(Loxf;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Ljava/lang/Object;Lea3;I)V
 
     .line 121
     .line 122
@@ -2510,7 +2510,7 @@
 
     .line 835
     .line 836
-    check-cast v1, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v1, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 837
     .line 838
@@ -2615,7 +2615,7 @@
 
     .line 888
     .line 889
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 890
     .line 891
@@ -2679,7 +2679,7 @@
 
     .line 918
     .line 919
-    invoke-virtual {v1}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 920
     .line 921
@@ -2855,11 +2855,11 @@
 
     .line 1006
     .line 1007
-    check-cast v8, Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    check-cast v8, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 1008
     .line 1009
-    invoke-virtual {v8}, Lcom/jnetai/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
+    invoke-virtual {v8}, Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;->h()Ljava/lang/String;
 
     .line 1010
     .line 1011
@@ -2896,7 +2896,7 @@
     .line 1024
     .line 1025
     .line 1026
-    check-cast v7, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v7, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 1027
     .line 1028

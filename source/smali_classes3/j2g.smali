@@ -352,7 +352,7 @@
 
 .method public final deleteHistoryItems(Li40;)Ls7b;
     .locals 4
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1
@@ -483,7 +483,7 @@
 
 .method public final getBrowsingHistory(Li40;)Ls7b;
     .locals 4
-    .annotation runtime Lcom/jnetai/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
+    .annotation runtime Lcom/jnetai/kikx2/kikx2/ui/fragments/web/plugins/annotations/AsyncPluginMethod;
     .end annotation
 
     .line 1

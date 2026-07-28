@@ -6,7 +6,7 @@
 # instance fields
 .field public Q0:I
 
-.field public X:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+.field public X:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
 .field public synthetic Y:Ljava/lang/Object;
 
@@ -65,7 +65,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, p1, v0, p0}, Lfd2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;ZLga3;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0, p0}, Lfd2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;ZLga3;)Ljava/lang/Object;
 
     .line 15
     .line 16

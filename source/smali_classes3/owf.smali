@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
 .field public final synthetic R0:Lcq5;
 
@@ -35,7 +35,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(ZLjava/util/List;Lk0a;Lcom/jnetai/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;)V
+.method public synthetic constructor <init>(ZLjava/util/List;Lk0a;Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;Lcq5;)V
     .locals 0
 
     .line 1
@@ -56,7 +56,7 @@
 
     .line 9
     .line 10
-    iput-object p4, p0, Lowf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iput-object p4, p0, Lowf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 11
     .line 12
@@ -249,7 +249,7 @@
 
     .line 67
     .line 68
-    iget-object v8, v0, Lowf;->Q0:Lcom/jnetai/kikx2/storage/box/group/KikGroup;
+    iget-object v8, v0, Lowf;->Q0:Lcom/jnetai/kikx2/kikx2/storage/box/group/KikGroup;
 
     .line 69
     .line 70

@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(IJLcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public synthetic constructor <init>(IJLcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 1
 
     .line 1
@@ -135,7 +135,7 @@
 
     .line 29
     :pswitch_0
-    check-cast p0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast p0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 30
     .line 31

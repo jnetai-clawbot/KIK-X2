@@ -23,7 +23,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lhr1;Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+.method public constructor <init>(Lhr1;Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
     .locals 1
 
     .line 1

@@ -151,7 +151,7 @@
     move-result-object v4
 
     .line 66
-    check-cast v4, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 67
     .line 68
@@ -188,7 +188,7 @@
 
     .line 83
     .line 84
-    invoke-direct {v7, v4}, Lb3g;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;)V
+    invoke-direct {v7, v4}, Lb3g;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;)V
 
     .line 85
     .line 86

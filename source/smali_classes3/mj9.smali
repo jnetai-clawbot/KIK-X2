@@ -288,7 +288,7 @@
 
     .line 38
     .line 39
-    iget-object v3, v0, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v3, v0, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 40
     .line 41
@@ -449,7 +449,7 @@
     .line 117
     .line 118
     .line 119
-    invoke-virtual {v3}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->u()Z
+    invoke-virtual {v3}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->u()Z
 
     .line 120
     .line 121
@@ -634,7 +634,7 @@
     move-result-object v5
 
     .line 213
-    invoke-virtual {v3, v5}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, v5}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->x(Ljava/lang/String;)Ljava/lang/String;
 
     .line 214
     .line 215
@@ -740,11 +740,11 @@
 
     .line 263
     .line 264
-    iget-object v0, v0, Lwbc;->b:Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    iget-object v0, v0, Lwbc;->b:Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 265
     .line 266
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->r()J
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->r()J
 
     .line 267
     .line 268
@@ -2046,7 +2046,7 @@
     .line 589
     .line 590
     .line 591
-    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/storage/box/message/KikMessage;
+    invoke-interface {v0}, Lgcc;->b()Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;
 
     .line 592
     .line 593
@@ -2054,7 +2054,7 @@
     move-result-object v2
 
     .line 595
-    invoke-virtual {v2}, Lcom/jnetai/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jnetai/kikx2/kikx2/storage/box/message/KikMessage;->d()Ljava/lang/String;
 
     .line 596
     .line 597
@@ -2688,7 +2688,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {p0}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 5
     .line 6
@@ -2703,7 +2703,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v1, v0}, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->m(IZ)V
+    invoke-virtual {p0, v1, v0}, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->m(IZ)V
 
     .line 12
     .line 13

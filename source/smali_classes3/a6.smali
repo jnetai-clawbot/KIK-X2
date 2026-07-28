@@ -2317,7 +2317,7 @@
 
     .line 1070
     .line 1071
-    check-cast v4, Lcom/jnetai/kikx2/storage/box/user/KikUser;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/storage/box/user/KikUser;
 
     .line 1072
     .line 1073
@@ -3667,7 +3667,7 @@
     move-result-object v2
 
     .line 1717
-    check-cast v2, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1718
     .line 1719
@@ -3693,11 +3693,11 @@
     .line 1729
     .line 1730
     .line 1731
-    sget v4, Lcom/jnetai/kikx2/storage/box/chat/Chat;->$stable:I
+    sget v4, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->$stable:I
 
     .line 1732
     .line 1733
-    invoke-virtual {v0, v2, v3, v1, v4}, Laa2;->o(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lhif;Lgx2;I)V
+    invoke-virtual {v0, v2, v3, v1, v4}, Laa2;->o(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lhif;Lgx2;I)V
 
     .line 1734
     .line 1735

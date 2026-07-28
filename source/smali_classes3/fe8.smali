@@ -177,7 +177,7 @@
 
     .line 70
     :pswitch_0
-    check-cast v4, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;
 
     .line 71
     .line 72
@@ -239,7 +239,7 @@
     .line 102
     .line 103
     .line 104
-    sget p0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget p0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 105
     .line 106
@@ -277,7 +277,7 @@
     .line 121
     .line 122
     .line 123
-    sget p0, Lcom/jnetai/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
+    sget p0, Lcom/jnetai/kikx2/kikx2/ui/fragments/live/subnavigation/webview/LiveAuthedWebViewFragment;->Z:I
 
     .line 124
     .line 125

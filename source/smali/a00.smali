@@ -945,7 +945,7 @@
 
     .line 413
     .line 414
-    sget-object v7, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v7, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 415
     .line 416
@@ -1112,7 +1112,7 @@
 
     .line 496
     :cond_1
-    invoke-virtual {v13}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    invoke-virtual {v13}, Lbv0;->getBaseActivity()Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 497
     .line 498
@@ -1120,7 +1120,7 @@
     move-result-object v1
 
     .line 500
-    invoke-virtual {v6, v1, v0}, Lj73;->h(Lcom/jnetai/kikx2/ui/activity/BaseActivity;Lwbc;)V
+    invoke-virtual {v6, v1, v0}, Lj73;->h(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;Lwbc;)V
 
     .line 501
     .line 502
@@ -1306,7 +1306,7 @@
 
     .line 588
     .line 589
-    check-cast v13, Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;
 
     .line 590
     .line 591
@@ -1314,7 +1314,7 @@
 
     .line 592
     .line 593
-    invoke-direct {v0, v6, v15, v13, v2}, Lgh8;-><init>(Ldua;Lkh8;Lcom/jnetai/kikx2/client/live/models/stream/LiveStream;Lea3;)V
+    invoke-direct {v0, v6, v15, v13, v2}, Lgh8;-><init>(Ldua;Lkh8;Lcom/jnetai/kikx2/kikx2/client/live/models/stream/LiveStream;Lea3;)V
 
     .line 594
     .line 595
@@ -1430,7 +1430,7 @@
 
     .line 648
     .line 649
-    sget-object v20, Lcom/jnetai/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/client/stanzas/b;
+    sget-object v20, Lcom/jnetai/kikx2/kikx2/client/stanzas/b;->X:Lcom/jnetai/kikx2/kikx2/client/stanzas/b;
 
     .line 650
     .line 651
@@ -2263,7 +2263,7 @@
 
     .line 1067
     .line 1068
-    invoke-static/range {v20 .. v31}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-static/range {v20 .. v31}, Lk83;->a(Lk83;Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Ljava/util/LinkedHashMap;Lgb8;[B[B[BLcom/jnetai/kikx2/kikx2/storage/box/message/model/pending/PendingUpload;I)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1069
     .line 1070
@@ -2279,11 +2279,11 @@
     move-result-object v0
 
     .line 1076
-    iget-object v4, v6, Lp92;->c:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v4, v6, Lp92;->c:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1077
     .line 1078
-    invoke-virtual {v0, v4, v1}, Lnf2;->g(Lcom/jnetai/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-virtual {v0, v4, v1}, Lnf2;->g(Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 1079
     .line 1080
@@ -2900,7 +2900,7 @@
 
     .line 1380
     .line 1381
-    invoke-virtual {v1, v0}, Lk83;->d(Lzfg;)Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;
+    invoke-virtual {v1, v0}, Lk83;->d(Lzfg;)Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;
 
     .line 1382
     .line 1383
@@ -2920,7 +2920,7 @@
 
     .line 1390
     .line 1391
-    invoke-direct {v2, v0}, Lpd4;-><init>(Lcom/jnetai/kikx2/storage/box/message/model/ContentMessageModel;)V
+    invoke-direct {v2, v0}, Lpd4;-><init>(Lcom/jnetai/kikx2/kikx2/storage/box/message/model/ContentMessageModel;)V
 
     .line 1392
     .line 1393
@@ -2946,7 +2946,7 @@
 
     .line 1403
     .line 1404
-    check-cast v13, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1405
     .line 1406

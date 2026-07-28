@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field public final synthetic Q0:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+.field public final synthetic Q0:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
 .field public final synthetic R0:Lhud;
 
@@ -19,7 +19,7 @@
 
 .field public final synthetic V0:Lhud;
 
-.field public final synthetic X:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+.field public final synthetic X:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
 .field public final synthetic Y:Z
 
@@ -27,7 +27,7 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;ZLk0a;Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
+.method public synthetic constructor <init>(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;ZLk0a;Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lk0a;Lk0a;Lk0a;Lk0a;Lk0a;)V
     .locals 0
 
     .line 1
@@ -36,7 +36,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lxqf;->X:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iput-object p1, p0, Lxqf;->X:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 5
     .line 6
@@ -48,7 +48,7 @@
 
     .line 9
     .line 10
-    iput-object p4, p0, Lxqf;->Q0:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iput-object p4, p0, Lxqf;->Q0:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 11
     .line 12
@@ -107,7 +107,7 @@
     move-result v11
 
     .line 13
-    iget-object v0, p0, Lxqf;->X:Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;
+    iget-object v0, p0, Lxqf;->X:Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;
 
     .line 14
     .line 15
@@ -119,7 +119,7 @@
 
     .line 18
     .line 19
-    iget-object v3, p0, Lxqf;->Q0:Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;
+    iget-object v3, p0, Lxqf;->Q0:Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;
 
     .line 20
     .line 21
@@ -143,7 +143,7 @@
 
     .line 30
     .line 31
-    invoke-static/range {v0 .. v11}, Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;->G(Lcom/jnetai/kikx2/ui/videochat/model/LiveKitRoomState;ZLhud;Lcom/jnetai/kikx2/ui/videochat/VideoChatFragment;Lhud;Lhud;Lhud;Lhud;Lhud;Lf91;Lgx2;I)Lsbf;
+    invoke-static/range {v0 .. v11}, Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;->G(Lcom/jnetai/kikx2/kikx2/ui/videochat/model/LiveKitRoomState;ZLhud;Lcom/jnetai/kikx2/kikx2/ui/videochat/VideoChatFragment;Lhud;Lhud;Lhud;Lhud;Lhud;Lf91;Lgx2;I)Lsbf;
 
     .line 32
     .line 33

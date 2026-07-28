@@ -121,7 +121,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/util/List;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lvac;Lea3;)V
+.method public constructor <init>(Ljava/util/List;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lvac;Lea3;)V
     .locals 1
 
     const/4 v0, 0x1
@@ -631,11 +631,11 @@
 
     .line 148
     .line 149
-    check-cast v5, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;
+    check-cast v5, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;
 
     .line 150
     .line 151
-    invoke-virtual {v5}, Lcom/jnetai/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jnetai/kikx2/kikx2/client/live/models/user/SnsUserDetails;->q()Ljava/lang/String;
 
     .line 152
     .line 153
@@ -5816,7 +5816,7 @@
 
     .line 376
     .line 377
-    check-cast p2, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast p2, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 378
     .line 379
@@ -5837,7 +5837,7 @@
     move-object v6, p2
 
     .line 386
-    invoke-direct/range {v2 .. v8}, Lsx0;-><init>(Ljava/util/List;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/storage/box/chat/Chat;Lvac;Lea3;)V
+    invoke-direct/range {v2 .. v8}, Lsx0;-><init>(Ljava/util/List;Ljava/lang/String;Lnf2;Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;Lvac;Lea3;)V
 
     .line 387
     .line 388
@@ -8670,7 +8670,7 @@
     move-object v11, v4
 
     .line 1052
-    check-cast v11, Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    check-cast v11, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 1053
     .line 1054
@@ -9005,7 +9005,7 @@
 
     .line 1210
     .line 1211
-    invoke-virtual {v11}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v11}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1212
     .line 1213
@@ -9125,7 +9125,7 @@
 
     .line 1269
     .line 1270
-    invoke-virtual {v11}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
+    invoke-virtual {v11}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->e()Ljava/lang/String;
 
     .line 1271
     .line 1272

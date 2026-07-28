@@ -35,7 +35,7 @@
 
     .line 9
     .line 10
-    const-class p2, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    const-class p2, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 11
     .line 12
@@ -77,7 +77,7 @@
 
     .line 9
     .line 10
-    new-instance v1, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;
+    new-instance v1, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;
 
     .line 11
     .line 12
@@ -105,7 +105,7 @@
     move-object v4, p1
 
     .line 22
-    invoke-direct/range {v1 .. v10}, Lcom/jnetai/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
+    invoke-direct/range {v1 .. v10}, Lcom/jnetai/kikx2/kikx2/storage/box/user/ChatThemeStatus;-><init>(JLjava/lang/String;Ljava/util/UUID;ZJILzw3;)V
 
     .line 23
     .line 24

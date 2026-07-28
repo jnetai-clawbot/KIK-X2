@@ -2074,7 +2074,7 @@
     move-object v13, v0
 
     .line 261
-    check-cast v13, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v13, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 262
     .line 263
@@ -6254,7 +6254,7 @@
     move-object v15, v3
 
     .line 139
-    check-cast v15, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v15, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 140
     .line 141
@@ -6861,7 +6861,7 @@
     const/4 v10, 0x0
 
     .line 416
-    invoke-direct {v4, v5, v10}, Lu15;-><init>(Lcom/jnetai/kikx2/ui/activity/BaseActivity;I)V
+    invoke-direct {v4, v5, v10}, Lu15;-><init>(Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;I)V
 
     .line 417
     .line 418

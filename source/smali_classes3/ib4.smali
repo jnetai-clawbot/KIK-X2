@@ -700,11 +700,11 @@
     .line 298
     .line 299
     .line 300
-    iget-object v0, v15, Lej6;->a:Lcom/jnetai/kikx2/storage/box/chat/Chat;
+    iget-object v0, v15, Lej6;->a:Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;
 
     .line 301
     .line 302
-    invoke-virtual {v0}, Lcom/jnetai/kikx2/storage/box/chat/Chat;->g()Lzb2;
+    invoke-virtual {v0}, Lcom/jnetai/kikx2/kikx2/storage/box/chat/Chat;->g()Lzb2;
 
     .line 303
     .line 304

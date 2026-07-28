@@ -768,7 +768,7 @@
     move-result-object v4
 
     .line 13
-    check-cast v4, Lcom/jnetai/kikx2/ui/activity/BaseActivity;
+    check-cast v4, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;
 
     .line 14
     sget-object v6, Lei;->a:Lyy2;
@@ -842,7 +842,7 @@
     :cond_25
     check-cast v7, Lqq5;
 
-    sget v0, Lcom/jnetai/kikx2/ui/activity/BaseActivity;->c1:I
+    sget v0, Lcom/jnetai/kikx2/kikx2/ui/activity/BaseActivity;->c1:I
 
     invoke-static {v1, v4, v6, v7, v2}, Lzdh;->f(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lqq5;Lgx2;)V
 
