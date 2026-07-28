@@ -21,6 +21,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: 'build-tools;36.0.0'
+
       - name: Install apktool
         run: |
           APKTOOL_VERSION="2.12.0"
@@ -29,43 +34,13 @@ jobs:
           echo 'exec java -jar /usr/local/bin/apktool.jar "$@"' >> /usr/local/bin/apktool
           chmod +x /usr/local/bin/apktool
 
-      - name: Install Android SDK tools
-        run: |
-          set +e
-          sudo apt-get update -qq 2>/dev/null
-          sudo apt-get install -y -qq aapt2 2>/dev/null
-          if ! command -v aapt2 &> /dev/null; then
-            BUILD_TOOLS="36.1"
-            curl -sL "https://dl.google.com/android/repository/build-tools_r${BUILD_TOOLS}_linux.zip" -o /tmp/bt.zip
-            if [ -f /tmp/bt.zip ] && [ -s /tmp/bt.zip ]; then
-              unzip -qo /tmp/bt.zip -d /tmp/android-sdk/ 2>/dev/null
-              mkdir -p /usr/local/lib/android-sdk/build-tools
-              mv /tmp/android-sdk/android-* /usr/local/lib/android-sdk/build-tools/ 2>/dev/null
-              ln -sf /usr/local/lib/android-sdk/build-tools/android-*/aapt2 /usr/local/bin/aapt2 2>/dev/null
-              ln -sf /usr/local/lib/android-sdk/build-tools/android-*/apksigner /usr/local/bin/apksigner 2>/dev/null
-              ln -sf /usr/local/lib/android-sdk/build-tools/android-*/zipalign /usr/local/bin/zipalign 2>/dev/null
-            fi
-          fi
-          if ! command -v apksigner &> /dev/null; then
-            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/apksigner /usr/local/bin/apksigner 2>/dev/null
-            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/zipalign /usr/local/bin/zipalign 2>/dev/null
-          fi
-          set -e
-          echo "aapt2: $(which aapt2 2>/dev/null || echo 'not found')"
-          echo "apksigner: $(which apksigner 2>/dev/null || echo 'not found')"
-          echo "zipalign: $(which zipalign 2>/dev/null || echo 'not found')"
-
       - name: Build APK with apktool
         run: |
           apktool b source -o KIK-X2-unsigned.apk
 
       - name: Zipalign APK
         run: |
-          if command -v zipalign &> /dev/null; then
-            zipalign -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
-          else
-            cp KIK-X2-unsigned.apk KIK-X2-aligned.apk
-          fi
+          zipalign -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
 
       - name: Decode keystore
         env:
