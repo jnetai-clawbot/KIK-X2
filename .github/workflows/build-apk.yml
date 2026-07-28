@@ -32,20 +32,25 @@ jobs:
       - name: Install Android SDK tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq android-sdk-build-tools 2>/dev/null || true
-          if ! command -v apksigner &> /dev/null; then
+          sudo apt-get install -y -qq aapt2 2>/dev/null || true
+          if ! command -v aapt2 &> /dev/null; then
             BUILD_TOOLS="36.0.0"
             wget -q "https://dl.google.com/android/repository/build-tools_r${BUILD_TOOLS}-linux.zip" -O /tmp/bt.zip
             unzip -qo /tmp/bt.zip -d /tmp/android-sdk/
             mkdir -p /usr/local/lib/android-sdk/build-tools
             mv /tmp/android-sdk/android-* /usr/local/lib/android-sdk/build-tools/
+            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/aapt2 /usr/local/bin/aapt2
+            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/apksigner /usr/local/bin/apksigner
+            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/zipalign /usr/local/bin/zipalign
+          fi
+          if ! command -v apksigner &> /dev/null; then
             ln -sf /usr/local/lib/android-sdk/build-tools/android-*/apksigner /usr/local/bin/apksigner
             ln -sf /usr/local/lib/android-sdk/build-tools/android-*/zipalign /usr/local/bin/zipalign
           fi
 
       - name: Build APK with apktool
         run: |
-          apktool b source -o KIK-X2-unsigned.apk --use-aapt2
+          apktool b source -o KIK-X2-unsigned.apk
 
       - name: Zipalign APK
         run: |
