@@ -9,8 +9,8 @@ sdkInfo:
 packageInfo:
   forcedPackageId: 127
 versionInfo:
-  versionCode: 996
-  versionName: 0.9.96-beta
+  versionCode: 997
+  versionName: 0.9.97-beta
 doNotCompress:
 - arsc
 - jpg
