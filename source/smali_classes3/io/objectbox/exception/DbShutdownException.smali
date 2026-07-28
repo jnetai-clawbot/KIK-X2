@@ -1,0 +1,26 @@
+.class public Lio/objectbox/exception/DbShutdownException;
+.super Lio/objectbox/exception/DbException;
+.source "r8-map-id-fcdbf9e27fc1fedee8210d9fcf816638e83081fc5ac28c6edb0c600e2b662bd4"
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lio/objectbox/exception/DbException;-><init>(Ljava/lang/String;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0, p1, p2}, Lio/objectbox/exception/DbException;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method

@@ -1,0 +1,82 @@
+name: Build and Release KIK-X2 APK
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install apktool
+        run: |
+          wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool
+          chmod +x /usr/local/bin/apktool
+          wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.12.0.jar -O /usr/local/bin/apktool.jar
+          chmod +x /usr/local/bin/apktool.jar
+
+      - name: Build APK with apktool
+        run: |
+          apktool b source -o KIK-X2-unsigned.apk --use-aapt2
+
+      - name: Zipalign APK
+        run: |
+          sudo apt-get install -y zipalign 2>/dev/null || true
+          if command -v zipalign &> /dev/null; then
+            zipalign -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
+          else
+            cp KIK-X2-unsigned.apk KIK-X2-aligned.apk
+          fi
+
+      - name: Decode keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > release.keystore
+
+      - name: Sign APK
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: |
+          apksigner sign \
+            --ks release.keystore \
+            --ks-pass pass:"$KEYSTORE_PASSWORD" \
+            --ks-key-alias ciphervault \
+            --key-pass pass:"$KEYSTORE_PASSWORD" \
+            --out KIK-X2.apk \
+            KIK-X2-aligned.apk
+
+      - name: Verify APK signature
+        run: |
+          apksigner verify --verbose KIK-X2.apk
+
+      - name: Get version from apktool.yml
+        id: version
+        run: |
+          VERSION=$(grep versionName source/apktool.yml | awk '{print $2}')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: KIK-X2 v${{ steps.version.outputs.version }}
+          files: KIK-X2.apk
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

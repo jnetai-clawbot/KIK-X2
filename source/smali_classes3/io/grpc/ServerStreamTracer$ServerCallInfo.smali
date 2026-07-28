@@ -1,0 +1,57 @@
+.class public abstract Lio/grpc/ServerStreamTracer$ServerCallInfo;
+.super Ljava/lang/Object;
+.source "r8-map-id-fcdbf9e27fc1fedee8210d9fcf816638e83081fc5ac28c6edb0c600e2b662bd4"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/grpc/ServerStreamTracer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "ServerCallInfo"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<ReqT:",
+        "Ljava/lang/Object;",
+        "RespT:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract getAttributes()Lio/grpc/Attributes;
+.end method
+
+.method public abstract getAuthority()Ljava/lang/String;
+.end method
+
+.method public abstract getMethodDescriptor()Lio/grpc/MethodDescriptor;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/grpc/MethodDescriptor<",
+            "TReqT;TRespT;>;"
+        }
+    .end annotation
+.end method

@@ -1,0 +1,23 @@
+.class public interface abstract Lffe;
+.super Ljava/lang/Object;
+.source "r8-map-id-fcdbf9e27fc1fedee8210d9fcf816638e83081fc5ac28c6edb0c600e2b662bd4"
+
+
+# virtual methods
+.method public abstract a(JLz4b;)V
+.end method
+
+.method public abstract b()V
+.end method
+
+.method public abstract c()V
+.end method
+
+.method public abstract d()V
+.end method
+
+.method public abstract e(J)V
+.end method
+
+.method public abstract onCancel()V
+.end method

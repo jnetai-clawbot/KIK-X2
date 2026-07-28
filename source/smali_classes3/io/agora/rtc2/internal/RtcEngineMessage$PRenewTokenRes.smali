@@ -1,0 +1,115 @@
+.class public Lio/agora/rtc2/internal/RtcEngineMessage$PRenewTokenRes;
+.super Lio/agora/rtc2/internal/Marshallable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/agora/rtc2/internal/RtcEngineMessage;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "PRenewTokenRes"
+.end annotation
+
+
+# instance fields
+.field public code:I
+
+.field public token:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lio/agora/rtc2/internal/Marshallable;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public marshall()[B
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/agora/rtc2/internal/RtcEngineMessage$PRenewTokenRes;->token:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-virtual {p0, v0}, Lio/agora/rtc2/internal/Marshallable;->pushBytes([B)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget v0, p0, Lio/agora/rtc2/internal/RtcEngineMessage$PRenewTokenRes;->code:I
+
+    .line 11
+    .line 12
+    int-to-byte v0, v0
+
+    .line 13
+    invoke-virtual {p0, v0}, Lio/agora/rtc2/internal/Marshallable;->pushByte(B)V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-super {p0}, Lio/agora/rtc2/internal/Marshallable;->marshall()[B
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object p0
+
+    .line 20
+    return-object p0
+.end method
+
+.method public unmarshall([B)V
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lio/agora/rtc2/internal/Marshallable;->unmarshall([B)V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lio/agora/rtc2/internal/Marshallable;->popString16UTF8()Ljava/lang/String;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p1
+
+    .line 8
+    iput-object p1, p0, Lio/agora/rtc2/internal/RtcEngineMessage$PRenewTokenRes;->token:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    invoke-virtual {p0}, Lio/agora/rtc2/internal/Marshallable;->popByte()B
+
+    .line 11
+    .line 12
+    .line 13
+    move-result p1
+
+    .line 14
+    iput p1, p0, Lio/agora/rtc2/internal/RtcEngineMessage$PRenewTokenRes;->code:I
+
+    .line 15
+    .line 16
+    return-void
+.end method

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accounts">
+        <item quantity="other">%1$d accounts</item>
+        <item quantity="one">%1$d account</item>
+    </plurals>
+    <plurals name="bkx_theme_label_themes_count">
+        <item quantity="other">themes</item>
+        <item quantity="one">theme</item>
+    </plurals>
+    <plurals name="bypass_enabled_for_next_x_hours">
+        <item quantity="other">Bypass enabled for the next %1$d hours</item>
+        <item quantity="zero">Bypass enabled for the next hour</item>
+        <item quantity="one">Bypass enabled for the next hour</item>
+    </plurals>
+    <plurals name="days_on_kik">
+        <item quantity="other">Days on Kik</item>
+        <item quantity="one">Day on Kik</item>
+    </plurals>
+    <plurals name="finished_adding_to_groups">
+        <item quantity="other">Finished adding to %1$d groups</item>
+        <item quantity="one">Finished adding to %1$d group</item>
+    </plurals>
+    <plurals name="media_tab_active_items">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="message_group_loaded">
+        <item quantity="other">"%1$d chats loaded from group '%2$s'"</item>
+        <item quantity="one">"%1$d chat loaded from group '%2$s'"</item>
+    </plurals>
+    <plurals name="message_group_saved">
+        <item quantity="other">"%1$d selected chats saved to group '%2$s'"</item>
+        <item quantity="one">"%1$d selected chat saved to group '%2$s'"</item>
+    </plurals>
+    <plurals name="message_group_saved_overwrite">
+        <item quantity="other">"%1$d selected chats saved to group '%2$s' (overwritten)"</item>
+        <item quantity="one">"%1$d selected chat saved to group '%2$s' (overwritten)"</item>
+    </plurals>
+    <plurals name="mnp_chats_remaining">
+        <item quantity="other">%1$d Chats Remaining</item>
+        <item quantity="one">%1$d Chat Remaining</item>
+    </plurals>
+    <plurals name="new_chats">
+        <item quantity="other">new chats</item>
+        <item quantity="one">new chat</item>
+    </plurals>
+    <plurals name="new_chats_header_title">
+        <item quantity="other">%1$d New Chats</item>
+        <item quantity="one">%1$d New Chat</item>
+    </plurals>
+    <plurals name="pirho_menu_loop_seconds">
+        <item quantity="other">Loop every %1$d seconds</item>
+        <item quantity="one">Loop every second</item>
+    </plurals>
+    <plurals name="shared_groups_tap_to_view">
+        <item quantity="other">%1$d shared groups (tap to view)</item>
+        <item quantity="one">%1$d shared group (tap to view)</item>
+    </plurals>
+    <plurals name="slots_remaining">
+        <item quantity="other">%1$d slots remaining</item>
+        <item quantity="one">%1$d slot remaining</item>
+    </plurals>
+    <plurals name="unread_chats">
+        <item quantity="other">unread chats</item>
+        <item quantity="one">unread chat</item>
+    </plurals>
+    <plurals name="users">
+        <item quantity="other">users</item>
+        <item quantity="one">user</item>
+    </plurals>
+</resources>

@@ -1,0 +1,109 @@
+.class Lio/grpc/internal/RetriableStream$4;
+.super Ljava/lang/Object;
+.source "r8-map-id-fcdbf9e27fc1fedee8210d9fcf816638e83081fc5ac28c6edb0c600e2b662bd4"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lio/grpc/internal/RetriableStream;->safeCloseMasterListener(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/Metadata;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lio/grpc/internal/RetriableStream;
+
+.field final synthetic val$metadata:Lio/grpc/Metadata;
+
+.field final synthetic val$progress:Lio/grpc/internal/ClientStreamListener$RpcProgress;
+
+.field final synthetic val$status:Lio/grpc/Status;
+
+
+# direct methods
+.method public constructor <init>(Lio/grpc/internal/RetriableStream;Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/Metadata;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lio/grpc/internal/RetriableStream$4;->this$0:Lio/grpc/internal/RetriableStream;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lio/grpc/internal/RetriableStream$4;->val$status:Lio/grpc/Status;
+
+    .line 4
+    .line 5
+    iput-object p3, p0, Lio/grpc/internal/RetriableStream$4;->val$progress:Lio/grpc/internal/ClientStreamListener$RpcProgress;
+
+    .line 6
+    .line 7
+    iput-object p4, p0, Lio/grpc/internal/RetriableStream$4;->val$metadata:Lio/grpc/Metadata;
+
+    .line 8
+    .line 9
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lio/grpc/internal/RetriableStream$4;->this$0:Lio/grpc/internal/RetriableStream;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lio/grpc/internal/RetriableStream;->w(Lio/grpc/internal/RetriableStream;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lio/grpc/internal/RetriableStream$4;->this$0:Lio/grpc/internal/RetriableStream;
+
+    .line 7
+    .line 8
+    invoke-static {v0}, Lio/grpc/internal/RetriableStream;->l(Lio/grpc/internal/RetriableStream;)Lio/grpc/internal/ClientStreamListener;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    iget-object v1, p0, Lio/grpc/internal/RetriableStream$4;->val$status:Lio/grpc/Status;
+
+    .line 13
+    .line 14
+    iget-object v2, p0, Lio/grpc/internal/RetriableStream$4;->val$progress:Lio/grpc/internal/ClientStreamListener$RpcProgress;
+
+    .line 15
+    .line 16
+    iget-object p0, p0, Lio/grpc/internal/RetriableStream$4;->val$metadata:Lio/grpc/Metadata;
+
+    .line 17
+    .line 18
+    invoke-interface {v0, v1, v2, p0}, Lio/grpc/internal/ClientStreamListener;->closed(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/Metadata;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-void
+.end method

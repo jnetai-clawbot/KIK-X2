@@ -1,0 +1,80 @@
+.class public final Lco3;
+.super Lb0;
+
+
+# instance fields
+.field public X:La0;
+
+.field public Y:La0;
+
+.field public Z:La0;
+
+
+# virtual methods
+.method public final d()Li0;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lw;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    invoke-direct {v0, v1, v2}, Lw;-><init>(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Lco3;->X:La0;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Lw;->e(Lv;)V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-object v1, p0, Lco3;->Y:La0;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Lw;->e(Lv;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iget-object p0, p0, Lco3;->Z:La0;
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, p0}, Lw;->e(Lv;)V
+
+    .line 21
+    .line 22
+    .line 23
+    new-instance p0, Lnn3;
+
+    .line 24
+    .line 25
+    const/4 v1, 0x0
+
+    .line 26
+    invoke-direct {p0, v0, v1}, Lnn3;-><init>(Lw;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    const/4 v0, -0x1
+
+    .line 30
+    iput v0, p0, Lnn3;->Z:I
+
+    .line 31
+    .line 32
+    return-object p0
+.end method
