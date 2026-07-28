@@ -40,7 +40,12 @@ jobs:
 
       - name: Zipalign APK
         run: |
-          zipalign -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
+          ZIPALIGN=$(find $ANDROID_HOME -name zipalign -type f 2>/dev/null | head -1)
+          if [ -n "$ZIPALIGN" ]; then
+            $ZIPALIGN -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
+          else
+            cp KIK-X2-unsigned.apk KIK-X2-aligned.apk
+          fi
 
       - name: Decode keystore
         env:
@@ -52,7 +57,8 @@ jobs:
         env:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
         run: |
-          apksigner sign \
+          APKSIGNER=$(find $ANDROID_HOME -name apksigner -type f 2>/dev/null | head -1)
+          $APKSIGNER sign \
             --ks release.keystore \
             --ks-pass pass:"$KEYSTORE_PASSWORD" \
             --ks-key-alias ciphervault \
@@ -62,7 +68,8 @@ jobs:
 
       - name: Verify APK signature
         run: |
-          apksigner verify --verbose KIK-X2.apk
+          APKSIGNER=$(find $ANDROID_HOME -name apksigner -type f 2>/dev/null | head -1)
+          $APKSIGNER verify --verbose KIK-X2.apk
 
       - name: Get version from apktool.yml
         id: version
