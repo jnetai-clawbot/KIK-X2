@@ -23,10 +23,25 @@ jobs:
 
       - name: Install apktool
         run: |
-          wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool
+          APKTOOL_VERSION="2.12.0"
+          wget -q "https://github.com/iBotPeaches/Apktool/releases/download/v${APKTOOL_VERSION}/apktool_${APKTOOL_VERSION}.jar" -O /usr/local/bin/apktool.jar
+          echo '#!/bin/bash' > /usr/local/bin/apktool
+          echo 'exec java -jar /usr/local/bin/apktool.jar "$@"' >> /usr/local/bin/apktool
           chmod +x /usr/local/bin/apktool
-          wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.12.0.jar -O /usr/local/bin/apktool.jar
-          chmod +x /usr/local/bin/apktool.jar
+
+      - name: Install Android SDK tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq android-sdk-build-tools 2>/dev/null || true
+          if ! command -v apksigner &> /dev/null; then
+            BUILD_TOOLS="36.0.0"
+            wget -q "https://dl.google.com/android/repository/build-tools_r${BUILD_TOOLS}-linux.zip" -O /tmp/bt.zip
+            unzip -qo /tmp/bt.zip -d /tmp/android-sdk/
+            mkdir -p /usr/local/lib/android-sdk/build-tools
+            mv /tmp/android-sdk/android-* /usr/local/lib/android-sdk/build-tools/
+            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/apksigner /usr/local/bin/apksigner
+            ln -sf /usr/local/lib/android-sdk/build-tools/android-*/zipalign /usr/local/bin/zipalign
+          fi
 
       - name: Build APK with apktool
         run: |
@@ -34,7 +49,6 @@ jobs:
 
       - name: Zipalign APK
         run: |
-          sudo apt-get install -y zipalign 2>/dev/null || true
           if command -v zipalign &> /dev/null; then
             zipalign -v 4 KIK-X2-unsigned.apk KIK-X2-aligned.apk
           else
